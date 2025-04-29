@@ -4,3 +4,7 @@
 <li> Seguimiento</li>
 <li> Pasos a Seguir</li>
 <li> Conclusiones y resultados</li>
+
+<H2> Ojetivos</H2>
+<p>Los objetivos marcados para nuestro proyecto son los siguientes:
+<lu> Configurar router cisco para que de servicio a internet a un "pc cliente" y a un "pc servidor"</lu> </p>
