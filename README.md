@@ -1,6 +1,6 @@
 # Elite.GG<center>
 ## Dia 1
-### 1. Este dia lo aprovechamos para pensar que vamos a hacer en el proyecto, y algo que pensamos y que nos pareció bien a todos es hacer un tracker de videojuegos. El videojuego que pensamos fue el famoso League of Legends, la razón principal es que la empresa dueña de este, osea Riot Games, ofrece su API de manera totalmente gratuita y libre.
+### 1.  Este día lo aprovechamos para pensar qué vamos a hacer en el proyecto. Algo que nos pareció bien a todos es hacer un tracker de videojuegos. El juego que elegimos fue el famoso League of Legends, ya que la empresa dueña de este, Riot Games, ofrece su API de manera totalmente gratuita y libre.
 ### 2. También abrimos un trello para ir planificando el proyecto a lo largo del año.
 ## Dia 2
 ### 1. Pensamos el nombre de nuestra pagina, el que mas nos gusta es Elite.GG, ya que tampoco esta en uso en ningún otro lado
