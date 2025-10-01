@@ -30,4 +30,8 @@ Materiales necesarios:
 2. un bote de vaselina (exclusivo de QUIM)
 3. Programas de desarrollo y de ciberseguridad
 4. Herramientas como las API etc...
-Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
+## Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)
+https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5
+https://gist.github.com/dasdo/9ff71c5c0efa037441b6
+https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
+
