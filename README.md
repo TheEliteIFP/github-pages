@@ -1,6 +1,4 @@
-<details>
-<summary style="text-align: center;"><strong>EliteGG</strong></summary>
- </details>
+<h1><summary style="text-align: center;"><strong>EliteGG</strong></summary></h1>
 
 ![Mi logo](assets/logo.png)
 ## BRIEFING
