@@ -8,11 +8,13 @@
 
 <details>
 <summary><strong>Introducción</strong></summary>
+
 EliteGG es una plataforma de análisis y seguimiento de estadísticas para distintos videojuegos, principalmente League of Legends, diseñada para jugadores que quieren mejorar y llevar un control más organizado de su progreso.
- Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz más clara, ordenada y con nuevas herramientas exclusivas para la comunidad. 
+Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz más clara, ordenada y con nuevas herramientas exclusivas para la comunidad. 
 </details>
 <details>
 <summary><strong>¿Porque esta idea?</strong></summary>
+
 Tenemos varias razones para enfocar nuestro proyecto en esta idea. Una de ellas es que, como usuarios habituales de este tipo de páginas, creemos que sería interesante crear una que sea nuestra. Además, el tema nos apasiona, ya que trata de un videojuego que solemos disfrutar en nuestro tiempo libre.
 
 Otra razón importante es que creemos poder desarrollar una página que resuelva los fallos de las webs existentes en este ámbito. Al ser usuarios recurrentes de estos servicios, hemos notado varias áreas de mejora y hemos identificado funcionalidades que podrían ser muy útiles e interesantes para la comunidad.
@@ -29,10 +31,12 @@ Otra razón importante es que creemos poder desarrollar una página que resuelva
 </details>
 <details>
 <summary><strong>¿A quién va dirigido este proyecto?</strong></summary>
+
 Nuestro proyecto está dirigido a la comunidad de League of Legends, un factor que nos beneficia mucho en términos de visibilidad. Al ser un juego para todos los públicos, el único "requisito" para usar nuestra plataforma es jugar al juego. Aunque mas adelante, si es posible, nos gustaria incluir mas videojuegos ya que así el alcance que puede llegar a tener nuestra página puede ser mayor y así abarcar otras comunidades.
  </details>
  <details>
 <summary><strong>Módulos del ciclo que tengan que ver con el proyecto</strong></summary>
+
 En nuestro proyecto se incluirán varios módulos del curso:
 1. Aplicaciones web: Este módulo es fundamental, ya que necesitamos desarrollar una página web funcional y atractiva. Para ello, utilizaremos lenguajes de programación como HTML y CSS.
 2. Seguridad: La seguridad es un aspecto crucial. Implementaremos medidas para proteger nuestros servidores y la información de los usuarios (como sus nombres y contraseñas) contra posibles ataques o robos de datos.
