@@ -2,9 +2,10 @@
 ![Mi logo](assets/logo.png)
 ## BRIEFING
 <details>
-<summary> **INTRODUCCIÓN** </summary>
+<summary><strong>INTRODUCCIÓN</strong></summary>
  EliteGG es una plataforma de análisis y seguimiento de estadísticas para distintos videojuegos, principalmente League of Legends, diseñada para jugadores que quieren mejorar y llevar un control más organizado de su progreso.
  Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz más clara, ordenada y con nuevas herramientas exclusivas para la comunidad. 
+</details>
 ## ¿Porque esta idea?
 Tenemos varias razones para enfocar nuestro proyecto en esta idea. Una de ellas es que, como usuarios habituales de este tipo de páginas, creemos que sería interesante crear una que sea nuestra. Además, el tema nos apasiona, ya que trata de un videojuego que solemos disfrutar en nuestro tiempo libre.
 
