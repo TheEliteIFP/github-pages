@@ -1,4 +1,6 @@
-<h1 style="text-align: center;">EliteGG</h1>
+<div align="center">
+    <h1 style="text-align: center;">EliteGG</h1>
+</div>
 
 ![Mi logo](assets/logo.png)
 
