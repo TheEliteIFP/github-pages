@@ -16,10 +16,12 @@ Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz má
 </details>
 <details>
 <summary><strong>¿Porque esta idea?</strong></summary>
-
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+<div>
 Tenemos varias razones para enfocar nuestro proyecto en esta idea. Una de ellas es que, como usuarios habituales de este tipo de páginas, creemos que sería interesante crear una que sea nuestra. Además, el tema nos apasiona, ya que trata de un videojuego que solemos disfrutar en nuestro tiempo libre.
 
 Otra razón importante es que creemos poder desarrollar una página que resuelva los fallos de las webs existentes en este ámbito. Al ser usuarios recurrentes de estos servicios, hemos notado varias áreas de mejora y hemos identificado funcionalidades que podrían ser muy útiles e interesantes para la comunidad.
+</div>
 </details>
 <details>
 <summary><strong>¿Hasta donde quiero llegar con este proyecto?</strong></summary>
