@@ -60,10 +60,19 @@ En el proyecto se incluirán varios módulos del curso:<br>
 <summary><strong>Materiales necesarios:</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
-1. Maquinas virtuales (Virtualbox)<br>
-2. un bote de vaselina (exclusivo de QUIM)<br>
-3. Programas de desarrollo y de ciberseguridad<br>
-4. Herramientas como las API etc...<br>
+Fisicos:<br>
+1. Ordenadores<br>
+Lógicos:<br>
+1. Virtual Box (VM) <br>
+2. Canva<br>
+3. IA (Gemini)<br>
+4. Visual Studio Code<br>
+5. Vercel<br>
+6. Trello<br>
+7. Github<br>
+
+
+
    </div>
 </details>
 <details>
