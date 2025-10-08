@@ -89,4 +89,4 @@ Usuarios (con contraseñas), fechas, imagenes, videos.
 
 
 
-![tabla](assets/Captura de pantalla 2025-10-08 094331.png)
+![tabla1](assets/Tabla1.png)
