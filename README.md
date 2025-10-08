@@ -69,4 +69,7 @@ https://gist.github.com/dasdo/9ff71c5c0efa037441b6
 https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 </details>
 </div>
-
+    
+<div align="center">
+    <h1 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h1>
+</div>
