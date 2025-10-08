@@ -90,7 +90,7 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 </div>
 
 <details>
-<summary><strong>IDENTIFICACIÓN DE ENTIDADES PRINCIPALES</strong></summary>
+<summary><strong>Identificaciones de entidades principales</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
 ¿Qué elementos importantes hay en tu web que necesitan almacenarse?<br>
