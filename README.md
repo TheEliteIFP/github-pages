@@ -88,6 +88,6 @@ Usuarios (con contraseñas), fechas, imagenes, videos.
 </div>
 
 
-<center>
+<div align="center">
 ![tabla1](assets/tabla1.png)
-</center>
+</div>
