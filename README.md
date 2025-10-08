@@ -4,7 +4,9 @@
 
 ![Mi logo](assets/logo.png)
 
-## BRIEFING
+<div align="center">
+    <h2 style="text-align: center;">BRIEFING</h2>
+</div>
 
 <details>
 <summary><strong>Introducción</strong></summary>
