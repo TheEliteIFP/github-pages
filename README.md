@@ -60,9 +60,9 @@ En el proyecto se incluirán varios módulos del curso:<br>
 <summary><strong>Materiales necesarios:</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
-Fisicos:<br>
+<strong>Fisicos:<br></strong>
 1. Ordenadores<br>
-Lógicos:<br>
+<strong>Lógicos:<br></strong>
 1. Virtual Box (VM) <br>
 2. Canva<br>
 3. IA (Gemini)<br>
