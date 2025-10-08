@@ -75,3 +75,8 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 <div align="center">
     <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
 </div>
+
+<details>
+<summary><strong>IDENTIFICACIÓN DE ENTIDADES PRINCIPALES</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+<div>
