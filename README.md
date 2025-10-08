@@ -87,4 +87,6 @@ Usuarios y contraseñas, plan de eventos de los partidos oficiales, imagenes per
 Usuarios (con contraseñas), fechas, imagenes, videos.
 </div>
 
-![assets/Captura de pantalla 2025-10-08 094331](assets/assets/Captura de pantalla 2025-10-08 094331.png)
+
+
+![tabla](assets/Captura de pantalla 2025-10-08 094331.png)
