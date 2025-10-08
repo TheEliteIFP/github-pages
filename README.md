@@ -85,4 +85,5 @@ Usuarios y contraseñas, plan de eventos de los partidos oficiales, imagenes per
 
 ¿Qué tema de información almacena?<br>
 Usuarios (con contraseñas), fechas, imagenes, videos.
+![Mi logo](assets/logo.png)
 </div>
