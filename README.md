@@ -87,8 +87,6 @@ Usuarios y contraseñas, plan de eventos de los partidos oficiales, imagenes per
 Usuarios (con contraseñas), fechas, imagenes, videos.
 </div>
 
-
 <div align="center">
-
-    ![tabla1](assets/tabla1.png)
+  <img src="assets/tabla1.png" alt="tabla1">
 </div>
