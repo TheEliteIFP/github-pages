@@ -20,17 +20,17 @@ Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz má
 <summary><strong>¿Porque esta idea?</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
-Tenemos varias razones para enfocar nuestro proyecto en esta idea. Una de ellas es que, como usuarios habituales de este tipo de páginas, creemos que sería interesante crear una que sea nuestra. Además, el tema nos apasiona, ya que trata de un videojuego que solemos disfrutar en nuestro tiempo libre.
+Como usuarios habituales de este tipo de páginas, creemos que sería interesante crear una que sea nuestra. Además, el tema nos apasiona, ya que trata de un videojuego que se disfruta en el tiempo libre.
 
 
-Otra razón importante es que creemos poder desarrollar una página que resuelva los fallos de las webs existentes en este ámbito. Al ser usuarios recurrentes de estos servicios, hemos notado varias áreas de mejora y hemos identificado funcionalidades que podrían ser muy útiles e interesantes para la comunidad.
+Otra razón importante es poder desarrollar una página que resuelva los fallos de las webs existentes en este ámbito. Al ser usuarios recurrentes de estos servicios, se ha identificado varias áreas de mejora y funcionalidades que serán muy útiles e interesantes para la comunidad.
 </div>
 </details>
 <details>
 <summary><strong>¿Hasta donde quiero llegar con este proyecto?</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <div>
- Nuestro objetivo principal es crear una página que sea realmente util y consistente tanto a nivel tecnico como a nivel visual, para esto hemos estado analizando distintas páginas ya existentes y hemos acabado de pensar y listar las funcionalidades que nuestra pagina acabará conteniendo. Dichas funciones son:<br>
+El objetivo principal es crear una página que sea realmente util y consistente tanto a nivel tecnico como a nivel visual, para ello se ha analizado distintas páginas ya existentes y listado las funcionalidades que la pagina acabará conteniendo. Dichas funciones son:<br>
  1. Estadísticas personales detalladas: consultar historial de partidas, campeones más jugados y rendimiento por rol....<br>
  2. Comparación con otros jugadores: medir tu nivel frente a amigos o rivales y descubrir en qué aspectos puedes mejorar.<br>
  3. Calendario de eventos: Accede a un calendario con torneos, eventos y novedades del juego para no perderte nada. También puedes guardar algún equipo en concreto como favorito para recibir un correo cada vez que este tenga un partido.<br>
