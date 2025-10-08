@@ -71,5 +71,5 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 </div>
     
 <div align="center">
-    <h1 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h1>
+    <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
 </div>
