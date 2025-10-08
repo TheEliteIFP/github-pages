@@ -30,7 +30,7 @@ Otra razón importante es que creemos poder desarrollar una página que resuelva
 <summary><strong>¿Hasta donde quiero llegar con este proyecto?</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <div>
- Nuestro objetivo principal es crear una página que sea realmente util y consistente tanto a nivel tecnico como a nivel visual, para esto hemos estado analizando distintas páginas ya existentes y hemos acabado de pensar y listar las funcionalidades que nuestra pagina acabará conteniendo. Dichas funciones son:
+ Nuestro objetivo principal es crear una página que sea realmente util y consistente tanto a nivel tecnico como a nivel visual, para esto hemos estado analizando distintas páginas ya existentes y hemos acabado de pensar y listar las funcionalidades que nuestra pagina acabará conteniendo. Dichas funciones son:<br>
  1. Estadísticas personales detalladas: consultar historial de partidas, campeones más jugados y rendimiento por rol....<br>
  2. Comparación con otros jugadores: medir tu nivel frente a amigos o rivales y descubrir en qué aspectos puedes mejorar.<br>
  3. Calendario de eventos: Accede a un calendario con torneos, eventos y novedades del juego para no perderte nada. También puedes guardar algún equipo en concreto como favorito para recibir un correo cada vez que este tenga un partido.<br>
@@ -49,17 +49,17 @@ Nuestro proyecto está dirigido a la comunidad de League of Legends, un factor q
 <summary><strong>Módulos del ciclo que tengan que ver con el proyecto</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
      <div>
-En nuestro proyecto se incluirán varios módulos del curso:
-1. Aplicaciones web: Este módulo es fundamental, ya que necesitamos desarrollar una página web funcional y atractiva. Para ello, utilizaremos lenguajes de programación como HTML y CSS.
-2. Seguridad: La seguridad es un aspecto crucial. Implementaremos medidas para proteger nuestros servidores y la información de los usuarios (como sus nombres y contraseñas) contra posibles ataques o robos de datos.
-3. Sistemas operativos en red: Este módulo se aplicará directamente en el uso de máquinas virtuales (MV) para nuestros servidores, lo cual es esencial para el despliegue del proyecto.
-4. Servicios en red: Este módulo será imprescindible, ya que utilizaremos herramientas esenciales como DNS para el funcionamiento de nuestra plataforma.
+En nuestro proyecto se incluirán varios módulos del curso:<br>
+1. Aplicaciones web: Este módulo es fundamental, ya que necesitamos desarrollar una página web funcional y atractiva. Para ello, utilizaremos lenguajes de programación como HTML y CSS.<br>
+2. Seguridad: La seguridad es un aspecto crucial. Implementaremos medidas para proteger nuestros servidores y la información de los usuarios (como sus nombres y contraseñas) contra posibles ataques o robos de datos.<br>
+3. Sistemas operativos en red: Este módulo se aplicará directamente en el uso de máquinas virtuales (MV) para nuestros servidores, lo cual es esencial para el despliegue del proyecto.<br>
+4. Servicios en red: Este módulo será imprescindible, ya que utilizaremos herramientas esenciales como DNS para el funcionamiento de nuestra plataforma.<br>
 
-Materiales necesarios:
-1. Maquinas virtuales (Virtualbox)
-2. un bote de vaselina (exclusivo de QUIM)
-3. Programas de desarrollo y de ciberseguridad
-4. Herramientas como las API etc...
+Materiales necesarios:<br>
+1. Maquinas virtuales (Virtualbox)<br>
+2. un bote de vaselina (exclusivo de QUIM)<br>
+3. Programas de desarrollo y de ciberseguridad<br>
+4. Herramientas como las API etc...<br>
    </div>
 </details>
 <details>
