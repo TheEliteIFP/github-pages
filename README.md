@@ -89,4 +89,4 @@ Usuarios (con contraseñas), fechas, imagenes, videos.
 
 
 
-![tabla1](assets/Tabla1.png)
+![tabla1](assets/tabla1.png)
