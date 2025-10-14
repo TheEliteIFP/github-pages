@@ -168,5 +168,11 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   <div align="center">
   <img src="assets/USejemplo.png" alt="USejemplo">
   </div>  
+
+<div align="center">
+  <img src="assets/EVejemplo.png" alt="EVejemplo">
+  </div>  
+
+
 </div>
 </details>
