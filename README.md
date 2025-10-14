@@ -140,7 +140,7 @@ Afirmativo/negativo<br>
 </div>
 
 <div align="center">
-  <img src="assets/Evento.png" alt="Evento">
+  <img src="assets/Objetos.png" alt="Objetos">
 </div>
 </details>
 
