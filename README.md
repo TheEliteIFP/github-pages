@@ -96,10 +96,10 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 ¿Qué elementos importantes hay en tu web que necesitan almacenarse?<br>
 Usuarios y contraseñas, plan de eventos de los partidos oficiales, imagenes personajes, imágenes objetos, videos de las skins y habilidades (muchos videos), imagenes de cada juego para la primera página, y las recomendaciones que te da segun tu personaje
 
-¿Qué tema de información almacena?<br>
+<strong>¿Qué tema de información almacena?<br></strong>
 Usuarios (con contraseñas), fechas, imagenes, videos.
 </div>
-
+<strong>¿Por qué necesitas guardarla en la base de datos?</strong>
 <div align="center">
   <img src="assets/tabla1.png" alt="tabla1">
 </div>
