@@ -134,4 +134,9 @@ Afirmativo/negativo<br>
 <div align="center">
   <img src="assets/Evento.png" alt="Evento">
 </div>
+
+<div align="center">
+  <img src="assets/Tablacampeon.png" alt="Tablacampeon">
+</div>
 </details>
+
