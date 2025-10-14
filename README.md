@@ -96,10 +96,10 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 ¿Qué elementos importantes hay en tu web que necesitan almacenarse?<br>
 Usuarios y contraseñas, plan de eventos de los partidos oficiales, imagenes personajes, imágenes objetos, videos de las skins y habilidades (muchos videos), imagenes de cada juego para la primera página, y las recomendaciones que te da segun tu personaje
 
-<strong>¿Qué tema de información almacena?<br></strong>
+<strong>-¿Qué tema de información almacena?<br></strong>
 Usuarios (con contraseñas), fechas, imagenes, videos.
 </div>
-<strong>¿Por qué necesitas guardarla en la base de datos?</strong>
+<strong>-¿Por qué necesitas guardarla en la base de datos?</strong>
 <div align="center">
   <img src="assets/tabla1.png" alt="tabla1">
 </div>
@@ -123,8 +123,13 @@ Por ejemplo, si una entidad es “Usuario”:<br>
 3.Correo electrónico<br>
 4.Contraseña<br>
 5.Fecha de registro<br>
-<strong>Indica el tipo de dato esperado (texto, número, fecha, etc.) y la definición que consideras que corresponde (varchar, int, decimal...)</strong><br>
+<strong>-Indica el tipo de dato esperado (texto, número, fecha, etc.) y la definición que consideras que corresponde (varchar, int, decimal...)</strong><br>
 <div align="center">
   <img src="assets/Tabla3.png" alt="Tabla3">
 </div>
+    <strong>*Booleano:strong> Los datos booleanos son datos que se usan para conceptos positivos y negativos:
+Si/No
+Verdadero/Falso
+Afirmativo/negativo
+
 </details>
