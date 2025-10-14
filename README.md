@@ -127,9 +127,11 @@ Por ejemplo, si una entidad es “Usuario”:<br>
 <div align="center">
   <img src="assets/Tabla3.png" alt="Tabla3">
 </div>
-    <strong>*Booleano:</strong> Los datos booleanos son datos que se usan para conceptos positivos y negativos:
-Si/No
-Verdadero/Falso
-Afirmativo/negativo
-
+    <strong>*Booleano:</strong> Los datos booleanos son datos que se usan para conceptos positivos y negativos:<br>
+Si/No<br>
+Verdadero/Falso<br>
+Afirmativo/negativo<br>
+<div align="center">
+  <img src="assets/Tabla4.png" alt="Tabla4">
+</div>
 </details>
