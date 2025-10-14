@@ -159,7 +159,7 @@ Esta relación es fundamental para la funcionalidad de sugerencia de objetos e �
 Esta relación vincula los archivos de medios (imágenes, vídeos de skins, videos de habilidades) con la entidad a la que pertenecen.<br>
 
 </details>
-<details>
-<strong><summary>5. Ejemplo de datos (simulación)</summary></strong>
+
+<strong><summary>Ejemplo de datos (simulación)</summary></strong>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-</details>
+
