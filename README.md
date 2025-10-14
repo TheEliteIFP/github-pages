@@ -117,11 +117,11 @@ Todo lo que muestra la tabla serían los metadatos de este campeón.
 <summary><strong>Datos que se deben guardar de cada entidad (atributos)</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 Para cada entidad identificada en el punto anterior, describe qué información concreta se necesita guardar.
-Por ejemplo, si una entidad es “Usuario”:
-Nombre
-Apellidos
-Correo electrónico
-Contraseña
-Fecha de registro
+Por ejemplo, si una entidad es “Usuario”:<br>
+1.Nombre<br>
+2.Apellidos<br>
+3.Correo electrónico<br>
+4.Contraseña<br>
+5.Fecha de registro<br>
 
 </details>
