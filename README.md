@@ -161,4 +161,5 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 </details>
 <details>
 <strong><summary>5. Ejemplo de datos (simulación)</summary></strong>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 </details>
