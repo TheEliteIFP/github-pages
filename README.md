@@ -164,5 +164,9 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 <summary><strong>Ejemplo de datos</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
+    -Incluye un ejemplo de cada entidad con datos ficticios pero realistas.<br>
+  <div align="center">
+  <img src="assets/USejemplo.png" alt="USejemplo">
+  </div>  
 </div>
 </details>
