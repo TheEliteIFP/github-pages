@@ -160,6 +160,9 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 
 </details>
 
-<strong><summary>Ejemplo de datos (simulación)</summary></strong>
-    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-
+<details>
+<summary><strong>Ejemplo de datos</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+<div>
+</div>
+</details>
