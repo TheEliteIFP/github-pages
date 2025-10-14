@@ -109,7 +109,7 @@ Usuarios (con contraseñas), fechas, imagenes, videos.
 Todo lo que muestra la tabla serían los metadatos de este campeón.
 </div>
 <div align="center">
-  <img src="assets/Tabla2.png" alt="Tabla2">
+  <img src="assets/Tablajinx.png" alt="Tablajinx">
 </div>
 </details>
 
