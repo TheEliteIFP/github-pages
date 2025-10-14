@@ -176,6 +176,9 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   <img src="assets/EVejemplo.png" alt="EVejemplo">
   </div>  
 
-
+<div align="center">
+  <img src="assets/OBejemplo.png" alt="OBejemplo">
+  </div>
+  
 </div>
 </details>
