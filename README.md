@@ -147,6 +147,8 @@ Afirmativo/negativo<br>
 <summary><strong>Relaciones entre tablas</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <div>
+
+        
 <strong>1.USUARIOS y CAMPEÓN/PERSONAJE (Estadísticas y Progreso)</strong><br>
 Esta es la relación central para el análisis de estadísticas personales.<br>
 
