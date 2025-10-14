@@ -93,7 +93,7 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 <summary><strong>Identificaciones de entidades principales</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
-¿Qué elementos importantes hay en tu web que necesitan almacenarse?<br>
+<strong>-¿Qué elementos importantes hay en tu web que necesitan almacenarse?<br></strong>
 Usuarios y contraseñas, plan de eventos de los partidos oficiales, imagenes personajes, imágenes objetos, videos de las skins y habilidades (muchos videos), imagenes de cada juego para la primera página, y las recomendaciones que te da segun tu personaje
 
 <strong>-¿Qué tema de información almacena?<br></strong>
