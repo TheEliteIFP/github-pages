@@ -132,6 +132,6 @@ Si/No<br>
 Verdadero/Falso<br>
 Afirmativo/negativo<br>
 <div align="center">
-  <img src="assets/Tabla4.png" alt="Tabla4">
+  <img src="assets/Evento.png" alt="Evento">
 </div>
 </details>
