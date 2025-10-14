@@ -143,4 +143,6 @@ Afirmativo/negativo<br>
   <img src="assets/Objetos.png" alt="Objetos">
 </div>
 </details>
-
+<details>
+<summary><strong>4.Relaciones entre tablas</strong></summary>
+</details>
