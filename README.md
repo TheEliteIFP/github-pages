@@ -125,3 +125,6 @@ Por ejemplo, si una entidad es “Usuario”:<br>
 5.Fecha de registro<br>
 </details>
 <strong>Indica el tipo de dato esperado (texto, número, fecha, etc.) y la definición que consideras que corresponde (varchar, int, decimal...)</strong>
+<div align="center">
+  <img src="assets/Tabla3.png" alt="Tabla3">
+</div>
