@@ -111,3 +111,7 @@ Todo lo que muestra la tabla serían los metadatos de este campeón.
 <div align="center">
   <img src="assets/Tabla2.png" alt="Tabla2">
 </div>
+<details>
+<summary><strong>Datos que se deben guardar de cada entidad (atributos)</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+</details>
