@@ -123,5 +123,5 @@ Por ejemplo, si una entidad es “Usuario”:<br>
 3.Correo electrónico<br>
 4.Contraseña<br>
 5.Fecha de registro<br>
-
 </details>
+<strong>Indica el tipo de dato esperado (texto, número, fecha, etc.) y la definición que consideras que corresponde (varchar, int, decimal...)</strong>
