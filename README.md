@@ -145,7 +145,8 @@ Afirmativo/negativo<br>
 </details>
 <details>
 <summary><strong>Relaciones entre tablas</strong></summary>
-
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <div>
 <strong>1.USUARIOS y CAMPEÓN/PERSONAJE (Estadísticas y Progreso)</strong><br>
 Esta es la relación central para el análisis de estadísticas personales.<br>
 
@@ -157,7 +158,7 @@ Esta relación es fundamental para la funcionalidad de sugerencia de objetos e �
 
 <strong>4.CAMPEÓN/PERSONAJE u OBJETOS y ELEMENTOS MULTIMEDIA (Recursos)</strong><br>
 Esta relación vincula los archivos de medios (imágenes, vídeos de skins, videos de habilidades) con la entidad a la que pertenecen.<br>
-
+</div>
 </details>
 
 <details>
