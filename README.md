@@ -30,8 +30,9 @@ Como usuarios habituales de este tipo de páginas, creemos que sería interesant
 Otra razón importante es poder desarrollar una página que resuelva los fallos de las webs existentes en este ámbito. Al ser usuarios recurrentes de estos servicios, se ha identificado varias áreas de mejora y funcionalidades que serán muy útiles e interesantes para la comunidad.
 <br><br>
 </div>
-<strong>¿Hasta donde quiero llegar con este proyecto?</strong>
 
+<strong>¿Hasta donde quiero llegar con este proyecto?</strong>
+<div>
 El objetivo principal es crear una página que sea realmente util y consistente tanto a nivel tecnico como a nivel visual, para ello se ha analizado distintas páginas ya existentes y listado las funcionalidades que la pagina acabará conteniendo. Dichas funciones son:<br>
  1. Estadísticas personales detalladas: consultar historial de partidas, campeones más jugados y rendimiento por rol....<br>
  2. Comparación con otros jugadores: medir tu nivel frente a amigos o rivales y descubrir en qué aspectos puedes mejorar.<br>
