@@ -59,6 +59,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
     5. La pagina también va a incluir vídeos de una corta duración haciendo una demostración de las habilidades de los personajes y de sus diferentes aspectos.<br>
     </div>
 </details>
+
      <details>
 <summary><strong>Módulos del ciclo que tengan que ver con el proyecto</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
@@ -90,6 +91,7 @@ En el proyecto se incluirán varios módulos del curso:<br>
 
    </div>
 </details>
+
 <details>
 <summary><strong>Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)</strong></summary>
    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
