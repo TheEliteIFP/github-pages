@@ -35,6 +35,7 @@ Otra razón importante es poder desarrollar una página que resuelva los fallos 
 <br><br>
 </div>
 </details>
+
 <details>
 <summary><strong>¿Hasta donde quiero llegar con este proyecto?</strong></summary>
 <div>
