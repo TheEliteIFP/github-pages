@@ -83,6 +83,10 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 <div align="center">
     <h2 style="text-align: center;">RED</h2>
 </div>
+<details>
+    <summary><strong>DIAGRAMA DE LA RED</strong></summary>
+</details>
+
 <div align="center">
     <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
 </div>
