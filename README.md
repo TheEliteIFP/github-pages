@@ -74,8 +74,10 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 </details>
 
      <details>
+     
 <summary><strong>Módulos del ciclo que tengan que ver con el proyecto</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+  
      <div>
 En el proyecto se incluirán varios módulos del curso:<br>
 1. Aplicaciones web: Este módulo es fundamental, ya que necesitamos desarrollar una página web funcional y atractiva. Para ello, utilizaremos lenguajes de programación como HTML y CSS.<br>
