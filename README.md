@@ -32,6 +32,7 @@ El objetivo principal es crear una página que sea realmente util y consistente 
  <strong>¿A quién va dirigido este proyecto?</strong>
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  El proyecto está dirigido a la comunidad de League of Legends, un factor que nos beneficia mucho en términos de visibilidad. Al ser un juego para todos los públicos, el único "requisito" para usar nuestra plataforma es jugar al juego. Aunque mas adelante, si es posible, se incluiran más videojuegos ya que así el alcance podrá ser mayor y así abarcar otras comunidades.
+ <br><br>
  <strong>Módulos del ciclo que tengan que ver con el proyecto</strong>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  En el proyecto se incluirán varios módulos del curso:<br>
