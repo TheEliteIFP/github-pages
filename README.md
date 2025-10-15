@@ -71,67 +71,8 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 
 </details>
     <div align="center">
-    <h2 style="text-align: center;">BRIEFING DE IDEAS</h2>
+    <h2 style="text-align: center;">INFORME DE BACKEND</h2>
 </div>
-
-<div align="center">
-    <h2 style="text-align: center;">ARQUITECTURA DEL SOFTWARE</h2>
-</div>
-<div align="center">
-    <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
-</div>
-<div align="center">
-    <h2 style="text-align: center;">RED</h2>
-</div>
-<details>
-    <summary><strong>DIAGRAMA DE LA RED</strong></summary>
-</details>
-<details>
-    <summary><strong>MAPA FÍSICO</strong></summary>
-</details>
-<details>
-    <summary><strong>MAPA LÓGICO</strong></summary>
-    </details>
-<div align="center">
-    <h2 style="text-align: center;">WEB</h2>
-</div>
-<details>
-    <summary><strong>DISEÑO</strong></summary>
-</details>
-<details>
-    <summary><strong>MOCKUP</strong></summary>
-</details>
-<details>
-    <summary><strong>MAPA DE NAVEGABILIDAD</strong></summary>
-</details>
-<div align="center">
-    <h2 style="text-align: center;">SERVICIOS</h2>
-</div>
-<details>
-    <summary><strong>DNS</strong></summary>
-</details>
-<details>
-    <summary><strong>DHCP</strong></summary>
-</details>
-<details>
-    <summary><strong>APACHE</strong></summary>
-</details>
-<details>
-    <summary><strong>FIREWALL</strong></summary>
-</details>
-<details>
-    <summary><strong>COPIAS DE SEGURIDAD</strong></summary>
-</details>
-<div align="center">
-    <h2 style="text-align: center;">CONCLUSIONES</h2>
-</div>
-<div align="center">
-    <h2 style="text-align: center;">BIBLIOGRAFIA</h2>
-</div>
-<div align="center">
-    <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
-</div>
-
 <details>
 <summary><strong>Identificaciones de entidades principales</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
@@ -225,3 +166,59 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   
 </div>
 </details>
+
+<div align="center">
+    <h2 style="text-align: center;">ARQUITECTURA DEL SOFTWARE</h2>
+</div>
+<div align="center">
+    <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
+</div>
+<div align="center">
+    <h2 style="text-align: center;">RED</h2>
+</div>
+<details>
+    <summary><strong>DIAGRAMA DE LA RED</strong></summary>
+</details>
+<details>
+    <summary><strong>MAPA FÍSICO</strong></summary>
+</details>
+<details>
+    <summary><strong>MAPA LÓGICO</strong></summary>
+    </details>
+<div align="center">
+    <h2 style="text-align: center;">WEB</h2>
+</div>
+<details>
+    <summary><strong>DISEÑO</strong></summary>
+</details>
+<details>
+    <summary><strong>MOCKUP</strong></summary>
+</details>
+<details>
+    <summary><strong>MAPA DE NAVEGABILIDAD</strong></summary>
+</details>
+<div align="center">
+    <h2 style="text-align: center;">SERVICIOS</h2>
+</div>
+<details>
+    <summary><strong>DNS</strong></summary>
+</details>
+<details>
+    <summary><strong>DHCP</strong></summary>
+</details>
+<details>
+    <summary><strong>APACHE</strong></summary>
+</details>
+<details>
+    <summary><strong>FIREWALL</strong></summary>
+</details>
+<details>
+    <summary><strong>COPIAS DE SEGURIDAD</strong></summary>
+</details>
+<div align="center">
+    <h2 style="text-align: center;">CONCLUSIONES</h2>
+</div>
+<div align="center">
+    <h2 style="text-align: center;">BIBLIOGRAFIA</h2>
+</div>
+
