@@ -38,15 +38,17 @@ El objetivo principal es crear una página que sea realmente util y consistente 
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  El proyecto está dirigido a la comunidad de League of Legends, un factor que nos beneficia mucho en términos de visibilidad. Al ser un juego para todos los públicos, el único "requisito" para usar nuestra plataforma es jugar al juego. Aunque mas adelante, si es posible, se incluiran más videojuegos ya que así el alcance podrá ser mayor y así abarcar otras comunidades.
 </details>
- <strong>Módulos del ciclo que tengan que ver con el proyecto</strong>
+<details>
+ <summary><strong>Módulos del ciclo que tengan que ver con el proyecto</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  En el proyecto se incluirán varios módulos del curso:<br>
 1. Aplicaciones web: Este módulo es fundamental, ya que necesitamos desarrollar una página web funcional y atractiva. Para ello, utilizaremos lenguajes de programación como HTML y CSS.<br>
 2. Seguridad: La seguridad es un aspecto crucial. Implementaremos medidas para proteger nuestros servidores y la información de los usuarios (como sus nombres y contraseñas) contra posibles ataques o robos de datos.<br>
 3. Sistemas operativos en red: Este módulo se aplicará directamente en el uso de máquinas virtuales (MV) para nuestros servidores, lo cual es esencial para el despliegue del proyecto.<br>
 4. Servicios en red: Este módulo será imprescindible, ya que utilizaremos herramientas esenciales como DNS para el funcionamiento de nuestra plataforma.<br>
-<br><br>
-<strong>Materiales necesarios:</strong>
+</details>
+<details>
+<summary><strong>Materiales necesarios:</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <strong>Fisicos:<br></strong>
 1. Ordenadores<br>
@@ -58,15 +60,16 @@ El objetivo principal es crear una página que sea realmente util y consistente 
 5. Vercel<br>
 6. Trello<br>
 7. Github<br>
-<br><br>
-<strong>Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)</strong>
+</details>
+<details>
+<summary><strong>Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5
 https://gist.github.com/dasdo/9ff71c5c0efa037441b6
 https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
  </div>
 
-
+</details>
     
 <div align="center">
     <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
