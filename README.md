@@ -46,9 +46,10 @@ El objetivo principal es crear una página que sea realmente util y consistente 
 El proyecto está dirigido a la comunidad de League of Legends, un factor que nos beneficia mucho en términos de visibilidad. Al ser un juego para todos los públicos, el único "requisito" para usar nuestra plataforma es jugar al juego. Aunque mas adelante, si es posible, se incluiran más videojuegos ya que así el alcance podrá ser mayor y así abarcar otras comunidades.
  </details>
       </div>
+      <div>
     <details>
       <summary><strong>¿Hasta donde quiero llegar con este proyecto?</strong></summary>
-
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 El objetivo principal es crear una página que sea realmente util y consistente tanto a nivel tecnico como a nivel visual, para ello se ha analizado distintas páginas ya existentes y listado las funcionalidades que la pagina acabará conteniendo. Dichas funciones son:<br>
  1. Estadísticas personales detalladas: consultar historial de partidas, campeones más jugados y rendimiento por rol....<br>
  2. Comparación con otros jugadores: medir tu nivel frente a amigos o rivales y descubrir en qué aspectos puedes mejorar.<br>
@@ -56,6 +57,7 @@ El objetivo principal es crear una página que sea realmente util y consistente 
  4. Consejos personalizados: Sugerencias de mejora basadas en tu estilo de juego y datos de la comunidad, como por ejemplo sugerencias de objetos según el campeón que quieras jugar y en contra de cuales juegues. También te hara una plantilla donde podras elegir que campeones te gusta jugar para darte consejos de que campeón de aquellos que te gustan deberías elegir en contra de enemigos concretos.<br>
  5. La pagina también va a incluir videos de una corta duración haciendo una demostración de las habilidades de los personajes y de sus diferentes aspectos.<br>
  </details>
+      </div>
 <summary><strong>Módulos del ciclo que tengan que ver con el proyecto</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
      <div>
