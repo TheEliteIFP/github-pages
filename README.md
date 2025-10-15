@@ -10,7 +10,7 @@
 
 
 <div align="center">
-    <h2 style="text-align: center;">BRIEFING</h2>
+    <h2 style="text-align: center;"></h2>
 </div>
 
 <details>
