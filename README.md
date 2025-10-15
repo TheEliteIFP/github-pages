@@ -44,8 +44,9 @@ El objetivo principal es crear una página que sea realmente util y consistente 
 
       <div>
 El proyecto está dirigido a la comunidad de League of Legends, un factor que nos beneficia mucho en términos de visibilidad. Al ser un juego para todos los públicos, el único "requisito" para usar nuestra plataforma es jugar al juego. Aunque mas adelante, si es posible, se incluiran más videojuegos ya que así el alcance podrá ser mayor y así abarcar otras comunidades.
+</div>
  </details>
-      </div>
+      
 
 <details>
     <summary><strong>Hasta donde quiero llegar con este proyecto?</strong></summary>
