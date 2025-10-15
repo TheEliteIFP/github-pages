@@ -62,7 +62,6 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 7. Github<br>
 8.Corrector<br>
 </details>
-
     <div align="center">
     <h2 style="text-align: center;">INFORME DE BACKEND</h2>
 </div>
@@ -219,4 +218,6 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 <div align="center">
     <h2 style="text-align: center;">BIBLIOGRAFIA</h2>
 </div>
-
+  https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5
+https://gist.github.com/dasdo/9ff71c5c0efa037441b6
+https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
