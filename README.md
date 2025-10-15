@@ -62,15 +62,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 7. Github<br>
 8.Corrector<br>
 </details>
-<details>
-<summary><strong>Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)</strong></summary>
-    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-    https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5
-https://gist.github.com/dasdo/9ff71c5c0efa037441b6
-https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
- </div>
 
-</details>
     <div align="center">
     <h2 style="text-align: center;">INFORME DE BACKEND</h2>
 </div>
