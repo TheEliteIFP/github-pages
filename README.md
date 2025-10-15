@@ -17,26 +17,26 @@
 Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz más clara, ordenada y con nuevas herramientas exclusivas para la comunidad. 
     <br><br>
     <details>
-    <summary><strong>¿Porque esta idea?</strong></summary>
+    <summary><strong>¿Por qué esta idea?</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 
 Como usuarios habituales de este tipo de páginas, creemos que sería interesante crear una que sea nuestra. Además, el tema nos apasiona, ya que trata de un videojuego que se disfruta en el tiempo libre.<br>
 Otra razón importante es poder desarrollar una página que resuelva los fallos de las webs existentes en este ámbito. Al ser usuarios recurrentes de estos servicios, se ha identificado varias áreas de mejora y funcionalidades que serán muy útiles e interesantes para la comunidad.
 </details>
 <details>
-<summary><strong>¿Hasta donde quiero llegar con este proyecto?</strong></summary>
+<summary><strong>¿Hasta dónde quiero llegar con este proyecto?</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-El objetivo principal es crear una página que sea realmente util y consistente tanto a nivel tecnico como a nivel visual, para ello se ha analizado distintas páginas ya existentes y listado las funcionalidades que la pagina acabará conteniendo. Dichas funciones son:<br>
- 1. Estadísticas personales detalladas: consultar historial de partidas, campeones más jugados y rendimiento por rol....<br>
- 2. Comparación con otros jugadores: medir tu nivel frente a amigos o rivales y descubrir en qué aspectos puedes mejorar.<br>
- 3. Calendario de eventos: Accede a un calendario con torneos, eventos y novedades del juego para no perderte nada. También puedes guardar algún equipo en concreto como favorito para recibir un correo cada vez que este tenga un partido.<br>
- 4. Consejos personalizados: Sugerencias de mejora basadas en tu estilo de juego y datos de la comunidad, como por ejemplo sugerencias de objetos según el campeón que quieras jugar y en contra de cuales juegues. También te hara una plantilla donde podras elegir que campeones te gusta jugar para darte consejos de que campeón de aquellos que te gustan deberías elegir en contra de enemigos concretos.<br>
- 5. La pagina también va a incluir videos de una corta duración haciendo una demostración de las habilidades de los personajes y de sus diferentes aspectos.<br>
+El objetivo principal es crear una página que sea realmente útil y consistente tanto a nivel técnico como a nivel visual, para ello se ha analizado distintas páginas ya existentes y listado las funcionalidades que la página acabará conteniendo. Dichas funciones son:<br>
+1. Estadísticas personales detalladas: consultar historial de partidas, campeones más jugados y rendimiento por rol...<br>
+2. Comparación con otros jugadores: medir tu nivel frente a amigos o rivales y descubrir en qué aspectos puedes mejorar.<br>
+3. Calendario de eventos: Accede a un calendario con torneos, eventos y novedades del juego para no perderte nada. También puedes guardar algún equipo en concreto como favorito para recibir un correo cada vez que este tenga un partido.<br>
+4. Consejos personalizados: Sugerencias de mejora basadas en tu estilo de juego y datos de la comunidad, como por ejemplo sugerencias de objetos según el campeón que quieras jugar y en contra de cuáles juegues. También te hará una plantilla donde podrás elegir qué campeones te gusta jugar para darte consejos de qué campeón de aquellos que te gustan deberías elegir en contra de enemigos concretos.<br>
+5. La página también va a incluir videos de una corta duración haciendo una demostración de las habilidades de los personajes y de sus diferentes aspectos.<br>
 </details>
 <details>
  <summary><strong>¿A quién va dirigido este proyecto?</strong></summary>
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
- El proyecto está dirigido a la comunidad de League of Legends, un factor que nos beneficia mucho en términos de visibilidad. Al ser un juego para todos los públicos, el único "requisito" para usar nuestra plataforma es jugar al juego. Aunque mas adelante, si es posible, se incluiran más videojuegos ya que así el alcance podrá ser mayor y así abarcar otras comunidades.
+El proyecto está dirigido a la comunidad de League of Legends, un factor que nos beneficia mucho en términos de visibilidad. Al ser un juego para todos los públicos, el único "requisito" para usar nuestra plataforma es jugar al juego. Aunque más adelante, si es posible, se incluirán más videojuegos, ya que así el alcance podrá ser mayor y así abarcar otras comunidades.
 </details>
 <details>
  <summary><strong>Módulos del ciclo que tengan que ver con el proyecto</strong></summary>
@@ -50,7 +50,7 @@ El objetivo principal es crear una página que sea realmente util y consistente 
 <details>
 <summary><strong>Materiales necesarios:</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-<strong>Fisicos:<br></strong>
+<strong>Físicos:<br></strong>
 1. Ordenadores<br>
 <strong>Lógicos:<br></strong>
 1. Virtual Box (VM) <br>
@@ -60,6 +60,7 @@ El objetivo principal es crear una página que sea realmente util y consistente 
 5. Vercel<br>
 6. Trello<br>
 7. Github<br>
+8.Corrector<br>
 </details>
 <details>
 <summary><strong>Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)</strong></summary>
@@ -77,11 +78,11 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 <summary><strong>Identificaciones de entidades principales</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
-<strong>-¿Qué elementos importantes hay en tu web que necesitan almacenarse?<br></strong>
-Usuarios y contraseñas, plan de eventos de los partidos oficiales, imagenes personajes, imágenes objetos, videos de las skins y habilidades (muchos videos), imagenes de cada juego para la primera página, y las recomendaciones que te da segun tu personaje
+<strong>¿Qué elementos importantes hay en tu web que necesitan almacenarse?<br></strong>
+Usuarios y contraseñas, plan de eventos de los partidos oficiales, imágenes personajes, imágenes objetos, videos de las skins y habilidades (muchos videos), imágenes de cada juego para la primera página, y las recomendaciones que te da según tu personaje.
 <br><br>
-<strong>-¿Qué tema de información almacena?<br></strong>
-Usuarios (con contraseñas), fechas, imagenes, videos.
+<strong>¿Qué tema de información almacena?<br></strong>
+Usuarios (con contraseñas), fechas, imágenes, videos.
 </div>
 <br><br>
 <strong>-¿Por qué necesitas guardarla en la base de datos?</strong>
@@ -111,7 +112,7 @@ Por ejemplo, si una entidad es “Usuario”:<br>
 4.Contraseña<br>
 5.Fecha de registro<br>
     <br><br>
-<strong>-Indica el tipo de dato esperado (texto, número, fecha, etc.) y la definición que consideras que corresponde (varchar, int, decimal...)</strong><br>
+<strong>Indica el tipo de dato esperado (texto, número, fecha, etc.) y la definición que consideras que corresponde (varchar, int, decimal...)</strong><br>
 <div align="center">
   <img src="assets/Tabla3.png" alt="Tabla3">
 </div>
@@ -155,7 +156,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 <summary><strong>Ejemplo de datos</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
-    -Incluye un ejemplo de cada entidad con datos ficticios pero realistas.<br>
+    Incluye un ejemplo de cada entidad con datos ficticios pero realistas.<br>
     <br><br>
   <div align="center">
   <img src="assets/USejemplo.png" alt="USejemplo">
