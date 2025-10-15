@@ -112,7 +112,7 @@ Si/No<br>
 Verdadero/Falso<br>
 Afirmativo/negativo<br>
 <div align="center">
-  <img src="assets/Evento.png" alt="Evento">
+  <img src="assets/EV.png" alt="EV">
 </div>
 
 <div align="center">
