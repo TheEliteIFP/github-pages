@@ -70,7 +70,19 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
  </div>
 
 </details>
-    
+    <div align="center">
+    <h2 style="text-align: center;">BRIEFING DE IDEAS</h2>
+</div>
+
+<div align="center">
+    <h2 style="text-align: center;">ARQUITECTURA DEL SOFTWARE</h2>
+</div>
+<div align="center">
+    <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
+</div>
+<div align="center">
+    <h2 style="text-align: center;">RED</h2>
+</div>
 <div align="center">
     <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
 </div>
