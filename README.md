@@ -47,7 +47,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
  </details>
       </div>
  <div>
-    <details>
+
      <summary><strong>¿Hasta donde quiero llegar con este proyecto?</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
         
@@ -57,7 +57,7 @@ El objetivo principal es crear una página que sea realmente util y consistente 
  3. Calendario de eventos: Accede a un calendario con torneos, eventos y novedades del juego para no perderte nada. También puedes guardar algún equipo en concreto como favorito para recibir un correo cada vez que este tenga un partido.<br>
  4. Consejos personalizados: Sugerencias de mejora basadas en tu estilo de juego y datos de la comunidad, como por ejemplo sugerencias de objetos según el campeón que quieras jugar y en contra de cuales juegues. También te hara una plantilla donde podras elegir que campeones te gusta jugar para darte consejos de que campeón de aquellos que te gustan deberías elegir en contra de enemigos concretos.<br>
  5. La pagina también va a incluir videos de una corta duración haciendo una demostración de las habilidades de los personajes y de sus diferentes aspectos.<br>
- </details>
+
       </div>
 <summary><strong>Módulos del ciclo que tengan que ver con el proyecto</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
