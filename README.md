@@ -89,7 +89,9 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 <details>
     <summary><strong>MAPA FÍSICO</strong></summary>
 </details>
-<details><strong>MAPA LÓGICO</strong></details>
+<details>
+    <summary><strong>MAPA LÓGICO</strong></summary>
+    </details>
 <div align="center">
     <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
 </div>
