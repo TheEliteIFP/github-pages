@@ -20,19 +20,16 @@ Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz má
 
 Como usuarios habituales de este tipo de páginas, creemos que sería interesante crear una que sea nuestra. Además, el tema nos apasiona, ya que trata de un videojuego que se disfruta en el tiempo libre.<br>
 Otra razón importante es poder desarrollar una página que resuelva los fallos de las webs existentes en este ámbito. Al ser usuarios recurrentes de estos servicios, se ha identificado varias áreas de mejora y funcionalidades que serán muy útiles e interesantes para la comunidad.
- </div>
-</details>
-<details>
-<summary><strong>¿Hasta donde quiero llegar con este proyecto?</strong></summary>
+<br><br>
+<strong>¿Hasta donde quiero llegar con este proyecto?</strong>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-    <div>
 El objetivo principal es crear una página que sea realmente util y consistente tanto a nivel tecnico como a nivel visual, para ello se ha analizado distintas páginas ya existentes y listado las funcionalidades que la pagina acabará conteniendo. Dichas funciones son:<br>
  1. Estadísticas personales detalladas: consultar historial de partidas, campeones más jugados y rendimiento por rol....<br>
  2. Comparación con otros jugadores: medir tu nivel frente a amigos o rivales y descubrir en qué aspectos puedes mejorar.<br>
  3. Calendario de eventos: Accede a un calendario con torneos, eventos y novedades del juego para no perderte nada. También puedes guardar algún equipo en concreto como favorito para recibir un correo cada vez que este tenga un partido.<br>
  4. Consejos personalizados: Sugerencias de mejora basadas en tu estilo de juego y datos de la comunidad, como por ejemplo sugerencias de objetos según el campeón que quieras jugar y en contra de cuales juegues. También te hara una plantilla donde podras elegir que campeones te gusta jugar para darte consejos de que campeón de aquellos que te gustan deberías elegir en contra de enemigos concretos.<br>
  5. La pagina también va a incluir videos de una corta duración haciendo una demostración de las habilidades de los personajes y de sus diferentes aspectos.<br>
-    </div>
+ </div>
 </details>
 <details>
 <summary><strong>¿A quién va dirigido este proyecto?</strong></summary>
