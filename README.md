@@ -24,7 +24,8 @@ Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz má
 </details>
 
 <details>
-<strong>¿Porque esta idea?</strong>
+    
+<summary><strong>¿Porque esta idea?</strong></summary>
 
 
 <div>
@@ -35,7 +36,7 @@ Otra razón importante es poder desarrollar una página que resuelva los fallos 
 </div>
 </details>
 <details>
-<strong>¿Hasta donde quiero llegar con este proyecto?</strong>
+<summary><strong>¿Hasta donde quiero llegar con este proyecto?</strong></summary>
 <div>
 El objetivo principal es crear una página que sea realmente util y consistente tanto a nivel tecnico como a nivel visual, para ello se ha analizado distintas páginas ya existentes y listado las funcionalidades que la pagina acabará conteniendo. Dichas funciones son:<br>
  1. Estadísticas personales detalladas: consultar historial de partidas, campeones más jugados y rendimiento por rol....<br>
