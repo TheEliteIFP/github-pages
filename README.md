@@ -23,6 +23,7 @@ Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz má
 
 
 <strong>¿Porque esta idea?</strong>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 
 <div>
 Como usuarios habituales de este tipo de páginas, creemos que sería interesante crear una que sea nuestra. Además, el tema nos apasiona, ya que trata de un videojuego que se disfruta en el tiempo libre.
