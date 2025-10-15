@@ -21,6 +21,7 @@
 Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz más clara, ordenada y con nuevas herramientas exclusivas para la comunidad. 
  </div>
 
+
 <strong>¿Porque esta idea?</strong>
 
 <div>
