@@ -93,6 +93,7 @@ Usuarios (con contraseñas), fechas, imagenes, videos.
 <div>
 *Los metadatos son los datos extendidos sobre un primer dato, en esta tabla improvisada hemos puesto de ejemplo un campeón (Jinx) que en este caso sería el dato.
 Todo lo que muestra la tabla serían los metadatos de este campeón.
+    <br><br>
 </div>
 <div align="center">
   <img src="assets/Tablajinx.png" alt="Tablajinx">
