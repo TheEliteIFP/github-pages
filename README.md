@@ -101,6 +101,30 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 <details>
     <summary><strong>MOCKUP</strong></summary>
 </details>
+<details>
+    <summary><strong>MAPA DE NAVEGABILIDAD</strong></summary>
+</details>
+<div align="center">
+    <h2 style="text-align: center;">SERVICIOS</h2>
+</div>
+<details>
+    <summary><strong>DNS</strong></summary>
+</details>
+<details>
+    <summary><strong>DHCP</strong></summary>
+</details>
+<details>
+    <summary><strong>APACHE</strong></summary>
+</details>
+<details>
+    <summary><strong>FIREWALL</strong></summary>
+</details>
+<details>
+    <summary><strong>COPIAS DE SEGURIDAD</strong></summary>
+</details>
+<div align="center">
+    <h2 style="text-align: center;">CONCLUSIONES</h2>
+</div>
 <div align="center">
     <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
 </div>
