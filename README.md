@@ -110,6 +110,7 @@ Por ejemplo, si una entidad es “Usuario”:<br>
 3.Correo electrónico<br>
 4.Contraseña<br>
 5.Fecha de registro<br>
+    <br><br>
 <strong>-Indica el tipo de dato esperado (texto, número, fecha, etc.) y la definición que consideras que corresponde (varchar, int, decimal...)</strong><br>
 <div align="center">
   <img src="assets/Tabla3.png" alt="Tabla3">
