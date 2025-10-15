@@ -5,7 +5,7 @@
 ![Mi logo](assets/logo.png)
 
 <div align="center">
-    <h2 style="text-align: center;">Índice</h2>
+    <h2 style="text-align: center;">ÍNDICE</h2>
 </div>
 
 
