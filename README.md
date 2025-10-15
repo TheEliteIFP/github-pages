@@ -47,6 +47,7 @@ El objetivo principal es crear una página que sea realmente util y consistente 
 <br><br>
     </div>
 </details>
+
 <details>
 <summary><strong>¿A quién va dirigido este proyecto?</strong></summary>
 
