@@ -48,7 +48,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
  </details>
       
 
-<details>
+
     <summary><strong>Hasta donde quiero llegar con este proyecto?</strong></summary>
     <hr style="Margin-top: 10px; Margin-bottom: 10px; border: none; height: 1px; visibility: hidden;">
     <div>
