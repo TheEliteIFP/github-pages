@@ -11,7 +11,7 @@
 <div align="center">
     <h2 style="text-align: center;">INTRODUCCIÓN</h2>
 </div>
-<details>
+
 <strong>Introducción</strong>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
@@ -64,7 +64,7 @@ El objetivo principal es crear una página que sea realmente util y consistente 
 https://gist.github.com/dasdo/9ff71c5c0efa037441b6
 https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
  </div>
-</details>
+
 
     
 <div align="center">
