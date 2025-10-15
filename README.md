@@ -93,6 +93,15 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
     <summary><strong>MAPA LÓGICO</strong></summary>
     </details>
 <div align="center">
+    <h2 style="text-align: center;">WEB</h2>
+</div>
+<details>
+    <summary><strong>DISEÑO</strong></summary>
+</details>
+<details>
+    <summary><strong>MOCKUP</strong></summary>
+</details>
+<div align="center">
     <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
 </div>
 
