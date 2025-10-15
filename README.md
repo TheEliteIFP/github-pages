@@ -99,10 +99,8 @@ En el proyecto se incluirán varios módulos del curso:<br>
 5. Vercel<br>
 6. Trello<br>
 7. Github<br>
+</div>
 
-
-
-   </div>
 </details>
 
 <details>
