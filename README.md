@@ -5,12 +5,7 @@
 ![Mi logo](assets/logo.png)
 
 <div align="center">
-    <h2 style="text-align: center;">ÍNDICE</h2>
-</div>
-
-
-<div align="center">
-    <h2 style="text-align: center;"></h2>
+    <h2 style="text-align: center;">BRIEFING</h2>
 </div>
 
 <details>
@@ -18,80 +13,53 @@
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
     EliteGG es una plataforma de análisis y seguimiento de estadísticas para distintos videojuegos, principalmente League of Legends, diseñada para jugadores que quieren mejorar y llevar un control más organizado de su progreso.
-Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz más clara, ordenada y con nuevas herramientas exclusivas para la comunidad.
-<br><br>
-</div>
+Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz más clara, ordenada y con nuevas herramientas exclusivas para la comunidad. 
+ </div>
 </details>
-
 <details>
-    
 <summary><strong>¿Porque esta idea?</strong></summary>
-
-
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
 Como usuarios habituales de este tipo de páginas, creemos que sería interesante crear una que sea nuestra. Además, el tema nos apasiona, ya que trata de un videojuego que se disfruta en el tiempo libre.
 
+
 Otra razón importante es poder desarrollar una página que resuelva los fallos de las webs existentes en este ámbito. Al ser usuarios recurrentes de estos servicios, se ha identificado varias áreas de mejora y funcionalidades que serán muy útiles e interesantes para la comunidad.
-<br><br>
 </div>
 </details>
-
 <details>
-    
 <summary><strong>¿Hasta donde quiero llegar con este proyecto?</strong></summary>
-<div>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <div>
 El objetivo principal es crear una página que sea realmente util y consistente tanto a nivel tecnico como a nivel visual, para ello se ha analizado distintas páginas ya existentes y listado las funcionalidades que la pagina acabará conteniendo. Dichas funciones son:<br>
  1. Estadísticas personales detalladas: consultar historial de partidas, campeones más jugados y rendimiento por rol....<br>
  2. Comparación con otros jugadores: medir tu nivel frente a amigos o rivales y descubrir en qué aspectos puedes mejorar.<br>
  3. Calendario de eventos: Accede a un calendario con torneos, eventos y novedades del juego para no perderte nada. También puedes guardar algún equipo en concreto como favorito para recibir un correo cada vez que este tenga un partido.<br>
  4. Consejos personalizados: Sugerencias de mejora basadas en tu estilo de juego y datos de la comunidad, como por ejemplo sugerencias de objetos según el campeón que quieras jugar y en contra de cuales juegues. También te hara una plantilla donde podras elegir que campeones te gusta jugar para darte consejos de que campeón de aquellos que te gustan deberías elegir en contra de enemigos concretos.<br>
  5. La pagina también va a incluir videos de una corta duración haciendo una demostración de las habilidades de los personajes y de sus diferentes aspectos.<br>
-<br><br>
     </div>
-    
 </details>
-
 <details>
-    
 <summary><strong>¿A quién va dirigido este proyecto?</strong></summary>
-<div>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+      <div>
 El proyecto está dirigido a la comunidad de League of Legends, un factor que nos beneficia mucho en términos de visibilidad. Al ser un juego para todos los públicos, el único "requisito" para usar nuestra plataforma es jugar al juego. Aunque mas adelante, si es posible, se incluiran más videojuegos ya que así el alcance podrá ser mayor y así abarcar otras comunidades.
-</div>
  </details>
-      
-
-<details>
-    <summary><strong>Hasta donde quiero llegar con este proyecto?</strong></summary>
-    <hr style="Margin-top: 10px; Margin-bottom: 10px; border: none; height: 1px; visibility: hidden;">
-    <div>
-    El objetivo principal es crear una página que sea realmente útil y consistente tanto a nivel técnico como a nivel visual, para ello se ha analizado distintas páginas ya existentes y listando las funcionalidades que la página acabará conteniendo. Dichas funciones son:<br>
-    1. Estadísticas personales detalladas: consultar historial de partidas, campeones más jugados y rendimiento por rol...<br>
-    2. Comparación con otros jugadores: medir tu nivel frente a amigos o rivales y descubrir en qué aspectos puedes mejorar.<br>
-    3. Calendario de eventos: Accede a un calendario con torneos, eventos y novedades del juego para no perderte nada. También puedes guardar algún equipo en concreto como favorito para recibir un correo cada vez que este tenga un partido.<br>
-    4. Consejos personalizados: Sugerencias de mejora basadas en tu estilo de juego y datos de la comunidad, como por ejemplo sugerencias de objetos según el campeón que quieras jugar y en contra de cuales juegas. También te hará una plantilla donde podrás elegir que campeones te gusta jugar para darte consejos de que campeón de aquellos que te gustan deberías elegir en contra de enemigos concretos.<br>
-    5. La pagina también va a incluir vídeos de una corta duración haciendo una demostración de las habilidades de los personajes y de sus diferentes aspectos.<br>
-    </div>
-</details>
-
-     <details>
-     
+      </div>
+ <details>
 <summary><strong>Módulos del ciclo que tengan que ver con el proyecto</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-  
      <div>
 En el proyecto se incluirán varios módulos del curso:<br>
 1. Aplicaciones web: Este módulo es fundamental, ya que necesitamos desarrollar una página web funcional y atractiva. Para ello, utilizaremos lenguajes de programación como HTML y CSS.<br>
 2. Seguridad: La seguridad es un aspecto crucial. Implementaremos medidas para proteger nuestros servidores y la información de los usuarios (como sus nombres y contraseñas) contra posibles ataques o robos de datos.<br>
 3. Sistemas operativos en red: Este módulo se aplicará directamente en el uso de máquinas virtuales (MV) para nuestros servidores, lo cual es esencial para el despliegue del proyecto.<br>
 4. Servicios en red: Este módulo será imprescindible, ya que utilizaremos herramientas esenciales como DNS para el funcionamiento de nuestra plataforma.<br>
-         
-     </div>
      </details>
-
+     </div>
      <details>
 <summary><strong>Materiales necesarios:</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-
+<div>
 <strong>Fisicos:<br></strong>
 1. Ordenadores<br>
 <strong>Lógicos:<br></strong>
@@ -104,8 +72,9 @@ En el proyecto se incluirán varios módulos del curso:<br>
 7. Github<br>
 
 
-</details>
 
+   </div>
+</details>
 <details>
 <summary><strong>Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)</strong></summary>
    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
