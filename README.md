@@ -41,12 +41,9 @@ El objetivo principal es crear una página que sea realmente util y consistente 
 2. Seguridad: La seguridad es un aspecto crucial. Implementaremos medidas para proteger nuestros servidores y la información de los usuarios (como sus nombres y contraseñas) contra posibles ataques o robos de datos.<br>
 3. Sistemas operativos en red: Este módulo se aplicará directamente en el uso de máquinas virtuales (MV) para nuestros servidores, lo cual es esencial para el despliegue del proyecto.<br>
 4. Servicios en red: Este módulo será imprescindible, ya que utilizaremos herramientas esenciales como DNS para el funcionamiento de nuestra plataforma.<br>
- </div>
-</details>
-<details>
-<summary><strong>Materiales necesarios:</strong></summary>
+<br><br>
+<strong>Materiales necesarios:</strong>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-<div>
 <strong>Fisicos:<br></strong>
 1. Ordenadores<br>
 <strong>Lógicos:<br></strong>
@@ -59,8 +56,7 @@ El objetivo principal es crear una página que sea realmente util y consistente 
 7. Github<br>
 
 
-
-   </div>
+ </div>
 </details>
 <details>
 <summary><strong>Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)</strong></summary>
