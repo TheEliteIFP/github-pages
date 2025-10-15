@@ -88,7 +88,7 @@ En el proyecto se incluirán varios módulos del curso:<br>
      <details>
 <summary><strong>Materiales necesarios:</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-<div>
+
 <strong>Fisicos:<br></strong>
 1. Ordenadores<br>
 <strong>Lógicos:<br></strong>
@@ -99,7 +99,7 @@ En el proyecto se incluirán varios módulos del curso:<br>
 5. Vercel<br>
 6. Trello<br>
 7. Github<br>
-</div>
+
 
 </details>
 
