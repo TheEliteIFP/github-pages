@@ -86,7 +86,10 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 <details>
     <summary><strong>DIAGRAMA DE LA RED</strong></summary>
 </details>
-
+<details>
+    <summary><strong>MAPA FÍSICO</strong></summary>
+</details>
+<details><strong>MAPA LÓGICO</strong></details>
 <div align="center">
     <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
 </div>
