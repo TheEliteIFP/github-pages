@@ -126,6 +126,9 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
     <h2 style="text-align: center;">CONCLUSIONES</h2>
 </div>
 <div align="center">
+    <h2 style="text-align: center;">BIBLIOGRAFIA</h2>
+</div>
+<div align="center">
     <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
 </div>
 
