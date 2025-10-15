@@ -54,19 +54,15 @@ El objetivo principal es crear una página que sea realmente util y consistente 
 5. Vercel<br>
 6. Trello<br>
 7. Github<br>
-
-
- </div>
-</details>
-<details>
-<summary><strong>Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)</strong></summary>
-   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-<div>
-https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5
+<br><br>
+<strong>Recursos (Bibliografía, webgrafía, vídeos, cursos o demás multimedia)</strong>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5
 https://gist.github.com/dasdo/9ff71c5c0efa037441b6
 https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
+ </div>
 </details>
-</div>
+
     
 <div align="center">
     <h2 style="text-align: center;">PLANIFICACIÓN DE BASE DATOS</h2>
