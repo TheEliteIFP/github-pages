@@ -5,6 +5,11 @@
 ![Mi logo](assets/logo.png)
 
 <div align="center">
+    <h2 style="text-align: center;">Índice</h2>
+</div>
+
+
+<div align="center">
     <h2 style="text-align: center;">BRIEFING</h2>
 </div>
 
