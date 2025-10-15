@@ -81,6 +81,7 @@ https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
 Usuarios y contraseñas, plan de eventos de los partidos oficiales, imagenes personajes, imágenes objetos, videos de las skins y habilidades (muchos videos), imagenes de cada juego para la primera página, y las recomendaciones que te da segun tu personaje
 
 <strong>-¿Qué tema de información almacena?<br></strong>
+<br><br>
 Usuarios (con contraseñas), fechas, imagenes, videos.
 </div>
 <strong>-¿Por qué necesitas guardarla en la base de datos?</strong>
