@@ -21,6 +21,9 @@
 Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz más clara, ordenada y con nuevas herramientas exclusivas para la comunidad.
 <br><br>
 </div>
+</details>
+
+<details>
 <strong>¿Porque esta idea?</strong>
 
 
@@ -30,7 +33,8 @@ Como usuarios habituales de este tipo de páginas, creemos que sería interesant
 Otra razón importante es poder desarrollar una página que resuelva los fallos de las webs existentes en este ámbito. Al ser usuarios recurrentes de estos servicios, se ha identificado varias áreas de mejora y funcionalidades que serán muy útiles e interesantes para la comunidad.
 <br><br>
 </div>
-
+</details>
+<details>
 <strong>¿Hasta donde quiero llegar con este proyecto?</strong>
 <div>
 El objetivo principal es crear una página que sea realmente util y consistente tanto a nivel tecnico como a nivel visual, para ello se ha analizado distintas páginas ya existentes y listado las funcionalidades que la pagina acabará conteniendo. Dichas funciones son:<br>
@@ -41,14 +45,16 @@ El objetivo principal es crear una página que sea realmente util y consistente 
  5. La pagina también va a incluir videos de una corta duración haciendo una demostración de las habilidades de los personajes y de sus diferentes aspectos.<br>
 <br><br>
     </div>
-<strong>¿A quién va dirigido este proyecto?</strong>
+</details>
+<details>
+<summary><strong>¿A quién va dirigido este proyecto?</strong></summary>
 
 El proyecto está dirigido a la comunidad de League of Legends, un factor que nos beneficia mucho en términos de visibilidad. Al ser un juego para todos los públicos, el único "requisito" para usar nuestra plataforma es jugar al juego. Aunque mas adelante, si es posible, se incluiran más videojuegos ya que así el alcance podrá ser mayor y así abarcar otras comunidades.
 
  </details>
       
 
-
+<details>
     <summary><strong>Hasta donde quiero llegar con este proyecto?</strong></summary>
     <hr style="Margin-top: 10px; Margin-bottom: 10px; border: none; height: 1px; visibility: hidden;">
     <div>
