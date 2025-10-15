@@ -83,6 +83,7 @@ Usuarios y contraseñas, plan de eventos de los partidos oficiales, imagenes per
 <strong>-¿Qué tema de información almacena?<br></strong>
 Usuarios (con contraseñas), fechas, imagenes, videos.
 </div>
+<br><br>
 <strong>-¿Por qué necesitas guardarla en la base de datos?</strong>
 <div align="center">
   <img src="assets/tabla1.png" alt="tabla1">
