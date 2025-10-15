@@ -219,7 +219,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <h2 style="text-align: center;">BIBLIOGRAFIA</h2>
 </div>
 <div>
-https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5
-https://gist.github.com/dasdo/9ff71c5c0efa037441b6
-https://www.youtube.com/watch?v=niPExbK8lSw&t=518s
+https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5<br>
+https://gist.github.com/dasdo/9ff71c5c0efa037441b6<br>
+https://www.youtube.com/watch?v=niPExbK8lSw&t=518s<br>
 </div>
