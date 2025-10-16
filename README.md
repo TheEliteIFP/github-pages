@@ -61,6 +61,11 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 6. Trello<br>
 7. Github<br>
 8.Corrector<br>
+9.Servicio DHCP en un servidor Windows diferente<br>
+10.Servidor DNS primario<br>
+11.Firewall: pfSense o Sophos<br>
+12.Backup: Truenas y/o rsync<br>
+13.Plan de contingencia<br>
 </details>
     <div align="center">
     <h2 style="text-align: center;">INFORME DE BACKEND</h2>
