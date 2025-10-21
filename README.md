@@ -197,9 +197,9 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
 <details>
     <summary><strong>Home Page</strong></summary>
     <div align="center">
-  <img src="assets/OBejemplo.png" alt="OBejemplo">
+  <img src="assets/Homepage.png" alt="Homepage">
   </div>
-  
+  En nuestra Home page se encuentra primeramente una barra superior que contiene distintos objetos, comenzando por nuestro logo en un formato más pequeño y en la parte izquierda de la barra, seguido de "Campeones", "Notas del parche", "Ranking", "E-Sports", "PvP" y por último un buscador, y como se puede ver, estos últimos objetos se encuentran en la parte central de la barra superior. Seguido a esto, abajo tenemos el logo de "EliteGG" con un fondo del videojuego "League of Legends" y en su parte inferior otro buscador igual al anterior. Por último en la parte inferior tenemos un video decorativo del videojuego "League of Legends" que se reproduce de manera automática.
 </details> 
 </details>
 <details>
