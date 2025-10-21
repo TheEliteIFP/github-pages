@@ -211,6 +211,13 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
     </div>
          En nuestra galeria de campeones se puede observar un filtro para de esta manera poder encontrar a cualquier campeón en concreto de manera más rapida y sin que el usuario pierda el tiempo de manera innecesaria, los campeones estan presentados con un formato de tarjeta para que de esta forma se les pueda apreciar correctamente. 
      </details>
+    <details>
+       <summary><strong>Perfil de Jugador</strong></summary>
+         <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <div align="center">
+          <img src="assets/PerfilJ.png" alt="PerfilJ">
+    </div>
+        En esta platilla visual se puede observar el perfil de un jugador, aleatorio, en dicho perfil se puede obtener distinta información, como puede ser
 </details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
