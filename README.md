@@ -17,14 +17,14 @@
 Nuestro objetivo es crear una página similar a OP.GG, pero con una interfaz más clara, ordenada y con nuevas herramientas exclusivas para la comunidad. 
     <br><br>
     <details>
-    <summary><strong>¿Por qué esta idea?</strong></summary>
+    <summary><strong>¿POR QUÉ ESTA IDEA?</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 
 Como usuarios habituales de este tipo de páginas, creemos que sería interesante crear una que sea nuestra. Además, el tema nos apasiona, ya que trata de un videojuego que se disfruta en el tiempo libre.<br>
 Otra razón importante es poder desarrollar una página que resuelva los fallos de las webs existentes en este ámbito. Al ser usuarios recurrentes de estos servicios, se ha identificado varias áreas de mejora y funcionalidades que serán muy útiles e interesantes para la comunidad.
 </details>
 <details>
-<summary><strong>¿Hasta dónde quiero llegar con este proyecto?</strong></summary>
+<summary><strong>¿HASTA DÓNDE QUIERO LLEGAR CON ESTE PROYECTO?</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 El objetivo principal es crear una página que sea realmente útil y consistente tanto a nivel técnico como a nivel visual, para ello se ha analizado distintas páginas ya existentes y listado las funcionalidades que la página acabará conteniendo. Dichas funciones son:<br>
 1. Estadísticas personales detalladas: consultar historial de partidas, campeones más jugados y rendimiento por rol...<br>
@@ -34,12 +34,12 @@ El objetivo principal es crear una página que sea realmente útil y consistente
 5. La página también va a incluir videos de una corta duración haciendo una demostración de las habilidades de los personajes y de sus diferentes aspectos.<br>
 </details>
 <details>
- <summary><strong>¿A quién va dirigido este proyecto?</strong></summary>
+ <summary><strong>¿A QUIÉN VA DIRIGIDO ESTE PROYECTO?</strong></summary>
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 El proyecto está dirigido a la comunidad de League of Legends, un factor que nos beneficia mucho en términos de visibilidad. Al ser un juego para todos los públicos, el único "requisito" para usar nuestra plataforma es jugar al juego. Aunque más adelante, si es posible, se incluirán más videojuegos, ya que así el alcance podrá ser mayor y así abarcar otras comunidades.
 </details>
 <details>
- <summary><strong>Módulos del ciclo que tengan que ver con el proyecto</strong></summary>
+ <summary><strong>MÓDULOS DEL CICLO QUE TENGAN QUE VER CON EL PROYECTO</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  En el proyecto se incluirán varios módulos del curso:<br>
 1. Aplicaciones web: Este módulo es fundamental, ya que necesitamos desarrollar una página web funcional y atractiva. Para ello, utilizaremos lenguajes de programación como HTML y CSS.<br>
@@ -48,7 +48,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 4. Servicios en red: Este módulo será imprescindible, ya que utilizaremos herramientas esenciales como DNS para el funcionamiento de nuestra plataforma.<br>
 </details>
 <details>
-<summary><strong>Materiales necesarios:</strong></summary>
+<summary><strong>MATERIALES NECESARIOS:</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <strong>Físicos:<br></strong>
 1. Ordenadores<br>
@@ -71,7 +71,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
     <h2 style="text-align: center;">INFORME DE BACKEND</h2>
 </div>
 <details>
-<summary><strong>Identificaciones de entidades principales</strong></summary>
+<summary><strong>IDENTIFICACIONES DE ENTIDADES PRINCIPALES</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
 <strong>¿Qué elementos importantes hay en tu web que necesitan almacenarse?<br></strong>
@@ -98,7 +98,7 @@ Todo lo que muestra la tabla serían los metadatos de este campeón.
 </details>
 
 <details>
-<summary><strong>Datos que se deben guardar de cada entidad (atributos)</strong></summary>
+<summary><strong>DATOS QUE SE DEBEN GUARDAR DE CADA ENTIDAD (ATRIBUTOS)</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 Para cada entidad identificada en el punto anterior, describe qué información concreta se necesita guardar.
 Por ejemplo, si una entidad es “Usuario”:<br>
@@ -129,7 +129,7 @@ Afirmativo/negativo<br>
 </div>
 </details>
 <details>
-<summary><strong>Relaciones entre tablas</strong></summary>
+<summary><strong>RELACIONES ENTRE TABLAS</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <div>
 
@@ -149,7 +149,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 </details>
 
 <details>
-<summary><strong>Ejemplo de datos</strong></summary>
+<summary><strong>EJEMPLOS DE DATOS</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div>
     Incluye un ejemplo de cada entidad con datos ficticios pero realistas.<br>
@@ -193,9 +193,9 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 <details>
     <summary><strong>DISEÑO</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <br><br>
 Aqui se podrá observar las bases a nivel visual de lo que será la página web de EliteGG. 
 <details>
-    <br><br>
     <summary><strong>HOME PAGE</strong></summary>
     <div align="center">
   <img src="assets/Homepage.png" alt="Homepage">
