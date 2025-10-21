@@ -195,8 +195,8 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 Aqui se podrá observar las bases a nivel visual de lo que será la página web de EliteGG. 
 <details>
-    <summary><strong>HOME PAGE</strong></summary>
     <br><br>
+    <summary><strong>HOME PAGE</strong></summary>
     <div align="center">
   <img src="assets/Homepage.png" alt="Homepage">
   </div>
