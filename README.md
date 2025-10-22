@@ -221,7 +221,16 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
 </details>
     <details>
      <summary><strong>PvP</strong></summary>  
-        
+        <div align="center">
+  <img src="assets/PvP.png" alt="PvP">
+</div>
+        En <strong>"PvP"</strong> lo que ocurre es la comparación de cuentas de dos jugadores distintos, se deja de mostrar el historial de partidas y se comparan estadísticas en formato de porcentajes de ambos jugadores, de esta forma se puede analizar quien de los dos tiene un nivel más alto.
+    </details>
+    <details>
+      <summary><strong>E-sports</strong></summary>     
+        <div align="center">
+  <img src="assets/E-sports.png" alt="E-sports">
+</div>
     </details>
 </details>
 <details>
