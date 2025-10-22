@@ -193,7 +193,6 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 <details>
     <summary><strong>DISEÑO</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-    </details>
 Aqui se podrá observar las bases a nivel visual de lo que será la página web de EliteGG. 
     <br><br>
     <details>
@@ -219,6 +218,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
           <img src="assets/PerfilJ.png" alt="PerfilJ">
     </div>
         En esta platilla visual se puede observar el perfil de un jugador, aleatorio, en dicho perfil se puede obtener distinta información, como puede ser
+</details>
 </details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
