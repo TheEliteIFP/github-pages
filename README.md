@@ -235,6 +235,20 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
 </div>
         En la sección <strong>"E-sports"</strong> hay distintas funciones, cuándo el usuario accede a <strong>"E-sports"</strong> se le muestra en primer lugar una selección de las distintas ligas que hay en activo en este momento, una vez escoge la liga se le muestra un calendario con las fechas de los partidos que habrá en el futuro, junto a una lista general de todos los equipos, en esta parte de la página el usuario también tiene la opción de añadir un equipo como favorito, por último el usuario también puede acceder dentro de un equipo en concreto para ver la plantilla de jugadores con la que cuenta.
     </details>
+    <details>
+         <summary><strong>Campeón</strong></summary>
+         <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+         <div align="center">
+  <img src="assets/Campeon.png" alt="Campeon">
+</div>
+        Este es el plano de lo que aparecerá una vez entremos a un campeón en concreto, habrá dos formas de hacerlo, ya sea buscando su nombre en las barras de busqueda o en la galeria de campeones, una vez entremos lo que podremos observar serán imágenes de los distintos aspectos de dicho campeón, acompañadas del su respectivo nombre y en un formato llamado "carrusel". Ademas haciendo scroll hacia abajo habrá distintos botones que te llevarán a las siguientes ubicaciones:<br> 
+        "Build"<br>
+        "Habilidades"<br>
+        "Matchups"<br>
+        "Fast Combos"<br>
+        "Parches"<br>
+    Todo esto enfocado al personaje que hayamos escogido anteriormente. Por último si el usuario decide seguir scrolleando se encontrara con una sección especial de la historia del campeón.
+    </details>
 </details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
