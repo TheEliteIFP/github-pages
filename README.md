@@ -1,4 +1,4 @@
-<div align="center">
+qqqqqqqqqqqqqqqqqqq<div align="center">
     <h1 style="text-align: center;">EliteGG</h1>
 </div>
 
@@ -195,8 +195,8 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 Aqui se podrá observar las bases a nivel visual de lo que será la página web de EliteGG. 
     <br><br>
-</details>
-<details>
+
+    <details>
     <summary><strong>Home page</strong></summary>
      <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <div align="center">
@@ -219,6 +219,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
           <img src="assets/PerfilJ.png" alt="PerfilJ">
     </div>
         En esta platilla visual se puede observar el perfil de un jugador, aleatorio, en dicho perfil se puede obtener distinta información, como puede ser
+</details>
 </details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
