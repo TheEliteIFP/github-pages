@@ -242,11 +242,12 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
   <img src="assets/Campeon.png" alt="Campeon">
 </div>
         Este es el plano de lo que aparecerá una vez entremos a un campeón en concreto, habrá dos formas de hacerlo, ya sea buscando su nombre en las barras de busqueda o en la galeria de campeones, una vez entremos lo que podremos observar serán imágenes de los distintos aspectos de dicho campeón, acompañadas del su respectivo nombre y en un formato llamado "carrusel". Ademas haciendo scroll hacia abajo habrá distintos botones que te llevarán a las siguientes ubicaciones:<br> 
-        "Build"<br>
-        "Habilidades"<br>
-        "Matchups"<br>
-        "Fast Combos"<br>
-        "Parches"<br>
+        <strong>
+        1. Build<br>
+        2. Habilidades<br>
+        3. Matchups<br>
+        4. Fast Combos<br>
+        5. Parches<br></strong>
     Todo esto enfocado al personaje que hayamos escogido anteriormente. Por último si el usuario decide seguir scrolleando se encontrara con una sección especial de la historia del campeón.
     </details>
 </details>
