@@ -217,8 +217,12 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
     <div align="center">
           <img src="assets/PerfilJ.png" alt="PerfilJ">
     </div>
-        En esta platilla visual se puede observar el perfil de un jugador, aleatorio, en dicho perfil se puede obtener distinta información, como puede ser
+        En esta plantilla visual se puede observar el perfil de un jugador aleatorio, en dicho perfil se puede obtener distinta información, como puede ser su nivel de cuenta dentro del videojuego, cuánta gente a visualizado su perfil, su rango, el historial de partidas, los roles que juega y las indicaciones de con cuánta frequencia los juega junto el porcentaje de partidas que gana con cada rol y cuales són los campeones que juega más. 
 </details>
+    <details>
+     <summary><strong>PvP</strong></summary>  
+        
+    </details>
 </details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
