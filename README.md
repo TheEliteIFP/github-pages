@@ -241,7 +241,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
          <div align="center">
   <img src="assets/Campeon.png" alt="Campeon">
 </div>
-        Este es el plano de lo que aparecerá una vez entremos a un campeón en concreto, habrá dos formas de hacerlo, ya sea buscando su nombre en las barras de busqueda o en la galeria de campeones, una vez entremos lo que podremos observar serán imágenes de los distintos aspectos de dicho campeón, acompañadas del su respectivo nombre y en un formato llamado "carrusel". Ademas haciendo scroll hacia abajo habrá distintos botones que te llevarán a las siguientes ubicaciones:<br> 
+        Este es el plano de lo que aparecerá una vez entremos a un campeón en concreto, habrá dos formas de hacerlo, ya sea buscando su nombre en las barras de búsqueda o en la galería de campeones, una vez entremos lo que podremos observar serán imágenes de los distintos aspectos de dicho campeón, acompañadas del su respectivo nombre y en un formato llamado "carrusel". Además haciendo scroll hacia abajo habrá distintos botones que te llevarán a las siguientes ubicaciones:<br> 
         <strong>
         1. Build<br>
         2. Habilidades<br>
@@ -255,6 +255,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
          <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
          <div align="center">
   <img src="assets/Habilidades.png" alt="Habilidades">
+             Este es el plano de uno de lo que se verá dentro del boton <strong>"Habilidades"</strong> anteriormente mencionado. Aqui se podrá observar todas las habilidades del campeón que hayamos seleccionado, acompañadas de un video demostrativo y una descripción de cada habilidad respectivamente.
 </div>
     </details>
     <div align="center">
