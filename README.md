@@ -209,7 +209,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
     <div align="center">
           <img src="assets/Galeria.png" alt="Galeria">
     </div>
-         En nuestra galeria de campeones se puede observar un filtro para de esta manera poder encontrar a cualquier campeón en concreto de manera más rapida y sin que el usuario pierda el tiempo de manera innecesaria, los campeones estan presentados con un formato de tarjeta para que de esta forma se les pueda apreciar correctamente. 
+         En nuestra galería de campeones se puede observar un filtro para de esta manera poder encontrar a cualquier campeón en concreto de manera más rápida y sin que el usuario pierda el tiempo de manera innecesaria, los campeones están presentados con un formato de tarjeta para que de esta forma se les pueda apreciar correctamente.
      </details>
     <details>
        <summary><strong>Perfil de Jugador</strong></summary>
@@ -217,7 +217,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
     <div align="center">
           <img src="assets/PerfilJ.png" alt="PerfilJ">
     </div>
-        En esta plantilla visual se puede observar el perfil de un jugador aleatorio, en dicho perfil se puede obtener distinta información, como puede ser su nivel de cuenta dentro del videojuego, cuánta gente a visualizado su perfil, su rango, el historial de partidas, los roles que juega y las indicaciones de con cuánta frequencia los juega junto el porcentaje de partidas que gana con cada rol y cuales són los campeones que juega más. 
+      En esta plantilla visual se puede observar el perfil de un jugador aleatorio, en dicho perfil se puede obtener distinta información, como puede ser su nivel de cuenta dentro del videojuego, cuánta gente ha visualizado su perfil, su rango, el historial de partidas, los roles que juega y las indicaciones de con cuánta frecuencia los juega junto al porcentaje de partidas que gana con cada rol y cuáles son los campeones que juega más.
 </details>
     <details>
      <summary><strong>PvP</strong></summary>  
@@ -233,6 +233,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
         <div align="center">
   <img src="assets/E-sports.png" alt="E-sports">
 </div>
+        En la sección <strong>"E-sports"</strong> hay distintas funciones, cuándo el usuario accede a <strong>"E-sports"</strong> se le muestra en primer lugar una selección de las distintas ligas que hay en activo en este momento, una vez escoge la liga se le muestra un calendario con las fechas de los partidos que habrá en el futuro, junto a una lista general de todos los equipos, en esta parte de la página el usuario también tiene la opción de añadir un equipo como favorito, por último el usuario también puede acceder dentro de un equipo en concreto para ver la plantilla de jugadores con la que cuenta.
     </details>
 </details>
 <details>
