@@ -220,7 +220,6 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
     </div>
         En esta platilla visual se puede observar el perfil de un jugador, aleatorio, en dicho perfil se puede obtener distinta información, como puede ser
 </details>
-</details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
 </details>
