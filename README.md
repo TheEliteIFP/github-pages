@@ -250,6 +250,9 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
         5. Parches<br></strong>
     Todo esto enfocado al personaje que hayamos escogido anteriormente. Por último si el usuario decide seguir scrolleando se encontrara con una sección especial de la historia del campeón.
     </details>
+    <div align="center">
+    <h2 style="text-align: center;"></h2>
+</div>
 </details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
