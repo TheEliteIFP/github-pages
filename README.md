@@ -250,6 +250,13 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
         5. Parches<br></strong>
     Todo esto enfocado al personaje que hayamos escogido anteriormente. Por último si el usuario decide seguir scrolleando se encontrara con una sección especial de la historia del campeón.
     </details>
+    <details>
+          <summary><strong>Habilidades</strong></summary>
+         <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+         <div align="center">
+  <img src="assets/Habilidades.png" alt="Habilidades">
+</div>
+    </details>
     <div align="center">
     <h2 style="text-align: center;"></h2>
 </div>
