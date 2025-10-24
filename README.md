@@ -270,6 +270,10 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
     <div align="center">
   <img src="assets/Build2.png" alt="Build2">
              </div>
+             Una vez escogida una build se te mostrara a detalle las <b>"Runas"</b> del tipo de build que el usuario haya escogido.
+             <div align="center">
+  <img src="assets/Build3.png" alt="Build3">
+             </div> 
  </details>
 </details>
 <details>
