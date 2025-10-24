@@ -284,6 +284,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
   <img src="assets/Build1.png" alt="Build1">
              </div>  
 </details>
+</details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
 </details>
