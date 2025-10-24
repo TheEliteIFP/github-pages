@@ -288,6 +288,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
  <details>
    <summary><strong>Combos</strong></summary>
      <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+  
  <div align="center">
   <img src="assets/Combos.png" alt="Combos">
              </div>
