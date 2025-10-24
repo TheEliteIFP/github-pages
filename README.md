@@ -286,8 +286,12 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
    Esto es lo que verá el usuario una vez entre a la sección "Matchups" del campeón que haya escogido anteriormente, aqui se podrá observar que tan bueno es tu campeón en contra de otro en concreto, acompañado de una lista general de campeones que contrarrestan el tuyo, y que campeones son contrarrestados por tu personaje.
 </details>
  <details>
-   <summary><strong>Matchups</strong></summary>
-  
+   <summary><strong>Combos</strong></summary>
+     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ <div align="center">
+  <img src="assets/Combos.png" alt="Combos">
+             </div>
+
 </details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
