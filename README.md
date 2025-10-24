@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
     <h1 style="text-align: center;">EliteGG</h1>
 </div>
 
@@ -259,17 +259,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
              Este es el plano de uno de lo que se verá dentro del boton <strong>"Habilidades"</strong> anteriormente mencionado. Aqui se podrá observar todas las habilidades del campeón que hayamos seleccionado, acompañadas de un video demostrativo y una descripción de cada habilidad respectivamente.
     </details>
         
-    <details>
-          <summary><strong>Builds</strong></summary>
-         <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-        
-             <div align="center">
-  <img src="assets/Build1.png" alt="Build1">
-             </div>
-            </details>
-    </details>
-    <div align="center">
-    <h2 style="text-align: center;"></h2>
+
 </div>
 </details>
 <details>
