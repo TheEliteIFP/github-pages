@@ -276,6 +276,13 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
              </div> 
              Después de las runas se mostrará una guia de los objetos que el usuario se debe comprar, junto al orden en el que lo debe hacer y el porcentaje de partidas que suelen ganar.
  </details>
+ <details>
+   <summary><strong>Matchups</strong></summary>
+         <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+         
+  <div align="center">
+  <img src="assets/Build1.png" alt="Build1">
+             </div>  
 </details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
