@@ -266,8 +266,11 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
   <div align="center">
   <img src="assets/Build1.png" alt="Build1">
              </div>  
+            Esto será lo primero que vea el usuario una vez entre al apartado de <b>BUILDS</b>, aqui se muestran tres tipos de build entre las que el usuario podrá escoger la que mas le guste.
+    <div align="center">
+  <img src="assets/Build2.png" alt="Build2">
+             </div>
  </details>
-</div>
 </details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
