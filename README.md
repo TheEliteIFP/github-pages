@@ -302,7 +302,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
     <summary><strong>MAPA DE NAVEGABILIDAD</strong></summary>
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  El mapa de navegabilidad de EliteGG está creado haciendo uso de la herramienta llamada "Miro". Aqui está el link para poder acceder a este: 
- <a href="https://miro.com/welcomeonboard/bTVUbUlFN1FGRnhXdG1xaGhqOHVJR1FHMzRRdFpmZmNpbDIvdFJVVXFWNEE1NzFYTGVOV0pnTk84eGR4VFBiVmFiNVAzckp5UkxlTGJUek93RkJ4a2FES25HKy9mVGh0L3pKZHowQnkrOXlKRnBndCtQZlRIM2RLR3ByRytSdEdnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=324546481202" target="_blank">Acceder al Mapa</a>
+ <a href="https://miro.com/welcomeonboard/bTVUbUlFN1FGRnhXdG1xaGhqOHVJR1FHMzRRdFpmZmNpbDIvdFJVVXFWNEE1NzFYTGVOV0pnTk84eGR4VFBiVmFiNVAzckp5UkxlTGJUek93RkJ4a2FES25HKy9mVGh0L3pKZHowQnkrOXlKRnBndCtQZlRIM2RLR3ByRytSdEdnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=324546481202"target="blank">Acceder al Mapa</a>
 </details>
 <div align="center">
     <h2 style="text-align: center;">SERVICIOS</h2>
