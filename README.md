@@ -293,6 +293,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
   <img src="assets/Combos.png" alt="Combos">
              </div>
              </details>
+             </details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
 </details>
