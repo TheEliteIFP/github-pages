@@ -292,6 +292,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
  <div align="center">
   <img src="assets/Combos.png" alt="Combos">
              </div>
+             En este apartado de la página web el usuario podrá acceder a una lista de distintos combos del personaje que haya escogido anteriormente, cada combo tendra una serie de pasos y un video de demostración para llevarlo a cabo y que el usuario los pueda entender de manera clara, además los combos están divididos por dificultad.
              </details>
              </details>
 <details>
@@ -299,6 +300,8 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
 </details>
 <details>
     <summary><strong>MAPA DE NAVEGABILIDAD</strong></summary>
+ <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ El mapa de navegabilidad de EliteGG está creado haciendo uso de la herramienta llamada "Miro". Aqui está el link para poder acceder a este: https://miro.com/welcomeonboard/bTVUbUlFN1FGRnhXdG1xaGhqOHVJR1FHMzRRdFpmZmNpbDIvdFJVVXFWNEE1NzFYTGVOV0pnTk84eGR4VFBiVmFiNVAzckp5UkxlTGJUek93RkJ4a2FES25HKy9mVGh0L3pKZHowQnkrOXlKRnBndCtQZlRIM2RLR3ByRytSdEdnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=324546481202
 </details>
 <div align="center">
     <h2 style="text-align: center;">SERVICIOS</h2>
