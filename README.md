@@ -275,6 +275,7 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
   <img src="assets/Build3.png" alt="Build3">
              </div> 
              Después de las runas se mostrará una guia de los objetos que el usuario se debe comprar, junto al orden en el que lo debe hacer y el porcentaje de partidas que suelen ganar.
+             </details>
  </details>
  <details>
    <summary><strong>Matchups</strong></summary>
