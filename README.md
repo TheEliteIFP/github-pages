@@ -212,10 +212,10 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 </div>
 </details>
 <details>
- <summary><strong>Funcionalidades</strong></summary>
+ <summary><strong>FUNCIONALIDADES</strong></summary>
  Las funcionalidades de la página las se enseñaran en tabla dividiéndolas en ID, Prioridad, Explicación, Interacción, Estado.
 <div align="center">
-  <img src="assets/Ranking.png" alt="Ranking">
+  <img src="assets/Funcionalidad.png" alt="Funcionalidad">
 </div>
 </details>
 <div align="center">
