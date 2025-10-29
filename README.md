@@ -177,14 +177,25 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  Estos són en formato lista los objetivos que tenemos con nuestra página:<br>
  <li>Desarrollar un sistema de registro/login seguro (intentaremos vincular el RIOT ID de los usuarios para poder verificar con más certeza quien accede a la página).</li>
-   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+<br><br>
  <li>Mostrar el historial de partidas, los campeones más jugados y el rendimiento por rol del usuario autenticado en una interfaz clara.</li>
-   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <div align="center">
           <img src="assets/PerfilJ.png" alt="PerfilJ">
     </div>
- <li>Implementar la funcionalidad de Combos rápidos y explicación de las habilidades del mismo basada en el campeón que le gusta al usuario.
-</li>
+   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ <li>Implementar la funcionalidad de Combos rápidos y explicación de las habilidades del mismo basada en el campeón que le gusta al usuario.</li>
+   <div align="center">
+  <img src="assets/Habilidades.png" alt="Habilidades">
+             </div>
+  <div align="center">
+  <img src="assets/Combos.png" alt="Combos">
+             </div>
+   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ <li>Integrar un calendario de eventos oficiales de LoL con la capacidad de que los usuarios marquen equipos favoritos para recibir notificaciones por correo.</li>
+       <div align="center">
+  <img src="assets/E-sports.png" alt="E-sports">
+</div>
+   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 </details>
 
 <div align="center">
