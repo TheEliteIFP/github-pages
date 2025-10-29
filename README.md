@@ -201,6 +201,10 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   <img src="assets/PvP.png" alt="PvP">
 </div>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ <li>Base de datos donde almacenemos los campeones actuales del juego con sus historias resumidas para los curiosos que les guste mirar más allá del juego.</li>
+  <div align="center">
+  <img src="assets/Galeria.png" alt="Galeria">
+</div>
 </details>
 
 <div align="center">
