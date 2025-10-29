@@ -205,6 +205,11 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   <div align="center">
   <img src="assets/Galeria.png" alt="Galeria">
 </div>
+     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ Ranking de los mejores jugadores que se actualiza de manera automática, pudiendo entrar a los perfiles de esos jugadores TOP.
+ <div align="center">
+  <img src="assets/Galeria.png" alt="Galeria">
+</div>
 </details>
 
 <div align="center">
