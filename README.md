@@ -196,6 +196,11 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   <img src="assets/E-sports.png" alt="E-sports">
 </div>
    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ <li>Botón de PvP, sirve para poder seleccionar 2 cuentas diferentes y comparar diferentes aspectos de ambos jugadores mostrados en pantalla.</li>
+       <div align="center">
+  <img src="assets/PvP.png" alt="PvP">
+</div>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 </details>
 
 <div align="center">
