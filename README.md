@@ -171,7 +171,20 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 
 <div align="center">
     <h2 style="text-align: center;">ARQUITECTURA DEL SOFTWARE</h2>
+ <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 </div>
+<details>
+ <summary><strong>OBJETIVOS</strong></summary>
+ Estos són en formato lista los objetivos que tenemos con nuestra página:<br>
+ <li>Desarrollar un sistema de registro/login seguro (intentaremos vincular el RIOT ID de los usuarios para poder verificar con más certeza quien accede a la página).</li>
+ <li>Mostrar el historial de partidas, los campeones más jugados y el rendimiento por rol del usuario autenticado en una interfaz clara.</li>
+    <div align="center">
+          <img src="assets/PerfilJ.png" alt="PerfilJ">
+    </div>
+ <li>Implementar la funcionalidad de Combos rápidos y explicación de las habilidades del mismo basada en el campeón que le gusta al usuario.
+</li>
+</details>
+
 <div align="center">
     <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
 </div>
