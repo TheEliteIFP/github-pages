@@ -208,10 +208,16 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
      <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  Ranking de los mejores jugadores que se actualiza de manera automática, pudiendo entrar a los perfiles de esos jugadores TOP.
  <div align="center">
-  <img src="assets/Galeria.png" alt="Galeria">
+  <img src="assets/Ranking.png" alt="Ranking">
 </div>
 </details>
-
+<details>
+ <summary><strong>Funcionalidades</strong></summary>
+ Las funcionalidades de la página las se enseñaran en tabla dividiéndolas en ID, Prioridad, Explicación, Interacción, Estado.
+<div align="center">
+  <img src="assets/Ranking.png" alt="Ranking">
+</div>
+</details>
 <div align="center">
     <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
 </div>
