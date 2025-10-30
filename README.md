@@ -213,6 +213,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 </details>
 <details>
  <summary><strong>FUNCIONALIDADES</strong></summary>
+  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  Las funcionalidades de la página las se enseñaran en tabla dividiéndolas en ID, Prioridad, Explicación, Interacción, Estado.
 <div align="center">
   <img src="assets/Funcionalidad.png" alt="Funcionalidad">
