@@ -218,6 +218,13 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   <img src="assets/Funcionalidad.png" alt="Funcionalidad">
 </div>
 </details>
+<details>
+ <summary><trong>RESPONSABLES DE TAREAS</trong></summary>
+ <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ <div align="center">
+  <img src="assets/Tareas.png" alt="Tareas">
+</div>
+</details>
 <div align="center">
     <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
 </div>
