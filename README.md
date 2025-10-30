@@ -219,8 +219,9 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 </div>
 </details>
 <details>
- <summary><trong>RESPONSABLES DE TAREAS</trong></summary>
+ <summary><strong>RESPONSABLES DE TAREAS</strong></summary>
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ Cada miembro del equipo de trabajo se encargará de diferentes aspectos del proyecto, intentando aportar cada uno en el aspecto que más destaca.
  <div align="center">
   <img src="assets/Tareas.png" alt="Tareas">
 </div>
