@@ -12,8 +12,8 @@
     <h2 style="text-align: center;">INTRODUCCIÓN</h2>
 </div>
 <aside>
- dsadsadsada
- dsadsadsa
+ dsadsadsada<br>
+ dsadsadsa<br>
 </aside>
 <div>
     EliteGG es una plataforma de análisis y seguimiento de estadísticas para distintos videojuegos, principalmente League of Legends, diseñada para jugadores que quieren mejorar y llevar un control más organizado de su progreso.
