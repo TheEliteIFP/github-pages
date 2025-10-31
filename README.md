@@ -233,6 +233,8 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 El proyecto usará diferentes programas para poder ser funcional, las detallaremos en formato lista:
 <br><br>
 <details>
+ <summary><strong>Programas</strong></summary>
+ <details>
  <summary><strong>DNS</strong></summary>
  Traduce el nombre de dominio a la dirección IP del servidor donde se aloja la web, permitiendo a los usuarios encontrar la plataforma.
 </details>
@@ -280,6 +282,8 @@ Plataforma de virtualización que permite crear máquinas virtuales, facilitando
  <summary><strong>CLOUDFARE</strong></summary>
 Servicio de CDN y seguridad que mejora la velocidad de carga de la web a nivel global y protege el sitio contra ataques DDoS.
 </details>
+</details>
+
 <div align="center">
     <h2 style="text-align: center;">RED</h2>
 </div>
