@@ -230,6 +230,55 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 <div align="center">
     <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
 </div>
+El proyecto usará diferentes programas para poder ser funcional, las detallaremos en formato lista:
+<details>
+ <summary><strong>DNS</strong></summary>
+ Traduce el nombre de dominio a la dirección IP del servidor donde se aloja la web, permitiendo a los usuarios encontrar la plataforma.
+</details>
+<details>
+ <summary><strong>DHCP</strong></summary>
+No es esencial para la web pública, pero se usaría internamente en la red de desarrollo o producción para asignar IPs automáticas a los servidores y máquinas virtuales.
+</details>
+<details>
+ <summary><strong>MYSQL</strong></summary>
+Es un sistema de gestión de bases de datos relacionales, para almacenar datos estructurados de Campeones, Objetos y Usuarios.
+</details>
+<details>
+ <summary><strong>DOCKER</strong></summary>
+Se utiliza para empaquetar la aplicación (Backend, DB y Nginx) en contenedores aislados, facilitando el despliegue rápido y consistente en cualquier entorno.
+</details>
+<details>
+ <summary><strong>PIHOLE</strong></summary>
+Se usaría en la red de desarrollo para bloquear publicidad y rastreadores a nivel de red para un entorno de trabajo más limpio.
+</details>
+<details>
+ <summary><strong>Rsync+SSH</strong></summary>
+Combina una herramienta de sincronización eficiente (<strong>Rsync</strong>) con una conexión segura (SSH) para desplegar o hacer copias de seguridad de archivos entre el entorno de desarrollo y el servidor de producción.
+</details>
+<details>
+ <summary><strong>Vercel</strong></summary>
+Propio para el Frontend (React), ofreciendo un despliegue y alojamiento rápidos con caché global.
+</details>
+<details>
+ <summary><strong>Github</strong></summary>
+Plataforma de control de versiones obligatoria donde se almacenará el código fuente del proyecto, gestionando ramas y la colaboración del equipo.
+</details>
+<details>
+ <summary><strong>Firewall</strong></summary>
+Software de seguridad de red que protege el servidor, filtrando el tráfico malicioso y asegurando que solo los puertos necesarios (80, 443, 8080) estén accesibles.
+</details>
+<details>
+ <summary><strong>APACHE</strong></summary>
+Puede usarse para servir el Frontend y gestionar el tráfico hacia el Backend.
+</details>
+<details>
+ <summary><strong>PROXMOX</strong></summary>
+Plataforma de virtualización que permite crear máquinas virtuales, facilitando la gestión de recursos de hardware y el aislamiento del entorno de producción.
+</details>
+<details>
+ <summary><strong>CLOUDFARE</strong></summary>
+Servicio de CDN y seguridad que mejora la velocidad de carga de la web a nivel global y protege el sitio contra ataques DDoS.
+</details>
 <div align="center">
     <h2 style="text-align: center;">RED</h2>
 </div>
