@@ -235,6 +235,11 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 </div>
 <details>
     <summary><strong>DIAGRAMA DE LA RED</strong></summary>
+ Este es el plano de cómo va a estar estructurada la red del proyecto.
+  <div align="center">
+  <img src="assets/Diagramared.png" alt="Diagramared">
+</div>
+
 </details>
 <details>
     <summary><strong>MAPA FÍSICO</strong></summary>
