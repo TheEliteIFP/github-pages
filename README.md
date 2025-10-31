@@ -231,6 +231,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
 </div>
 El proyecto usará diferentes programas para poder ser funcional, las detallaremos en formato lista:
+<br><br>
 <details>
  <summary><strong>DNS</strong></summary>
  Traduce el nombre de dominio a la dirección IP del servidor donde se aloja la web, permitiendo a los usuarios encontrar la plataforma.
