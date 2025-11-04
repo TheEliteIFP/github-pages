@@ -459,4 +459,11 @@ https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9
 https://gist.github.com/dasdo/9ff71c5c0efa037441b6<br>
 https://www.youtube.com/watch?v=niPExbK8lSw&t=518s<br>
 https://gemini.google.com/app?hl=es<br>
+https://tracker.gg/lol<br>
+https://thetrackernetwork.com/home/tos<br>
+https://www.leagueoflegends.com/es-es/champions/<br>
+https://soloqchallenge.gg/podio<br>
+https://universe.leagueoflegends.com/es_ES/champions/<br>
+https://www.deepseek.com/<br>
+ 
 </div>
