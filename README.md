@@ -84,6 +84,7 @@ Usuarios (con contraseñas), fechas, imágenes, videos.
 </div>
 <br><br>
 <strong>¿Por qué necesitas guardarla en la base de datos?</strong>
+ Aquí tenemos una tabla donde se explica de manera resumida la razón por la cual hay que guardar cada tipo de dato.
     <br><br>
 <div align="center">
   <img src="assets/tabla1.png" alt="tabla1">
