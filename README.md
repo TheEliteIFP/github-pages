@@ -235,7 +235,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 El proyecto usará diferentes programas para poder ser funcional, las detallaremos en formato lista:
 <br><br>
 <details>
- <summary><strong>Programas</strong></summary>
+ <summary><strong>PROGRAMAS</strong></summary>
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  <details>
  <summary><strong>DNS</strong></summary>
