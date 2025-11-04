@@ -51,7 +51,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 <summary><strong>MATERIALES NECESARIOS:</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <strong>Físicos:<br></strong>
-<li>Ordenadores<br></li>
+<li>Ordenadores<br></li>                                                          <li>Ordenadores</li>
 <strong>Lógicos:<br></strong>
 <li>Virtual Box (VM) <br></li>
 <li>Canva<br></li>
