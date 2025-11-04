@@ -138,16 +138,16 @@ Afirmativo/negativo<br>
     <div>
 
         
-<strong><li>USUARIOS y CAMPEÓN/PERSONAJE (Estadísticas y Progreso)<li></strong><br>
+<strong><li>USUARIOS y CAMPEÓN/PERSONAJE (Estadísticas y Progreso)<li></strong>
 Esta es la relación central para el análisis de estadísticas personales.<br>
 
-<strong><li>USUARIOS y EVENTO/PARTIDO OFICIAL (Notificaciones y Favoritos)</li></strong><br>
+<strong><li>USUARIOS y EVENTO/PARTIDO OFICIAL (Notificaciones y Favoritos)</li></strong>
 Esta relación permite al sistema enviar las notificaciones por correo de los partidos favoritos.<br>
 
-<strong><li>CAMPEÓN/PERSONAJE y OBJETOS (Consejos Personalizados)</li></strong><br>
+<strong><li>CAMPEÓN/PERSONAJE y OBJETOS (Consejos Personalizados)</li></strong>
 Esta relación es fundamental para la funcionalidad de sugerencia de objetos e ítems contra campeones enemigos.<br>
 
-<strong><li>CAMPEÓN/PERSONAJE u OBJETOS y ELEMENTOS MULTIMEDIA (Recursos)</li></strong><br>
+<strong><li>CAMPEÓN/PERSONAJE u OBJETOS y ELEMENTOS MULTIMEDIA (Recursos)</li></strong>
 Esta relación vincula los archivos de medios (imágenes, vídeos de skins, videos de habilidades) con la entidad a la que pertenecen.<br>
 </div>
 </details>
