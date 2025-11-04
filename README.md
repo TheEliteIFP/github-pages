@@ -288,11 +288,11 @@ Servicio de CDN y seguridad que mejora la velocidad de carga de la web a nivel g
 </details>
 <details>
  <summary><strong>SO QUE VAMOS A UTILIZAR</strong></summary>
- <strong>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  <li>Máquinas de desarrollo = Windows 11</li>
  <li>Plataforma de Virtualización = Proxmox</li>
  <li>Servidores DNS/DHCP = Pi Hole</li>
- </strong>
+ 
 </details>
 <div align="center">
     <h2 style="text-align: center;">RED</h2>
