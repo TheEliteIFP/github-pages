@@ -53,18 +53,18 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 <strong>Físicos:<br></strong>
 <li>Ordenadores<br></li>
 <strong>Lógicos:<br></strong>
-<li>Virtual Box (VM) </li><br>
+<li>Virtual Box (VM) <br></li>
 <li>Canva<br></li>
-<li>IA (Gemini)</li><br>
-<li>Visual Studio Code</li><br>
-<li>Vercel</li><br>
-<li>Trello</li><br>
+<li>IA (Gemini)<br></li>
+<li>Visual Studio Code<br></li>
+<li>Vercel<br></li>
+<li>Trello<br></li>
 <li>Github<br></li>
 <li>Corrector<br></li>
-<li>Servicio DHCP en un servidor Windows diferente</li><br>
-<li>Servidor DNS primario</li><br>
-<li>Firewall: pfSense o Sophos</li><br>
-<li>Backup: Truenas y/o rsync</li><br>
+<li>Servicio DHCP en un servidor Windows diferente<br></li>
+<li>Servidor DNS primario<br></li>
+<li>Firewall: pfSense o Sophos<br></li>
+<li>Backup: Truenas y/o rsync<br></li>
 <li>Plan de contingencia<br></li>
 </details>
     <div align="center">
