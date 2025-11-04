@@ -106,11 +106,11 @@ Todo lo que muestra la tabla serían los metadatos de este campeón.<br></strong
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 Para cada entidad identificada en el punto anterior, describe qué información concreta se necesita guardar.
 Por ejemplo, si una entidad es “Usuario”:<br>
-<li>Nombre</li><br>
-<li>Apellidos</li><br>
-<li>Correo electrónico</li><br>
-<li>Contraseña</li><br>
-<li>Fecha de registro</li><br>
+<li>Nombre</li>
+<li>Apellidos</li>
+<li>Correo electrónico</li>
+<li>Contraseña</li>
+<li>Fecha de registro</li>
     <br><br>
 <strong>Indica el tipo de dato esperado (texto, número, fecha, etc.) y la definición que consideras que corresponde (varchar, int, decimal...)</strong><br>
 <div align="center">
