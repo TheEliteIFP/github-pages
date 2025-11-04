@@ -83,7 +83,7 @@ Usuarios y contraseñas, plan de eventos de los partidos oficiales, imágenes pe
 Usuarios (con contraseñas), fechas, imágenes, videos.
 </div>
 <br><br>
-<strong>¿Por qué necesitas guardarla en la base de datos?</strong>
+<strong>¿Por qué necesitas guardarla en la base de datos?</strong><br>
  Aquí tenemos una tabla donde se explica de manera resumida la razón por la cual hay que guardar cada tipo de dato.
     <br><br>
 <div align="center">
