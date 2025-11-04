@@ -234,6 +234,7 @@ El proyecto usará diferentes programas para poder ser funcional, las detallarem
 <br><br>
 <details>
  <summary><strong>Programas</strong></summary>
+ <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  <details>
  <summary><strong>DNS</strong></summary>
  Traduce el nombre de dominio a la dirección IP del servidor donde se aloja la web, permitiendo a los usuarios encontrar la plataforma.
