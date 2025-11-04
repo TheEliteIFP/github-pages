@@ -52,7 +52,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <strong>Físicos:<br></strong>
 <li>Ordenadores<br></li>                                                         
-<strong><h3>Lógicos:</h3><br></strong>
+<strong><h4>Lógicos:</h4><br></strong>
 <li>Virtual Box (VM) <br></li>
 <li>Canva<br></li>
 <li>Chatgpt<br></li>
