@@ -48,11 +48,11 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 4. Servicios en red: Este módulo será imprescindible, ya que utilizaremos herramientas esenciales como DNS para el funcionamiento de nuestra plataforma.<br>
 </details>
 <details>
-<summary><strong>MATERIALES NECESARIOS:</strong></summary>
+<summary><strong>MATERIALES NECESARIOS</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-<strong>Físicos:<br></strong>
+<strong>FÍSICOS<br></strong>
 <li>Ordenadores<br></li>                                                         
-<strong><h4>Lógicos:</h4><br></strong>
+<strong>LÓGICOS<br></strong>
 <li>Virtual Box (VM) <br></li>
 <li>Canva<br></li>
 <li>Chatgpt<br></li>
@@ -114,7 +114,7 @@ Por ejemplo, si una entidad es “Usuario”:<br>
 <div align="center">
   <img src="assets/Tabla3.png" alt="Tabla3">
 </div>
-    <strong>*Booleano:</strong> Los datos booleanos son datos que se usan para conceptos positivos y negativos:<br>
+    <strong>*Booleano:</strong> Los datos booleanos son datos que se usan para conceptos positivos y negativos<br>
 Si/No<br>
 Verdadero/Falso<br>
 Afirmativo/negativo<br>
@@ -287,7 +287,7 @@ Servicio de CDN y seguridad que mejora la velocidad de carga de la web a nivel g
 </details>
 </details>
 <details>
- <summary><strong>SO que vamos a utilizar</strong></summary>
+ <summary><strong>SO QUE VAMOS A UTILIZAR</strong></summary>
  <strong>
  <li>Máquinas de desarrollo = Windows 11</li>
  <li>Plataforma de Virtualización = Proxmox</li>
