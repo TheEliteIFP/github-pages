@@ -51,21 +51,21 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 <summary><strong>MATERIALES NECESARIOS:</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <strong>Físicos:<br></strong>
-<li>Ordenadores<br>
+<li>Ordenadores<br></li>
 <strong>Lógicos:<br></strong>
-1. Virtual Box (VM) <br>
-2. Canva<br>
-3. IA (Gemini)<br>
-4. Visual Studio Code<br>
-5. Vercel<br>
-6. Trello<br>
-7. Github<br>
-8.Corrector<br>
-9.Servicio DHCP en un servidor Windows diferente<br>
-10.Servidor DNS primario<br>
-11.Firewall: pfSense o Sophos<br>
-12.Backup: Truenas y/o rsync<br>
-13.Plan de contingencia<br></li>
+<li>Virtual Box (VM) </li><br>
+<li>Canva<br></li>
+<li>IA (Gemini)</li><br>
+<li>Visual Studio Code</li><br>
+<li>Vercel</li><br>
+<li>Trello</li><br>
+<li>Github<br></li>
+<li>Corrector<br></li>
+<li>Servicio DHCP en un servidor Windows diferente</li><br>
+<li>Servidor DNS primario</li><br>
+<li>Firewall: pfSense o Sophos</li><br>
+<li>Backup: Truenas y/o rsync</li><br>
+<li>Plan de contingencia<br></li>
 </details>
     <div align="center">
     <h2 style="text-align: center;">INFORME DE BACKEND</h2>
