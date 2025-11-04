@@ -53,6 +53,8 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 <strong>Físicos:<br></strong>
 <li>Ordenadores<br></li>                                                         
 <strong>Lógicos:<br></strong>
+ <div class="Contenedor-dos-columnas">
+  <ul>
 <li>Virtual Box (VM) <br></li>
 <li>Canva<br></li>
 <li>Chatgpt<br></li>
@@ -68,6 +70,8 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 <li>Firewall: pfSense o Sophos<br></li>
 <li>Backup: Truenas y/o rsync<br></li>
 <li>Plan de contingencia<br></li>
+  </ul>
+ </div>
 </details>
     <div align="center">
     <h2 style="text-align: center;">INFORME DE BACKEND</h2>
