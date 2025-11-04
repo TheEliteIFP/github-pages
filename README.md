@@ -286,10 +286,11 @@ Servicio de CDN y seguridad que mejora la velocidad de carga de la web a nivel g
 </details>
 <details>
  <summary><strong>SO que vamos a utilizar</strong></summary>
+ <strong>
  <li>Máquinas de desarrollo = Windows 11</li>
  <li>Plataforma de Virtualización = Proxmox</li>
  <li>Servidores DNS/DHCP = Pi Hole</li>
- 
+ </strong>
 </details>
 <div align="center">
     <h2 style="text-align: center;">RED</h2>
