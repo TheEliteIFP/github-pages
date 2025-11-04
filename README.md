@@ -284,7 +284,13 @@ Plataforma de virtualización que permite crear máquinas virtuales, facilitando
 Servicio de CDN y seguridad que mejora la velocidad de carga de la web a nivel global y protege el sitio contra ataques DDoS.
 </details>
 </details>
-
+<details>
+ <summary><strong>SO que vamos a utilizar</strong></summary>
+ <li>Máquinas de desarrollo = Windows 11</li>
+ <li>Plataforma de Virtualización = Proxmox</li>
+ <li>Servidores DNS/DHCP = Pi Hole</li>
+ 
+</details>
 <div align="center">
     <h2 style="text-align: center;">RED</h2>
 </div>
