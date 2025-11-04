@@ -51,7 +51,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 <summary><strong>MATERIALES NECESARIOS:</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <strong>Físicos:<br></strong>
-1. Ordenadores<br>
+<li>Ordenadores<br>
 <strong>Lógicos:<br></strong>
 1. Virtual Box (VM) <br>
 2. Canva<br>
@@ -65,7 +65,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 10.Servidor DNS primario<br>
 11.Firewall: pfSense o Sophos<br>
 12.Backup: Truenas y/o rsync<br>
-13.Plan de contingencia<br>
+13.Plan de contingencia<br></li>
 </details>
     <div align="center">
     <h2 style="text-align: center;">INFORME DE BACKEND</h2>
@@ -102,11 +102,11 @@ Todo lo que muestra la tabla serían los metadatos de este campeón.
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 Para cada entidad identificada en el punto anterior, describe qué información concreta se necesita guardar.
 Por ejemplo, si una entidad es “Usuario”:<br>
-1.Nombre<br>
-2.Apellidos<br>
-3.Correo electrónico<br>
-4.Contraseña<br>
-5.Fecha de registro<br>
+<li>Nombre<br></li>
+<li>Apellidos</li><br>
+<li>Correo electrónico</li><br>
+<li>Contraseña<br></li>
+<li>Fecha de registro</li><br>
     <br><br>
 <strong>Indica el tipo de dato esperado (texto, número, fecha, etc.) y la definición que consideras que corresponde (varchar, int, decimal...)</strong><br>
 <div align="center">
@@ -365,11 +365,11 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
 </div>
         Este es el plano de lo que aparecerá una vez entremos a un campeón en concreto, habrá dos formas de hacerlo, ya sea buscando su nombre en las barras de búsqueda o en la galería de campeones, una vez entremos lo que podremos observar serán imágenes de los distintos aspectos de dicho campeón, acompañadas del su respectivo nombre y en un formato llamado "carrusel". Además haciendo scroll hacia abajo habrá distintos botones que te llevarán a las siguientes ubicaciones:<br> 
         <strong>
-        1. Build<br>
-        2. Habilidades<br>
-        3. Matchups<br>
-        4. Fast Combos<br>
-        5. Parches<br></strong>
+        <li>Build<br></li>
+        <li>Habilidades<br></li>
+        <li>Matchups<br></li>
+        <li>Fast Combos<br></li>
+        <li>Parches<br></li></strong>
     Todo esto enfocado al personaje que hayamos escogido anteriormente. Por último si el usuario decide seguir scrolleando se encontrara con una sección especial de la historia del campeón.
     </details>
     <details>
@@ -454,4 +454,5 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
 https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5<br>
 https://gist.github.com/dasdo/9ff71c5c0efa037441b6<br>
 https://www.youtube.com/watch?v=niPExbK8lSw&t=518s<br>
+https://gemini.google.com/app?hl=es<br>
 </div>
