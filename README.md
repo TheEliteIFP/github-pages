@@ -138,7 +138,7 @@ Afirmativo/negativo<br>
     <div>
 
         
-<strong><li>USUARIOS y CAMPEÓN/PERSONAJE (Estadísticas y Progreso)<li></strong>
+<strong><li>USUARIOS y CAMPEÓN/PERSONAJE (Estadísticas y Progreso)</li></strong>
 Esta es la relación central para el análisis de estadísticas personales.<br>
 
 <strong><li>USUARIOS y EVENTO/PARTIDO OFICIAL (Notificaciones y Favoritos)</li></strong>
