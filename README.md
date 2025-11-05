@@ -317,9 +317,9 @@ Servicio de CDN y seguridad que mejora la velocidad de carga de la web a nivel g
     <h2 style="text-align: center;">WEB</h2>
 </div>
 <details>
-    <summary><strong>DISEÑO</strong></summary>
+    <summary><strong>MOCKUP</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-Aqui se podrá observar las bases a nivel visual de lo que será la página web de EliteGG. 
+La paleta principal de colores que compone la página son el negro, blanco, morado y amarillo, esto para dar una sensación de estilo neon ya que la página está dirigida al gaming. Además aqui se podrá observar las bases a nivel visual de lo que será la página web de EliteGG. 
     <br><br>
     <details>
     <summary><strong>Home page</strong></summary>
@@ -421,9 +421,6 @@ Aqui se podrá observar las bases a nivel visual de lo que será la página web 
              En este apartado de la página web el usuario podrá acceder a una lista de distintos combos del personaje que haya escogido anteriormente, cada combo tendra una serie de pasos y un video de demostración para llevarlo a cabo y que el usuario los pueda entender de manera clara, además los combos están divididos por dificultad.
              </details>
              </details>
-<details>
-    <summary><strong>MOCKUP</strong></summary>
-</details>
 <details>
     <summary><strong>MAPA DE NAVEGABILIDAD</strong></summary>
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
