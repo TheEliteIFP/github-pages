@@ -242,13 +242,13 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 <details>
  <summary><strong>DIVISIÓN DE CONTENEDORES LCX</strong></summary>
  Un contenedor LXC (Linux Containers) es una tecnología de virtualización ligera a nivel de sistema operativo para entornos Linux. Para este proyecto se hará uso de esta tecnologia de esta manera:
- <details><summary><strong><li>Máquina Virtual (VM 101)</summary></strong></li></details>
+<strong><li>Máquina Virtual (VM 101)</li></strong>
  Gateway / Firewall (iptables) / DHCP (isc-dhcp-server).
- <details><summary><strong><li>Contenedor de DNS (CT 105)</summary></strong></li></details>
+ <strong><li>Contenedor de DNS (CT 105)</li></strong>
  Pi-hole (DNS + Bloqueador de anuncios)
- <details><summary><strong><li>Contenedor de Base de Datos (CT 107)</summary></strong></li></details>
+<strong><li>Contenedor de Base de Datos (CT 107)</strong></li>
  MySQL (Base de Datos)
- <details><summary><strong><li>Contenedor Backup (CT 108)</summary></strong></li></details>
+ <strong><li>Contenedor Backup (CT 108)</strong></li>
  NAS (Samba/NFS)
 </details>
 <div align="center">
