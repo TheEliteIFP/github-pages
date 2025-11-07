@@ -299,6 +299,7 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
   <summary><strong>PHP</strong></summary>
   Procesa y ejecuta el código dinámico de las aplicaciones para enviárselo a Nginx.
 </details>
+</details>
 <details>
  <summary><strong>SO QUE VAMOS A UTILIZAR</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
