@@ -231,6 +231,14 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   <img src="assets/Tareas.png" alt="Tareas">
 </div>
 </details>
+<details>
+ <summary><strong>CRONOGRAMA DE TAREAS</strong></summary>
+ <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">ç
+ Aquí se puede observar un cronograma para asignar fechas límite de cada tarea, indicando aproximaciones de cuando se debe o se debería tener acabada una tarea u objetivo en concreto.
+ <div align="center">
+  <img src="assets/Cronograma.png" alt="Cronograma">
+</div>
+</details>
 <div align="center">
     <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
 </div>
