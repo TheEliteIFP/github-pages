@@ -280,20 +280,12 @@ Software de seguridad de red que protege el servidor, filtrando el tráfico mali
 Puede usarse para servir el Frontend y gestionar el tráfico hacia el Backend.
 </details>
 <details>
- <summary><strong>PROXMOX</strong></summary>
-Plataforma de virtualización que permite crear máquinas virtuales, facilitando la gestión de recursos de hardware y el aislamiento del entorno de producción.
-</details>
-<details>
  <summary><strong>NGINX</strong></summary>
 Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido estático.
 </details>
  <details>
   <summary><strong>PHP</strong></summary>
   Procesa y ejecuta el código dinámico de las aplicaciones para enviárselo a Nginx.
- </details>
- <details><summary><strong>NAS</strong></summary>
-  Sistema operativo similar a Proxmox para poder manejar de manera gráfica, tanto las copias de seguridad como las Raids de los datos de nuestro servidor.
- </details>
 </details>
 <details>
  <summary><strong>SO QUE VAMOS A UTILIZAR</strong></summary>
