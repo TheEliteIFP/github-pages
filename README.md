@@ -241,7 +241,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 </details>
 <details>
  <summary><strong>DIVISIÓN DE CONTENEDORES LCX</strong></summary>
- Un contenedor LXC (Linux Containers) es una tecnología de virtualización ligera a nivel de sistema operativo para entornos Linux. Para este proyecto se hará uso de esta tecnologia de esta manera:
+ Un contenedor LXC (Linux Containers) es una tecnología de virtualización ligera a nivel de sistema operativo para entornos Linux. Para este proyecto se hará uso de esta tecnologia de esta manera:<br><br>
 <strong><li>Máquina Virtual (VM 101)</li></strong>
  Gateway / Firewall (iptables) / DHCP (isc-dhcp-server).
  <strong><li>Contenedor de DNS (CT 105)</li></strong>
