@@ -252,16 +252,8 @@ No es esencial para la web pública, pero se usaría internamente en la red de d
 Es un sistema de gestión de bases de datos relacionales, para almacenar datos estructurados de Campeones, Objetos y Usuarios.
 </details>
 <details>
- <summary><strong>DOCKER</strong></summary>
-Se utiliza para empaquetar la aplicación (Backend, DB y Nginx) en contenedores aislados, facilitando el despliegue rápido y consistente en cualquier entorno.
-</details>
-<details>
  <summary><strong>PIHOLE</strong></summary>
 Se usaría en la red de desarrollo para bloquear publicidad y rastreadores a nivel de red para un entorno de trabajo más limpio.
-</details>
-<details>
- <summary><strong>Rsync+SSH</strong></summary>
-Combina una herramienta de sincronización eficiente (<strong>Rsync</strong>) con una conexión segura (SSH) para desplegar o hacer copias de seguridad de archivos entre el entorno de desarrollo y el servidor de producción.
 </details>
 <details>
  <summary><strong>Vercel</strong></summary>
@@ -284,16 +276,26 @@ Puede usarse para servir el Frontend y gestionar el tráfico hacia el Backend.
 Plataforma de virtualización que permite crear máquinas virtuales, facilitando la gestión de recursos de hardware y el aislamiento del entorno de producción.
 </details>
 <details>
- <summary><strong>CLOUDFARE</strong></summary>
-Servicio de CDN y seguridad que mejora la velocidad de carga de la web a nivel global y protege el sitio contra ataques DDoS.
+ <summary><strong>NGINX</strong></summary>
+Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido estático.
 </details>
+ <details>
+  <summary><strong>PHP</strong></summary>
+  Procesa y ejecuta el código dinámico de las aplicaciones para enviárselo a Nginx.
+ </details>
+ <details><summary><strong>NAS</strong></summary>
+  Sistema operativo similar a Proxmox para poder manejar de manera gráfica, tanto las copias de seguridad como las Raids de los datos de nuestro servidor.
+ </details>
 </details>
 <details>
  <summary><strong>SO QUE VAMOS A UTILIZAR</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
- <li>Máquinas de desarrollo = Windows 11</li>
  <li>Plataforma de Virtualización = Proxmox</li>
- <li>Servidores DNS/DHCP = Pi Hole</li>
+ <li>Servidor de Backup = NAS</li>
+ <li>Servidores DNS = Debian</li>
+ <li>Servidor de Aplicación/Web/DB = Debian</li>
+ <li>Dhcp + Router = Debian + IP tables</li>
+ <li>Máquinas de Desarrollo = Windows 11</li>
  
 </details>
 <div align="center">
