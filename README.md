@@ -416,25 +416,22 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
              <div align="center">
   <img src="assets/Build3.png" alt="Build3">
              </div> 
-         
-             </details>
-             <details>
+ </details>
+   <details>
    <summary><strong>Matchups</strong></summary>
          <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-         
+   Esto es lo que verá el usuario una vez entre a la sección "Matchups" del campeón que haya escogido anteriormente, aqui se podrá observar que tan bueno es tu campeón en contra de otro en concreto, acompañado de una lista general de campeones que contrarrestan el tuyo, y que campeones son contrarrestados por tu personaje.       
   <div align="center">
   <img src="assets/Matchups.png" alt="Matchups">
              </div>
-   Esto es lo que verá el usuario una vez entre a la sección "Matchups" del campeón que haya escogido anteriormente, aqui se podrá observar que tan bueno es tu campeón en contra de otro en concreto, acompañado de una lista general de campeones que contrarrestan el tuyo, y que campeones son contrarrestados por tu personaje.
    </details>
    <details>
    <summary><strong>Combos</strong></summary>
      <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-  
+      En este apartado de la página web el usuario podrá acceder a una lista de distintos combos del personaje que haya escogido anteriormente, cada combo tendra una serie de pasos y un video de demostración para llevarlo a cabo y que el usuario los pueda entender de manera clara, además los combos están divididos por dificultad.
  <div align="center">
   <img src="assets/Combos.png" alt="Combos">
              </div>
-             En este apartado de la página web el usuario podrá acceder a una lista de distintos combos del personaje que haya escogido anteriormente, cada combo tendra una serie de pasos y un video de demostración para llevarlo a cabo y que el usuario los pueda entender de manera clara, además los combos están divididos por dificultad.
              </details>
              </details>
 <details>
