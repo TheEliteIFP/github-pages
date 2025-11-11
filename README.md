@@ -331,10 +331,11 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
 <div align="center">
     <h2 style="text-align: center;">WEB</h2>
 </div>
+Aqui tendremos la planificación a nivel tanto visual como interactivo de lo que será nuestra
 <details>
     <summary><strong>MOCKUP</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-La paleta principal de colores que compone la página son el negro, blanco, morado y amarillo, esto para dar una sensación de estilo neon ya que la página está dirigida al gaming. Además aqui se podrá observar las bases a nivel visual de lo que será la página web de EliteGG. 
+Aquí se podrá observar las bases a nivel visual de lo que será la página web de EliteGG. Para empezar la paleta principal de colores que compone la página son el negro, blanco, morado y amarillo, esto para dar una sensación de estilo neon ya que la página está dirigida al gaming. Seguido esto tenemos cada apartado de la página.
     <br><br>
     <details>
     <summary><strong>Home page</strong></summary>
