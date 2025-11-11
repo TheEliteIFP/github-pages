@@ -324,6 +324,10 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
 </details>
 <details>
     <summary><strong>MAPA FÍSICO</strong></summary>
+ Aqui se puede observar las máquinas/hardware que va a utilizarse para el desarrollo de la web.
+  <div align="center">
+  <img src="assets/Mapafisico.png" alt="Mapafisico">
+</div>
 </details>
 <details>
     <summary><strong>MAPA LÓGICO</strong></summary>
