@@ -329,9 +329,6 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
   <img src="assets/Mapafisico.png" alt="Mapafisico">
 </div>
 </details>
-<details>
-    <summary><strong>MAPA LÓGICO</strong></summary>
-    </details>
 <div align="center">
     <h2 style="text-align: center;">WEB</h2>
 </div>
