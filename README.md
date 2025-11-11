@@ -318,7 +318,7 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
     <summary><strong>DIAGRAMA DE LA RED</strong></summary>
  Este es el plano de cómo va a estar estructurada la red del proyecto.
   <div align="center">
-  <img src="assets/Diagramared.png" alt="Diagramared">
+  <img src="assets/DIAGRAMARED.png" alt="DIAGRAMARED">
 </div>
 
 </details>
