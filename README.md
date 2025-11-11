@@ -251,6 +251,25 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
  <strong><li>Contenedor Backup (CT 108)</strong></li>
  NAS (Samba/NFS)
 </details>
+<details>
+ <summary><strong>¿Qué datos voy a pedir al usuario y que tipos de usuarios voy a tener?</strong></summary>
+  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ <strong>-Datos solicitados al usuario</strong>
+<li>Riot ID (El cual ya está vinculado a un correo electrónico).</li>
+<li>Nombre de usuario</li>
+<li>Contraseña</li>
+<li>Teléfono móvil</li>
+<li>Correo electrónico</li>
+<strong>-Tipos de usuarios</strong>
+<li>Usuario sin cuenta: Este usuario solo tendrá acceso a la galería de campeones y sus derivados, pero no podrá ni guardar configuraciones ni equipos seleccionados ni recibir notificaciones de manera automática.</li>
+<li>Usuario ya registrado: Este usuario ya puede tener tanto equipos favoritos, cuentas y campeones, además de tener la opción de tener notificaciones automáticas.</li>
+<li>Administradores: Cuenta que solo tendremos los propietarios de la página para poder modificar pequeñas cosas de la base de datos.</li>
+<strong>-Tipos de datos</strong>
+ <div align="center">
+  <img src="assets/Tablausuarios.png" alt="Tablausuarios">
+</div>
+
+</details>
 <div align="center">
     <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
 </div>
