@@ -292,6 +292,14 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
  <div align="center">
   <img src="assets/Eventox.png" alt="Eventox">
 </div>
+ <strong>-Definiciones de lo que queremos usar:</strong>
+ <li><strong>Varchar (X):</strong> Este tipo de dato está hecho para carácter variables, lo que habrá entre  los paréntesis será el número máximo de bits que podremos usar, por ejemplo, si lo que tengo que sacar es un “hola” solo usará 4 bits, sin desperdiciar el resto.</li>
+ <li><strong>ENUM:</strong> ENUM se utiliza para un campo donde solo se permite uno de un conjunto predefinido de valores.
+Todo valor que no esté dentro de esa lista predefinida, se devolverá.</li>
+ <li><strong>Text:</strong> Formato de texto libre. </li>
+ <li><strong>Int o Bigint:</strong> Números enteros sin decimales.</li>
+ <li><strong>DATETIME:</strong> Para registrar un momento exacto, incluyendo tanto la fecha como la hora.</li>
+ <li><strong>JSON (JavaScript Object Notation):</strong> Se usa para almacenar datos complejos y semi-estructurados, como listas anidadas o pares clave-valor.</li>
 </details>
 <div align="center">
     <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
