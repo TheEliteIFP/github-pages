@@ -277,6 +277,9 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
  <div align="center">
   <img src="assets/Skinx.png" alt="Skinx">
 </div>
+  <div align="center">
+  <img src="assets/Itemx.png" alt="Itemx">
+</div>
 </details>
 <div align="center">
     <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
