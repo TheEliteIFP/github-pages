@@ -292,7 +292,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
  <div align="center">
   <img src="assets/Eventox.png" alt="Eventox">
 </div>
- <strong>-Definiciones de lo que queremos usar:</strong>
+ <strong>DEFINICIONES DE LO QUE QUEREMOS USAR:</strong>
  <li><strong>Varchar (X):</strong> Este tipo de dato está hecho para carácter variables, lo que habrá entre  los paréntesis será el número máximo de bits que podremos usar, por ejemplo, si lo que tengo que sacar es un “hola” solo usará 4 bits, sin desperdiciar el resto.</li>
  <li><strong>ENUM:</strong> ENUM se utiliza para un campo donde solo se permite uno de un conjunto predefinido de valores.
 Todo valor que no esté dentro de esa lista predefinida, se devolverá.</li>
