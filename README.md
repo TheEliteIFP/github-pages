@@ -18,11 +18,11 @@ El objetivo es crear una página similar a OP.GG, pero con una interfaz más cla
 
  
  <div class="gallery-container">
-  <img src="JORDI.webp" alt="JORDI">
+  <img src="assets/JORDI.webp" alt="JORDI">
  
-  <img src="ERIK.webp" alt="ERIK">
+  <img src="assets/ERIK.webp" alt="ERIK">
   
-  <img src="CHRISTIAN.webp" alt="CHRISTIAN">
+  <img src="assets/CHRISTIAN.webp" alt="CHRISTIAN">
   
   </div>
     
