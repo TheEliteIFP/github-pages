@@ -268,7 +268,9 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
  <div align="center">
   <img src="assets/Tablausuarios.png" alt="Tablausuarios">
 </div>
-
+ <div align="center">
+  <img src="assets/Campeonesh.png" alt="Campeonesh">
+</div>
 </details>
 <div align="center">
     <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
