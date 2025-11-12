@@ -283,6 +283,9 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   <div align="center">
   <img src="assets/Runax.png" alt="Runax">
 </div>
+   <div align="center">
+  <img src="assets/Equipox.png" alt="Equipox">
+</div>
 </details>
 <div align="center">
     <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
