@@ -351,9 +351,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   <img src="assets/Cronograma.png" alt="Cronograma">
 </div>
  Aqui tenemos un diagrama de gantt, hecho con Excel y que indica de manera mucho mas precisa y extensa que el cronograma anterior los tiempos de nuestros objetivos a completar.
-  <div align="center">
-  <img src="assets/Gantt.png" alt="Gantt">
-</div>
+ <a href="https://docs.google.com/spreadsheets/d/1vdO17U3JqT5LDkLZkZSWqC-pszDx7UJ8b-GnVSr70g0/edit?usp=sharing"> <target=blank>Acceder al Excel</a>
 </details>
 <details>
  <summary><strong>DIVISIÓN DE CONTENEDORES LCX</strong></summary>
