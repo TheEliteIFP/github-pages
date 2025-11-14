@@ -76,7 +76,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 <li>Plan de contingencia<br></li>
 </details>
     <div align="center">
-    <h2 style="text-align: center;">INFORME DE BACKEND</h2>
+    <h2 style="text-align: center;">INFORME DE BACKEND DE DB</h2>
 </div>
 <details>
 <summary><strong>IDENTIFICACIONES DE ENTIDADES PRINCIPALES</strong></summary>
@@ -275,6 +275,12 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
          </details>
         </details> 
    </details>
+
+<details>
+<summary><strong>DIAGRAMA DE RELACIONES DB</strong></summary>
+ <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;"> 
+ Aqui se podra observar el diagrama de las relaciones que habrá entre las distintas tablas de la base de datos, junto a las claves foráneas y Claves Primarias de cada una de ellas. Esta está creada utilizando la herramineta llamada "Miro".  <a href="https://miro.com/app/board/uXjVJrWZfZw=/?share_link_id=536533743359"> <target=blank>Acceder al Diagrama</a>. 
+</details>
 </div>
 </details>
 
