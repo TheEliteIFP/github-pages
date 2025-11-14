@@ -190,7 +190,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
    <li>Fecha de registro</li>
   </details>
   <details>
-<summary><strong>Campeones</strong></summary>
+<summary><strong>CAMPEONES</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
    <li>ID Campeón</li>
    <li>Nombre del campeón</li>
@@ -205,6 +205,43 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
    <li>Skins</li>
    <li>Precio</li>
   </details>
+   <details>
+    <summary><strong>BUILDS/strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <li>ID Build</li>
+    <li>Runas</li>
+    <li>Items</li>
+   </details>
+  <details>
+    <summary><strong>ITEMS</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+   <li>ID de Item</li>
+   <li>Nombre de items</li>
+   <li>Precio de Items</li>
+   <li>Venta de Item</li>
+   <li>Estadísticas de item</li>
+   <li>Imagen de Item</li>
+   <li>Activación</li>
+   <li>Pasiva</li>
+   <li>Lore de Item</li>
+   <li>Rama de Creación</li> 
+  </details>
+   <details>
+       <summary><strong>RUNAS</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <li>ID Runa</li>
+    <li>Runa Padre</li>
+    <li>Runa Secundaria</li>
+    <li>Estadísticas adicionales</li>
+   <details>
+       <summary><strong>RUNAS</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">    
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+   </details>
 </div>
 </details>
 
