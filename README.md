@@ -206,7 +206,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
    <li>Precio</li>
   </details>
    <details>
-    <summary><strong>BUILDS/strong></summary>
+    <summary><strong>BUILDS</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <li>ID Build</li>
     <li>Runas</li>
