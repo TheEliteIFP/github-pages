@@ -175,7 +175,9 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 <div align="center">
   <img src="assets/OBejemplo.png" alt="OBejemplo">
   </div>
- <details>
+
+ </details>
+  <details>
 <summary><strong>LISTA DE DATOS DB</strong></summary>
   
   <details>
@@ -191,7 +193,6 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 
    
   </details>
- </details>
 </div>
 </details>
 
