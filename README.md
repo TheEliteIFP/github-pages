@@ -175,7 +175,23 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 <div align="center">
   <img src="assets/OBejemplo.png" alt="OBejemplo">
   </div>
+ <details>
+<summary><strong>LISTA DE DATOS DB</strong></summary>
   
+  <details>
+   <summary><strong>USUARIOS</strong></summary>
+   <li>Riot ID</li>
+   <li>Contraseña</li>
+   <li>Correo</li>
+   <li>Teléfono</li>
+   <li>Fecha de registro</li>
+  </details>
+  <details>
+<summary><strong>Campeones</strong></summary>
+
+   
+  </details>
+ </details>
 </div>
 </details>
 
