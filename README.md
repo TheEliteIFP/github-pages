@@ -15,24 +15,6 @@
 <div>
     EliteGG es una plataforma de análisis y seguimiento de estadísticas para distintos videojuegos, principalmente League of Legends, diseñada para jugadores que quieren mejorar y llevar un control más organizado de su progreso.
 El objetivo es crear una página similar a OP.GG, pero con una interfaz más clara, ordenada y con nuevas herramientas exclusivas para la comunidad. Los fundadores de este proyecto son:
- ```ascii
-TAREAS                                                         | 2024                                                                 | 2025
-                                                              | N  | D  | E  | F  |
-==============================================================|====|====|====|====|
-Formulario de registro/login (RIOT ID)                       |####|####|    |    |
-Estadísticas Básicas de perfil (RIOT ID)                     |####|####|    |    |
-Comparación de usuarios en pantalla                          |####|####|    |    |
-Historial de partidas, KDA y campeones                       |####|####|    |    |
---------------------------------------------------------------|----|----|----|----|
-Gestión de datos admin (Campeones, objetos, eventos)         |    |####|####|    |
---------------------------------------------------------------|----|----|----|----|
-Calendario Eventos oficiales + fav/notificaciones            |    |    |####|####|
-Guardar equipo favorito + notificación correo                |    |    |####|####|
---------------------------------------------------------------|----|----|----|----|
-Recursos multimedia                                          |    |    |    |####|
---------------------------------------------------------------|----|----|----|----|
-
-Leyenda: #### = Período de desarrollo
 <div align="center">
     <h3 style="text-align: center;">THE ELITE</h3>
 </div>
@@ -257,8 +239,41 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <li>Equipos</li>
     <li>Ligas</li>
     <li>Jugadores</li>
+     <details>
+       <summary><strong>EQUIPOS</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">   
+    <li>ID Equipo</li>
+    <li>Nombre del Equipo</li>
+    <li>Foto del Equipo</li>
+    <li>Jugadores del equipo</li>
+    <li>Logros del equipo</li>
+    <li>Historia del equipo</li>
+    <li>Redes sociales del equipo</li>
+    <li>Calendario de equipo</li>
+        <details>
+       <summary><strong>JUGADORES</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">   
+    <li>ID Jugador</li>
+    <li>Nombre del equipo</li>
+    <li>Foto del jugador</li>
+    <li>Rol del jugador</li>
+    <li>Trayectoria del jugador</li>
+    <li>Premios del jugador</li>
+    <li>Redes sociales del jugador</li>
+    <li>Campeón preferido (provisional)</li>
+         <details>
+       <summary><strong>JUGADORES</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;"> 
+    <li>ID liga</li>
+    <li>Nombre de la liga</li>
+    <li>Foto de la liga</li>
+    <li>Equipos</li>
+    <li>Región</li>
     <li></li>
     <li></li>
+    <li></li>
+         </details>
+        </details> 
    </details>
 </div>
 </details>
