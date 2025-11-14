@@ -235,7 +235,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <li>Estadísticas adicionales</li>
    </details>
    <details>
-       <summary><strong>E-Sports</strong></summary>
+       <summary><strong>E-SPORTS</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">    
     <li>Equipos</li>
     <li>Ligas</li>
@@ -266,7 +266,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <li>Campeón preferido (provisional)</li>
         </details>
          <details>
-       <summary><strong>JUGADORES</strong></summary>
+       <summary><strong>LIGAS</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;"> 
     <li>ID liga</li>
     <li>Nombre de la liga</li>
