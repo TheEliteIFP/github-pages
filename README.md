@@ -269,9 +269,6 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <li>Foto de la liga</li>
     <li>Equipos</li>
     <li>Región</li>
-    <li></li>
-    <li></li>
-    <li></li>
          </details>
         </details> 
    </details>
