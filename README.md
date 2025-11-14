@@ -233,12 +233,14 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <li>Runa Padre</li>
     <li>Runa Secundaria</li>
     <li>Estadísticas adicionales</li>
+   </details>
    <details>
        <summary><strong>E-Sports</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">    
     <li>Equipos</li>
     <li>Ligas</li>
     <li>Jugadores</li>
+   </details>
      <details>
        <summary><strong>EQUIPOS</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">   
@@ -250,6 +252,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <li>Historia del equipo</li>
     <li>Redes sociales del equipo</li>
     <li>Calendario de equipo</li>
+     </details>
         <details>
        <summary><strong>JUGADORES</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">   
@@ -261,6 +264,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <li>Premios del jugador</li>
     <li>Redes sociales del jugador</li>
     <li>Campeón preferido (provisional)</li>
+        </details>
          <details>
        <summary><strong>JUGADORES</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;"> 
