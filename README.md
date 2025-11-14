@@ -15,25 +15,6 @@
 <div>
     EliteGG es una plataforma de análisis y seguimiento de estadísticas para distintos videojuegos, principalmente League of Legends, diseñada para jugadores que quieren mejorar y llevar un control más organizado de su progreso.
 El objetivo es crear una página similar a OP.GG, pero con una interfaz más clara, ordenada y con nuevas herramientas exclusivas para la comunidad. Los fundadores de este proyecto son:
- TAREAS                                                         | 2024                                                                 | 2025
-                                                              | N  | D  | E  | F  |
-==============================================================|====|====|====|====|
-Formulario de registro/login (RIOT ID)                       |####|####|    |    |
-Estadísticas Básicas de perfil (RIOT ID)                     |####|####|    |    |
-Comparación de usuarios en pantalla                          |####|####|    |    |
-Historial de partidas, KDA y campeones                       |####|####|    |    |
---------------------------------------------------------------|----|----|----|----|
-Gestión de datos admin (Campeones, objetos, eventos)         |    |####|####|    |
---------------------------------------------------------------|----|----|----|----|
-Calendario Eventos oficiales + fav/notificaciones            |    |    |####|####|
-Guardar equipo favorito + notificación correo                |    |    |####|####|
---------------------------------------------------------------|----|----|----|----|
-Recursos multimedia                                          |    |    |    |####|
---------------------------------------------------------------|----|----|----|----|
-
-Leyenda:
-#### = Período de desarrollo/implementación
-N = Noviembre, D = Diciembre, E = Enero, F = Febrero
 <div align="center">
     <h3 style="text-align: center;">THE ELITE</h3>
 </div>
@@ -253,11 +234,11 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
     <li>Runa Secundaria</li>
     <li>Estadísticas adicionales</li>
    <details>
-       <summary><strong>RUNAS</strong></summary>
+       <summary><strong>E-Sports</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">    
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Equipos</li>
+    <li>Ligas</li>
+    <li>Jugadores</li>
     <li></li>
     <li></li>
    </details>
