@@ -179,9 +179,10 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
  </details>
   <details>
 <summary><strong>LISTA DE DATOS DB</strong></summary>
-  
+  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
   <details>
    <summary><strong>USUARIOS</strong></summary>
+   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
    <li>Riot ID</li>
    <li>Contraseña</li>
    <li>Correo</li>
@@ -190,8 +191,19 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
   </details>
   <details>
 <summary><strong>Campeones</strong></summary>
-
-   
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+   <li>ID Campeón</li>
+   <li>Nombre del campeón</li>
+   <li>Apodo</li>
+   <li>Rol principal</li>
+   <li>Clase</li>
+   <li>Lore del campeón</li>
+   <li>Estadísticas del campeón nvl 1</li>
+   <li>Imagen del campeón</li>
+   <li>Habilidades</li>
+   <li>Combos</li>
+   <li>Skins</li>
+   <li>Precio</li>
   </details>
 </div>
 </details>
