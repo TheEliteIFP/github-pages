@@ -349,11 +349,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 <details>
  <summary><strong>CRONOGRAMA DE TAREAS</strong></summary>
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
- Aquí se puede observar un cronograma para asignar fechas límite de cada tarea, indicando aproximaciones de cuando se debe o se debería tener acabada una tarea u objetivo en concreto.
- <div align="center">
-  <img src="assets/Cronograma.png" alt="Cronograma">
-</div>
- Aqui tenemos un diagrama de gantt, hecho con Excel y que indica de manera mucho mas precisa y extensa que el cronograma anterior los tiempos de nuestros objetivos a completar.
+ Aqui tenemos un diagrama de gantt, hecho con Excel y que indica de manera precisa y extensa los tiempos de nuestros objetivos a completar.
  <a href="https://docs.google.com/spreadsheets/d/1vdO17U3JqT5LDkLZkZSWqC-pszDx7UJ8b-GnVSr70g0/edit?usp=sharing"> <target=blank>Acceder al Excel</a>
 </details>
 <details>
