@@ -280,7 +280,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 <details>
 <summary><strong>RELACIONES DB</strong></summary>
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;"> 
- Aqui se podra observar las relaciones que habrá entre las distintas tablas de la base de datos, junto a las claves foráneas y Claves Primarias de cada una de ellas. Esta está creada utilizando la plataforma MYSQL Workbench.<a href="https://miro.com/app/board/uXjVJrWZfZw=/?share_link_id=536533743359"> <target=blank>A</a>. 
+ Aqui se podra observar las relaciones que habrá entre las distintas tablas de la base de datos, junto a las claves foráneas y Claves Primarias de cada una de ellas. Esta está creada utilizando la plataforma MYSQL Workbench.
     <div align="center">
           <img src="assets/DiagramaDB.png" alt="DiagramaDB">
     </div>
