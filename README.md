@@ -481,16 +481,9 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
     <summary><strong>DIAGRAMA DE LA RED</strong></summary>
  Este es el plano de cómo va a estar estructurada la red del proyecto.
   <div align="center">
-  <img src="assets/DIAGRAMARED.png" alt="DIAGRAMARED">
+  <img src="assets/DIAGRAMAREDBUENO.png" alt="DIAGRAMAREDBUENO">
 </div>
 
-</details>
-<details>
-    <summary><strong>MAPA FÍSICO</strong></summary>
- Aqui se puede observar las máquinas/hardware que va a utilizarse para el desarrollo de la web.
-  <div align="center">
-  <img src="assets/Mapafisico.png" alt="Mapafisico">
-</div>
 </details>
 <div align="center">
     <h2 style="text-align: center;">WEB</h2>
