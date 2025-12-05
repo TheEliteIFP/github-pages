@@ -703,7 +703,7 @@ Existen diversos modelos de Arduino, como el Uno, Mega, Nano y Leonardo. Cada u
 </div>
 Arduino se programa utilizando un lenguaje propio, el “C”, que a su vez está basado en C++.
    <div align="center">
-  <img src="assets/C++.png" alt="ardmodelo.png">
+  <img src="assets/C+++.png" alt="ardmodelo.png">
              </div>
 es una versión simplificada, con funciones específicas para interactuar fácilmente con las placas del Arduino. Este lenguaje de programación mantiene una curva de aprendizaje más accesible para los principiantes.
 <div align="center">
