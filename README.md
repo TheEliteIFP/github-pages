@@ -639,4 +639,4 @@ https://www.deepseek.com/<br>
     <h1 style="text-align: center;">ACERO IMPURO</h1>
 </div>
 
-![logo](assets/milogo.png)
+![logo](assets/logoacero.png)
