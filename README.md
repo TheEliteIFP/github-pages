@@ -670,5 +670,17 @@ Arduino nació en 2005 en el Instituto de Diseño Interactivo de Ivrea, Italia. 
              </div>
 Su idea era ofrecer a los estudiantes una herramienta de proyectos electrónica que fuera sencilla, de bajo coste y rápida de aprender. Tras el cierre del instituto, el proyecto se liberó, impulsando su fama.
 <div align="center">
-    <h2 style="text-align: center;">¿Cuál es su origen?</h2>
+    <h2 style="text-align: center;">¿Cuáles son sus características mas importantes?</h2>
 </div>
+Arduino es de código abierto (hardware y software libres), los dos factores mas importantes son:
+<strong><li>Creatividad</li><br></strong>
+La creatividad. Destaca por su flexibilidad para adaptarse y su facilidad de uso, ideal para principiantes gracias a un lenguaje de programación simple.
+<strong><li>Bajo coste</li><br></strong>
+Su bajo coste lo hace accesible, y cuenta con una gran comunidad global que ofrece
+<div align="center">
+    <h2 style="text-align: center;">¿Qué modelos hay?</h2>
+</div>
+Existen diversos modelos de Arduino, como el Uno, Mega, Nano y Leonardo. Cada uno varía en sus piezas, el voltaje que usa (generalmente 5V), y la cantidad de pines digitales y entradas analógicas. También se diferencian en la capacidad de memoria (Flash, SRAM, EEPROM) y la velocidad del reloj. Estas diferencias los hacen adecuados para distintos tipos y dificultades de proyectos.
+  <div align="center">
+  <img src="assets/ardmodelo.png" alt="ardmodelo.png">
+             </div>
