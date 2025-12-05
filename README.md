@@ -650,7 +650,7 @@ Un arduino se compone de dos partes principales, la física y digital.
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  La física se compone de una placa la cual puedes modificar o manejar a tu gusto
   <div align="center">
-  <img src="assets/Matchups.png" alt="ardfisico.png">
+  <img src="assets/ardfisico.png" alt="ardfisico.png">
              </div>
 </details>
 <details>
@@ -658,6 +658,6 @@ Un arduino se compone de dos partes principales, la física y digital.
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  La parte digital es la parte donde puedes escribir un código para darle una serie de instrucciones y así hacer que el Arduino tenga la función que tu quieras.
   <div align="center">
-  <img src="assets/Matchups.png" alt="IDEar.png">
+  <img src="assets/IDEar.png" alt="IDEar.png">
              </div>
 </details>
