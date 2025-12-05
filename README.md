@@ -672,10 +672,10 @@ Su idea era ofrecer a los estudiantes una herramienta de proyectos electrónica
 <div align="center">
     <h2 style="text-align: center;">¿Cuáles son sus características mas importantes?</h2>
 </div>
-Arduino es de código abierto (hardware y software libres), los dos factores mas importantes son:
-<strong><li>Creatividad</li><br></strong>
-La creatividad. Destaca por su flexibilidad para adaptarse y su facilidad de uso, ideal para principiantes gracias a un lenguaje de programación simple.
-<strong><li>Bajo coste</li><br></strong>
+Arduino es de código abierto (hardware y software libres), los dos factores mas importantes son:<br>
+<strong><li>Creatividad</li></strong>
+La creatividad. Destaca por su flexibilidad para adaptarse y su facilidad de uso, ideal para principiantes gracias a un lenguaje de programación simple.<br>
+<strong><li>Bajo coste</li></strong>
 Su bajo coste lo hace accesible, y cuenta con una gran comunidad global que ofrece
 <div align="center">
     <h2 style="text-align: center;">¿Qué modelos hay?</h2>
