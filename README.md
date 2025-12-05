@@ -634,3 +634,9 @@ https://universe.leagueoflegends.com/es_ES/champions/<br>
 https://www.deepseek.com/<br>
  
 </div>
+
+ <div align="center">
+    <h1 style="text-align: center;">ACERO IMPURO</h1>
+</div>
+
+![logo](assets/milogo.png)
