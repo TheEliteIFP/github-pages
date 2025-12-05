@@ -661,3 +661,14 @@ Un arduino se compone de dos partes principales, la física y digital.
   <img src="assets/IDEar.png" alt="IDEar.png">
              </div>
 </details>
+<div align="center">
+    <h2 style="text-align: center;">¿Cuál es su origen?</h2>
+</div>
+Arduino nació en 2005 en el Instituto de Diseño Interactivo de Ivrea, Italia. Fue creado por un equipo liderado por Massimo Banzi.
+  <div align="center">
+  <img src="assets/notch.png" alt="notch.png">
+             </div>
+Su idea era ofrecer a los estudiantes una herramienta de proyectos electrónica que fuera sencilla, de bajo coste y rápida de aprender. Tras el cierre del instituto, el proyecto se liberó, impulsando su fama.
+<div align="center">
+    <h2 style="text-align: center;">¿Cuál es su origen?</h2>
+</div>
