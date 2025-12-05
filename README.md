@@ -640,3 +640,24 @@ https://www.deepseek.com/<br>
 </div>
 
 ![logo](assets/logoacero.png)
+
+<div align="center">
+    <h2 style="text-align: center;">¿Qué es Arduino?</h2>
+</div>
+Un arduino se compone de dos partes principales, la física y digital.
+<details>
+ <summary><strong>Física</strong></summary>
+  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ La física se compone de una placa la cual puedes modificar o manejar a tu gusto
+  <div align="center">
+  <img src="assets/Matchups.png" alt="ardfisico.png">
+             </div>
+</details>
+<details>
+ <summary><strong>Digital</strong></summary>
+  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+ La parte digital es la parte donde puedes escribir un código para darle una serie de instrucciones y así hacer que el Arduino tenga la función que tu quieras.
+  <div align="center">
+  <img src="assets/Matchups.png" alt="IDEar.png">
+             </div>
+</details>
