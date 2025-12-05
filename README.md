@@ -684,3 +684,17 @@ Existen diversos modelos de Arduino, como el Uno, Mega, Nano y Leonardo. Cada u
   <div align="center">
   <img src="assets/ardmodelo.png" alt="ardmodelo.png">
              </div>
+<div align="center">
+    <h2 style="text-align: center;">¿Para qué sirve?</h2>
+</div>
+ Arduino sirve para crear una gran cantidad de proyectos electrónicos y de robótica. Suele usarse para escuelas donde se enseña programación y donde se hacen trabajos básicos de robótica.
+ <strong><li>Sistemas para casas</li></strong>
+ Controla sensores y actuadores en sistemas interactivos.
+   <div align="center">
+  <img src="assets/casaar.png" alt="ardmodelo.png">
+             </div>
+  <strong><li>Edificios automáticos</li></strong>
+  Controla sensores y actuadores en sistemas interactivos.
+     <div align="center">
+  <img src="assets/edar.png" alt="ardmodelo.png">
+             </div>
