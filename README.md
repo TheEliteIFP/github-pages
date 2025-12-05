@@ -698,3 +698,18 @@ Existen diversos modelos de Arduino, como el Uno, Mega, Nano y Leonardo. Cada u
      <div align="center">
   <img src="assets/edar.png" alt="ardmodelo.png">
              </div>
+<div align="center">
+    <h2 style="text-align: center;">¿Qué lenguaje utiliza?</h2>
+</div>
+Arduino se programa utilizando un lenguaje propio, el “C”, que a su vez está basado en C++.
+   <div align="center">
+  <img src="assets/C++.png" alt="ardmodelo.png">
+             </div>
+es una versión simplificada, con funciones específicas para interactuar fácilmente con las placas del Arduino. Este lenguaje de programación mantiene una curva de aprendizaje más accesible para los principiantes.
+<div align="center">
+    <h2 style="text-align: center;">¿Qué es el IDE?</h2>
+</div>
+El Arduino IDE es el Entorno de Desarrollo Integrado oficial y gratuito.
+ <div align="center">
+  <img src="assets/IDEard.png" alt="ardmodelo.png">
+             </div>
