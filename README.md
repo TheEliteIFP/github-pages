@@ -714,7 +714,7 @@ El Arduino IDE es el Entorno de Desarrollo Integrado oficial y gratuito.
   <img src="assets/IDEard.png" alt="ardmodelo.png">
              </div>
 <div align="center">
-    <h3 style="text-align: center;">Actividad 0 Blink</h3>
+    <h2 style="text-align: center;">ACTIVIDAD 0 BLINK</h2>
 </div>
 Objetivo: Utilizaremos el ESP32-S3 WROOM para controlar el parpadeo de un LED común<br>
 <strong>Lista de componentes:</strong>
@@ -734,10 +734,11 @@ Es un codigo que hace que un LED parpadee de forma repetida. Esto es para indica
 Es un LED que viene soldado a la placa Arduino, casi siempre el pin 13, su uso es comprobar que el codigo funciona.
 </details>
 
-<strong>¿Qué quiere decir la línea delay(1000); ?</strong>
+<details><summary><strong>¿Qué quiere decir la línea delay(1000); ?</strong></summary>
 Le dice al Arduino que se detenga y no haga absolutamente nada durante el tiempo especificado, el numero se mide siempre en milisegundos, en este caso al ser 1000 es un segundo de espera.
+</details>
 <div align="center">
-    <h3 style="text-align: center;">Actividad 1 Semáforo</h3>
+    <h2 style="text-align: center;">ACTIVIDAD 1 SEMÁFORO</h2>
 </div>
 <strong>Lista de componentes:</strong>
 <li>Placa ESP32</li>
