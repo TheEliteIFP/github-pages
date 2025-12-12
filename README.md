@@ -720,7 +720,7 @@ Objetivo: Utilizaremos el ESP32-S3 WROOM para controlar el parpadeo de un LED co
 <strong>Lista de componentes:</strong>
 <li>Placa ESP32</li>
 <li>Cable USB</li><br>
-El ESP32-S3 WROOM necesita una corriente de 5v, aunque en esta actividad lo vamos a conectar directamente al PC vía el cable USB.
+El ESP32-S3 WROOM necesita una corriente de 5v, aunque en esta actividad lo vamos a conectar directamente al PC vía el cable USB.<br>
 <details><summary><strong>Buscar en el manual de referencia la información del led azul que parpadea.</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 Es un codigo que hace que un LED parpadee de forma repetida. Esto es para indicar que la placa y el software funcionan correctamente.
@@ -744,9 +744,19 @@ Le dice al Arduino que se detenga y no haga absolutamente nada durante el tiempo
 <div align="center">
     <h2 style="text-align: center;">ACTIVIDAD 1 SEMÁFORO</h2>
 </div>
+Ahora es que realmente vamos a comenzar a construir y explorar algunos proyectos basados en el chip ESP32-S3
+WROOM. Utilizaremos para ello, nuestro chip para controlar el parpadeo de un LED común.
+
 <strong>Lista de componentes:</strong>
 <li>Placa ESP32</li>
 <li>GPIO Extension Board</li>
 <li>Breadboard</li>
 <li>LED y resistencia</li>
 <li>Jumper</li>
+Vamos a construir nuestro circuito según se muestra en el diagrama. Solo después de construirlo es que podemos conectarlo al PC para verificar que es correcto.
+<div align="center">
+  <img src="assets/semaforo1.png" alt="semaforo1">
+             </div>  
+             <div align="center">
+  <img src="assets/semaforo2.png" alt="semaforo2">
+             </div>  
