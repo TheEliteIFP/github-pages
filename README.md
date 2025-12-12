@@ -713,3 +713,29 @@ El Arduino IDE es el Entorno de Desarrollo Integrado oficial y gratuito.
  <div align="center">
   <img src="assets/IDEard.png" alt="ardmodelo.png">
              </div>
+<div align="center">
+    <h3 style="text-align: center;">Actividad 0 Blink</h3>
+</div>
+Objetivo: Utilizaremos el ESP32-S3 WROOM para controlar el parpadeo de un LED común<br>
+<strong>Lista de componentes:</strong>
+<li>Placa ESP32</li>
+<li>Cable USB</li>
+El ESP32-S3 WROOM necesita una corriente de 5v, aunque en esta actividad lo vamos a conectar directamente al PC vía el cable USB.
+<details><summary><strong>Buscar en el manual de referencia la información del led azul que parpadea.</strong></summary></details>
+Es un codigo que hace que un LED parpadee de forma repetida. Esto es para indicar que la placa y el software funcionan correctamente.
+<details><summary><strong>¿Qué son el void setup() and void loop() ?</strong></summary></details>
+<li>El void setup() es para decirle al arduino cómo debe comportarse, dentro de esto estan los pines o la comunicación con el PC</li>
+<li>El void loop() se centra en hacer cosas como leer sensores o controlar motores, es básicamente la parte que se debe ejecutar una y otra vez de manera infinita.</li>
+<details><summary><strong>¿Qué quiere decir la línea: #define LED_BUITIN 2 ?</strong></summary></details>
+Es un LED que viene soldado a la placa Arduino, casi siempre el pin 13, su uso es comprobar que el codigo funciona.
+<strong>¿Qué quiere decir la línea delay(1000); ?</strong>
+Le dice al Arduino que se detenga y no haga absolutamente nada durante el tiempo especificado, el numero se mide siempre en milisegundos, en este caso al ser 1000 es un segundo de espera.
+<div align="center">
+    <h3 style="text-align: center;">Actividad 1 Semáforo</h3>
+</div>
+<strong>Lista de componentes:</strong>
+<li>Placa ESP32</li>
+<li>GPIO Extension Board</li>
+<li>Breadboard</li>
+<li>LED y resistencia</li>
+<li>Jumper</li>
