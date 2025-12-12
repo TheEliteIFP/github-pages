@@ -722,8 +722,7 @@ Objetivo: Utilizaremos el ESP32-S3 WROOM para controlar el parpadeo de un LED co
 <li>Cable USB</li><br>
 El ESP32-S3 WROOM necesita una corriente de 5v, aunque en esta actividad lo vamos a conectar directamente al PC vía el cable USB.
 <details><summary><strong>Buscar en el manual de referencia la información del led azul que parpadea.</strong></summary>
- 
-    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 Es un codigo que hace que un LED parpadee de forma repetida. Esto es para indicar que la placa y el software funcionan correctamente.
 </details>
 
