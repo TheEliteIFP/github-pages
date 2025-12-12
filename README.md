@@ -742,7 +742,7 @@ Es un LED que viene soldado a la placa Arduino, casi siempre el pin 13, su uso e
 Le dice al Arduino que se detenga y no haga absolutamente nada durante el tiempo especificado, el numero se mide siempre en milisegundos, en este caso al ser 1000 es un segundo de espera.
 </details>
 <div align="center">
-    <h2 style="text-align: center;">ACTIVIDAD 1 SEMÁFORO</h2>
+    <h2 style="text-align: center;">ACTIVIDAD 1 LED</h2>
 </div>
 Ahora es que realmente vamos a comenzar a construir y explorar algunos proyectos basados en el chip ESP32-S3
 WROOM. Utilizaremos para ello, nuestro chip para controlar el parpadeo de un LED común.
@@ -760,3 +760,17 @@ Vamos a construir nuestro circuito según se muestra en el diagrama. Solo despu�
              <div align="center">
   <img src="assets/semaforo2.png" alt="semaforo2">
              </div>  
+Aqui esta el codigo que se usa para el Arduino
+            <div align="center">
+  <img src="assets/codigosemaforo.png" alt="codigosemaforo">
+             </div> 
+             <div align="center">
+  <img src="assets/LEDfoto1.png" alt="LEDfoto1">
+             </div> 
+                         <div align="center">
+  <img src="assets/LEDfoto2.png" alt="LEDfoto2">
+             </div> 
+Aqui se puede observar el LED parpadeando y esperando 1 segundo
+<div align="center">
+    <h2 style="text-align: center;">ACTIVIDAD 2 SEMÁFORO</h2>
+</div>
