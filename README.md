@@ -718,8 +718,9 @@ El Arduino IDE es el Entorno de Desarrollo Integrado oficial y gratuito.
 </div>
 Objetivo: Utilizaremos el ESP32-S3 WROOM para controlar el parpadeo de un LED común<br>
 <strong>Lista de componentes:</strong>
-<li>Placa ESP32</li>
-<li>Cable USB</li><br>
+   <div align="center">
+  <img src="assets/compblink.png" alt="compblink.png">
+             </div>
 El ESP32-S3 WROOM necesita una corriente de 5v, aunque en esta actividad lo vamos a conectar directamente al PC vía el cable USB.<br>
 <details><summary><strong>Buscar en el manual de referencia la información del led azul que parpadea.</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
@@ -748,11 +749,9 @@ Ahora es que realmente vamos a comenzar a construir y explorar algunos proyectos
 WROOM. Utilizaremos para ello, nuestro chip para controlar el parpadeo de un LED común.
 
 <strong>Lista de componentes:</strong>
-<li>Placa ESP32</li>
-<li>GPIO Extension Board</li>
-<li>Breadboard</li>
-<li>LED y resistencia</li>
-<li>Jumper</li>
+   <div align="center">
+  <img src="assets/compLED.png" alt="compLED.png">
+             </div>
 Vamos a construir nuestro circuito según se muestra en el diagrama. Solo después de construirlo es que podemos conectarlo al PC para verificar que es correcto.
 <div align="center">
   <img src="assets/semaforo1.png" alt="semaforo1">
