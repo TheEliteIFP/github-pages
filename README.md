@@ -774,6 +774,10 @@ Aqui se puede observar el LED parpadeando y esperando 1 segundo
 <div align="center">
     <h2 style="text-align: center;">ACTIVIDAD 2 SEMÁFORO</h2>
 </div>
+Componentes necesarios:
+   <div align="center">
+  <img src="assets/componentesema.png" alt="componentesema.png">
+             </div>
    <div align="center">
   <img src="assets/codigosem.png" alt="codigosem.png">
              </div>
