@@ -788,7 +788,7 @@ Componentes necesarios:
              </div>
              Aqui se puede ver el esquema del circuito de dicho semáforo
   <div align="center">
-  <img src="assets/componentesema.png" alt="componentesema.png">
+  <img src="assets/esquemasem.png" alt="esquemasem.png">
              </div>
 
 https://github.com/user-attachments/assets/5c37b494-c140-4cbd-9c3f-217365d051c2
