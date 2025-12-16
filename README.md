@@ -782,10 +782,14 @@ Componentes necesarios:
    <div align="center">
   <img src="assets/componentesema.png" alt="componentesema.png">
              </div>
+             Aqui esta el codigo de este ejercicio, en dicho código lo que le estamos ordenando a nuestro arduino es que debe encender las tres luces que le hemos puesto siguiendo el patrón de un semáforo.
    <div align="center">
   <img src="assets/codigosem.png" alt="codigosem.png">
              </div>
-
+             Aqui se puede ver el esquema del circuito de dicho semáforo
+  <div align="center">
+  <img src="assets/componentesema.png" alt="componentesema.png">
+             </div>
 
 https://github.com/user-attachments/assets/5c37b494-c140-4cbd-9c3f-217365d051c2
 
