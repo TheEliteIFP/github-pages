@@ -770,6 +770,11 @@ Aqui esta el codigo que se usa para el Arduino
   <img src="assets/LEDfoto2.png" alt="LEDfoto2">
              </div> 
 Aqui se puede observar el LED parpadeando y esperando 1 segundo
+
+
+https://github.com/user-attachments/assets/49e49177-718f-447d-90b8-2797805de5da
+
+
 <div align="center">
     <h2 style="text-align: center;">ACTIVIDAD 2 SEMÁFORO</h2>
 </div>
