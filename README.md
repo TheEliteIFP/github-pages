@@ -785,3 +785,7 @@ Componentes necesarios:
    <div align="center">
   <img src="assets/codigosem.png" alt="codigosem.png">
              </div>
+
+
+https://github.com/user-attachments/assets/5c37b494-c140-4cbd-9c3f-217365d051c2
+
