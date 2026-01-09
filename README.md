@@ -802,7 +802,7 @@ Componentes necesarios:
              </div>
              Aqui esta el codigo de este ejercicio, en dicho código lo que le estamos ordenando a nuestro arduino es que debe encender la luz cuando pulsemos el botón
    <div align="center">
-  <img src="assets/codigosem.png" alt="codigosem.png">
+  <img src="assets/codigoact3ard.png" alt="codigoact3ard.png">
              </div>
              Aqui se puede ver el esquema del circuito de dicho arduino
   <div align="center">
