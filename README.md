@@ -809,7 +809,11 @@ Componentes necesarios:
   <img src="assets/esquemaact3ard.png" alt="esquemaact3ard.png">
              </div>
 
-https://github.com/user-attachments/assets/5c37b494-c140-4cbd-9c3f-217365d051c2
+
+
+
+https://github.com/user-attachments/assets/0b8667d9-59fc-4b6e-8603-20c494ff2526
+
 
 
 <div align="center">
@@ -828,4 +832,8 @@ Para esta práctica también usaremos un interruptor de botón, un LED para hace
   <img src="assets/esquemaact3ard.png" alt="esquemaact3ard.png">
              </div>
 
-https://github.com/user-attachments/assets/5c37b494-c140-4cbd-9c3f-217365d051c2
+
+
+https://github.com/user-attachments/assets/34f02e2f-5f67-45fd-9deb-352e842ec188
+
+
