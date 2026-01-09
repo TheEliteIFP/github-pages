@@ -821,7 +821,7 @@ Componentes necesarios:
              </div>
 Para esta práctica también usaremos un interruptor de botón, un LED para hacer una lámpara de mesa MINI, pero de manera diferente, esto es: al presionar el botón, el LED se encenderá y, al presionar el botón nuevamente, el LED se apagará. La acción del interruptor ya no es momentánea (como el timbre de una puerta), sino que permanece encendida sin necesidad de presionarlo continuamente.
    <div align="center">
-  <img src="assets/ACTARD4.png" alt="ACTARD4.png">
+  <img src="assets/ARDACT4.png" alt="ARDACT4.png">
              </div>
              Aqui se puede ver el esquema del circuito de dicho arduino
   <div align="center">
