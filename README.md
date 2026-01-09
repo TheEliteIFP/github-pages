@@ -810,3 +810,22 @@ Componentes necesarios:
              </div>
 
 https://github.com/user-attachments/assets/5c37b494-c140-4cbd-9c3f-217365d051c2
+
+
+<div align="center">
+    <h2 style="text-align: center;">ACTIVIDAD 4  MINI TABLE LAMP</h2>
+</div>
+Componentes necesarios:
+   <div align="center">
+  <img src="assets/componentesardact3.png" alt="componentesardact3.png">
+             </div>
+Para esta práctica también usaremos un interruptor de botón, un LED para hacer una lámpara de mesa MINI, pero de manera diferente, esto es: al presionar el botón, el LED se encenderá y, al presionar el botón nuevamente, el LED se apagará. La acción del interruptor ya no es momentánea (como el timbre de una puerta), sino que permanece encendida sin necesidad de presionarlo continuamente.
+   <div align="center">
+  <img src="assets/ACTARD4.png" alt="ACTARD4.png">
+             </div>
+             Aqui se puede ver el esquema del circuito de dicho arduino
+  <div align="center">
+  <img src="assets/esquemaact3ard.png" alt="esquemaact3ard.png">
+             </div>
+
+https://github.com/user-attachments/assets/5c37b494-c140-4cbd-9c3f-217365d051c2
