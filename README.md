@@ -811,8 +811,8 @@ Componentes necesarios:
 
 
 
+https://github.com/user-attachments/assets/34f02e2f-5f67-45fd-9deb-352e842ec188
 
-https://github.com/user-attachments/assets/0b8667d9-59fc-4b6e-8603-20c494ff2526
 
 
 
@@ -833,7 +833,6 @@ Para esta práctica también usaremos un interruptor de botón, un LED para hace
              </div>
 
 
-
-https://github.com/user-attachments/assets/34f02e2f-5f67-45fd-9deb-352e842ec188
+https://github.com/user-attachments/assets/0b8667d9-59fc-4b6e-8603-20c494ff2526
 
 
