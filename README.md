@@ -793,3 +793,20 @@ Componentes necesarios:
 
 https://github.com/user-attachments/assets/5c37b494-c140-4cbd-9c3f-217365d051c2
 
+<div align="center">
+    <h2 style="text-align: center;">ACTIVIDAD 3 BUTTON & LED</h2>
+</div>
+Componentes necesarios:
+   <div align="center">
+  <img src="assets/componentesardact3.png" alt="componentesardact3.png">
+             </div>
+             Aqui esta el codigo de este ejercicio, en dicho código lo que le estamos ordenando a nuestro arduino es que debe encender la luz cuando pulsemos el botón
+   <div align="center">
+  <img src="assets/codigosem.png" alt="codigosem.png">
+             </div>
+             Aqui se puede ver el esquema del circuito de dicho arduino
+  <div align="center">
+  <img src="assets/esquemaact3ard.png" alt="esquemaact3ard.png">
+             </div>
+
+https://github.com/user-attachments/assets/5c37b494-c140-4cbd-9c3f-217365d051c2
