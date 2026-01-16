@@ -845,8 +845,13 @@ Componentes necesarios:
              </div>
 En esta Actividad aprenderemos cómo controlar un LED RGB y observaran que puede emitir diferentes colores de luz (usaremos LED RGB para crear una luz multicolor). También podrán entender la función random así como el concepto de gradiente y su aplicación en la actividad. Haremos un LED multicolor, controlando el LED RGB para cambiar entre diferentes colores automáticamente.<br>
 1) Analizar y entender la diferencia entre un LED normal a un LED RGB. Para esto pueden crear una pequeña tabla de dos Columnas, donde la cabecera de cada columna serán los dos tipos de LED analizados en clase y que tendrá dos filas asociadas a los elementos comunes y las diferencias entre ellos.<br>
+ <div align="center">
+  <img src="assets/diferenciasledrgb.png" alt="diferenciasledrgb.png">
+             </div>
 2) Que ocurriría en caso de invertir los colores del LED RGB por ejemplo que el pin 4 (Rojo) vaya a la pata del LED G(Verde) y el pin 0 a la pata del LED R(Roja). Porque cree que pase esto argumente su respuesta.<br>
+El LED seguirá funcionando, pero los colores estarán "cambiados". Si el programa pide rojo, verás verde porque el hardware y el código ya no coinciden. El pin de control envía la electricidad a una pata del LED que genera un color distinto al programado.
 3) Que sucede si comentamos dentro de la función void loop{}, la llamada a la función setColor(red, green, blue). Argumente lo que observa, después de volver a compilar el código.<br>
+
    <div align="center">
   <img src="assets/ARDACT4.png" alt="ARDACT4.png">
              </div>
