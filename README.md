@@ -854,7 +854,7 @@ El LED seguirá funcionando, pero los colores estarán "cambiados". Si el progra
 El LED no encenderá o no cambiará de estado. setColor es la orden que envía el brillo a los pines. Si la borramos, el procesador calcula el color pero nunca le "avisa" al LED que debe encenderse.
 
    <div align="center">
-  <img src="assets/ARDACT4.png" alt="ARDACT4.png">
+  <img src="assets/ARDACT.png" alt="ARDACT.png">
              </div>
              Aqui se puede ver el esquema del circuito de dicho arduino
   <div align="center">
