@@ -851,7 +851,7 @@ En esta Actividad aprenderemos cómo controlar un LED RGB y observaran que puede
 <strong>2) Que ocurriría en caso de invertir los colores del LED RGB por ejemplo que el pin 4 (Rojo) vaya a la pata del LED G(Verde) y el pin 0 a la pata del LED R(Roja). Porque cree que pase esto argumente su respuesta.<br></strong>
 El LED seguirá funcionando, pero los colores estarán "cambiados". Si el programa pide rojo, verás verde porque el hardware y el código ya no coinciden. El pin de control envía la electricidad a una pata del LED que genera un color distinto al programado.<br>
 <strong>3) Que sucede si comentamos dentro de la función void loop{}, la llamada a la función setColor(red, green, blue). Argumente lo que observa, después de volver a compilar el código.<br></strong>
-El LED no encenderá o no cambiará de estado. setColor es la orden que envía el brillo a los pines. Si la borramos, el procesador calcula el color pero nunca le "avisa" al LED que debe encenderse.
+El LED no encenderá o no cambiará de estado. setColor es la orden que envía el brillo a los pines. Si la borramos, el procesador calcula el color pero nunca le "avisa" al LED que debe encenderse.<br>
 
    <div align="center">
   <img src="assets/ARDACT5.png" alt="ARDACT5.png">
@@ -866,11 +866,11 @@ https://github.com/user-attachments/assets/d7e50a8a-eafa-423a-b32d-957b739f9aee
 
 
 <strong>1) ¿Qué función tendría que dejar de utilizar para evitar el cambio aleatorio de los colores dentro del ciclo infinito? Explique que hace dicha función.</strong><br>
-Eliminando la funcion random() deja de ser random.
+Eliminando la funcion random() deja de ser random.<br>
 <strong>2) Utiliza al menos dos combinaciones de colores (RGB) no aleatorias, que más le guste y donde se observen diferencias y argumente porque cree usted que se observa la tendencia hacia un color determinado.</strong><br>
-Si pones un valor de 255 en Rojo y 0 en los demás, el LED será rojo puro. Si pones 255 en Rojo y 255 en Azul, verás Violeta.
+Si pones un valor de 255 en Rojo y 0 en los demás, el LED será rojo puro. Si pones 255 en Rojo y 255 en Azul, verás Violeta.<br>
 <strong>3) ¿Qué sucedería si utilizamos la función aleatoria, pero regulamos los valores de la función random y pasamos los rangos que queremos? ¿Sería una forma de regular la coloración del LED RGB? Explique su respuesta brevemente.</strong><br>
-Sí, sería una forma de regular la coloración.
+Sí, sería una forma de regular la coloración.<br>
 
 
 
@@ -879,11 +879,11 @@ https://github.com/user-attachments/assets/27c91968-7255-46bf-b115-0f35ceff82e2
 
 
 <strong>1) Que observa tras cargar y correr el código del programa con respecto a lo que vimos antes. Explique la diferencia y argumente que es el gradiente y que es lo que hace (En el código) que en este ejercicio se pueda observar.</strong><br>
-El color cambia de forma suave y fluida en lugar de dar saltos bruscos. Es una transición continua entre colores. En el código se logra porque los valores RGB cambian paso a paso de 0 a 255.
+El color cambia de forma suave y fluida en lugar de dar saltos bruscos. Es una transición continua entre colores. En el código se logra porque los valores RGB cambian paso a paso de 0 a 255.<br>
 <strong>2) Explique que es el tipo de dato long y su diferencia con el int y porque se utiliza en el ejercicio.</strong><br>
-El long tiene mayor capacidad de almacenamiento que el int. Se utiliza porque los códigos de color en formato hexadecimal (como 0xAABBCC) son números muy grandes que no caben en un int estándar.
+El long tiene mayor capacidad de almacenamiento que el int. Se utiliza porque los códigos de color en formato hexadecimal (como 0xAABBCC) son números muy grandes que no caben en un int estándar.<br>
 <strong>3) Explique el funcionamiento de la función wheel de manera general.</strong><br>
-Esta función toma un valor numérico y lo traduce a una combinación exacta de rojo, verde y azul para recorrer todo el espectro cromático de forma circular.
+Esta función toma un valor numérico y lo traduce a una combinación exacta de rojo, verde y azul para recorrer todo el espectro cromático de forma circular.<br>
 <strong>4) Busque en las referencias para que se utiliza la función ledcWrite() además indique cual es la salida de esta función y qué significado tiene en el código.</strong><br>
 Se utiliza para controlar el brillo de los canales PWM en el ESP32. Su salida es una señal que determina la intensidad de luz de cada pin, permitiendo mezclar los colores con precisión según el valor asignado.
 
