@@ -849,8 +849,9 @@ En esta Actividad aprenderemos cómo controlar un LED RGB y observaran que puede
   <img src="assets/diferenciasledrgb.png" alt="diferenciasledrgb.png">
              </div>
 <strong>2) Que ocurriría en caso de invertir los colores del LED RGB por ejemplo que el pin 4 (Rojo) vaya a la pata del LED G(Verde) y el pin 0 a la pata del LED R(Roja). Porque cree que pase esto argumente su respuesta.<br></strong>
-El LED seguirá funcionando, pero los colores estarán "cambiados". Si el programa pide rojo, verás verde porque el hardware y el código ya no coinciden. El pin de control envía la electricidad a una pata del LED que genera un color distinto al programado.
+El LED seguirá funcionando, pero los colores estarán "cambiados". Si el programa pide rojo, verás verde porque el hardware y el código ya no coinciden. El pin de control envía la electricidad a una pata del LED que genera un color distinto al programado.<br>
 <strong>3) Que sucede si comentamos dentro de la función void loop{}, la llamada a la función setColor(red, green, blue). Argumente lo que observa, después de volver a compilar el código.<br></strong>
+El LED no encenderá o no cambiará de estado. setColor es la orden que envía el brillo a los pines. Si la borramos, el procesador calcula el color pero nunca le "avisa" al LED que debe encenderse.
 
    <div align="center">
   <img src="assets/ARDACT4.png" alt="ARDACT4.png">
@@ -861,5 +862,9 @@ El LED seguirá funcionando, pero los colores estarán "cambiados". Si el progra
              </div>
 
 
-https://github.com/user-attachments/assets/0b8667d9-59fc-4b6e-8603-20c494ff2526
+
+
+https://github.com/user-attachments/assets/e3915f25-ce5d-4be6-a1f9-e1fe47858f63
+
+
 
