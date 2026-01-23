@@ -914,12 +914,17 @@ El código tenía 4 errores:
 <li>pinMode(..., INPUT): Los LEDs deben ser OUTPUT. Si están en INPUT, no reciben energía suficiente.</li>
 <li>i+: En los bucles for el incremento debe ser i++</li>
 <li>delay(): Con los paréntesis vacíos el arduino no va a saber cuanto debe esperar.</li>
-<strong>4) Cómo tengo que hacer si quiero que el LED empiece en otra posición, por ejemplo, en el medio y vaya de izquierda a derecha. (Sube video también de esta parte y el código modificado)<BR></strong>
-
+<strong>4) Cómo tengo que hacer si quiero que el LED empiece en otra posición, por ejemplo, en el medio y vaya de izquierda a derecha. (Sube el código modificado)<BR></strong>
+Para que el LED comience en el medio y se desplace hacia la derecha, debemos modificar el valor inicial del bucle for.
+<img width="650" height="557" alt="Captura de pantalla 2026-01-23 122946" src="https://github.com/user-attachments/assets/aaeac552-5316-45df-bdd4-0ff0316671c9" />
 <strong>5) Basándonos en la segunda práctica donde controlamos un botón con un LED, queremos que añadáis un botón y cada vez que lo pulséis se encienda el siguiente LED, y que cuando llegue al final rebote en bucle.<BR></strong>
+<img width="817" height="782" alt="Captura de pantalla 2026-01-23 123143" src="https://github.com/user-attachments/assets/d5c11915-8f38-4d21-8179-b976f52ece59" />
 
 <strong>a. Video en funcionamiento.<BR></strong>
 
+https://github.com/user-attachments/assets/9b86fa40-f2c8-4c18-9ef7-e1f5b1ab03fb
+
+
 <strong>b. Código.</strong><br>
-<img width="483" height="471" alt="Captura de pantalla 2026-01-23 114335" src="https://github.com/user-attachments/assets/97ea4349-7ea9-4415-b031-07e2aae85a04" />
+<img width="785" height="557" alt="Captura de pantalla 2026-01-23 122502" src="https://github.com/user-attachments/assets/d88eb7b3-a452-4d7f-8632-8a720805d8e8" />
 
