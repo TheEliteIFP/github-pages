@@ -940,7 +940,7 @@ Pon el monitor serial en “115200 baud” para que funcione.
 
 Utiliza el siguiente código:<br>
 <img width="456" height="156" alt="Captura de pantalla 2026-01-23 124011" src="https://github.com/user-attachments/assets/6d69e45c-5e0f-4b43-a850-2677c1a62883" /><br>
-<strong>Preguntas:</strong>
+
 <strong>1. ¿Que aparece en serial monitor?</strong>
 <img width="941" height="916" alt="Captura de pantalla 2026-01-23 124218" src="https://github.com/user-attachments/assets/326b4274-3682-4340-957f-ccca54e1ae68" /><br>
 <strong>2. Pulsa los botones de boot+EN que hay en la placa de Arduino, ¿qué ocurre? Ahora pulsa solo EN, ¿qué ha ocurrido? ¿para qué nos puede servir esto?<br></strong>
@@ -963,7 +963,6 @@ Como puedes ver son muchos pines para tener controlados así que se simplifica e
 El chip IC de serie a paralelo utilizado en este módulo es PCF8574T (PCF8574AT), y su dirección I2C predeterminada es 0x27(0x3F).<br>
 ¿Qué necesitamos para hacer el proyecto?<br>
 <img width="438" height="467" alt="Captura de pantalla 2026-01-23 125203" src="https://github.com/user-attachments/assets/9e261a64-466b-4d1d-a769-052f8d04ec9f" /><br>
-<strong>Preguntas:</strong>
 <strong>1) Revisa las conexiones en el circuito eléctrico y explica para que se utiliza cada una</strong><br>
 <li>SCL: Es la línea de señal de reloj sincronizada que utiliza el protocolo I2C para coordinar el envío de datos entre la ESP32 y el LCD.</li>
 <li>SDA: Es la línea por donde se transmiten físicamente los datos (el texto o comandos) de forma bidireccional.</li>
