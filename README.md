@@ -927,4 +927,30 @@ https://github.com/user-attachments/assets/9b86fa40-f2c8-4c18-9ef7-e1f5b1ab03fb
 
 <strong>b. Código.</strong><br>
 <img width="785" height="557" alt="Captura de pantalla 2026-01-23 122502" src="https://github.com/user-attachments/assets/d88eb7b3-a452-4d7f-8632-8a720805d8e8" />
+<div align="center">
+    <h2 style="text-align: center;">ACTIVIDAD 5 SERIAL IO </h2>
+</div>
+<strong>Proyecto 6.1) Serial comunication</strong>
+Para esta práctica vamos simplemente a probar como funciona la comunicación de la placa con el ordenador para, en próximas prácticas, explotar esta funcionalidad.<br>
+Componentes necesarios:<br>
+<img width="430" height="269" alt="Captura de pantalla 2026-01-23 123903" src="https://github.com/user-attachments/assets/fd8e00cd-7c35-4cf0-98f1-6df1c6f81409" /><br>
+Para poder observar la salida de información, debemos acudir a herramientas > Monitor serie y aparecerá una pestaña extra junto a la de “salida” por la que siempre leemos las incidencias con la placa.<br>
+Pon el monitor serial en “115200 baud” para que funcione.
+<img width="1869" height="525" alt="Captura de pantalla 2026-01-23 124001" src="https://github.com/user-attachments/assets/0a86607f-5be4-41df-b94d-432a28a66b99" /><br>
 
+Utiliza el siguiente código:<br>
+<img width="456" height="156" alt="Captura de pantalla 2026-01-23 124011" src="https://github.com/user-attachments/assets/6d69e45c-5e0f-4b43-a850-2677c1a62883" /><br>
+<strong>Preguntas:</strong>
+<strong>1. ¿Que aparece en serial monitor?</strong>
+<img width="941" height="916" alt="Captura de pantalla 2026-01-23 124218" src="https://github.com/user-attachments/assets/326b4274-3682-4340-957f-ccca54e1ae68" /><br>
+<strong>2. Pulsa los botones de boot+EN que hay en la placa de Arduino, ¿qué ocurre? Ahora pulsa solo EN, ¿qué ha ocurrido? ¿para qué nos puede servir esto?<br></strong>
+<li>BOOT+EN: Es fundamental cuando el ordenador no reconoce la placa automáticamente para subir un código. Obliga a la ESP32 a ponerse en modo escucha.</li>
+<li> EN: Sirve para reiniciar el sistema si el código se queda bloqueado o si quieres volver a ver los mensajes iniciales del puerto serie.</li>
+<strong>4. ¿Qué indica la linea de código “Serial.begin(115200);”?</strong>
+Esta línea configura la velocidad de comunicación entre la placa y el ordenador a través del cable USB.
+<strong>5. Averigua que significa “%.1f s\n“</strong>
+Esta es una cadena de formato que le dice a la función printf cómo mostrar los datos:
+<li>%: Indica que aquí se va a insertar el valor de una variable.</li>
+<li>.1f: Indica que el número es un decimal (float) y que solo queremos que muestre 1 decimal de precisión.</li>
+<li>s: Simplemente imprime la letra "s" (de segundos) después del número.</li>
+<li>\n: Es el comando de salto de línea. Hace que el siguiente mensaje aparezca en la línea de abajo en lugar de todo seguido.</li>
