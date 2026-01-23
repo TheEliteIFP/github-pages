@@ -910,10 +910,10 @@ Los pines que hemos usado nosotros son los: 0,2,15,34,35,32,33,25,26,27,13.<br>
 
 <strong>3) Si has probado el código verás que algo no funciona, localiza los errores, solvéntalos y explícanos por qué no funcionaba.<BR></strong>
 El código tenía 4 errores:
-<li>ledPins[] = {}: Esta parte del codigo esta vacía, si no le decimos que pines usamos, el codigo no hara nada
-pinMode(..., INPUT): Los LEDs deben ser OUTPUT. Si están en INPUT, no reciben energía suficiente.
-i+: En los bucles for el incremento debe ser i++
-delay(): Con los paréntesis vacíos el arduino no va a saber cuanto debe esperar.</li>
+<li>ledPins[] = {}: Esta parte del codigo esta vacía, si no le decimos que pines usamos, el codigo no hara nada</li>
+<li>pinMode(..., INPUT): Los LEDs deben ser OUTPUT. Si están en INPUT, no reciben energía suficiente.</li>
+<li>i+: En los bucles for el incremento debe ser i++</li>
+<li>delay(): Con los paréntesis vacíos el arduino no va a saber cuanto debe esperar.</li>
 <strong>4) Cómo tengo que hacer si quiero que el LED empiece en otra posición, por ejemplo, en el medio y vaya de izquierda a derecha. (Sube video también de esta parte y el código modificado)<BR></strong>
 
 <strong>5) Basándonos en la segunda práctica donde controlamos un botón con un LED, queremos que añadáis un botón y cada vez que lo pulséis se encienda el siguiente LED, y que cuando llegue al final rebote en bucle.<BR></strong>
