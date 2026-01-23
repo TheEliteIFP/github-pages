@@ -897,6 +897,9 @@ Se utiliza para controlar el brillo de los canales PWM en el ESP32. Su salida es
 
 
 
+<div align="center">
+    <h2 style="text-align: center;">ACTIVIDAD 6 </h2>
+</div>
 
 
 
