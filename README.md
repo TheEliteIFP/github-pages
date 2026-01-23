@@ -915,10 +915,10 @@ El código tenía 4 errores:
 <li>i+: En los bucles for el incremento debe ser i++</li>
 <li>delay(): Con los paréntesis vacíos el arduino no va a saber cuanto debe esperar.</li>
 <strong>4) Cómo tengo que hacer si quiero que el LED empiece en otra posición, por ejemplo, en el medio y vaya de izquierda a derecha. (Sube el código modificado)<BR></strong>
-Para que el LED comience en el medio y se desplace hacia la derecha, debemos modificar el valor inicial del bucle for.
-<img width="650" height="557" alt="Captura de pantalla 2026-01-23 122946" src="https://github.com/user-attachments/assets/aaeac552-5316-45df-bdd4-0ff0316671c9" />
+Para que el LED comience en el medio y se desplace hacia la derecha, debemos modificar el valor inicial del bucle for.<BR>
+<img width="650" height="557" alt="Captura de pantalla 2026-01-23 122946" src="https://github.com/user-attachments/assets/aaeac552-5316-45df-bdd4-0ff0316671c9" /><BR>
 <strong>5) Basándonos en la segunda práctica donde controlamos un botón con un LED, queremos que añadáis un botón y cada vez que lo pulséis se encienda el siguiente LED, y que cuando llegue al final rebote en bucle.<BR></strong>
-<img width="817" height="782" alt="Captura de pantalla 2026-01-23 123143" src="https://github.com/user-attachments/assets/d5c11915-8f38-4d21-8179-b976f52ece59" />
+<img width="817" height="782" alt="Captura de pantalla 2026-01-23 123143" src="https://github.com/user-attachments/assets/d5c11915-8f38-4d21-8179-b976f52ece59" /><BR>
 
 <strong>a. Video en funcionamiento.<BR></strong>
 
