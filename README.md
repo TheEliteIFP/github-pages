@@ -901,16 +901,25 @@ Se utiliza para controlar el brillo de los canales PWM en el ESP32. Su salida es
     <h2 style="text-align: center;">ACTIVIDAD 4 LED BAR </h2>
 </div>
 Un gráfico de barras LED tiene 10 LED integrados en un componente compacto. Las dos filas de LEDs en su parte inferior están emparejadas para identificar cada LED como el único LED utilizado anteriormente.<br>
-<strong>COMPONENTES NECESARIOS:</strong>
+<strong>COMPONENTES NECESARIOS:</strong><br>
 <img width="385" height="343" alt="Captura de pantalla 2026-01-23 113941" src="https://github.com/user-attachments/assets/dff35936-e52d-4d51-bc86-b110242286b6" />
 
 <strong>1) Diseñar el circuito partiendo de la base que a cada pin de la barra LED irá conectado una resistencia de 220 ohm y del otro extremo a masa, los pines donde conectar a placa los escogeis vosotros.<BR></strong>
+Los pines que hemos usado nosotros son los: 0,2,15,34,35,32,33,25,26,27,13.<br>
 <strong>2) Crear el diseño del circuito en cualquier herramienta de las que hemos trabajado en clase.<BR></strong>
+
 <strong>3) Si has probado el código verás que algo no funciona, localiza los errores, solvéntalos y explícanos por qué no funcionaba.<BR></strong>
+El código tenía 4 errores:
+<li>ledPins[] = {}: Esta parte del codigo esta vacía, si no le decimos que pines usamos, el codigo no hara nada
+pinMode(..., INPUT): Los LEDs deben ser OUTPUT. Si están en INPUT, no reciben energía suficiente.
+i+: En los bucles for el incremento debe ser i++
+delay(): Con los paréntesis vacíos el arduino no va a saber cuanto debe esperar.</li>
 <strong>4) Cómo tengo que hacer si quiero que el LED empiece en otra posición, por ejemplo, en el medio y vaya de izquierda a derecha. (Sube video también de esta parte y el código modificado)<BR></strong>
+
 <strong>5) Basándonos en la segunda práctica donde controlamos un botón con un LED, queremos que añadáis un botón y cada vez que lo pulséis se encienda el siguiente LED, y que cuando llegue al final rebote en bucle.<BR></strong>
+
 <strong>a. Video en funcionamiento.<BR></strong>
 
-<strong>b. Código.</strong>
+<strong>b. Código.</strong><br>
 <img width="483" height="471" alt="Captura de pantalla 2026-01-23 114335" src="https://github.com/user-attachments/assets/97ea4349-7ea9-4415-b031-07e2aae85a04" />
 
