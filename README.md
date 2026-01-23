@@ -947,10 +947,27 @@ Utiliza el siguiente código:<br>
 <li>BOOT+EN: Es fundamental cuando el ordenador no reconoce la placa automáticamente para subir un código. Obliga a la ESP32 a ponerse en modo escucha.</li>
 <li> EN: Sirve para reiniciar el sistema si el código se queda bloqueado o si quieres volver a ver los mensajes iniciales del puerto serie.</li>
 <strong>4. ¿Qué indica la linea de código “Serial.begin(115200);”?</strong>
-Esta línea configura la velocidad de comunicación entre la placa y el ordenador a través del cable USB.
+Esta línea configura la velocidad de comunicación entre la placa y el ordenador a través del cable USB.<br>
 <strong>5. Averigua que significa “%.1f s\n“</strong>
 Esta es una cadena de formato que le dice a la función printf cómo mostrar los datos:
 <li>%: Indica que aquí se va a insertar el valor de una variable.</li>
 <li>.1f: Indica que el número es un decimal (float) y que solo queremos que muestre 1 decimal de precisión.</li>
 <li>s: Simplemente imprime la letra "s" (de segundos) después del número.</li>
 <li>\n: Es el comando de salto de línea. Hace que el siguiente mensaje aparezca en la línea de abajo en lugar de todo seguido.</li>
+<strong>Proyecto 6.2) Panel LCD1602</strong><br>
+<strong>¿Qué necesitamos para hacer el proyecto?</strong><br>
+Una pantalla LCD1602 típica puede mostrar 2 líneas de caracteres en 16 columnas y es capaz de mostrar números, letras, símbolos, código ASCII, etc. A continuación, puedes ver los pines de los que dispone:<br>
+<img width="450" height="101" alt="Captura de pantalla 2026-01-23 125021" src="https://github.com/user-attachments/assets/8ff487a7-b99b-4c0d-9c78-8b2cb2b63ccd" /><br>
+Como puedes ver son muchos pines para tener controlados así que se simplifica en la versión I2C, que conecta la entrada en serie y la salida en paralelo, lo cual nos permite usar solo 4 líneas para operar la pantalla:<br>
+<img width="397" height="104" alt="Captura de pantalla 2026-01-23 125042" src="https://github.com/user-attachments/assets/04e17c96-603a-4754-a484-931c712fc11e" /><br>
+El chip IC de serie a paralelo utilizado en este módulo es PCF8574T (PCF8574AT), y su dirección I2C predeterminada es 0x27(0x3F).<br>
+¿Qué necesitamos para hacer el proyecto?<br>
+<img width="438" height="467" alt="Captura de pantalla 2026-01-23 125203" src="https://github.com/user-attachments/assets/9e261a64-466b-4d1d-a769-052f8d04ec9f" /><br>
+<strong>Preguntas:</strong>
+<strong>1) Revisa las conexiones en el circuito eléctrico y explica para que se utiliza cada una</strong><br>
+<li>SCL: Es la línea de señal de reloj sincronizada que utiliza el protocolo I2C para coordinar el envío de datos entre la ESP32 y el LCD.</li>
+<li>SDA: Es la línea por donde se transmiten físicamente los datos (el texto o comandos) de forma bidireccional.</li>
+<li>VCC: Pin de alimentación que suministra energía eléctrica al módulo LCD. En el esquema se observa conectado a 5V.</li>
+<li>GND : Conexión de referencia a tierra (0V) necesaria para cerrar el circuito eléctrico.</li>
+<strong>2)¿Que hace la función “lcd.print()”? ¿Y “lcd.clear”?</strong><br>
+<strong>3) Por último, busca como conseguir que el mensaje de la primera fila se desplace de izquierda a derecha o a la inversa</strong><br>
