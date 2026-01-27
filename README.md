@@ -605,7 +605,7 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  Hemos configurado un DNS haciendo uso de Pi-Hole, este paso es esencial para el proyecto. En la siguiente imagen se puede observar la interfaz grafica del anteriormente comentado Pi-Hole, el cual nos aporta distintos tipos de información como puede ser, un grafico a tiempo real de la actividad de los clientes o en la seccion izquierda distintos desplegables para administrar dominios, clientes o grupos. Todo esto lo hemos instalado haciendo uso del comando "curl -sSL https://install.pi-hole.net | bash".
  <img width="998" height="576" alt="image" src="https://github.com/user-attachments/assets/f43388ee-0355-4d35-a2b1-fb6134a9d013" />
- Después, dentro del propio Pi-Hole, en Settings y DNS habilitamos la opcion de cloudfare y google, como se ve en la imagen.Esta configuración nos permitirá tener un bloqueador de anuncios.<br>
+ Después, dentro del propio Pi-Hole, en Settings y DNS habilitamos la opcion de cloudfare y google, como se ve en la imagen. Esta configuración nos permitirá tener un bloqueador de anuncios de manera totalmente gratuita. Además en caso de emergencia también se podria usar pi-hole como dhcp.<br>
  <img width="717" height="579" alt="image" src="https://github.com/user-attachments/assets/703e5a58-cc93-4597-8192-5c6fd3841ffd" />
 
 
