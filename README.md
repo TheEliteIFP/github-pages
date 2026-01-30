@@ -969,4 +969,6 @@ El chip IC de serie a paralelo utilizado en este módulo es PCF8574T (PCF8574AT)
 <li>VCC: Pin de alimentación que suministra energía eléctrica al módulo LCD. En el esquema se observa conectado a 5V.</li>
 <li>GND : Conexión de referencia a tierra (0V) necesaria para cerrar el circuito eléctrico.</li>
 <strong>2)¿Que hace la función “lcd.print()”? ¿Y “lcd.clear”?</strong><br>
+<li><strong>lcd.print():</strong>Es la función encargada de escribir texto o números en la pantalla.</li>
+<li><strong>lcd.clear():</strong>Como su nombre indica, sirve para borrar todo el contenido de la pantalla.</li>
 <strong>3) Por último, busca como conseguir que el mensaje de la primera fila se desplace de izquierda a derecha o a la inversa</strong><br>
