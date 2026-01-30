@@ -971,4 +971,33 @@ El chip IC de serie a paralelo utilizado en este módulo es PCF8574T (PCF8574AT)
 <strong>2)¿Que hace la función “lcd.print()”? ¿Y “lcd.clear”?</strong><br>
 <li><strong>lcd.print():</strong>Es la función encargada de escribir texto o números en la pantalla.</li>
 <li><strong>lcd.clear():</strong>Como su nombre indica, sirve para borrar todo el contenido de la pantalla.</li>
-<strong>3) Por último, busca como conseguir que el mensaje de la primera fila se desplace de izquierda a derecha o a la inversa</strong><br>
+<strong>3) Por último, busca como conseguir que el mensaje de la primera fila se<img width="711" height="539" alt="Captura de pantalla 2026-01-30 123206" src="https://github.com/user-attachments/assets/dfa86304-f55f-4ef7-8fc6-480feb34eacd" />
+ desplace de izquierda a derecha o a la inversa</strong><br>
+<strong>Proyecto 6.3) Panel LCD1602</strong><br>
+<strong>¿Qué necesitamos para hacer el proyecto?</strong><br>
+Un higrotermógrafo es un instrumento de medición utilizado para registrar y monitorizar las variaciones de temperatura y humedad relativa en el tiempo. Este es el circuito que debéis diseñar:
+<img width="496" height="350" alt="Captura de pantalla 2026-01-30 123532" src="https://github.com/user-attachments/assets/22d986ab-f5ab-4ee3-ab0f-cfa45b894e61" />
+<strong>Busca que hace esta linea “DHTesp dht; “ al principio del código. ¿Que es un objeto en programación y que es lo que hace?</strong>
+<li>DHTesp: Es el plano que contiene las instrucciones para manejar los sensores de temperatura y húmedad. </li>
+<li>dht: Es el nombre que le das a ese objeto específico para poder usarlo más adelante en el código.</li>
+<strong>Prueba a codificar los valores para que muestre en la primera fila la temperatura en grados Kelvin y en la segunda fila en grados Farenheit.</strong>
+<div align="center">
+    <h2 style="text-align: center;">ACTIVIDAD 6 WIFI </h2>
+</div>
+<STRONG>30.1 Station mode</STRONG>
+En el modo estación el ESP32-S3 actúa como un cliente WiFi. Esto permite conectarse a la red del Router y comunicarse con otros dispositivos a través de la conexión WiFi. En la imagen siguiente podemos ver un PC que está conectado a un Router, al igual que el ESP32-S3 permitiendo la comunicación entre ambos.<br>
+<img width="612" height="235" alt="Captura de pantalla 2026-01-30 124335" src="https://github.com/user-attachments/assets/58f48420-a8b5-4f97-92b1-5d8a140f90df" />
+<strong>¿A qué red te has podido conectar? Es 5G, 2.4G? Explica.</strong><br>
+El ESP32-S3 se conecta exclusivamente a redes de 2.4 GHz. Su hardware no posee la circuitería necesaria para detectar o gestionar la banda de 5 GHz.<br>
+<strong> ¿Son necesarias las tres: WiFi.h, WiFiClient.h, WiFiClientSecure.h)?</strong><br>
+No siempre. Para el código de ejemplo de "Station Mode" , solo es necesaria WiFi.h. Esta librería ya incluye las funciones básicas para conectar el chip al router y obtener una IP. Las otras dos son extensiones para funciones específicas.<br>
+<strong> ¿En qué casos utilizaría las librerías de arduino WiFiClient.h y WiFiClientSecure.h?<br></strong>
+<strong><li>WiFiClient.h:</li></strong>Se utiliza cuando tu ESP32 actúa como un cliente estándar para comunicarse con otros dispositivos o servidores de forma abierta.
+<strong><li>WiFiClientSecure.h:</strong></li>Es la versión con "escudo". Se usa obligatoriamente cuando la comunicación debe ser segura y cifrada.
+<strong> Es posible seleccionar el canal de comunicación de la WiFi? Argumenta.</strong><br> Sí, es totalmente posible seleccionar el canal de comunicación del WiFi en el ESP32. Esto se debe principalmente para evitar la saturación de canales, más o menos es como una carretera, más carriles mas fluidez para que no haya atascos.
+
+
+
+
+
+
