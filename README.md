@@ -1016,6 +1016,7 @@ Se trata de unir ambos códigos como se muestra a continuación:<br>
 Cuando alguien se conecta a nuestro servidor se invoca una función y otra cuando se genera un error. Estas funciones las podemos llamar como queramos pero mejor si utilizamos la denominación estándar. Por supuesto, que las tenemos que crear y agregar como otras funciones que ya hemos utilizado.<br>
 <strong>1) Explica brevemente los diferentes parámetros que se envían en las líneas siguientes:</strong><br>
 <strong>"server.send(200, "text/html", SendHTML("Hola a todos"));"</strong><br>
+<strong>"server.send(404,"text/plain", "No hay respuesta");"</strong><br>
 El método server.send() es el encargado de enviar la respuesta del ESP32 al navegador del usuario. Sus tres parámetros principales son:
 <strong>-Código de estado HTTP (200 / 404):</strong>
 <li>200: Indica que la petición ha sido exitosa (OK). El servidor encontró lo que el usuario buscaba.</li>
@@ -1025,7 +1026,6 @@ El método server.send() es el encargado de enviar la respuesta del ESP32 al nav
 <li>"text/plain": Indica que es texto plano, sin formato ni etiquetas, tratándolo como un mensaje simple.</li>
 <strong>-Cuerpo del mensaje (Payload):</strong>
 <li>Es el contenido real que se verá en pantalla. En el primer caso, se llama a la función SendHTML("Hola a todos") que devuelve una cadena con la estructura de la web. En el segundo, es simplemente un string directo: "No hay respuesta".</li>
-<strong>"server.send(404,"text/plain", "No hay respuesta");"</strong>
 <strong>1)Añade las líneas de código correspondientes al servidor web. Cambia el puerto de comunicación de la página web.</strong><br>
 <img width="870" height="848" alt="Captura de pantalla 2026-01-30 132856" src="https://github.com/user-attachments/assets/d12ee6e1-c8cd-4985-8da1-7f8e3103e3b1" /><br>
 Aqui esta el codigo funcional y con el puerto de comunicacion de la pagina web cambiado al 8080.
