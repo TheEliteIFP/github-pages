@@ -941,7 +941,7 @@ Pon el monitor serial en “115200 baud” para que funcione.
 Utiliza el siguiente código:<br>
 <img width="456" height="156" alt="Captura de pantalla 2026-01-23 124011" src="https://github.com/user-attachments/assets/6d69e45c-5e0f-4b43-a850-2677c1a62883" /><br>
 
-<strong>1. ¿Que aparece en serial monitor?</strong>
+<strong>1. ¿Que aparece en serial monitor?</strong><br>
 <img width="941" height="916" alt="Captura de pantalla 2026-01-23 124218" src="https://github.com/user-attachments/assets/326b4274-3682-4340-957f-ccca54e1ae68" /><br>
 <strong>2. Pulsa los botones de boot+EN que hay en la placa de Arduino, ¿qué ocurre? Ahora pulsa solo EN, ¿qué ha ocurrido? ¿para qué nos puede servir esto?<br></strong>
 <li>BOOT+EN: Es fundamental cuando el ordenador no reconoce la placa automáticamente para subir un código. Obliga a la ESP32 a ponerse en modo escucha.</li>
