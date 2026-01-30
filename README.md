@@ -994,10 +994,41 @@ El ESP32-S3 se conecta exclusivamente a redes de 2.4 GHz. Su hardware no posee l
 No siempre. Para el código de ejemplo de "Station Mode" , solo es necesaria WiFi.h. Esta librería ya incluye las funciones básicas para conectar el chip al router y obtener una IP. Las otras dos son extensiones para funciones específicas.<br>
 <strong> ¿En qué casos utilizaría las librerías de arduino WiFiClient.h y WiFiClientSecure.h?<br></strong>
 <strong><li>WiFiClient.h:</li></strong>Se utiliza cuando tu ESP32 actúa como un cliente estándar para comunicarse con otros dispositivos o servidores de forma abierta.
-<strong><li>WiFiClientSecure.h:</strong></li>Es la versión con "escudo". Se usa obligatoriamente cuando la comunicación debe ser segura y cifrada.
+<strong><li>WiFiClientSecure.h:</strong></li>Es la versión con "escudo". Se usa obligatoriamente cuando la comunicación debe ser segura y cifrada.<br>
 <strong> Es posible seleccionar el canal de comunicación de la WiFi? Argumenta.</strong><br> Sí, es totalmente posible seleccionar el canal de comunicación del WiFi en el ESP32. Esto se debe principalmente para evitar la saturación de canales, más o menos es como una carretera, más carriles mas fluidez para que no haya atascos.
-
-
+<STRONG>30.2 Acess Point mode</STRONG><br>
+En este caso vamos a configurar nuestro ESP32 pero esta vez como un Access Point. Cuando el ESP32-S3 selecciona el modo AP, crea una red de punto de acceso que está separada de Internet y espera para que se conecten otros dispositivos WiFi. Ten en cuenta que los componentes son los mismos que en la actividad anterior.
+El código del programa sería algo así (no es la única forma de hacerlo):<br>
+<img width="872" height="785" alt="Captura de pantalla 2026-01-30 130631" src="https://github.com/user-attachments/assets/70fcf3f4-29c4-42e6-857f-315bf2a1908e" /><br>
+<strong></strong>¿Cuál es el uso de softAPConfig? Argumenta</strong><br>
+El uso de softAPConfig es establecer una configuración de red específica y manual para el punto de acceso que crea el ESP32.<br>
+<strong>¿Cómo puedo conocer la cantidad de dispositivos conectados a mi AP? Para ello investiga el uso de WiFi.softAPgetStationNum() y añade las líneas necesarias al código.</strong><br>
+Para conocer este dato se utiliza la función WiFi.softAPgetStationNum(), la cual devuelve un número entero con el total de clientes vinculados.<br>
+<strong>¿Qué método me permite visualizar la dirección IP de la interfaz de red del punto de acceso?</strong><br>
+El método es <strong>WiFi.softAPIP().</strong> A diferencia de WiFi.localIP() (que se usa en modo Station para ver la IP que nos da el router), softAPIP() nos devuelve la dirección IP que el propio ESP32 tiene dentro de la red que él mismo ha creado.<br>
+<strong>¿Qué nos permite la opción c_str() en el código?</strong><br>
+La opción c_str() es una función de la clase String de Arduino que convierte un objeto String en una cadena de caracteres estilo C.<br>
+<strong>30.3 AP + Station Mode</strong><br>
+En los ejemplos anteriores o tenemos acceso a Internet porque nos conectamos a nuestro router desde el ESP32 o lo tenemos configurado como un AP, con lo cual no tenemos acceso a Internet. En este ejemplo vamos a poder utilizar ambos modos dado que activa el modo de estación de ESP32-S3, se conecta a la red del Router y puede comunicarse con Internet a través del mismo. Al mismo tiempo, activa su modo AP para crear una red. Otros dispositivos WiFi pueden optar por conectarse a la red del router o la red del AP para comunicarse con el ESP32-S3.<br>
+Se trata de unir ambos códigos como se muestra a continuación:<br>
+<img width="1342" height="957" alt="Captura de pantalla 2026-01-30 131449" src="https://github.com/user-attachments/assets/d37aa673-0eae-4675-ba4d-4f444b42da7f" /><br>
+<strong>30.4 Una página web en el ESP32</strong><br>
+Cuando alguien se conecta a nuestro servidor se invoca una función y otra cuando se genera un error. Estas funciones las podemos llamar como queramos pero mejor si utilizamos la denominación estándar. Por supuesto, que las tenemos que crear y agregar como otras funciones que ya hemos utilizado.<br>
+<strong>1) Explica brevemente los diferentes parámetros que se envían en las líneas siguientes:</strong><br>
+<strong>"server.send(200, "text/html", SendHTML("Hola a todos"));"</strong><br>
+El método server.send() es el encargado de enviar la respuesta del ESP32 al navegador del usuario. Sus tres parámetros principales son:
+<strong>-Código de estado HTTP (200 / 404):</strong>
+<li>200: Indica que la petición ha sido exitosa (OK). El servidor encontró lo que el usuario buscaba.</li>
+<li>404: Indica un error. El servidor no pudo encontrar el recurso solicitado (Not Found).</li>
+<strong>-Tipo de contenido (MIME Type):</strong>
+<li>"text/html": Le dice al navegador que lo que va a recibir es código HTML que debe renderizar visualmente.</li>
+<li>"text/plain": Indica que es texto plano, sin formato ni etiquetas, tratándolo como un mensaje simple.</li>
+<strong>-Cuerpo del mensaje (Payload):</strong>
+<li>Es el contenido real que se verá en pantalla. En el primer caso, se llama a la función SendHTML("Hola a todos") que devuelve una cadena con la estructura de la web. En el segundo, es simplemente un string directo: "No hay respuesta".</li>
+<strong>"server.send(404,"text/plain", "No hay respuesta");"</strong>
+<strong>1)Añade las líneas de código correspondientes al servidor web. Cambia el puerto de comunicación de la página web.</strong><br>
+<img width="870" height="848" alt="Captura de pantalla 2026-01-30 132856" src="https://github.com/user-attachments/assets/d12ee6e1-c8cd-4985-8da1-7f8e3103e3b1" /><br>
+Aqui esta el codigo funcional y con el puerto de comunicacion de la pagina web cambiado al 8080.
 
 
 
