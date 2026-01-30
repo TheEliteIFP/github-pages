@@ -976,7 +976,7 @@ El chip IC de serie a paralelo utilizado en este módulo es PCF8574T (PCF8574AT)
 
 <strong>Proyecto 6.3) Panel LCD1602</strong><br>
 <strong>¿Qué necesitamos para hacer el proyecto?</strong><br>
-Un higrotermógrafo es un instrumento de medición utilizado para registrar y monitorizar las variaciones de temperatura y humedad relativa en el tiempo. Este es el circuito que debéis diseñar:
+Un higrotermógrafo es un instrumento de medición utilizado para registrar y monitorizar las variaciones de temperatura y humedad relativa en el tiempo. Este es el circuito que debéis diseñar:<br>
 <img width="496" height="350" alt="Captura de pantalla 2026-01-30 123532" src="https://github.com/user-attachments/assets/22d986ab-f5ab-4ee3-ab0f-cfa45b894e61" /><br>
 <strong>Busca que hace esta linea “DHTesp dht; “ al principio del código. ¿Que es un objeto en programación y que es lo que hace?</strong>
 <li>DHTesp: Es el plano que contiene las instrucciones para manejar los sensores de temperatura y húmedad. </li>
