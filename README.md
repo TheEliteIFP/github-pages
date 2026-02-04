@@ -685,7 +685,36 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
   <small>Verificamos que la DB esté viva y reiniciamos el servidor web para aplicar los cambios de timeout.</small></p>
 </details>
 <details>
-    <summary><strong>Servidor database</strong></summary>
+  <summary><strong>SERVIDOR WEB (FRONTEND ELITEGG)</strong></summary>
+  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+  
+  <p><strong>Configuración del Sistema:</strong></p>
+  <ul>
+    <li><strong>S.O:</strong> Debian / Linux (Contenedor LXC)</li>
+    <li><strong>IP:</strong> <code>10.10.10.6/24</code></li>
+    <li><strong>Puerto:</strong> 3000 (Mapeado en Router)</li>
+    <li><strong>Función:</strong> Alojamiento y despliegue del frontend (TSX/React) de EliteGG.</li>
+  </ul>
+
+  <p><strong>¿Qué hemos hecho?</strong><br>
+  Configuramos <strong>Nginx</strong> para servir la interfaz de la plataforma. Para que la web sea accesible desde fuera (Windows/Navegador), configuramos un <strong>Port Forwarding</strong> en el Router del puerto 3000 al 3000. El servidor está vinculado a la DB (<code>10.10.10.9</code>) para mostrar datos en tiempo real.</p>
+
+  
+
+  <p><strong>Comandos principales:</strong></p>
+  
+  <p><strong>1. Instalación y persistencia:</strong><br>
+  <code>apt install nginx -y</code><br>
+  <code>systemctl enable nginx</code><br>
+  <small>Instalamos el servidor y nos aseguramos de que arranque solo al iniciar el contenedor en Proxmox.</small></p>
+
+  <p><strong>2. Test de conectividad:</strong><br>
+  <code>ping 10.10.10.9</code><br>
+  <small>Verificamos que el "cable virtual" hacia la base de datos está conectado. Sin esto, la web estaría vacía.</small></p>
+
+  <p><strong>3. Monitorización (Debug):</strong><br>
+  <code>tail -f /var/log/nginx/access.log</code><br>
+  <small>Visualizamos las peticiones en tiempo real para confirmar que el tráfico del Router llega correctamente a la IP <code>.6</code>.</small></p>
 </details>
 <details>
     <summary><strong>Servidor Backups</strong></summary>
