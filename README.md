@@ -601,12 +601,12 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
     <h2 style="text-align: center;">SERVICIOS</h2>
 </div>
 <details>
-  <summary><strong>Servidor DNS y Filtrado (Pi-hole)</strong></summary>
+  <summary><strong>SERVIDOR DNS Y FILTRADO (PI-HOLE)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
   
   <p><strong>Configuración del Sistema:</strong></p>
   <ul>
-    <li><strong>OS:</strong> Debian / Linux (Contenedor LXC)</li>
+    <li><strong>S.O:</strong> Debian / Linux (Contenedor LXC)</li>
     <li><strong>IP:</strong> <code>10.10.10.5/24</code></li>
     <li><strong>Función:</strong> Resolución DNS interna y bloqueo de publicidad/telemetría.</li>
   </ul>
@@ -626,7 +626,32 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
   <small>Actualización de listas de bloqueo (Gravity) y verificación del estado del servicio DNS.</small></p>
 </details>
 <details>
-    <summary><strong>Máquina virtual router</strong></summary>
+  <summary><strong>ROUTER (GATEWAY DE RED)</strong></summary>
+  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+  
+  <p><strong>Configuración del Sistema:</strong></p>
+  <ul>
+    <li><strong>S.O:</strong> Debian (Interfaz Gráfica) en Proxmox</li>
+    <li><strong>IP LAN:</strong> <code>10.10.10.1/24</code></li>
+    <li><strong>Interfaces:</strong> 2 adaptadores (Bridge WAN y Red Interna LAN)</li>
+    <li><strong>Función:</strong> Gestión de tráfico y NAT entre redes.</li>
+  </ul>
+
+  <p><strong>¿Qué hemos hecho?</strong><br>
+  Configuramos una MV con doble interfaz para unir la red de IFP con nuestra red interna <code>10.10.10.0/24</code>. Utilizamos <strong>iptables</strong> para gestionar el flujo de paquetes y permitir que los contenedores tengan salida a internet mediante NAT. Validamos la conectividad constantemente con <code>ping 8.8.8.8</code>.</p>
+
+  
+
+  <p><strong>Comandos principales:</strong></p>
+  
+  <p><code>echo 1 > /proc/sys/net/ipv4/ip_forward</code><br>
+  <small>Activa el reenvío de paquetes a nivel de Kernel, transformando la MV en un router real.</small></p>
+
+  <p><code>iptables -t nat -A POSTROUTING -o ens18 -j MASQUERADE</code><br>
+  <small>Configura el <strong>Masquerade</strong>: permite que los contenedores "se disfracen" con la IP del router para navegar por internet.</small></p>
+
+  <p><code>iptables-save > /etc/iptables/rules.v4</code><br>
+  <small>Asegura la persistencia de las reglas mediante <code>iptables-persistent</code> para que no se borren tras un reinicio.</small></p>
 </details>
 <details>
     <summary><strong>Servidor web</strong></summary>
