@@ -467,10 +467,10 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
  <summary><strong>SO QUE VAMOS A UTILIZAR</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  <li>Plataforma de Virtualización = Proxmox</li>
- <li>Servidor de Backup = NAS</li>
+ <li>Servidor de Backup = Debian</li>
  <li>Servidores DNS = Debian</li>
  <li>Servidor de Aplicación/Web/DB = Debian</li>
- <li>Dhcp + Router = Debian + IP tables</li>
+ <li>Dhcp + Router = Debian (interfaz gráfica) + IP tables</li>
  <li>Máquinas de Desarrollo = Windows 11</li>
  
 </details>
@@ -601,26 +601,41 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
     <h2 style="text-align: center;">SERVICIOS</h2>
 </div>
 <details>
-    <summary><strong>DNS</strong></summary>
+  <summary><strong>Servidor DNS y Filtrado (Pi-hole)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
- Hemos configurado un DNS haciendo uso de Pi-Hole, este paso es esencial para el proyecto. En la siguiente imagen se puede observar la interfaz grafica del anteriormente comentado Pi-Hole, el cual nos aporta distintos tipos de información como puede ser, un grafico a tiempo real de la actividad de los clientes o en la seccion izquierda distintos desplegables para administrar dominios, clientes o grupos. Todo esto lo hemos instalado haciendo uso del comando "curl -sSL https://install.pi-hole.net | bash".
- <img width="998" height="576" alt="image" src="https://github.com/user-attachments/assets/f43388ee-0355-4d35-a2b1-fb6134a9d013" />
- Después, dentro del propio Pi-Hole, en Settings y DNS habilitamos la opcion de cloudfare y google, como se ve en la imagen. Esta configuración nos permitirá tener un bloqueador de anuncios de manera totalmente gratuita. Además en caso de emergencia también se podria usar pi-hole como dhcp.<br>
- <img width="717" height="579" alt="image" src="https://github.com/user-attachments/assets/703e5a58-cc93-4597-8192-5c6fd3841ffd" />
+  
+  <p><strong>Configuración del Sistema:</strong></p>
+  <ul>
+    <li><strong>OS:</strong> Debian / Linux (Contenedor LXC)</li>
+    <li><strong>IP:</strong> <code>10.10.10.5/24</code></li>
+    <li><strong>Función:</strong> Resolución DNS interna y bloqueo de publicidad/telemetría.</li>
+  </ul>
 
+  <p><strong>¿Qué hemos hecho?</strong><br>
+  Instalamos y configuramos <strong>Pi-hole</strong> como el "vigilante" de la red. Cada vez que una máquina (como el servidor Web o tu PC) intenta acceder a una URL, Pi-hole filtra si es legítima o publicidad/rastreo, bloqueándola en el origen. Además, configuramos el <strong>Port Forwarding</strong> en el Router (Puerto 80) hacia la <code>10.10.10.5</code> para gestionar el panel <code>/admin/</code> de forma remota.</p>
 
+  <p><strong>Comandos principales:</strong></p>
+  
+  <p><code>curl -sSL https://install.pi-hole.net | bash</code><br>
+  <small>Instalación automatizada y configuración de IP estática y upstream DNS.</small></p>
+
+  <p><code>pihole -a -p</code><br>
+  <small>Cambio de contraseña del panel administrativo web (Seguridad para la red EliteGG).</small></p>
+
+  <p><code>pihole -g</code> y <code>pihole status</code><br>
+  <small>Actualización de listas de bloqueo (Gravity) y verificación del estado del servicio DNS.</small></p>
 </details>
 <details>
-    <summary><strong>DHCP</strong></summary>
+    <summary><strong>Máquina virtual router</strong></summary>
 </details>
 <details>
-    <summary><strong>APACHE</strong></summary>
+    <summary><strong>Servidor web</strong></summary>
 </details>
 <details>
-    <summary><strong>FIREWALL</strong></summary>
+    <summary><strong>Servidor database</strong></summary>
 </details>
 <details>
-    <summary><strong>COPIAS DE SEGURIDAD</strong></summary>
+    <summary><strong>Servidor Backups</strong></summary>
 </details>
 <div align="center">
     <h2 style="text-align: center;">CONCLUSIONES</h2>
