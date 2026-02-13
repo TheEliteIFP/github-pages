@@ -1070,6 +1070,7 @@ El chip IC de serie a paralelo utilizado en este módulo es PCF8574T (PCF8574AT)
 <li><strong>lcd.clear():</strong>Como su nombre indica, sirve para borrar todo el contenido de la pantalla.</li>
 <strong>3) Por último, busca como conseguir que el mensaje de la primera fila se desplace de izquierda a derecha o a la inversa</strong><br>
 <img width="711" height="539" alt="Captura de pantalla 2026-01-30 123206" src="https://github.com/user-attachments/assets/dfa86304-f55f-4ef7-8fc6-480feb34eacd" />
+<img width="1024" height="1536" alt="5ae6e9f7-f77c-4557-af54-ae7c20f720e5" src="https://github.com/user-attachments/assets/51e32b1a-8f84-4ed3-9abf-789cdf6aee27" />
 
 <strong>Proyecto 6.3) Panel LCD1602</strong><br>
 <strong>¿Qué necesitamos para hacer el proyecto?</strong><br>
@@ -1079,6 +1080,10 @@ Un higrotermógrafo es un instrumento de medición utilizado para registrar y mo
 <li>DHTesp: Es el plano que contiene las instrucciones para manejar los sensores de temperatura y húmedad. </li>
 <li>dht: Es el nombre que le das a ese objeto específico para poder usarlo más adelante en el código.</li>
 <strong>Prueba a codificar los valores para que muestre en la primera fila la temperatura en grados Kelvin y en la segunda fila en grados Farenheit.</strong>
+<img width="1024" height="1536" alt="dc36f32b-4685-47e4-925b-4e70b052caf8" src="https://github.com/user-attachments/assets/8c83d05d-8b0c-4a97-9eef-af15af589cd9" />
+
+
+
 <div align="center">
     <h2 style="text-align: center;">ACTIVIDAD 6 WIFI </h2>
 </div>
