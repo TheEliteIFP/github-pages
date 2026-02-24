@@ -432,35 +432,27 @@ No es esencial para la web pública, pero se usaría internamente en la red de d
 </details>
 <details>
  <summary><strong>MYSQL</strong></summary>
-Es un sistema de gestión de bases de datos relacionales, para almacenar datos estructurados de Campeones, Objetos y Usuarios.
+Es un sistema de gestión de bases de datos relacionales, para almacenar datos estructurados de Campeones, Objetos y Usuarios. Ademas instalaremos phpmyadmin para tener una interfaz grafica.
 </details>
 <details>
  <summary><strong>PIHOLE</strong></summary>
 Se usaría en la red de desarrollo para bloquear publicidad y rastreadores a nivel de red para un entorno de trabajo más limpio.
 </details>
 <details>
- <summary><strong>Vercel</strong></summary>
-Propio para el Frontend (React), ofreciendo un despliegue y alojamiento rápidos con caché global.
-</details>
-<details>
  <summary><strong>Github</strong></summary>
-Plataforma de control de versiones obligatoria donde se almacenará el código fuente del proyecto, gestionando ramas y la colaboración del equipo.
+Plataforma de control de versiones obligatoria donde se almacenará el código fuente del proyecto, gestionando ramas y la colaboración del equipo. Ademas el codigo de nuestra web se encontrara dentro de un repositorio de github el cual estara ligado a nuestro nginx.
 </details>
 <details>
  <summary><strong>Firewall</strong></summary>
 Software de seguridad de red que protege el servidor, filtrando el tráfico malicioso y asegurando que solo los puertos necesarios (80, 443, 8080) estén accesibles.
 </details>
 <details>
- <summary><strong>APACHE</strong></summary>
-Puede usarse para servir el Frontend y gestionar el tráfico hacia el Backend.
-</details>
-<details>
  <summary><strong>NGINX</strong></summary>
 Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido estático.
 </details>
  <details>
-  <summary><strong>PHP</strong></summary>
-  Procesa y ejecuta el código dinámico de las aplicaciones para enviárselo a Nginx.
+  <summary><strong>ExpressJS</strong></summary>
+  Procesa y ejecuta el código dinámico de las aplicaciones para enviárselo a Nginx. Usamos este programa en lugar del PHP debido a que el codigo de la web esta compuesto por un formato tipo TSX.
 </details>
 </details>
 <details>
