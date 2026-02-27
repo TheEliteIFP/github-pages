@@ -1133,3 +1133,209 @@ Aqui esta el codigo funcional y con el puerto de comunicacion de la pagina web c
 
 ![logo](assets/logoacero.png)
 
+<div align="center">
+<h2 style="text-align: center;">INTRODUCCIÓN</h2>
+</div>
+
+<div>
+<strong>Elite Arduino Battle</strong> es un proyecto de robótica competitiva desarrollado por el equipo "La Elite". Consiste en el diseño, programación y ensamblaje de dos vehículos autónomos o controlados por Arduino, equipados con sistemas de ataque y defensa para combate en arena.
+El objetivo fundamental es la supervivencia: cada coche protege un punto débil (globo) mientras intenta perforar el del adversario mediante un arma frontal personalizada. Los fundadores de este proyecto son:
+<div align="center">
+<h3 style="text-align: center;">THE ELITE</h3>
+</div>
+<div class="gallery-container" align="center">
+<img src="https://via.placeholder.com/400x150?text=EQUIPO+LA+ELITE" alt="LA ELITE">
+</div>
+
+
+
+
+<details>
+<summary><strong>¿POR QUÉ ESTA IDEA?</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+Como entusiastas de la tecnología, buscábamos un proyecto que combinara la programación lógica con la ingeniería física. La idea de los "Coches de Combate" nos permite experimentar con la movilidad, el diseño de estructuras en 3D y la estrategia en tiempo real.
+
+
+
+Además, este proyecto nos apasiona porque traslada la competitividad de los videojuegos al mundo real, permitiéndonos ver físicamente el resultado de nuestro código y diseño mecánico.
+</details>
+
+<details>
+<summary><strong>¿HASTA DÓNDE QUEREMOS LLEGAR?</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+El objetivo principal es lograr una integración perfecta entre el hardware y el software. Queremos que los coches no solo se muevan, sino que sean precisos y resistentes. Los hitos específicos son:
+
+
+
+<li><strong>Control Total:</strong> Dominar el manejo de motores y sensores mediante código limpio y eficiente.
+
+
+</li>
+<li><strong>Diseño e Impresión 3D:</strong> Crear piezas personalizadas para el soporte de armas y blindaje, optimizando el peso y la resistencia.
+
+
+</li>
+<li><strong>Autonomía y Respuesta:</strong> Conseguir que el sistema de ataque sea funcional y que el chasis soporte el impacto sin desmontarse.
+
+
+</li>
+<li><strong>Aprendizaje Técnico:</strong> Documentar todo el proceso para que sirva de base a futuros proyectos de robótica más complejos.
+
+
+</li>
+</details>
+
+<details>
+<summary><strong>OBJETIVOS DE APRENDIZAJE</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+En el proyecto se potenciarán diversas habilidades técnicas:
+
+
+
+<li><strong>Hardware:</strong> Conexión de controladores de motores (L298N), sensores y alimentación externa.
+
+
+</li>
+<li><strong>Software:</strong> Programación en C++ (IDE de Arduino) y gestión de bibliotecas de movimiento.
+
+
+</li>
+<li><strong>Fabricación Digital:</strong> Uso de software de modelado 3D e impresión para la creación de componentes físicos únicos.
+
+
+</li>
+<li><strong>Resolución de Problemas:</strong> Diagnóstico de fallos en circuitos y depuración de errores lógicos en el código.
+
+
+</li>
+</details>
+
+<details>
+<summary><strong>REQUISITOS TÉCNICOS Y MATERIALES</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+<strong>FÍSICOS
+
+
+</strong>
+<li>2 Kits de Coche Arduino (Chasis, motores, ruedas)
+
+
+</li>
+<li>Placas Arduino (Uno/Elegoo)
+
+
+</li>
+<li>Servomotores (para el movimiento del arma)
+
+
+</li>
+<li>Globos (Punto débil)
+
+
+</li>
+<li>Armas punzantes (Chinchetas, agujas o plástico afilado 3D)
+
+
+</li>
+<li>Material de oficina (Cartón, bridas, cinta americana)
+
+
+</li>
+<li>Impresora 3D (para soportes personalizados)
+
+
+</li>
+
+<strong>LÓGICOS
+
+
+</strong>
+
+<li>Arduino IDE (Entorno de desarrollo)
+
+
+</li>
+<li>Bibliotecas: <code>Servo.h</code>, <code>NewPing.h</code> (si se usan sensores)
+
+
+</li>
+<li>Tinkercad / Fusion 360 (Diseño 3D)
+
+
+</li>
+<li>Github (Control de versiones del código)
+
+
+</li>
+</details>
+
+<div align="center">
+<h2 style="text-align: center;">METODOLOGÍA DE TRABAJO</h2>
+</div>
+
+<details>
+<summary><strong>FASES DE IMPLEMENTACIÓN</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+Para asegurar el éxito del combate, seguiremos estos pasos estructurados:
+
+
+
+
+<strong>1. Creación de los coches:</strong> Ensamblaje de la estructura base y conexión de motores y baterías.
+
+
+
+<strong>2. Desarrollo del Código:</strong> Implementación de la lógica de movimiento y pruebas de respuesta.
+
+
+
+<strong>3. Diseño de Armamento:</strong> Prototipado del objeto punzante y su mecanismo de accionamiento.
+
+
+
+<strong>4. Integración 3D:</strong> Impresión de soportes para fijar el arma y el globo de forma segura al chasis.
+
+
+
+<strong>5. Pruebas de Combate:</strong> Testeo de colisiones y efectividad de perforación.
+</details>
+
+<div align="center">
+<h2 style="text-align: center;">RECURSOS Y DOCUMENTACIÓN</h2>
+</div>
+
+<details>
+<summary><strong>GUÍAS Y TUTORIALES</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+Contamos con documentación técnica de alta calidad para el montaje base:
+<li><strong>Documentación oficial:</strong> <a href="https://docs.keyestudio.com/projects/KS0470/en/latest/">Keyestudio KS0470 Smart Car</a></li>
+<li>En este enlace se encuentran los esquemas eléctricos y ejemplos de código necesarios para el movimiento inicial.</li>
+</details>
+
+<div align="center">
+<h2 style="text-align: center;">DESAFÍOS Y SOLUCIONES</h2>
+</div>
+
+<details>
+<summary><strong>IDENTIFICACIÓN DE RIESGOS</strong></summary>
+<hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+<div align="center">
+| Desafío | Estrategia / Solución Prevista |
+| :--- | :--- |
+| Elección del Chasis | Decidir entre kit pre-hecho por rapidez o diseño 0 para mayor personalización. |
+| Mecanismo de Ataque | Evaluar si el arma será fija o móvil mediante un servomotor. |
+| Estabilidad del Punto Débil | Diseñar un soporte 3D que mantenga el globo rígido pero expuesto. |
+| Consumo de Energía | Uso de baterías Li-ion separadas para motores y placa Arduino. |
+</div>
+</details>
+
+<div align="center">
+<h2 style="text-align: center;">RED Y CONECTIVIDAD</h2>
+</div>
+<details>
+<summary><strong>DIAGRAMA DE CONEXIÓN (HARDWARE)</strong></summary>
+Esencial para entender el flujo de energía y datos entre los componentes.
+<div align="center">
+
+</div>
+</details>
