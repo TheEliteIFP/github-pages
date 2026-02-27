@@ -1320,12 +1320,11 @@ Contamos con documentación técnica de alta calidad para el montaje base:
 <summary><strong>IDENTIFICACIÓN DE RIESGOS</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <div align="center">
-| Desafío | Estrategia / Solución Prevista |
-| :--- | :--- |
-| Elección del Chasis | Decidir entre kit pre-hecho por rapidez o diseño 0 para mayor personalización. |
-| Mecanismo de Ataque | Evaluar si el arma será fija o móvil mediante un servomotor. |
-| Estabilidad del Punto Débil | Diseñar un soporte 3D que mantenga el globo rígido pero expuesto. |
-| Consumo de Energía | Uso de baterías Li-ion separadas para motores y placa Arduino. |
+| Desafío | Estrategia / Solución Prevista |<br>
+| Elección del Chasis | Decidir entre kit pre-hecho por rapidez o diseño 0 para mayor personalización. |<br>
+| Mecanismo de Ataque | Evaluar si el arma será fija o móvil mediante un servomotor. |<br>
+| Estabilidad del Punto Débil | Diseñar un soporte 3D que mantenga el globo rígido pero expuesto. |<br>
+| Consumo de Energía | Uso de baterías Li-ion separadas para motores y placa Arduino. |<br>
 </div>
 </details>
 
