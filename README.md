@@ -732,10 +732,11 @@ https://www.deepseek.com/<br>
 </div>
 
  <div align="center">
-    <h1 style="text-align: center;">ACERO IMPURO</h1>
+    <h1 style="text-align: center;">Arduino</h1>
 </div>
 
-![logo](assets/logoacero.png)
+![yo-robot](https://github.com/user-attachments/assets/189fe64c-3da7-48c4-b756-e1004be34eb6)
+
 
 <div align="center">
     <h2 style="text-align: center;">¿Qué es Arduino?</h2>
