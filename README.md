@@ -1140,15 +1140,6 @@ Aqui esta el codigo funcional y con el puerto de comunicacion de la pagina web c
 <div>
 <strong>Elite Arduino Battle</strong> es un proyecto de robótica competitiva desarrollado por el equipo "La Elite". Consiste en el diseño, programación y ensamblaje de dos vehículos autónomos o controlados por Arduino, equipados con sistemas de ataque y defensa para combate en arena.
 El objetivo fundamental es la supervivencia: cada coche protege un punto débil (globo) mientras intenta perforar el del adversario mediante un arma frontal personalizada. Los fundadores de este proyecto son:
-<div align="center">
-<h3 style="text-align: center;">THE ELITE</h3>
-</div>
-<div class="gallery-container" align="center">
-<img src="https://via.placeholder.com/400x150?text=EQUIPO+LA+ELITE" alt="LA ELITE">
-</div>
-
-
-
 
 <details>
 <summary><strong>¿POR QUÉ ESTA IDEA?</strong></summary>
