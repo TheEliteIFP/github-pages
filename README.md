@@ -1127,4 +1127,9 @@ Aqui esta el codigo funcional y con el puerto de comunicacion de la pagina web c
 
 
 
+<div align="center">
+    <h1 style="text-align: center;">ACERO IMPURO</h1>
+</div>
+
+![logo](assets/logoacero.png)
 
