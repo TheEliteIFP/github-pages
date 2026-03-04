@@ -593,6 +593,11 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
     <h2 style="text-align: center;">SERVICIOS</h2>
 </div>
 <details>
+  <summary><strong>PROXMOX</strong></summary>
+  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+</details>
+  
+<details>
   <summary><strong>SERVIDOR DNS Y FILTRADO (PI-HOLE)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
   
