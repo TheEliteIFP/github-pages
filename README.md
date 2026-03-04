@@ -331,38 +331,12 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 </div>
 </details>
 <details>
- <summary><strong>FUNCIONALIDADES</strong></summary>
-  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
- Las funcionalidades de la página las se enseñaran en tabla dividiéndolas en ID, Prioridad, Explicación, Interacción, Estado.
-<div align="center">
-  <img src="assets/Funcionalidad.png" alt="Funcionalidad">
-</div>
-</details>
-<details>
  <summary><strong>RESPONSABLES DE TAREAS</strong></summary>
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  Cada miembro del equipo de trabajo se encargará de diferentes aspectos del proyecto, intentando aportar cada uno en el aspecto que más destaca.
  <div align="center">
   <img src="assets/Tareas.png" alt="Tareas">
 </div>
-</details>
-<details>
- <summary><strong>CRONOGRAMA DE TAREAS</strong></summary>
- <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
- Aqui tenemos un diagrama de gantt, hecho con Excel y que indica de manera precisa y extensa los tiempos de nuestros objetivos a completar.
- <a href="https://docs.google.com/spreadsheets/d/1vdO17U3JqT5LDkLZkZSWqC-pszDx7UJ8b-GnVSr70g0/edit?usp=sharing"> <target=blank>Acceder al Excel</a>
-</details>
-<details>
- <summary><strong>DIVISIÓN DE CONTENEDORES LCX</strong></summary>
- Un contenedor LXC (Linux Containers) es una tecnología de virtualización ligera a nivel de sistema operativo para entornos Linux. Para este proyecto se hará uso de esta tecnologia de esta manera:<br><br>
-<strong><li>Máquina Virtual (VM 101)</li></strong>
- Gateway / Firewall (iptables) / DHCP (isc-dhcp-server).
- <strong><li>Contenedor de DNS (CT 105)</li></strong>
- Pi-hole (DNS + Bloqueador de anuncios)
-<strong><li>Contenedor de Base de Datos (CT 107)</strong></li>
- MySQL (Base de Datos)
- <strong><li>Contenedor Backup (CT 108)</strong></li>
- NAS (Samba/NFS)
 </details>
 <details>
  <summary><strong>DATOS QUE SE VAN A SOLICITAR</strong></summary>
@@ -592,6 +566,19 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
 <div align="center">
     <h2 style="text-align: center;">SERVICIOS</h2>
 </div>
+<details>
+ <summary><strong>DIVISIÓN DE CONTENEDORES LCX</strong></summary>
+ Un contenedor LXC (Linux Containers) es una tecnología de virtualización ligera a nivel de sistema operativo para entornos Linux. Para este proyecto se hará uso de esta tecnologia de esta manera:<br><br>
+<strong><li>Máquina Virtual (VM 101)</li></strong>
+ Gateway / Firewall (iptables) / DHCP (isc-dhcp-server).
+ <strong><li>Contenedor de DNS (CT 105)</li></strong>
+ Pi-hole (DNS + Bloqueador de anuncios)
+<strong><li>Contenedor de Base de Datos (CT 107)</strong></li>
+ MySQL (Base de Datos)
+ <strong><li>Contenedor Backup (CT 108)</strong></li>
+ NAS (Samba/NFS)
+</details>
+
 <details>
   <summary><strong>PROXMOX</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
