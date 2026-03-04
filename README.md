@@ -590,7 +590,7 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
   
   <p><strong>1. ¿Qué función cumple exactamente?</strong></p>
   <ul>
-    <li><strong>Definición:</strong> Actúa como un DNS Sinkhole (sumidero DNS) y servidor de nombres local para la red EliteGG.</li>
+    <li><strong>Definición:</strong> Actúa como un DNS y servidor de nombres local para la red EliteGG.</li>
     <li><strong>Problema que resuelve:</strong> Bloquea publicidad, trackers y telemetría a nivel de red, mejora la privacidad y permite asignar nombres de dominio personalizados (ej: <code>web.elite.local</code>) a IPs internas.</li>
     <li><strong>A quién da servicio:</strong> A todos los nodos de la red interna (Servidor Web, SQL, Router) y clientes de la LAN.</li>
   </ul>
