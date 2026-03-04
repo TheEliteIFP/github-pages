@@ -623,6 +623,8 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
     • <a href="https://firebog.net/">Listas de Bloqueo Recomendadas (Firebog)</a><br>
     • <a href="https://discourse.pi-hole.net/">Foros de la Comunidad Pi-hole</a>
   </small></p>
+  ![Pihole](https://github.com/user-attachments/assets/896570a0-1d06-4bf1-9680-adf0c78995b5)
+
 </details>
 <details>
   <summary><strong>ROUTER (GATEWAY DE RED)</strong></summary>
