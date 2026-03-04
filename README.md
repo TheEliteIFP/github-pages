@@ -588,26 +588,41 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
   <summary><strong>SERVIDOR DNS Y FILTRADO (PI-HOLE)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
   
-  <p><strong>Configuración del Sistema:</strong></p>
+  <p><strong>1. ¿Qué función cumple exactamente?</strong></p>
   <ul>
-    <li><strong>S.O:</strong> Debian / Linux (Contenedor LXC)</li>
-    <li><strong>IP:</strong> <code>10.10.10.5/24</code></li>
-    <li><strong>Función:</strong> Resolución DNS interna y bloqueo de publicidad/telemetría.</li>
+    <li><strong>Definición:</strong> Actúa como un DNS Sinkhole (sumidero DNS) y servidor de nombres local para la red EliteGG.</li>
+    <li><strong>Problema que resuelve:</strong> Bloquea publicidad, trackers y telemetría a nivel de red, mejora la privacidad y permite asignar nombres de dominio personalizados (ej: <code>web.elite.local</code>) a IPs internas.</li>
+    <li><strong>A quién da servicio:</strong> A todos los nodos de la red interna (Servidor Web, SQL, Router) y clientes de la LAN.</li>
   </ul>
 
-  <p><strong>¿Qué hemos hecho?</strong><br>
-  Instalamos y configuramos <strong>Pi-hole</strong> como el "vigilante" de la red. Cada vez que una máquina (como el servidor Web o tu PC) intenta acceder a una URL, Pi-hole filtra si es legítima o publicidad/rastreo, bloqueándola en el origen. Además, configuramos el <strong>Port Forwarding</strong> en el Router (Puerto 80) hacia la <code>10.10.10.5</code> para gestionar el panel <code>/admin/</code> de forma remota.</p>
+  <p><strong>2. Configuración del Sistema y Requisitos:</strong></p>
+  <ul>
+    <li><strong>S.O:</strong> Debian 12 / Linux (Contenedor LXC en Proxmox)</li>
+    <li><strong>IP del servidor:</strong> <code>10.10.10.5</code> (Estática)</li>
+    <li><strong>Recursos:</strong> 1 vCPU, 512MB RAM, 8GB Disco.</li>
+    <li><strong>Dependencias:</strong> <code>curl</code>, <code>lighttpd</code>, <code>php-cgi</code>, <code>pihole-FTL</code>.</li>
+  </ul>
 
-  <p><strong>Comandos principales:</strong></p>
-  
-  <p><code>curl -sSL https://install.pi-hole.net | bash</code><br>
-  <small>Instalación automatizada y configuración de IP estática y upstream DNS.</small></p>
+  <p><strong>3. Parámetros Básicos y Directorios:</strong></p>
+  <ul>
+    <li><strong>Puertos:</strong> 53 (DNS), 80 (Panel Web Admin), 67 (DHCP opcional).</li>
+    <li><strong>Directorios de trabajo:</strong> <code>/etc/pihole/</code> y <code>/etc/dnsmasq.d/</code>.</li>
+    <li><strong>Archivos clave:</strong> <code>setupVars.conf</code> (parámetros de red) y <code>custom.list</code> (DNS Local).</li>
+  </ul>
 
-  <p><code>pihole -a -p</code><br>
-  <small>Cambio de contraseña del panel administrativo web (Seguridad para la red EliteGG).</small></p>
+  <p><strong>4. Verificación del Funcionamiento:</strong></p>
+  <ul>
+    <li><strong>Comandos de estado:</strong> <code>pihole status</code> y <code>systemctl status pihole-FTL</code>.</li>
+    <li><strong>Prueba desde cliente:</strong> <code>nslookup doubleclick.net 10.10.10.5</code> (Debe devolver <code>0.0.0.0</code> si el filtrado es correcto).</li>
+    <li><strong>Logs y Navegador:</strong> Monitoreo con <code>pihole -t</code> y acceso web en <code>http://10.10.10.5/admin</code>.</li>
+  </ul>
 
-  <p><code>pihole -g</code> y <code>pihole status</code><br>
-  <small>Actualización de listas de bloqueo (Gravity) y verificación del estado del servicio DNS.</small></p>
+  <p><strong>Links de referencia:</strong><br>
+  <small>
+    • <a href="https://docs.pi-hole.net/">Documentación Oficial Pi-hole</a><br>
+    • <a href="https://firebog.net/">Listas de Bloqueo Recomendadas (Firebog)</a><br>
+    • <a href="https://discourse.pi-hole.net/">Foros de la Comunidad Pi-hole</a>
+  </small></p>
 </details>
 <details>
   <summary><strong>ROUTER (GATEWAY DE RED)</strong></summary>
