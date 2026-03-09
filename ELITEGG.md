@@ -447,7 +447,7 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
     <summary><strong>DIAGRAMA DE LA RED</strong></summary>
  Este es el plano de cómo va a estar estructurada la red del proyecto.
   <div align="center">
-  <img src="assets/DIAGRAMAREDBUENO.png" alt="DIAGRAMAREDBUENO">
+  <img src="assets/Diagrama_de_red.jpg" alt="Diagrama_de_red">
 </div>
 
 </details>
