@@ -5,22 +5,22 @@
 ![Mi logo](assets/logo.png)
 
 <div align="center">
-    <h2>ÍNDICE</h2>
+
+# 📖 Índice del Proyecto EliteGG
+
 </div>
 
-<ul>
-<li><a href="#introducción">INTRODUCCIÓN</a>
-        <li><a href="#informe-de-backend-de-db">INFORME DE BACKEND DE DB</a></li>
-        <li><a href="#arquitectura-del-software">ARQUITECTURA DEL SOFTWARE</a></li>
-        <li><a href="#tecnologías-a-utilizar">TECNOLOGÍAS A UTILIZAR</a></li>
-        <li><a href="#red">RED</a></li>
-        <li><a href="#web">WEB</a></li>
-        <li><a href="#servicios">SERVICIOS</a></li>
-        <li><a href="#conclusiones">CONCLUSIONES</a></li>
-        <li><a href="#bibliografia">BIBLIOGRAFIA</a></li>
-    </ul>
-</li>
-</ul>
+> Navega rápidamente por las diferentes secciones del documento.
+
+- 🧭 **[Introducción](#introducción)**
+- 🗄️ **[Informe Backend de DB](#informe-de-backend-de-db)**
+- 🏗️ **[Arquitectura del Software](#arquitectura-del-software)**
+- ⚙️ **[Tecnologías a Utilizar](#tecnologías-a-utilizar)**
+- 🌐 **[Red](#red)**
+- 💻 **[Web](#web)**
+- 🖥️ **[Servicios](#servicios)**
+- 📊 **[Conclusiones](#conclusiones)**
+- 📚 **[Bibliografía](#bibliografia)**
 <div align="center">
     <h2 style="text-align: center;">INTRODUCCIÓN</h2>
 </div>
