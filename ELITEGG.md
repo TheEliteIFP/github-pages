@@ -22,7 +22,7 @@
 - 📊 **[Conclusiones](#conclusiones)**
 - 📚 **[Bibliografía](#bibliografia)**
 <div align="center">
-    <h2 style="text-align: center;">INTRODUCCIÓN</h2>
+    <h2 style="text-align: center;">🧭INTRODUCCIÓN</h2>
 </div>
 
 <div>
@@ -83,7 +83,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 <li>Plan de contingencia<br></li>
 </details>
     <div align="center">
-    <h2 style="text-align: center;">INFORME DE BACKEND DE DB</h2>
+    <h2 style="text-align: center;">🗄️INFORME DE BACKEND DE DB</h2>
 </div>
 <details>
 <summary><strong>IDENTIFICACIONES DE ENTIDADES PRINCIPALES</strong></summary>
