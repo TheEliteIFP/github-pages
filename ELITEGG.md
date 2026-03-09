@@ -646,6 +646,10 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
 
   <img width="1906" height="909" alt="image" src="https://github.com/user-attachments/assets/f4496495-d0dc-4f91-b429-68b95dfc3a7f" />
 
+  <p><strong>Incidencias y complicaciones:</strong><br>
+ Durante la instalación del servidor DNS tuvimos bastante problemas de conexión ya que requeriamos de que nuestro router nos proporcionara conexión a nuestra red interna, como despues de varios intentos fallidos no conseguimos nada, añadimos una segunda interfaz de red (Provisional) que tuviese salida a "Internet" para poder instalar nuestro servicio, una vez solucionado este problema ya no se nos presento ninguna otra incidencia.
+    </p>
+
   <p><strong>Comandos y Gestión:</strong><br>
   <small>
     • Acceso a consola vía Web (10.10.10.5/admin).<br>
