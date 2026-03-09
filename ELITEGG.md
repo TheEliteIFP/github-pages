@@ -571,7 +571,33 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
   <summary><strong>PROXMOX</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <p>Es la plataforma de virtualización de código abierto que actúa como el "estadio" de nuestro proyecto. Nos permite ejecutar y gestionar máquinas virtuales (VM) y contenedores (LXC) sobre un único servidor físico, optimizando el hardware al máximo.</p>
-  
+<p><strong>¿Por qué es clave para EliteGG?</strong></p>
+  <ul>
+    <li><strong>Aislamiento Total:</strong> Cada servicio (Web, DNS, SQL) vive en su propio entorno independiente, aumentando la seguridad y evitando fallos en cadena.</li>
+    <li><strong>Snapshots (Puntos de restauración):</strong> Permite crear "puntos de guardado" antes de realizar cambios críticos, pudiendo revertir cualquier error en segundos.</li>
+    <li><strong>Gestión de Recursos:</strong> Asignación dinámica de CPU y RAM según las necesidades de la carga de trabajo de EliteGG.</li>
+  </ul>
+  <p><strong>Adaptación al Proyecto EliteGG:</strong></p>
+  <p>Proxmox es el pilar que sostiene nuestra infraestructura mediante:</p>
+  <ul>
+    <li><strong>Virtualización KVM:</strong> Utilizada para el Router y el Servidor Web, garantizando un aislamiento completo del Kernel.</li>
+    <li><strong>Contenedores LXC:</strong> Utilizados para el servicio Pi-hole, permitiendo un alto rendimiento con un consumo mínimo de recursos (512MB RAM).</li>
+    <li><strong>Networking Virtual:</strong> Creación de puentes (Bridges) para segmentar la red interna <code>10.10.10.x</code> de la red externa.</li>
+  </ul>
+
+  <p><strong>Comandos y Gestión:</strong><br>
+  <small>
+    • Acceso a consola vía Web (HTTPS:8006).<br>
+    • Gestión de almacenamiento local y backups automáticos.<br>
+    • Monitoreo de latencia y rendimiento de nodos en tiempo real.
+  </small></p>
+
+  <p><strong>Links de referencia:</strong><br>
+  <small>
+    • <a href="https://www.proxmox.com/en/proxmox-ve/get-started">Primeros pasos con Proxmox VE</a><br>
+    • <a href="https://pve.proxmox.com/pve-docs/">Documentación Técnica (Wiki)</a>
+    • <a href="https://punkymo.gitbook.io/miwiki/virtualizacion/proxmox"</a>
+  </small></p>
   </details>
 <details>
  <summary><strong>DIVISIÓN DE CONTENEDORES LCX</strong></summary>
