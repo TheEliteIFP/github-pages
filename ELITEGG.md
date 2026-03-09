@@ -296,7 +296,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 </details>
 
 <div align="center">
-    <h2 style="text-align: center;">ARQUITECTURA DEL SOFTWARE</h2>
+    <h2 style="text-align: center;">🏗️ARQUITECTURA DEL SOFTWARE</h2>
 </div>
 <details>
  <summary><strong>OBJETIVOS</strong></summary>
@@ -396,7 +396,7 @@ Todo valor que no esté dentro de esa lista predefinida, se devolverá.</li>
  <li><strong>JSON (JavaScript Object Notation):</strong> Se usa para almacenar datos complejos y semi-estructurados, como listas anidadas o pares clave-valor.</li>
 </details>
 <div align="center">
-    <h2 style="text-align: center;">TECNOLOGÍAS A UTILIZAR</h2>
+    <h2 style="text-align: center;">⚙️TECNOLOGÍAS A UTILIZAR</h2>
 </div>
 El proyecto usará diferentes programas para poder ser funcional, las detallaremos en formato lista:
 <br><br>
@@ -448,7 +448,7 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
  
 </details>
 <div align="center">
-    <h2 style="text-align: center;">RED</h2>
+    <h2 style="text-align: center;">🌐RED</h2>
 </div>
 <details>
     <summary><strong>DIAGRAMA DE LA RED</strong></summary>
@@ -459,7 +459,7 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
 
 </details>
 <div align="center">
-    <h2 style="text-align: center;">WEB</h2>
+    <h2 style="text-align: center;">💻WEB</h2>
 </div>
 Aqui tendremos la planificación a nivel tanto visual como interactivo de lo que será nuestra web.
 <details>
@@ -571,7 +571,7 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
  <a href="https://miro.com/app/board/uXjVJ5uIMTM=/?share_link_id=5953744281"> <target=blank>Acceder al Mapa</a>. Este mapa tiene una estructura perfectamente pensada, los rombos representan la "Home page", los cuadrados morados representan botones/objetos interactuables, y los cuadrados amarillos representan aspectos puramente visuales. La estructura de la web está perfectamente interconectada unas funciones con otras, de esta manera el usuario puede llegar a cualquier parte de la web con la menor cantidad de clics posible.     
 </details>
 <div align="center">
-    <h2 style="text-align: center;">SERVICIOS</h2>
+    <h2 style="text-align: center;">🖥️SERVICIOS</h2>
 </div>
   
   <details>
@@ -594,7 +594,7 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
 
   <p><strong>Comandos y Gestión:</strong><br>
   <small>
-    • Acceso a consola vía Web (HTTPS:8006).<br>
+    • Acceso a consola vía Web (192.168.135.69:8006).<br>
     • Gestión de almacenamiento local y backups automáticos.<br>
     • Monitoreo de latencia y rendimiento de nodos en tiempo real.
   </small></p>
@@ -757,10 +757,10 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
     <summary><strong>Servidor Backups</strong></summary>
 </details>
 <div align="center">
-    <h2 style="text-align: center;">CONCLUSIONES</h2>
+    <h2 style="text-align: center;">📊CONCLUSIONES</h2>
 </div>
 <div align="center">
-    <h2 style="text-align: center;">BIBLIOGRAFIA</h2>
+    <h2 style="text-align: center;">📚BIBLIOGRAFIA</h2>
 </div>
 <div>
 https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5<br>
