@@ -566,6 +566,13 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
 <div align="center">
     <h2 style="text-align: center;">SERVICIOS</h2>
 </div>
+  
+  <details>
+  <summary><strong>PROXMOX</strong></summary>
+  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+<p>Es la plataforma de virtualización de código abierto que actúa como el "estadio" de nuestro proyecto. Nos permite ejecutar y gestionar máquinas virtuales (VM) y contenedores (LXC) sobre un único servidor físico, optimizando el hardware al máximo.</p>
+  
+  </details>
 <details>
  <summary><strong>DIVISIÓN DE CONTENEDORES LCX</strong></summary>
  Un contenedor LXC (Linux Containers) es una tecnología de virtualización ligera a nivel de sistema operativo para entornos Linux. Para este proyecto se hará uso de esta tecnologia de esta manera:<br><br>
@@ -577,11 +584,6 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
  MySQL (Base de Datos)
  <strong><li>Contenedor Backup (CT 108)</strong></li>
  NAS (Samba/NFS)
-</details>
-
-<details>
-  <summary><strong>PROXMOX</strong></summary>
-  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 </details>
   
 <details>
