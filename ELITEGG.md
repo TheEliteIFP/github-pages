@@ -595,7 +595,7 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
   <p><strong>Links de referencia:</strong><br>
   <small>
     • <a href="https://www.proxmox.com/en/proxmox-ve/get-started">Primeros pasos con Proxmox VE</a><br>
-    • <a href="https://pve.proxmox.com/pve-docs/">Documentación Técnica (Wiki)</a>
+    • <a href="https://pve.proxmox.com/pve-docs/">Documentación Técnica (Wiki)</a><br>
     • <a href="https://punkymo.gitbook.io/miwiki/virtualizacion/proxmox"> Documentación Alina</a>
   </small></p>
   </details>
