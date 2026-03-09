@@ -625,44 +625,41 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
   <summary><strong>SERVIDOR DNS Y FILTRADO (PI-HOLE)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
   
-  <p><strong>1. ¿Qué función cumple exactamente?</strong></p>
+  <p>Será el encargado de conseguir que nuestra web tenga un "nombre" para poder buscarse, en lugar de solo su dirección IP,ademas ser nuestro bloqueador de anuncios, usaremos Pi-Hole el cual instalaremos en un Contenedor LXC con el sistema operativo Debian y podremos configurarlo a partir de su interfaz web.</p>
+  
+  <img width="1904" height="909" alt="image" src="https://github.com/user-attachments/assets/921265f1-a9b5-4046-a43c-2f5e22c6668e" />
+
+  <p><strong>¿Por qué es clave para EliteGG?</strong></p>
   <ul>
-    <li><strong>Definición:</strong> Actúa como un DNS y servidor de nombres local para la red EliteGG.</li>
-    <li><strong>Problema que resuelve:</strong> Bloquea publicidad, trackers y telemetría a nivel de red, mejora la privacidad y permite asignar nombres de dominio personalizados (ej: <code>web.elite.local</code>) a IPs internas.</li>
-    <li><strong>A quién da servicio:</strong> A todos los nodos de la red interna (Servidor Web, SQL, Router) y clientes de la LAN.</li>
+    <li><strong>Bloqueo de Publicidad:</strong> Elimina anuncios y trackers a nivel de red, reduciendo el tráfico innecesario y acelerando la navegación.</li>
+    <li><strong>Privacidad:</strong> Evita que los dispositivos envíen telemetría y datos de uso a servidores externos no autorizados.</li>
+    <li><strong>DNS Local:</strong> Permite acceder a nuestros servicios mediante nombres (ej: <code>web.elite.local</code>) en lugar de recordar IPs.</li>
   </ul>
 
-  <p><strong>2. Configuración del Sistema y Requisitos:</strong></p>
+  <p><strong>Adaptación al Proyecto EliteGG:</strong></p>
+  <p>Integrado como un servicio ligero que protege la integridad de la red interna:</p>
   <ul>
-    <li><strong>S.O:</strong> Debian 12 / Linux (Contenedor LXC en Proxmox)</li>
-    <li><strong>IP del servidor:</strong> <code>10.10.10.5</code> (Estática)</li>
-    <li><strong>Recursos:</strong> 1 vCPU, 512MB RAM, 8GB Disco.</li>
-    <li><strong>Dependencias:</strong> <code>curl</code>, <code>lighttpd</code>, <code>php-cgi</code>, <code>pihole-FTL</code>.</li>
+    <li><strong>Eficiencia LXC:</strong> Ejecutado en un contenedor Linux para minimizar el uso de recursos del nodo Proxmox (512MB RAM).</li>
+    <li><strong>Control Centralizado:</strong> Proporciona un panel administrativo para visualizar en tiempo real quién y qué se está bloqueando.</li>
+    <li><strong>Protección de Servidores:</strong> Evita que el Servidor Web o la DB conecten con dominios maliciosos conocidos.</li>
   </ul>
 
-  <p><strong>3. Parámetros Básicos y Directorios:</strong></p>
-  <ul>
-    <li><strong>Puertos:</strong> 53 (DNS), 80 (Panel Web Admin), 67 (DHCP opcional).</li>
-    <li><strong>Directorios de trabajo:</strong> <code>/etc/pihole/</code> y <code>/etc/dnsmasq.d/</code>.</li>
-    <li><strong>Archivos clave:</strong> <code>setupVars.conf</code> (parámetros de red) y <code>custom.list</code> (DNS Local).</li>
-  </ul>
+  <img width="1906" height="909" alt="image" src="https://github.com/user-attachments/assets/f4496495-d0dc-4f91-b429-68b95dfc3a7f" />
 
-  <p><strong>4. Verificación del Funcionamiento:</strong></p>
-  <ul>
-    <li><strong>Comandos de estado:</strong> <code>pihole status</code> y <code>systemctl status pihole-FTL</code>.</li>
-    <li><strong>Prueba desde cliente:</strong> <code>nslookup doubleclick.net 10.10.10.5</code> (Debe devolver <code>0.0.0.0</code> si el filtrado es correcto).</li>
-    <li><strong>Logs y Navegador:</strong> Monitoreo con <code>pihole -t</code> y acceso web en <code>http://10.10.10.5/admin</code>.</li>
-  </ul>
+  <p><strong>Comandos y Gestión:</strong><br>
+  <small>
+    • Acceso a consola vía Web (10.10.10.5/admin).<br>
+    • Actualización de listas Gravity: <code>pihole -g</code>.<br>
+    • Monitoreo de consultas en tiempo real: <code>pihole -t</code>.
+  </small></p>
 
   <p><strong>Links de referencia:</strong><br>
   <small>
     • <a href="https://docs.pi-hole.net/">Documentación Oficial Pi-hole</a><br>
     • <a href="https://firebog.net/">Listas de Bloqueo Recomendadas (Firebog)</a><br>
-    • <a href="https://discourse.pi-hole.net/">Foros de la Comunidad Pi-hole</a>
+    • <a href="https://discourse.pi-hole.net/">Foro de la Comunidad Pi-hole</a> <br>
+    • <a href="https://punkymo.gitbook.io/miwiki/virtualizacion/proxmox"> Documentación Alina</a>
   </small></p>
-  ![Pihole](https://github.com/user-attachments/assets/7c9a1ade-c23e-4e8c-b496-ac67345150d3)
-
-
 </details>
 <details>
   <summary><strong>ROUTER (GATEWAY DE RED)</strong></summary>
