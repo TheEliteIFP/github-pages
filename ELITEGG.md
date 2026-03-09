@@ -578,6 +578,8 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
   <summary><strong>PROXMOX</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <p>Es la plataforma de virtualización de código abierto que actúa como el "estadio" de nuestro proyecto. Nos permite ejecutar y gestionar máquinas virtuales (VM) y contenedores (LXC) sobre un único servidor físico, optimizando el hardware al máximo.</p>
+   <img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/072a87eb-092e-4c03-a157-04fea8727c58" />
+
 <p><strong>¿Por qué es clave para EliteGG?</strong></p>
   <ul>
     <li><strong>Aislamiento Total:</strong> Cada servicio (Web, DNS, SQL) vive en su propio entorno independiente, aumentando la seguridad y evitando fallos en cadena.</li>
