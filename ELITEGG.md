@@ -10,7 +10,6 @@
 
 <ul>
 <li><a href="#introducción">INTRODUCCIÓN</a>
-    <ul>
         <li><a href="#informe-de-backend-de-db">INFORME DE BACKEND DE DB</a></li>
         <li><a href="#arquitectura-del-software">ARQUITECTURA DEL SOFTWARE</a></li>
         <li><a href="#tecnologías-a-utilizar">TECNOLOGÍAS A UTILIZAR</a></li>
