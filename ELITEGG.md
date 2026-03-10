@@ -747,6 +747,9 @@ Nginx
     • <a href="https://punkymo.gitbook.io/miwiki/virtualizacion/proxmox"> Documentación Alina</a>
   </small></p>
 </details>
+
+
+<details>
   <summary><strong>SERVIDOR DATABASE (MARIADB Y PHPMYADMIN)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
   
