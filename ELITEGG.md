@@ -666,34 +666,44 @@ Nginx
   </small></p>
 </details>
 <details>
-  <summary><strong>ROUTER (GATEWAY DE RED)</strong></summary>
+  <summary><strong>GATEWAY Y SEGURIDAD PERIMETRAL (ROUTER DEBIAN)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-  
-  <p><strong>Configuración del Sistema:</strong></p>
+
+  <p>Es el nodo central de comunicaciones de la infraestructura. Actúa como una puerta de enlace (Gateway) inteligente que interconecta la red externa (WAN) con nuestra red interna segmentada (LAN 10.10.10.x), gestionando todo el flujo de datos y la seguridad de los paquetes.</p>
+
+  <img width="1275" height="860" alt="image" src="https://github.com/user-attachments/assets/60cce51a-1231-4677-838d-6773360e5bd3" />
+
+  <p><strong>¿Por qué es clave para EliteGG?</strong></p>
   <ul>
-    <li><strong>S.O:</strong> Debian (Interfaz Gráfica) en Proxmox</li>
-    <li><strong>IP LAN:</strong> <code>10.10.10.1/24</code></li>
-    <li><strong>Interfaces:</strong> 2 adaptadores (Bridge WAN y Red Interna LAN)</li>
-    <li><strong>Función:</strong> Gestión de tráfico y NAT entre redes.</li>
+    <li><strong>Aislamiento de Red:</strong> Crea una barrera de seguridad que impide el acceso directo desde el exterior a los servidores críticos como SQL o Pi-hole, protegiendo el "core" del proyecto.</li>
+    <li><strong>Port Forwarding (Redirección):</strong> Permite que servicios internos (como la web en el puerto 3001 o la API en el 3000) sean accesibles desde fuera mediante una única IP gestionada.</li>
+    <li><strong>Control de Tráfico (NAT):</strong> Gestiona el enmascaramiento de IPs para que todas nuestras VMs internas tengan salida a Internet de forma segura y transparente.</li>
   </ul>
 
-  <p><strong>¿Qué hemos hecho?</strong><br>
-  Configuramos una MV con doble interfaz para unir la red de IFP con nuestra red interna <code>10.10.10.0/24</code>. Utilizamos <strong>iptables</strong> para gestionar el flujo de paquetes y permitir que los contenedores tengan salida a internet mediante NAT. Validamos la conectividad constantemente con <code>ping 8.8.8.8</code>.</p>
+  <p><strong>Adaptación al Proyecto EliteGG:</strong></p>
+  <p>Configurado como un firewall robusto basado en software para el control total de la red:</p>
+  <ul>
+    <li><strong>Doble Interfaz de Red:</strong> Una interfaz en modo puente (192.168.135.50) y otra interna privada (10.10.10.1).</li>
+    <li><strong>IP Forwarding:</strong> Habilitado a nivel de Kernel (sysctl) para permitir el salto de paquetes entre subredes de forma fluida y con las minimas perdidas posibles.</li>
+    <li><strong>Persistencia de Reglas:</strong> Implementación de <code>iptables-persistent</code> para garantizar que la configuración de red no se pierda tras un reinicio del servidor.</li>
+  </ul>
 
-  
+  <p><strong>Comandos y Gestión:</strong><br>
+  <small>
+    • Ver reglas de redirección activas: <code>iptables -t nat -L -n -v</code>.<br>
+    • Verificar estado del reenvío de IP: <code>sysctl net.ipv4.ip_forward</code>.<br>
+    • Guardar cambios de IPTABLES: <code>netfilter-persistent save</code>.
+ 
+  </small></p>
 
-  <p><strong>Comandos principales:</strong></p>
-  
-  <p><code>echo 1 > /proc/sys/net/ipv4/ip_forward</code><br>
-  <small>Activa el reenvío de paquetes a nivel de Kernel, transformando la MV en un router real.</small></p>
-
-  <p><code>iptables -t nat -A POSTROUTING -o ens18 -j MASQUERADE</code><br>
-  <small>Configura el <strong>Masquerade</strong>: permite que los contenedores "se disfracen" con la IP del router para navegar por internet.</small></p>
-
-  <p><code>iptables-save > /etc/iptables/rules.v4</code><br>
-  <small>Asegura la persistencia de las reglas mediante <code>iptables-persistent</code> para que no se borren tras un reinicio.</small></p>
+  <p><strong>Links de referencia:</strong><br>
+  <small>
+    • <a href="https://wiki.debian.org/DebianRouter">Debian Wiki: HowTo Router</a><br>
+    • <a href="https://help.ubuntu.com/community/IptablesHowTo">Guía Completa de Iptables (Netfilter)</a><br>
+    • <a href="https://pve.proxmox.com/wiki/Network_Configuration">Configuración de Red en Proxmox</a>
+    • <a href="https://punkymo.gitbook.io/miwiki/virtualizacion/proxmox"> Documentación Alina</a>
+  </small></p>
 </details>
-<details>
   <summary><strong>SERVIDOR DATABASE (MARIADB Y PHPMYADMIN)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
   
