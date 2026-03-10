@@ -790,33 +790,9 @@ Nginx
     <li><strong>Seguridad:</strong> El cliente nunca toca la base de datos; la API valida quién eres y qué puedes hacer antes de darte la información.</li>
     <li><strong>Desacoplamiento:</strong> Podemos cambiar la base de datos o el diseño de la web sin romper la comunicación, siempre que la API mantenga las mismas "reglas".</li>
   </ul>
-
-  <p><strong>Implementación en nuestro Ecosistema:</strong></p>
-  <table style="width:100%; border-collapse: collapse; margin: 10px 0; font-size: 14px;">
-    <thead>
-      <tr style="background-color: #333; color: white; text-align: left;">
-        <th style="padding: 10px; border: 1px solid #444;">Tecnología</th>
-        <th style="padding: 10px; border: 1px solid #444;">Función</th>
-        <th style="padding: 10px; border: 1px solid #444;">Puerto/Ruta</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #444;"><strong>Express.js</strong></td>
-        <td style="padding: 10px; border: 1px solid #444;">Servidor de API que recibe peticiones y consulta al SQL.</td>
-        <td style="padding: 10px; border: 1px solid #444;"><code>3000 /api/v1/</code></td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #444;"><strong>Vercel Functions</strong></td>
-        <td style="padding: 10px; border: 1px solid #444;">Endpoints Serverless para peticiones rápidas desde la nube.</td>
-        <td style="padding: 10px; border: 1px solid #444;"><code>3001 /api/</code></td>
-      </tr>
-    </tbody>
-  </table>
-
   <p><strong>Ejemplo de Flujo de Datos:</strong><br>
   <small>
-    1. El usuario entra en <b>EliteGG</b> -> 2. La Web lanza un <code>fetch()</code> a la API -> 3. La API autentica y pide datos al SQL -> 4. El SQL devuelve los datos -> 5. La API entrega un <b>JSON</b> a la Web.
+    1. El usuario entra en <b>EliteGG</b> -> 2. La Web lanza un <code>fetch()</code> a la API -> 3. La API autentica y comunica con la base de datos oficial de la empresa externa. -> 4. La base de datos envia los datos a la API -> 5. La API entrega un <b>JSON</b> a la Web y lo muestra en el formato que le damos con nuestro codigo.
   </small></p>
 
   <p><strong>Comandos de Verificación:</strong><br>
