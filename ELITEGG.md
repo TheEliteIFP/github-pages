@@ -617,8 +617,8 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
  Pi-hole (DNS + Bloqueador de anuncios)
 <strong><li>Contenedor de Base de Datos (CT 107)</strong></li>
  MySQL (Base de Datos)
- <strong><li>Contenedor Backup (CT 108)</strong></li>
- NAS (Samba/NFS)
+ <strong><li>Contenedor WEB (CT 104)</strong></li>
+Nginx
 </details>
   
 <details>
