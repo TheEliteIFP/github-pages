@@ -750,35 +750,41 @@ Nginx
 
 
 <details>
-  <summary><strong>SERVIDOR DATABASE (MARIADB Y PHPMYADMIN)</strong></summary>
+  <summary><strong>GATEWAY Y SEGURIDAD PERIMETRAL (ROUTER DEBIAN)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-  
-  <p><strong>Configuración del Sistema:</strong></p>
+
+  <p>Es el nodo central de comunicaciones de la infraestructura. Actúa como una pasarela (Gateway) inteligente que interconecta la red externa (WAN) con nuestra red interna segmentada (LAN 10.10.10.x), gestionando todo el flujo de datos.</p>
+
+  <img width="1919" height="907" alt="router-network-topology" src="TU_URL_DE_IMAGEN_ROUTER_AQUÍ" />
+
+  <p><strong>¿Por qué es clave para EliteGG?</strong></p>
   <ul>
-    <li><strong>S.O:</strong> Debian (Contenedor LXC)</li>
-    <li><strong>IP:</strong> <code>10.10.10.9/24</code></li>
-    <li><strong>Función:</strong> Almacenamiento de datos y gestión mediante entorno web.</li>
+    <li><strong>Aislamiento de Red:</strong> Crea una barrera de seguridad que impide el acceso directo desde el exterior a los servidores críticos como SQL o Pi-hole.</li>
+    <li><strong>Port Forwarding (Redirección):</strong> Permite que servicios internos (como la web en el puerto 3001) sean accesibles desde fuera mediante una única IP pública/gestionada.</li>
+    <li><strong>Control de Tráfico:</strong> Gestiona el enmascaramiento de IPs (NAT) para que todas nuestras VMs tengan salida a Internet de forma segura.</li>
   </ul>
 
-  <p><strong>¿Qué hemos hecho?</strong><br>
-  Montamos <strong>MariaDB</strong> y <strong>phpMyAdmin</strong> para gestionar los datos visualmente. Creamos un usuario específico para evitar usar <code>root</code> y configuramos el Router para permitir el acceso externo. Además, ajustamos los tiempos de espera para evitar errores al importar grandes volúmenes de datos (tablas de Google Drive).</p>
+  <p><strong>Adaptación al Proyecto EliteGG:</strong></p>
+  <p>Configurado como un firewall robusto basado en software para el control total de paquetes:</p>
+  <ul>
+    <li><strong>Doble Interfaz de Red:</strong> Una tarjeta conectada al bridge externo (192.168.135.50) y otra al bridge interno privado (10.10.10.1).</li>
+    <li><strong>IP Forwarding:</strong> Habilitado a nivel de Kernel para permitir el salto de paquetes entre subredes de forma fluida.</li>
+    <li><strong>Persistencia de Reglas:</strong> Implementación de <code>iptables-persistent</code> para garantizar que la red no se rompa tras un reinicio.</li>
+  </ul>
 
-  
+  <p><strong>Comandos y Gestión:</strong><br>
+  <small>
+    • Ver reglas de redirección: <code>iptables -t nat -L -n -v</code>.<br>
+    • Verificar reenvío de IP: <code>sysctl net.ipv4.ip_forward</code>.<br>
+    • Guardar cambios de red: <code>netfilter-persistent save</code>.
+  </small></p>
 
-  <p><strong>Comandos principales:</strong></p>
-  
-  <p><strong>1. Gestión de usuarios (SQL):</strong><br>
-  <code>CREATE USER 'Elite'@'%' IDENTIFIED BY '12345';</code><br>
-  <code>GRANT ALL PRIVILEGES ON *.* TO 'Elite'@'%' WITH GRANT OPTION;</code><br>
-  <small>Creamos el usuario 'Elite' con permisos totales desde cualquier IP (<code>%</code>), permitiendo la conexión desde el servidor Web.</small></p>
-
-  <p><strong>2. Optimización (Nginx/PHP):</strong><br>
-  <code>proxy_read_timeout 300;</code> (en <code>sites-available/default</code>)<br>
-  <small>Evitamos el error <strong>504 Gateway Time-out</strong>, dando tiempo extra para procesos pesados de importación.</small></p>
-
-  <p><strong>3. Control de servicios:</strong><br>
-  <code>systemctl status mariadb</code> y <code>systemctl restart nginx</code><br>
-  <small>Verificamos que la DB esté viva y reiniciamos el servidor web para aplicar los cambios de timeout.</small></p>
+  <p><strong>Links de referencia:</strong><br>
+  <small>
+    • <a href="https://wiki.debian.org/DebianRouter">Debian Wiki: HowTo Router</a><br>
+    • <a href="https://help.ubuntu.com/community/IptablesHowTo">Guía Completa de Iptables</a><br>
+    • <a href="https://pve.proxmox.com/wiki/Network_Configuration">Configuración de Red en Proxmox</a>
+  </small></p>
 </details>
 <details>
   <summary><strong>SERVIDOR WEB (FRONTEND ELITEGG)</strong></summary>
