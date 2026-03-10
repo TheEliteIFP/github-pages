@@ -712,14 +712,14 @@ Nginx
       <tr>
         <td style="padding: 10px; border: 1px solid #444;">EliteGG Web (Vercel)</td>
         <td style="padding: 10px; border: 1px solid #444;"><code>3001</code></td>
-        <td style="padding: 10px; border: 1px solid #444;">10.10.10.5</td>
+        <td style="padding: 10px; border: 1px solid #444;">10.10.10.6</td>
         <td style="padding: 10px; border: 1px solid #444;"><code>3001</code></td>
       </tr>
       <tr>
-        <td style="padding: 10px; border: 1px solid #444;">EliteGG API (Express)</td>
-        <td style="padding: 10px; border: 1px solid #444;"><code>3000</code></td>
-        <td style="padding: 10px; border: 1px solid #444;">10.10.10.5</td>
-        <td style="padding: 10px; border: 1px solid #444;"><code>3000</code></td>
+        <td style="padding: 10px; border: 1px solid #444;">PhPMyAdmin</td>
+        <td style="padding: 10px; border: 1px solid #444;"><code>8080</code></td>
+        <td style="padding: 10px; border: 1px solid #444;">10.10.10.8</td>
+        <td style="padding: 10px; border: 1px solid #444;"><code>8080</code></td>
       </tr>
       <tr>
         <td style="padding: 10px; border: 1px solid #444;">Panel Pi-hole</td>
