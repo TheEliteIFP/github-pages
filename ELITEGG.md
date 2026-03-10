@@ -700,7 +700,7 @@ Nginx
   <small>
     • <a href="https://wiki.debian.org/DebianRouter">Debian Wiki: HowTo Router</a><br>
     • <a href="https://help.ubuntu.com/community/IptablesHowTo">Guía Completa de Iptables (Netfilter)</a><br>
-    • <a href="https://pve.proxmox.com/wiki/Network_Configuration">Configuración de Red en Proxmox</a>
+    • <a href="https://pve.proxmox.com/wiki/Network_Configuration">Configuración de Red en Proxmox</a> <br>
     • <a href="https://punkymo.gitbook.io/miwiki/virtualizacion/proxmox"> Documentación Alina</a>
   </small></p>
 </details>
