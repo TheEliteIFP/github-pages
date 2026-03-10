@@ -693,8 +693,51 @@ Nginx
     • Ver reglas de redirección activas: <code>iptables -t nat -L -n -v</code>.<br>
     • Verificar estado del reenvío de IP: <code>sysctl net.ipv4.ip_forward</code>.<br>
     • Guardar cambios de IPTABLES: <code>netfilter-persistent save</code>.
- 
   </small></p>
+<hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px dashed #444;">
+  
+  <p><strong>🛠️ CONFIGURACIÓN DE REENVÍO DE PUERTOS (PORT FORWARDING)</strong></p>
+  <p>Para permitir el acceso desde la red externa (192.168.135.x) a los servicios internos de la LAN privada, hemos implementado reglas de <strong>DNAT (Destination Network Address Translation)</strong> mediante el firewall <code>iptables</code>.</p>
+
+  <table style="width:100%; border-collapse: collapse; margin: 10px 0; font-size: 14px;">
+    <thead>
+      <tr style="background-color: #333; color: white; text-align: left;">
+        <th style="padding: 10px; border: 1px solid #444;">Servicio</th>
+        <th style="padding: 10px; border: 1px solid #444;">Puerto Externo</th>
+        <th style="padding: 10px; border: 1px solid #444;">IP Destino (LAN)</th>
+        <th style="padding: 10px; border: 1px solid #444;">Puerto Interno</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #444;">EliteGG Web (Vercel)</td>
+        <td style="padding: 10px; border: 1px solid #444;"><code>3001</code></td>
+        <td style="padding: 10px; border: 1px solid #444;">10.10.10.5</td>
+        <td style="padding: 10px; border: 1px solid #444;"><code>3001</code></td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #444;">EliteGG API (Express)</td>
+        <td style="padding: 10px; border: 1px solid #444;"><code>3000</code></td>
+        <td style="padding: 10px; border: 1px solid #444;">10.10.10.5</td>
+        <td style="padding: 10px; border: 1px solid #444;"><code>3000</code></td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #444;">Panel Pi-hole</td>
+        <td style="padding: 10px; border: 1px solid #444;"><code>80</code></td>
+        <td style="padding: 10px; border: 1px solid #444;">10.10.10.5</td>
+        <td style="padding: 10px; border: 1px solid #444;"><code>80</code></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Comandos de Implementación:</strong><br>
+  <small>
+    <code>iptables -t nat -A PREROUTING -p tcp --dport 3001 -j DNAT --to-destination 10.10.10.5:3001</code><br>
+    <code>iptables -t nat -A POSTROUTING -j MASQUERADE</code>
+  </small></p>
+  
+  <p><strong>¿Qué problema resuelve?</strong><br>
+  Sin estas reglas, la red interna sería invisible. El Port Forwarding permite que al escribir la IP del Router (192.168.135.50) seguida del puerto, el tráfico sea redirigido automáticamente al servidor correspondiente en la sombra de la red privada.</p>
 
   <p><strong>Links de referencia:</strong><br>
   <small>
