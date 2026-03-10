@@ -750,40 +750,40 @@ Nginx
 
 
 <details>
-  <summary><strong>GATEWAY Y SEGURIDAD PERIMETRAL (ROUTER DEBIAN)</strong></summary>
+  <summary><strong>SERVIDOR DE BASE DE DATOS (SQL)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 
-  <p>Es el nodo central de comunicaciones de la infraestructura. Actúa como una pasarela (Gateway) inteligente que interconecta la red externa (WAN) con nuestra red interna segmentada (LAN 10.10.10.x), gestionando todo el flujo de datos.</p>
+  <p>Es el núcleo de almacenamiento de datos de nuestro proyecto. Este servidor gestiona toda la información persistente, desde perfiles de usuario hasta las estadísticas de juego, permitiendo que la web sea dinámica y funcional.</p>
 
-  <img width="1919" height="907" alt="router-network-topology" src="TU_URL_DE_IMAGEN_ROUTER_AQUÍ" />
+  <img width="1919" height="907" alt="database-management" src="TU_URL_DE_IMAGEN_SQL_AQUÍ" />
 
   <p><strong>¿Por qué es clave para EliteGG?</strong></p>
   <ul>
-    <li><strong>Aislamiento de Red:</strong> Crea una barrera de seguridad que impide el acceso directo desde el exterior a los servidores críticos como SQL o Pi-hole.</li>
-    <li><strong>Port Forwarding (Redirección):</strong> Permite que servicios internos (como la web en el puerto 3001) sean accesibles desde fuera mediante una única IP pública/gestionada.</li>
-    <li><strong>Control de Tráfico:</strong> Gestiona el enmascaramiento de IPs (NAT) para que todas nuestras VMs tengan salida a Internet de forma segura.</li>
+    <li><strong>Persistencia de Datos:</strong> Garantiza que la información no se pierda al reiniciar los servidores Web o el Router.</li>
+    <li><strong>Integridad y Seguridad:</strong> Separar la base de datos en una VM independiente protege los datos sensibles en caso de compromiso del servidor Web.</li>
+    <li><strong>Rendimiento Optimizado:</strong> Consultas rápidas y estructuradas para que la experiencia de usuario en la web sea fluida.</li>
   </ul>
 
   <p><strong>Adaptación al Proyecto EliteGG:</strong></p>
-  <p>Configurado como un firewall robusto basado en software para el control total de paquetes:</p>
+  <p>Configurado como un pilar de datos robusto y accesible para el Backend de Express:</p>
   <ul>
-    <li><strong>Doble Interfaz de Red:</strong> Una tarjeta conectada al bridge externo (192.168.135.50) y otra al bridge interno privado (10.10.10.1).</li>
-    <li><strong>IP Forwarding:</strong> Habilitado a nivel de Kernel para permitir el salto de paquetes entre subredes de forma fluida.</li>
-    <li><strong>Persistencia de Reglas:</strong> Implementación de <code>iptables-persistent</code> para garantizar que la red no se rompa tras un reinicio.</li>
+    <li><strong>Acceso Remoto Seguro:</strong> Configurado con <code>bind-address</code> en <code>0.0.0.0</code> y permisos específicos para la IP de la VM Web.</li>
+    <li><strong>Gestión de Usuarios:</strong> Creación de roles de solo lectura o escritura según las necesidades de la aplicación.</li>
+    <li><strong>Escalabilidad:</strong> Preparado para crecer en volumen de datos sin afectar al rendimiento del servidor de aplicaciones.</li>
   </ul>
 
   <p><strong>Comandos y Gestión:</strong><br>
   <small>
-    • Ver reglas de redirección: <code>iptables -t nat -L -n -v</code>.<br>
-    • Verificar reenvío de IP: <code>sysctl net.ipv4.ip_forward</code>.<br>
-    • Guardar cambios de red: <code>netfilter-persistent save</code>.
+    • Acceso a consola SQL: <code>mysql -u root -p</code>.<br>
+    • Reinicio del servicio: <code>systemctl restart mariadb</code>.<br>
+    • Verificación de puerto activo (3306): <code>netstat -tuln | grep 3306</code>.
   </small></p>
 
   <p><strong>Links de referencia:</strong><br>
   <small>
-    • <a href="https://wiki.debian.org/DebianRouter">Debian Wiki: HowTo Router</a><br>
-    • <a href="https://help.ubuntu.com/community/IptablesHowTo">Guía Completa de Iptables</a><br>
-    • <a href="https://pve.proxmox.com/wiki/Network_Configuration">Configuración de Red en Proxmox</a>
+    • <a href="https://mariadb.com/kb/en/documentation/">Documentación Oficial MariaDB</a><br>
+    • <a href="https://dev.mysql.com/doc/">Manual de Referencia MySQL</a><br>
+    • <a href="https://www.digitalocean.com/community/tutorials/how-to-allow-remote-access-to-mysql">Guía de Acceso Remoto SQL</a>
   </small></p>
 </details>
 <details>
