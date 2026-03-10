@@ -779,6 +779,52 @@ Nginx
     • Verificación de puerto activo (3306): <code>netstat -tuln | grep 3306</code>.
   </small></p>
 
+  <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px dashed #444;">
+  
+  <p><strong>🔌 GESTIÓN DE DATOS MEDIANTE APIS (APPLICATION PROGRAMMING INTERFACE)</strong></p>
+  <p>Una API es el puente de comunicación que permite que nuestro Frontend (Next.js) solicite información de forma segura a nuestra base de datos SQL sin exponerla directamente a internet.</p>
+
+  <p><strong>¿Para qué las queremos en EliteGG?</strong></p>
+  <ul>
+    <li><strong>Intercambio de Datos:</strong> Permiten consultar, insertar y actualizar registros (como estadísticas de partidas o perfiles de usuario) en tiempo real.</li>
+    <li><strong>Seguridad:</strong> El cliente nunca toca la base de datos; la API valida quién eres y qué puedes hacer antes de darte la información.</li>
+    <li><strong>Desacoplamiento:</strong> Podemos cambiar la base de datos o el diseño de la web sin romper la comunicación, siempre que la API mantenga las mismas "reglas".</li>
+  </ul>
+
+  <p><strong>Implementación en nuestro Ecosistema:</strong></p>
+  <table style="width:100%; border-collapse: collapse; margin: 10px 0; font-size: 14px;">
+    <thead>
+      <tr style="background-color: #333; color: white; text-align: left;">
+        <th style="padding: 10px; border: 1px solid #444;">Tecnología</th>
+        <th style="padding: 10px; border: 1px solid #444;">Función</th>
+        <th style="padding: 10px; border: 1px solid #444;">Puerto/Ruta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #444;"><strong>Express.js</strong></td>
+        <td style="padding: 10px; border: 1px solid #444;">Servidor de API que recibe peticiones y consulta al SQL.</td>
+        <td style="padding: 10px; border: 1px solid #444;"><code>3000 /api/v1/</code></td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #444;"><strong>Vercel Functions</strong></td>
+        <td style="padding: 10px; border: 1px solid #444;">Endpoints Serverless para peticiones rápidas desde la nube.</td>
+        <td style="padding: 10px; border: 1px solid #444;"><code>3001 /api/</code></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Ejemplo de Flujo de Datos:</strong><br>
+  <small>
+    1. El usuario entra en <b>EliteGG</b> -> 2. La Web lanza un <code>fetch()</code> a la API -> 3. La API autentica y pide datos al SQL -> 4. El SQL devuelve los datos -> 5. La API entrega un <b>JSON</b> a la Web.
+  </small></p>
+
+  <p><strong>Comandos de Verificación:</strong><br>
+  <small>
+    • Probar respuesta de API local: <code>curl -X GET http://10.10.10.5:3000/api/status</code><br>
+    • Logs de tráfico de API: <code>pm2 logs elite-vercel</code>
+  </small></p>
+
   <p><strong>Links de referencia:</strong><br>
   <small>
     • <a href="https://mariadb.com/kb/en/documentation/">Documentación Oficial MariaDB</a><br>
