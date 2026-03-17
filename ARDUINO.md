@@ -598,3 +598,12 @@ Esencial para entender el flujo de energía y datos entre los componentes.
 
 </div>
 </details>
+<details>
+<summary><strong>COCHE FUNCIONAL CONSEGUIDO</strong></summary>
+Aqui se puede ver como el coche ya funciona con la APP movil y con sus 4 direcciones/funciones completamente operativas y listas para el combate
+ 
+
+https://github.com/user-attachments/assets/e5bbce68-fe37-42ff-8248-b45136dbe03e
+
+
+</details>
