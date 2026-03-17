@@ -608,6 +608,7 @@ Aqui se puede ver como el coche ya funciona con la APP movil y con sus 4 direcci
 https://github.com/user-attachments/assets/e5bbce68-fe37-42ff-8248-b45136dbe03e
 
 ![e0cf918dcf81a5ec0bc6f8e73505ccca](https://github.com/user-attachments/assets/f8f634c8-66e0-4ebc-a0ed-b66b418d404e)
+![1e7aa7fc0a6b742d0f363401934b749d](https://github.com/user-attachments/assets/a8d97b2d-622d-4182-9276-6df5d3daf131)
 
 
 </details>
