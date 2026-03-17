@@ -598,12 +598,16 @@ Esencial para entender el flujo de energía y datos entre los componentes.
 
 </div>
 </details>
+<div align="center">
+<h2 style="text-align: center;">FASE FINAL</h2>
+</div>
 <details>
 <summary><strong>COCHE FUNCIONAL CONSEGUIDO</strong></summary>
 Aqui se puede ver como el coche ya funciona con la APP movil y con sus 4 direcciones/funciones completamente operativas y listas para el combate
  
-
 https://github.com/user-attachments/assets/e5bbce68-fe37-42ff-8248-b45136dbe03e
+
+![e0cf918dcf81a5ec0bc6f8e73505ccca](https://github.com/user-attachments/assets/f8f634c8-66e0-4ebc-a0ed-b66b418d404e)
 
 
 </details>
