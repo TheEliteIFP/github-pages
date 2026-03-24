@@ -755,7 +755,8 @@ Nginx
 
   <p>Es el núcleo de almacenamiento de datos de nuestro proyecto. Este servidor gestiona toda la información persistente, desde perfiles de usuario hasta las estadísticas de juego, permitiendo que la web sea dinámica y funcional.</p>
 
-  <img width="1919" height="907" alt="database-management" src="TU_URL_DE_IMAGEN_SQL_AQUÍ" />
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/eacb3556-5641-46f2-86f1-05266e949f24" />
+
 
   <p><strong>¿Por qué es clave para EliteGG?</strong></p>
   <ul>
@@ -771,6 +772,9 @@ Nginx
     <li><strong>Gestión de Usuarios:</strong> Creación de roles de solo lectura o escritura según las necesidades de la aplicación.</li>
     <li><strong>Escalabilidad:</strong> Preparado para crecer en volumen de datos sin afectar al rendimiento del servidor de aplicaciones.</li>
   </ul>
+  
+<img width="1677" height="818" alt="image" src="https://github.com/user-attachments/assets/bde4b33e-3bac-4683-b8c6-0a6b5d4d307f" />
+
 
   <p><strong>Comandos y Gestión:</strong><br>
   <small>
