@@ -453,10 +453,9 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
 <details>
     <summary><strong>DIAGRAMA DE LA RED</strong></summary>
 
-<img width="1142" height="642" alt="image" src="https://github.com/user-attachments/assets/201cd82b-7cdd-43ea-86e9-bcd0e55b1ef0" />
-    
  <p>La red se divide en <strong>dos zonas</strong> separadas por un <strong>Router/Firewall</strong> que actúa como puerta de control.</p>
-
+ 
+<img width="1142" height="642" alt="image" src="https://github.com/user-attachments/assets/201cd82b-7cdd-43ea-86e9-bcd0e55b1ef0" />
 <br>
 
 <div align="center">
