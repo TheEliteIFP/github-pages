@@ -841,7 +841,47 @@ Nginx
   <small>Visualizamos las peticiones en tiempo real para confirmar que el tráfico del Router llega correctamente a la IP <code>.6</code>.</small></p>
 </details>
 <details>
-    <summary><strong>Servidor Backups</strong></summary>
+  <summary><strong>SISTEMA DE BACKUPS AUTOMATIZADO (PROXMOX BACKUP SERVER)</strong></summary>
+  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+  
+  <p>Este sistema es el "seguro de vida" de nuestro proyecto. Se encarga de realizar copias de seguridad automáticas de nuestra infraestructura crítica (Web, DNS, Router y DB). Utilizamos <strong>Proxmox Backup Server (PBS)</strong>, una solución profesional que permite realizar backups incrementales y deduplicados para ahorrar espacio y tiempo.</p>
+  
+  <img width="1904" height="909" alt="Configuracion Datacenter Backup" src="https://github.com/user-attachments/assets/efd5eb.png-65dae4f5-ded0-4a34-9f56-d4be5f737cc8" />
+
+  <p><strong>¿Por qué es clave para el proyecto?</strong></p>
+  <ul>
+    <li><strong>Automatización:</strong> Programado para ejecutarse todos los viernes a las 10:00 AM sin intervención manual.</li>
+    <li><strong>Modo Snapshot:</strong> Permite realizar las copias mientras los servidores están encendidos, evitando caídas de servicio en la Web o la DB.</li>
+    <li><strong>Eficiencia (ZSTD):</strong> Utiliza algoritmos de compresión modernos para reducir el peso de los archivos sin sacrificar velocidad.</li>
+  </ul>
+
+  <p><strong>Configuración del Proceso:</strong></p>
+  <p>Vinculación del nodo Proxmox VE con el almacén de backups (PBS):</p>
+  <ul>
+    <li><strong>Conexión Segura:</strong> Implementada mediante el uso de <code>Fingerprint</code> (huella digital) para validar la identidad del servidor.</li>
+    <li><strong>Selección Crítica:</strong> Backups configurados específicamente para las IDs del Servidor Web, Pi-hole, Router y Base de Datos.</li>
+    <li><strong>Política de Retención:</strong> Configurada para mantener las últimas 4 copias (un mes de historial) y optimizar el almacenamiento.</li>
+  </ul>
+
+  <img width="1906" height="909" alt="Storage PBS Configurado" src="https://github.com/user-attachments/assets/efd225.png-0cced451-f374-4bbb-b058-c9d3e8a6b62a" />
+
+  <p><strong>Incidencias y complicaciones:</strong><br>
+  Durante la vinculación del almacenamiento, experimentamos varios errores 500. El problema principal fue la confusión entre los campos <code>Namespace</code> y <code>Fingerprint</code>; el código de seguridad se estaba introduciendo en el lugar equivocado. Además, tuvimos que limpiar espacios en blanco invisibles al copiar la huella digital del Dashboard. Una vez corregida la ubicación de la firma digital, el almacenamiento se vinculó correctamente y la tarea de los viernes quedó programada.
+  </p>
+
+  <p><strong>Gestión y Horarios:</strong><br>
+  <small>
+    • Programación semanal: <code>fri 10:00</code>.<br>
+    • Método de backup: Snapshot (en caliente).<br>
+    • Almacenamiento de destino: <code>Server_Backups</code> (Datastore: Backup).
+  </small></p>
+
+  <p><strong>Links de referencia:</strong><br>
+  <small>
+    • <a href="https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_vzdump">Documentación Oficial Backup (PVE)</a><br>
+    • <a href="https://pbs.proxmox.com/docs/">Documentación Proxmox Backup Server</a><br>
+    • <a href="https://punkymo.gitbook.io/miwiki/virtualizacion/proxmox/proxmox-backup">Apuntes Alina</a>
+  </small></p>
 </details>
 <div align="center">
     <h2 style="text-align: center;">📊CONCLUSIONES</h2>
