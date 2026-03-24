@@ -846,7 +846,9 @@ Nginx
   
   <p>Este sistema es el "seguro de vida" de nuestro proyecto. Se encarga de realizar copias de seguridad automáticas de nuestra infraestructura crítica (Web, DNS, Router y DB). Utilizamos <strong>Proxmox Backup Server (PBS)</strong>, una solución profesional que permite realizar backups incrementales y deduplicados para ahorrar espacio y tiempo.</p>
   
-  <img width="1904" height="909" alt="Configuracion Datacenter Backup" src="https://github.com/user-attachments/assets/efd5eb.png-65dae4f5-ded0-4a34-9f56-d4be5f737cc8" />
+ <img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/732b47c2-1f4e-4511-8b7d-08ab26eadb11" />
+
+
 
   <p><strong>¿Por qué es clave para el proyecto?</strong></p>
   <ul>
@@ -863,8 +865,8 @@ Nginx
     <li><strong>Política de Retención:</strong> Configurada para mantener las últimas 4 copias (un mes de historial) y optimizar el almacenamiento.</li>
   </ul>
 
-  <img width="1906" height="909" alt="Storage PBS Configurado" src="https://github.com/user-attachments/assets/efd225.png-0cced451-f374-4bbb-b058-c9d3e8a6b62a" />
-
+ <img width="717" height="579" alt="image" src="https://github.com/user-attachments/assets/b4ff39a9-3c72-400d-a20f-313328575f24" />
+ 
   <p><strong>Incidencias y complicaciones:</strong><br>
   Durante la vinculación del almacenamiento, experimentamos varios errores 500. El problema principal fue la confusión entre los campos <code>Namespace</code> y <code>Fingerprint</code>; el código de seguridad se estaba introduciendo en el lugar equivocado. Además, tuvimos que limpiar espacios en blanco invisibles al copiar la huella digital del Dashboard. Una vez corregida la ubicación de la firma digital, el almacenamiento se vinculó correctamente y la tarea de los viernes quedó programada.
   </p>
