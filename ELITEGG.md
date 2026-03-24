@@ -452,9 +452,68 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
 </div>
 <details>
     <summary><strong>DIAGRAMA DE LA RED</strong></summary>
- Este es el plano de cómo va a estar estructurada la red del proyecto.
+
+<img width="1142" height="642" alt="image" src="https://github.com/user-attachments/assets/201cd82b-7cdd-43ea-86e9-bcd0e55b1ef0" />
+    
+ <p>La red se divide en <strong>dos zonas</strong> separadas por un <strong>Router/Firewall</strong> que actúa como puerta de control.</p>
+
+<br>
+
+<div align="center">
+    <table style="width: 100%; border-collapse: collapse; background: #f5f5f5;">
+        <tr style="background-color: #333; color: white;">
+            <th style="padding: 12px; border: 1px solid #444;">Zona</th>
+            <th style="padding: 12px; border: 1px solid #444;">Elemento</th>
+            <th style="padding: 12px; border: 1px solid #444;">Función</th>
+        </tr>
+        <tr>
+            <td rowspan="3" style="padding: 12px; border: 1px solid #444; vertical-align: middle; text-align: center;"><strong>ZONA EXTERNA<br>(Desarrollo)</strong></td>
+            <td style="padding: 12px; border: 1px solid #444;"><strong>Máquina de virtualización</strong><br><code>192.168.135.69</code></td>
+            <td style="padding: 12px; border: 1px solid #444;">Servidor con Proxmox que aloja todas las máquinas virtuales del proyecto.</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #444;"><strong>Máquinas de desarrollo</strong><br><code>192.168.135.X</code></td>
+            <td style="padding: 12px; border: 1px solid #444;">Ordenadores de los programadores para trabajar en la web.</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #444;"><strong>Servidor de Backups</strong></td>
+            <td style="padding: 12px; border: 1px solid #444;">Almacena copias de seguridad automáticas de toda la infraestructura.</td>
+        </tr>
+        <tr style="background-color: #e9ecef;">
+            <td rowspan="4" style="padding: 12px; border: 1px solid #444; vertical-align: middle; text-align: center;"><strong>ZONA INTERNA<br>(Producción - <code>10.10.10.X</code>)</strong></td>
+            <td style="padding: 12px; border: 1px solid #444;"><strong>Router</strong><br><code>10.10.10.1</code></td>
+            <td style="padding: 12px; border: 1px solid #444;">Puerta de entrada. Con IPTables gestiona el tráfico, protege la red interna y redirige las peticiones al servidor web.</td>
+        </tr>
+        <tr style="background-color: #e9ecef;">
+            <td style="padding: 12px; border: 1px solid #444;"><strong>DNS (Pi-hole)</strong><br><code>10.10.10.5</code></td>
+            <td style="padding: 12px; border: 1px solid #444;">Traduce nombres a direcciones IP y bloquea anuncios/malware.</td>
+        </tr>
+        <tr style="background-color: #e9ecef;">
+            <td style="padding: 12px; border: 1px solid #444;"><strong>Web (Nginx)</strong><br><code>10.10.10.6</code></td>
+            <td style="padding: 12px; border: 1px solid #444;">Servidor que muestra la página web a los usuarios.</td>
+        </tr>
+        <tr style="background-color: #e9ecef;">
+            <td style="padding: 12px; border: 1px solid #444;"><strong>Database (MySQL)</strong><br><code>10.10.10.9</code></td>
+            <td style="padding: 12px; border: 1px solid #444;">Almacena todos los datos de usuarios, campeones y estadísticas.</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #444;"><strong>APIs externas</strong></td>
+            <td colspan="2" style="padding: 12px; border: 1px solid #444;">Fuentes externas de datos, como la API de Riot Games.</td>
+        </tr>
+    </table>
+</div>
+
+<br>
+
+<div align="center">
+    <h4>📌 FLUJO BÁSICO</h4>
+</div>
+
+<p align="center">Usuario accede a la web → Router redirige a Servidor Web → Web consulta a Base de Datos → Web devuelve la información al usuario.<br>
+<strong>Todo protegido por el Router y el DNS.</strong></p>
   <div align="center">
-  <img src="assets/Diagrama_de_red.jpg" alt="Diagrama_de_red">
+  
+
 </div>
 
 </details>
