@@ -1,4 +1,4 @@
- <div align="center">
+<div align="center">
     <h1 style="text-align: center;">ELITEGG</h1>
 </div>
 
@@ -22,7 +22,7 @@
 - 📊 **[Conclusiones](#conclusiones)**
 - 📚 **[Bibliografía](#bibliografia)**
 <div align="center">
-    <h2 style="text-align: center;">🧭INTRODUCCIÓN</h2>
+    <h2 id="introducción" style="text-align: center;">🧭INTRODUCCIÓN</h2>
 </div>
 
 <div>
@@ -83,7 +83,7 @@ El proyecto está dirigido a la comunidad de League of Legends, un factor que no
 <li>Plan de contingencia<br></li>
 </details>
     <div align="center">
-    <h2 style="text-align: center;">🗄️INFORME DE BACKEND DE DB</h2>
+    <h2 id="informe-de-backend-de-db" style="text-align: center;">🗄️INFORME DE BACKEND DE DB</h2>
 </div>
 <details>
 <summary><strong>IDENTIFICACIONES DE ENTIDADES PRINCIPALES</strong></summary>
@@ -296,7 +296,7 @@ Esta relación vincula los archivos de medios (imágenes, vídeos de skins, vide
 </details>
 
 <div align="center">
-    <h2 style="text-align: center;">🏗️ARQUITECTURA DEL SOFTWARE</h2>
+    <h2 id="arquitectura-del-software" style="text-align: center;">🏗️ARQUITECTURA DEL SOFTWARE</h2>
 </div>
 <details>
  <summary><strong>OBJETIVOS</strong></summary>
@@ -396,7 +396,7 @@ Todo valor que no esté dentro de esa lista predefinida, se devolverá.</li>
  <li><strong>JSON (JavaScript Object Notation):</strong> Se usa para almacenar datos complejos y semi-estructurados, como listas anidadas o pares clave-valor.</li>
 </details>
 <div align="center">
-    <h2 style="text-align: center;">⚙️TECNOLOGÍAS A UTILIZAR</h2>
+    <h2 id="tecnologías-a-utilizar" style="text-align: center;">⚙️TECNOLOGÍAS A UTILIZAR</h2>
 </div>
 El proyecto usará diferentes programas para poder ser funcional, las detallaremos en formato lista:
 <br><br>
@@ -448,7 +448,7 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
  
 </details>
 <div align="center">
-    <h2 style="text-align: center;">🌐RED</h2>
+    <h2 id="red" style="text-align: center;">🌐RED</h2>
 </div>
 <details>
     <summary><strong>DIAGRAMA DE LA RED</strong></summary>
@@ -459,7 +459,7 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
 
 </details>
 <div align="center">
-    <h2 style="text-align: center;">💻WEB</h2>
+    <h2 id="web" style="text-align: center;">💻WEB</h2>
 </div>
 Aqui tendremos la planificación a nivel tanto visual como interactivo de lo que será nuestra web.
 <details>
@@ -571,7 +571,7 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
  <a href="https://miro.com/app/board/uXjVJ5uIMTM=/?share_link_id=5953744281"> <target=blank>Acceder al Mapa</a>. Este mapa tiene una estructura perfectamente pensada, los rombos representan la "Home page", los cuadrados morados representan botones/objetos interactuables, y los cuadrados amarillos representan aspectos puramente visuales. La estructura de la web está perfectamente interconectada unas funciones con otras, de esta manera el usuario puede llegar a cualquier parte de la web con la menor cantidad de clics posible.     
 </details>
 <div align="center">
-    <h2 style="text-align: center;">🖥️SERVICIOS</h2>
+    <h2 id="servicios" style="text-align: center;">🖥️SERVICIOS</h2>
 </div>
   
   <details>
@@ -706,7 +706,7 @@ Nginx
         <th style="padding: 10px; border: 1px solid #444;">Puerto Externo</th>
         <th style="padding: 10px; border: 1px solid #444;">IP Destino (LAN)</th>
         <th style="padding: 10px; border: 1px solid #444;">Puerto Interno</th>
-      </tr>
+       </tr>
     </thead>
     <tbody>
       <tr>
@@ -886,10 +886,10 @@ Nginx
   </small></p>
 </details>
 <div align="center">
-    <h2 style="text-align: center;">📊CONCLUSIONES</h2>
+    <h2 id="conclusiones" style="text-align: center;">📊CONCLUSIONES</h2>
 </div>
 <div align="center">
-    <h2 style="text-align: center;">📚BIBLIOGRAFIA</h2>
+    <h2 id="bibliografia" style="text-align: center;">📚BIBLIOGRAFIA</h2>
 </div>
 <div>
 https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5<br>
@@ -902,5 +902,3 @@ https://www.leagueoflegends.com/es-es/champions/<br>
 https://soloqchallenge.gg/podio<br>
 https://universe.leagueoflegends.com/es_ES/champions/<br>
 https://www.deepseek.com/<br>
- 
-
