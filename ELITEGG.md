@@ -813,36 +813,51 @@ Nginx
   </small></p>
 </details>
 <details>
-  <summary><strong>SERVIDOR WEB (FRONTEND ELITEGG)</strong></summary>
+  <summary><strong>SERVIDOR WEB Y PROXY INVERSO (NGINX + VERCEL/TYPESCRIPT)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-  
-  <p><strong>Configuración del Sistema:</strong></p>
+
+  <p>Es la infraestructura que sirve la interfaz de <strong>EliteGG</strong>. Combina la potencia de <strong>Nginx</strong> como servidor frontal y Proxy Inverso con una aplicación moderna desarrollada en <strong>TypeScript</strong>, gestionada mediante <strong>Vercel CLI</strong> y mantenida en ejecución continua por <strong>PM2</strong>.</p>
+
+<img width="784" height="413" alt="image" src="https://github.com/user-attachments/assets/aa3dccc3-f0dd-4946-9d37-ff1a1e16b904" />
+
+
+
+  <p><strong>¿Por qué es clave para el proyecto?</strong></p>
   <ul>
-    <li><strong>S.O:</strong> Debian / Linux (Contenedor LXC)</li>
-    <li><strong>IP:</strong> <code>10.10.10.6/24</code></li>
-    <li><strong>Puerto:</strong> 3000 (Mapeado en Router)</li>
-    <li><strong>Función:</strong> Alojamiento y despliegue del frontend (TSX/React) de EliteGG.</li>
+    <li><strong>Proxy Inverso (Nginx):</strong> Actúa como escudo y optimizador, recibiendo las peticiones externas y derivándolas internamente al puerto 3001.</li>
+    <li><strong>TypeScript & Vercel:</strong> Garantiza un código robusto sin errores de tipado y permite un flujo de despliegue profesional desde la nube a nuestra VM local.</li>
+    <li><strong>PM2 (Zero Downtime):</strong> Gestiona los procesos de Node.js para que la web se reinicie automáticamente ante cualquier fallo crítico.</li>
   </ul>
 
-  <p><strong>¿Qué hemos hecho?</strong><br>
-  Configuramos <strong>Nginx</strong> para servir la interfaz de la plataforma. Para que la web sea accesible desde fuera (Windows/Navegador), configuramos un <strong>Port Forwarding</strong> en el Router del puerto 3000 al 3000. El servidor está vinculado a la DB (<code>10.10.10.9</code>) para mostrar datos en tiempo real.</p>
+  <p><strong>Configuración del Proceso:</strong></p>
+  <p>Implementación paso a paso de la pila tecnológica:</p>
+  <ul>
+    <li><strong>Instalación de Nginx:</strong> Configurado para escuchar en el puerto 80 y redirigir el tráfico hacia <code>http://localhost:3001</code> mediante <code>proxy_pass</code>.</li>
+    <li><strong>Despliegue Vercel:</strong> Uso de <code>vercel pull</code> para sincronizar el entorno de producción y <code>npm run build</code> para transpilar el código TypeScript.</li>
+    <li><strong>Gestión de Procesos:</strong> Lanzamiento de la aplicación con <code>pm2 start npm --name "elite-web" -- start -- -p 3001</code>.</li>
+  </ul>
 
-  
+<img width="1919" height="903" alt="image" src="https://github.com/user-attachments/assets/55e51fed-627e-4f2c-8c49-465918160970" />
 
-  <p><strong>Comandos principales:</strong></p>
-  
-  <p><strong>1. Instalación y persistencia:</strong><br>
-  <code>apt install nginx -y</code><br>
-  <code>systemctl enable nginx</code><br>
-  <small>Instalamos el servidor y nos aseguramos de que arranque solo al iniciar el contenedor en Proxmox.</small></p>
 
-  <p><strong>2. Test de conectividad:</strong><br>
-  <code>ping 10.10.10.9</code><br>
-  <small>Verificamos que el "cable virtual" hacia la base de datos está conectado. Sin esto, la web estaría vacía.</small></p>
+  <p><strong>Incidencias y complicaciones:</strong><br>
+  Durante el despliegue, nos enfrentamos a un conflicto de puertos; Nginx intentaba ocupar el puerto 80 mientras otros servicios residuales seguían activos. Además, tras realizar el <code>npm run build</code>, la web no cargaba los cambios nuevos debido a que <strong>PM2</strong> seguía ejecutando la versión antigua en caché de la carpeta <code>.next</code>. Tuvimos que realizar un borrado manual de <code>node_modules</code> y <code>.next</code>, reinstalar dependencias y reiniciar el proceso de PM2. Finalmente, se ajustó la configuración de Nginx para evitar el error "502 Bad Gateway", asegurando que el servicio de Node.js estuviera escuchando correctamente en la interfaz local antes de abrir el tráfico externo.
+  </p>
 
-  <p><strong>3. Monitorización (Debug):</strong><br>
-  <code>tail -f /var/log/nginx/access.log</code><br>
-  <small>Visualizamos las peticiones en tiempo real para confirmar que el tráfico del Router llega correctamente a la IP <code>.6</code>.</small></p>
+  <p><strong>Gestión y Comandos:</strong><br>
+  <small>
+    • Proxy Inverso: <code>/etc/nginx/sites-available/default</code>.<br>
+    • Logs de tráfico: <code>pm2 logs elite-web</code> y <code>tail -f /var/log/nginx/access.log</code>.<br>
+    • Sincronización: <code>vercel pull --environment=production</code>.
+  </small></p>
+
+  <p><strong>Links de referencia:</strong><br>
+  <small>
+    • <a href="https://nginx.org/en/docs/">Documentación Oficial Nginx</a><br>
+    • <a href="https://vercel.com/docs/cli">Guía de Vercel CLI</a><br>
+    • <a href="https://pm2.keymetrics.io/docs/usage/quick-start/">Manual de PM2</a><br>
+    • <a href="https://www.typescriptlang.org/docs/">Documentación de TypeScript</a>
+  </small></p>
 </details>
 <details>
   <summary><strong>SISTEMA DE BACKUPS AUTOMATIZADO (PROXMOX BACKUP SERVER)</strong></summary>
