@@ -1077,9 +1077,7 @@ Nginx
     <summary><strong>PLAN DE COMUNICACIÓN</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <ul>
-        <li><strong>Discord:</strong> Canal interno de comunicación directa entre los miembros del proyecto para poder gestionar diferentes partes del trabajo.</li>
-        <li><strong>Trello:</strong> Mensajes de planificación y cómo se gestionan los problemas del proyecto.</li>
-        <li><strong>Drive:</strong> Flujo de documentación entre los miembros del grupo para trabajar en simultáneo.</li>
+       La comunicación ante fallos se realizará por el canal interno del equipo (Discord/WhatsApp). Jordi informará sobre el estado de la red y coordinará las acciones de restauración, mientras Christian actualizará el estado de las incidencias en Trello para seguimiento del equipo, aplicando lo antes posibles cada uno las medidas necesarias sobre su parte de la infraestructura de red y la pagina web.
     </ul>
 </details>
 
