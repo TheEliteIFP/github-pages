@@ -1,9 +1,10 @@
 <div align="center">
 
-# <img src="https://github.com/user-attachments/assets/189fe64c-3da7-48c4-b756-e1004be34eb6" width="60" style="vertical-align: middle;"> ARDUINO
+ARDUINO
 
 ### Plataforma de código abierto para la creación electrónica
 
+<img src="https://github.com/user-attachments/assets/189fe64c-3da7-48c4-b756-e1004be34eb6" width="60" style="vertical-align: middle;"> 
 </div>
 
 ---
