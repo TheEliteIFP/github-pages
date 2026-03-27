@@ -130,21 +130,8 @@ Define una constante. Reemplaza cualquier aparición de LED_BUILTIN por el núme
 Pausa la ejecución del programa durante el tiempo especificado en milisegundos (1000 ms = 1 segundo).
 
 </details>
-Código:
+<img width="406" height="286" alt="image" src="https://github.com/user-attachments/assets/2143217f-007c-4459-877d-01b998c55298" />
 
-cpp
-#define LED_BUILTIN 2
-
-void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
-}
-
-void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(1000);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(1000);
-}
 🔴 ACTIVIDAD 1: LED EXTERNO
 Objetivo: Controlar un LED externo usando la placa ESP32-S3 WROOM.
 
