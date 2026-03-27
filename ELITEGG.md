@@ -963,6 +963,131 @@ Nginx
   </small></p>
 </details>
 <div align="center">
+    <h2 id="plan-de-contingencia" style="text-align: center;">🛡️PLAN DE CONTINGENCIA</h2>
+</div>
+
+<details>
+    <summary><strong>DATOS GENERALES</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <p><strong>Nombre del proyecto:</strong> EliteGG</p>
+    <p><strong>Alumnos:</strong> Jordi (Sistemas y Proxmox), Erik (Frontend y Backend), Christian (Base de Datos y Frontend)</p>
+    <p><strong>Fecha:</strong> 27 de marzo de 2026</p>
+    <p><strong>Descripción breve del sistema:</strong> Infraestructura de red segmentada en Proxmox que aloja una plataforma web (Nginx/Vercel), una base de datos MariaDB y una gestión de red donde el Router Debian actúa como puerta de enlace y el Pi-hole gestiona el DNS y el servicio DHCP.</p>
+</details>
+
+<details>
+    <summary><strong>OBJETIVO DEL PLAN</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <p>Garantizar la continuidad del servicio de EliteGG ante fallos en la red virtualizada, servidores o pérdida de datos, asegurando que la web y la base de datos vuelvan a estar operativas en el menor tiempo posible tras un incidente.</p>
+</details>
+
+<details>
+    <summary><strong>ALCANCE</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <p>El plan cubre los sistemas alojados en el nodo Proxmox VE: Servidor Web, Base de Datos MariaDB, Router Debian (Firewall/NAT), Pi-hole (DNS/DHCP) y el nodo Proxmox Backup Server (PBS).</p>
+</details>
+
+<details>
+    <summary><strong>IDENTIFICACIÓN DE ACTIVOS</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <ul>
+        <li><strong>Router Debian (IPTABLES):</strong> Importancia Alta. Núcleo de la red; gestiona el tráfico externo e interno.</li>
+        <li><strong>Pi-hole (DNS/DHCP):</strong> Importancia Alta. Activo crítico que asigna direcciones IP a las máquinas y resuelve nombres de dominio.</li>
+        <li><strong>Servidor Web (Nginx/TypeScript):</strong> Importancia Alta. Procesa las peticiones de los usuarios.</li>
+        <li><strong>Base de Datos (MariaDB):</strong> Importancia Alta. Almacena toda la información del proyecto.</li>
+        <li><strong>Proxmox Backup Server (PBS):</strong> Importancia Media. Soporte para la recuperación de desastres.</li>
+    </ul>
+</details>
+
+<details>
+    <summary><strong>ANÁLISIS DE RIESGOS</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <ul>
+        <li><strong>Fallo del servidor Pi-hole:</strong> Probabilidad Media, Impacto Muy Alto (Pérdida de asignación de IP y navegación).</li>
+        <li><strong>Caída del Router Debian:</strong> Probabilidad Media, Impacto Muy Alto (Corte total de salida a internet).</li>
+        <li><strong>Fallo en el servicio PM2 (Web):</strong> Probabilidad Alta, Impacto Alto.</li>
+        <li><strong>Corrupción de datos en MariaDB:</strong> Probabilidad Baja, Impacto Alto.</li>
+    </ul>
+</details>
+
+<details>
+    <summary><strong>ESCENARIOS DE CONTINGENCIA</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <ul>
+        <li>El servidor Pi-hole deja de funcionar, provocando que los dispositivos pierdan la conectividad interna y externa.</li>
+        <li>El Router Debian pierde las reglas de IPTABLES, bloqueando el acceso a la plataforma desde el exterior.</li>
+        <li>La aplicación Next.js falla tras un despliegue y el proceso PM2 entra en estado de error.</li>
+    </ul>
+</details>
+
+<details>
+    <summary><strong>PLAN DE RESPUESTA</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <p><strong>Si hay fallo de red global:</strong></p>
+    <ol>
+        <li>Comprobar que la VM de Pi-hole está encendida y el servicio DHCP activo.</li>
+        <li>Verificar en el Router que el reenvío de tráfico (Forwarding) está habilitado.</li>
+    </ol>
+    <p><strong>Si la web no carga:</strong></p>
+    <ol>
+        <li>Verificar el estado de Nginx y el proceso de la web en PM2.</li>
+        <li>Confirmar que la IP asignada por el Pi-hole a la web sigue siendo la correcta.</li>
+    </ol>
+</details>
+
+<details>
+    <summary><strong>PLAN DE RECUPERACIÓN</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <p>En caso de pérdida de cualquier servicio, Jordi utilizará la consola de Proxmox para restaurar el último backup disponible en el Proxmox Backup Server.</p>
+    <ul>
+        <li><strong>RTO (Tiempo de recuperación):</strong> Menos de 20 minutos para restaurar el Router o el Pi-hole.</li>
+        <li><strong>RPO (Punto de recuperación):</strong> Máximo 24 horas (último backup incremental).</li>
+    </ul>
+</details>
+
+<details>
+    <summary><strong>COPIAS DE SEGURIDAD</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <p>Se gestionan a través del PBS (IP 192.168.135.67). Se realizan backups semanales automáticos de todas las máquinas virtuales, incluyendo la configuración de red y la base de datos.</p>
+</details>
+
+<details>
+    <summary><strong>MEDIDAS PREVENTIVAS</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <ul>
+        <li><strong>Gestión DHCP/DNS:</strong> El Pi-hole centraliza la asignación de IPs para evitar conflictos de direccionamiento.</li>
+        <li><strong>Seguridad IPTABLES:</strong> Reglas persistentes en el Router Debian para filtrar tráfico no deseado.</li>
+        <li><strong>Script de Despliegue:</strong> Uso de herramientas de automatización para validar el estado del código antes de actualizar la web en producción.</li>
+    </ul>
+</details>
+
+<details>
+    <summary><strong>RESPONSABLES</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <ul>
+        <li><strong>Jordi:</strong> Administrador de Sistemas. Gestión de Proxmox, mantenimiento del Router Debian y configuración del servidor DNS/DHCP (Pi-hole).</li>
+        <li><strong>Erik:</strong> Lead Developer (Frontend y Backend). Desarrollo integral de la aplicación y gestión de los despliegues en el servidor.</li>
+        <li><strong>Christian:</strong> DBA y Organizador de Trello. Responsable de la integridad de la base de datos, del desarrollo frontend y de la gestión de tareas en Trello.</li>
+    </ul>
+</details>
+
+<details>
+    <summary><strong>PLAN DE COMUNICACIÓN</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <ul>
+        <li><strong>Discord:</strong> Canal interno de comunicación directa entre los miembros del proyecto para poder gestionar diferentes partes del trabajo.</li>
+        <li><strong>Trello:</strong> Mensajes de planificación y cómo se gestionan los problemas del proyecto.</li>
+        <li><strong>Drive:</strong> Flujo de documentación entre los miembros del grupo para trabajar en simultáneo.</li>
+    </ul>
+</details>
+
+<details>
+    <summary><strong> CONCLUSIONES</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <p>La separación de funciones entre el Router Debian y el Pi-hole, sumada a la protección del PBS, permite que EliteGG tenga una red organizada y fácil de recuperar ante cualquier incidencia técnica, garantizando la estabilidad del proyecto.</p>
+</details>
+
+<div align="center">
     <h2 id="conclusiones" style="text-align: center;">📊CONCLUSIONES</h2>
 </div>
 <div align="center">
