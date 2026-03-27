@@ -102,15 +102,8 @@ Controla sistemas de climatización, iluminación y accesos en edificios. En ent
 
 Arduino se programa utilizando un lenguaje basado en **C/C++**, simplificado y adaptado para facilitar la interacción con los periféricos de la placa.
 
-```cpp
-pinMode(pin, modo);       // Configura un pin como INPUT o OUTPUT
-digitalWrite(pin, valor); // Escribe HIGH o LOW en un pin digital
-digitalRead(pin);         // Lee el estado de un pin digital
-analogRead(pin);          // Lee un valor analógico (0-1023)
-analogWrite(pin, valor);  // Escribe un valor PWM (0-255)
-delay(ms);                // Pausa la ejecución por ms milisegundos
-Serial.begin(velocidad);  // Inicia comunicación serie
-Serial.print(dato);       // Envía datos por puerto serie
+<img width="506" height="173" alt="image" src="https://github.com/user-attachments/assets/0f731546-a445-4ca1-b669-1fcad2cd61fc" />
+
 <div align="center"> <img src="assets/cplus.png" alt="Lenguaje C++" width="40%"> </div>
 🖥️ ¿Qué es el IDE?
 El Arduino IDE (Entorno de Desarrollo Integrado) es la aplicación oficial y gratuita que se utiliza para escribir, compilar y cargar el código a la placa Arduino. Proporciona una interfaz sencilla con un editor de texto, un área de mensajes, una consola de texto y una barra de herramientas con botones para las funciones más comunes.
