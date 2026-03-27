@@ -1,6 +1,6 @@
 <div align="center">
 
-ARDUINO
+<strong>ARDUINO</strong>
 
 ### Plataforma de código abierto para la creación electrónica
 
