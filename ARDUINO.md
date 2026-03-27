@@ -112,6 +112,8 @@ delay(ms);                // Pausa la ejecución por ms milisegundos
 Serial.begin(velocidad);  // Inicia comunicación serie
 Serial.print(dato);       // Envía datos por puerto serie
 <div align="center"> <img src="assets/cplus.png" alt="Lenguaje C++" width="40%"> </div>
+
+
 🖥️ ¿Qué es el IDE?
 El Arduino IDE (Entorno de Desarrollo Integrado) es la aplicación oficial y gratuita que se utiliza para escribir, compilar y cargar el código a la placa Arduino. Proporciona una interfaz sencilla con un editor de texto, un área de mensajes, una consola de texto y una barra de herramientas con botones para las funciones más comunes.
 
