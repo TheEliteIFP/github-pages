@@ -103,7 +103,7 @@ Controla sistemas de climatización, iluminación y accesos en edificios. En ent
 Arduino se programa utilizando un lenguaje basado en **C/C++**, simplificado y adaptado para facilitar la interacción con los periféricos de la placa.
 
 ```cpp
-pinMode(pin, modo);      // Configura un pin como INPUT o OUTPUT
+pinMode(pin, modo);       // Configura un pin como INPUT o OUTPUT
 digitalWrite(pin, valor); // Escribe HIGH o LOW en un pin digital
 digitalRead(pin);         // Lee el estado de un pin digital
 analogRead(pin);          // Lee un valor analógico (0-1023)
@@ -112,8 +112,6 @@ delay(ms);                // Pausa la ejecución por ms milisegundos
 Serial.begin(velocidad);  // Inicia comunicación serie
 Serial.print(dato);       // Envía datos por puerto serie
 <div align="center"> <img src="assets/cplus.png" alt="Lenguaje C++" width="40%"> </div>
-
-
 🖥️ ¿Qué es el IDE?
 El Arduino IDE (Entorno de Desarrollo Integrado) es la aplicación oficial y gratuita que se utiliza para escribir, compilar y cargar el código a la placa Arduino. Proporciona una interfaz sencilla con un editor de texto, un área de mensajes, una consola de texto y una barra de herramientas con botones para las funciones más comunes.
 
@@ -292,7 +290,7 @@ void loop() {
 }
 Esquema del circuito:
 
-<div align="center"> <img src="assets/ARDACT4.png" alt="Mini lámpara"> <img src="assets/esquemaact3ard.png" alt="Esquema lámpara"> </div>
+<div align="center"> <img src="assets/ARDACT4.png" alt="Mini lámpara" width="45%"> <img src="assets/esquemaact3ard.png" alt="Esquema lámpara" width="45%"> </div>
 <video src="https://github.com/user-attachments/assets/0b8667d9-59fc-4b6e-8603-20c494ff2526" controls width="100%"></video>
 
 🌈 ACTIVIDAD 5: LED RGB
@@ -345,10 +343,11 @@ void loop() {
 }
 Esquema del circuito:
 
-<div align="center"> <img src="assets/ARDACT5.png" alt="Circuito RGB"> <img src="assets/circuitodiseñoact5.png" alt="Esquema RGB"> </div>
+<div align="center"> <img src="assets/ARDACT5.png" alt="Circuito RGB" width="45%"> <img src="assets/circuitodiseñoact5.png" alt="Esquema RGB" width="45%"> </div>
 <video src="https://github.com/user-attachments/assets/d7e50a8a-eafa-423a-b32d-957b739f9aee" controls width="100%"></video>
 
 Código con gradiente (transición suave):
+
 <video src="https://github.com/user-attachments/assets/27c91968-7255-46bf-b115-0f35ceff82e2" controls width="100%"></video>
 
 <details> <summary><strong>❓ Preguntas sobre el gradiente</strong></summary>
@@ -464,14 +463,11 @@ Componentes necesarios:
 <div align="center"> <img src="https://github.com/user-attachments/assets/9e261a64-466b-4d1d-a769-052f8d04ec9f" alt="LCD I2C"> </div>
 Conexiones:
 
-SCL: Señal de reloj sincronizada (protocolo I2C)
-
-SDA: Línea de transmisión de datos bidireccional
-
-VCC: Alimentación (5V)
-
-GND: Conexión a tierra
-
+Pin	Función
+SCL	Señal de reloj sincronizada (protocolo I2C)
+SDA	Línea de transmisión de datos bidireccional
+VCC	Alimentación (5V)
+GND	Conexión a tierra
 Código con desplazamiento de texto:
 
 <div align="center"> <img src="https://github.com/user-attachments/assets/dfa86304-f55f-4ef7-8fc6-480feb34eacd" alt="Código LCD desplazamiento" width="80%"> <img src="https://github.com/user-attachments/assets/51e32b1a-8f84-4ed3-9abf-789cdf6aee27" alt="LCD en acción" width="60%"> </div>
@@ -670,33 +666,48 @@ void loop() {
 }
 
 void moverAdelante() {
-  digitalWrite(IN1, HIGH); digitalWrite(IN2, LOW);
-  digitalWrite(IN3, HIGH); digitalWrite(IN4, LOW);
-  analogWrite(ENA, velocidad); analogWrite(ENB, velocidad);
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+  analogWrite(ENA, velocidad);
+  analogWrite(ENB, velocidad);
 }
 
 void moverAtras() {
-  digitalWrite(IN1, LOW); digitalWrite(IN2, HIGH);
-  digitalWrite(IN3, LOW); digitalWrite(IN4, HIGH);
-  analogWrite(ENA, velocidad); analogWrite(ENB, velocidad);
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+  analogWrite(ENA, velocidad);
+  analogWrite(ENB, velocidad);
 }
 
 void girarIzquierda() {
-  digitalWrite(IN1, LOW); digitalWrite(IN2, HIGH);
-  digitalWrite(IN3, HIGH); digitalWrite(IN4, LOW);
-  analogWrite(ENA, velocidad); analogWrite(ENB, velocidad);
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+  analogWrite(ENA, velocidad);
+  analogWrite(ENB, velocidad);
 }
 
 void girarDerecha() {
-  digitalWrite(IN1, HIGH); digitalWrite(IN2, LOW);
-  digitalWrite(IN3, LOW); digitalWrite(IN4, HIGH);
-  analogWrite(ENA, velocidad); analogWrite(ENB, velocidad);
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+  analogWrite(ENA, velocidad);
+  analogWrite(ENB, velocidad);
 }
 
 void parar() {
-  digitalWrite(IN1, LOW); digitalWrite(IN2, LOW);
-  digitalWrite(IN3, LOW); digitalWrite(IN4, LOW);
-  analogWrite(ENA, 0); analogWrite(ENB, 0);
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, LOW);
+  analogWrite(ENA, 0);
+  analogWrite(ENB, 0);
 }
 
 void atacar() {
