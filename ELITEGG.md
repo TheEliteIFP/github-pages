@@ -499,10 +499,12 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
          </tr>
          <tr>
             <td style="padding: 12px; border: 1px solid #444;"><strong>APIs externas</strong></td>
-            <td colspan="2" style="padding: 12px; border: 1px solid #444;">Fuentes externas de datos, como la API de Riot Games.</td>
+            <td colspan="2" style="padding: 12px; border: 1px solid #444;">Fuentes externas de datos, como la API* de Riot Games.</td>
          </tr>
      </table>
 </div>
+
+<p>*Una API es un conjunto de reglas que permite que dos aplicaciones se comuniquen entre sí. Es el "traductor" o el puente que permite que tu página web le pida datos específicos al servidor sin tener que saber cómo están guardados exactamente.  </p>
 
 <br>
 
