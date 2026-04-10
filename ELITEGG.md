@@ -667,7 +667,7 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
   <small>
     • <a href="https://www.proxmox.com/en/proxmox-ve/get-started">Primeros pasos con Proxmox VE</a><br>
     • <a href="https://pve.proxmox.com/pve-docs/">Documentación Técnica (Wiki)</a><br>
-    • <a href="https://punkymo.gitbook.io/miwiki/virtualizacion/proxmox"> Documentación Alina</a>
+    • <a href="https://punkymo.gitbook.io/miwiki/virtualizacion/proxmox"> Punkymo</a>
   </small></p>
   </details>
 <details>
@@ -963,7 +963,7 @@ Nginx
   <small>
     • <a href="https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_vzdump">Documentación Oficial Backup (PVE)</a><br>
     • <a href="https://pbs.proxmox.com/docs/">Documentación Proxmox Backup Server</a><br>
-    • <a href="https://punkymo.gitbook.io/miwiki/virtualizacion/proxmox/proxmox-backup">Apuntes Alina</a>
+    • <a href="https://punkymo.gitbook.io/miwiki/virtualizacion/proxmox/proxmox-backup">Punkymo</a>
   </small></p>
 </details>
 <div align="center">
