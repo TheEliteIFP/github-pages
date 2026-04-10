@@ -878,7 +878,7 @@ Nginx
   <summary><strong>SERVIDOR WEB Y PROXY INVERSO (NGINX + VERCEL/TYPESCRIPT)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 
-<details><summary>¿Que es Vercel y que hace?</summary></details>
+<details><summary>¿Que es Vercel y que hace?</summary>
 <p>Vercel es una plataforma en la nube que sirve para desplegar y alojar aplicaciones web de forma automática y simplificada.</p>
 
 <p>Su función principal es encargarse de toda la infraestructura técnica (servidores, redes, velocidad de carga...) para que los desarrolladores solo tengan que subir su código y la web esté disponible en internet al instante.</p>
@@ -888,6 +888,7 @@ Nginx
 <li><strong>Automatiza el trabajo:</strong> Prepara y publica la web sin que tengas que configurar un servidor a mano cada vez.</li>
 <li><strong>Gestiona la seguridad:</strong> Permite guardar claves secretas (APIs) en la nube para que la aplicación las use sin exponerlas.</li>
 <li><strong>Optimiza el rendimiento:</strong> Hace que la página cargue muy rápido en cualquier parte del mundo.</li>
+</details>
 
   <p>Es la infraestructura que sirve la interfaz de <strong>EliteGG</strong>. Combina la potencia de <strong>Nginx</strong> como servidor frontal y Proxy Inverso con una aplicación moderna desarrollada en <strong>TypeScript</strong>, gestionada mediante <strong>Vercel CLI</strong> y mantenida en ejecución continua por <strong>PM2</strong>.</p>
 
