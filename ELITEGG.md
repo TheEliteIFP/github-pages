@@ -878,7 +878,7 @@ Nginx
   <summary><strong>SERVIDOR WEB Y PROXY INVERSO (NGINX + VERCEL/TYPESCRIPT)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 
-<details><summary>¿Que es Vercel y que hace?</summary>
+<details><summary><strong></strong>¿Que es Vercel y que hace?</summary></strong>
 <p>Vercel es una plataforma en la nube que sirve para desplegar y alojar aplicaciones web de forma automática y simplificada.</p>
 
 <p>Su función principal es encargarse de toda la infraestructura técnica (servidores, redes, velocidad de carga...) para que los desarrolladores solo tengan que subir su código y la web esté disponible en internet al instante.</p>
