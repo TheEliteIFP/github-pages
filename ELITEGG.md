@@ -889,7 +889,7 @@ Nginx
 <li><strong>Gestiona la seguridad:</strong> Permite guardar claves secretas (APIs) en la nube para que la aplicación las use sin exponerlas.</li>
 <li><strong>Optimiza el rendimiento:</strong> Hace que la página cargue muy rápido en cualquier parte del mundo.</li>
 </details>
-
+<p><strong></strong>¿Que función cumple este servidor?</strong></p>
   <p>Es la infraestructura que sirve la interfaz de <strong>EliteGG</strong>. Combina la potencia de <strong>Nginx</strong> como servidor frontal y Proxy Inverso con una aplicación moderna desarrollada en <strong>TypeScript</strong>, gestionada mediante <strong>Vercel CLI</strong> y mantenida en ejecución continua por <strong>PM2</strong>.</p>
 
   
