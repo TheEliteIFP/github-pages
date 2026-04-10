@@ -883,16 +883,17 @@ Nginx
 <img width="784" height="413" alt="image" src="https://github.com/user-attachments/assets/aa3dccc3-f0dd-4946-9d37-ff1a1e16b904" />
 
 
-<p>Vercel es una plataforma en la nube que sirve para desplegar y alojar aplicaciones web de forma automática y simplificada.<br>
+<p>Vercel es una plataforma en la nube que sirve para desplegar y alojar aplicaciones web de forma automática y simplificada.</p>
 
-Su función principal es encargarse de toda la infraestructura técnica (servidores, redes, velocidad de carga...) para que los desarrolladores solo tengan que subir su código y la web esté disponible en internet al instante.
+<p>Su función principal es encargarse de toda la infraestructura técnica (servidores, redes, velocidad de carga...) para que los desarrolladores solo tengan que subir su código y la web esté disponible en internet al instante.</p>
 
-Se utiliza mucho porque:
+<p><strong>Se utiliza mucho porque:</strong></p>
+<ul>
+<li><strong>• Automatiza el trabajo:</strong> Prepara y publica la web sin que tengas que configurar un servidor a mano cada vez.</li>
+<li><strong>• Gestiona la seguridad:</strong> Permite guardar claves secretas (APIs) en la nube para que la aplicación las use sin exponerlas.</li>
+<li><strong>• Optimiza el rendimiento:</strong> Hace que la página cargue muy rápido en cualquier parte del mundo.</li>
 
-• Automatiza el trabajo: Prepara y publica la web sin que tengas que configurar un servidor a mano cada vez.
-• Gestiona la seguridad: Permite guardar claves secretas (APIs) en la nube para que la aplicación las use sin exponerlas.
-• Optimiza el rendimiento: Hace que la página cargue muy rápido en cualquier parte del mundo.</p>
-  
+   </ul>
   
   <p><strong>¿Por qué es clave para el proyecto?</strong></p>
   <ul>
