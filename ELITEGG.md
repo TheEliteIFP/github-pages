@@ -442,7 +442,7 @@ Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido es
  <summary><strong>SO QUE VAMOS A UTILIZAR</strong></summary>
 <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  <li>Plataforma de Virtualización = Proxmox</li>
- <li>Servidor de Backup = Debian</li>
+ <li>Servidor de Backup = Proxmox Backup Server</li>
  <li>Servidores DNS = Debian</li>
  <li>Servidor de Aplicación/Web/DB = Debian</li>
  <li>Dhcp + Router = Debian (interfaz gráfica) + IP tables</li>
