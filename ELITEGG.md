@@ -878,22 +878,19 @@ Nginx
   <summary><strong>SERVIDOR WEB Y PROXY INVERSO (NGINX + VERCEL/TYPESCRIPT)</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 
-  <p>Es la infraestructura que sirve la interfaz de <strong>EliteGG</strong>. Combina la potencia de <strong>Nginx</strong> como servidor frontal y Proxy Inverso con una aplicación moderna desarrollada en <strong>TypeScript</strong>, gestionada mediante <strong>Vercel CLI</strong> y mantenida en ejecución continua por <strong>PM2</strong>.</p>
-
-<img width="784" height="413" alt="image" src="https://github.com/user-attachments/assets/aa3dccc3-f0dd-4946-9d37-ff1a1e16b904" />
-
-
+<summary>¿Que es Vercel y que hace?</summary>
 <p>Vercel es una plataforma en la nube que sirve para desplegar y alojar aplicaciones web de forma automática y simplificada.</p>
 
 <p>Su función principal es encargarse de toda la infraestructura técnica (servidores, redes, velocidad de carga...) para que los desarrolladores solo tengan que subir su código y la web esté disponible en internet al instante.</p>
 
 <p><strong>Se utiliza mucho porque:</strong></p>
 <ul>
-<li><strong>• Automatiza el trabajo:</strong> Prepara y publica la web sin que tengas que configurar un servidor a mano cada vez.</li>
-<li><strong>• Gestiona la seguridad:</strong> Permite guardar claves secretas (APIs) en la nube para que la aplicación las use sin exponerlas.</li>
-<li><strong>• Optimiza el rendimiento:</strong> Hace que la página cargue muy rápido en cualquier parte del mundo.</li>
+<li><strong>Automatiza el trabajo:</strong> Prepara y publica la web sin que tengas que configurar un servidor a mano cada vez.</li>
+<li><strong>Gestiona la seguridad:</strong> Permite guardar claves secretas (APIs) en la nube para que la aplicación las use sin exponerlas.</li>
+<li><strong>Optimiza el rendimiento:</strong> Hace que la página cargue muy rápido en cualquier parte del mundo.</li>
 
-   </ul>
+  <p>Es la infraestructura que sirve la interfaz de <strong>EliteGG</strong>. Combina la potencia de <strong>Nginx</strong> como servidor frontal y Proxy Inverso con una aplicación moderna desarrollada en <strong>TypeScript</strong>, gestionada mediante <strong>Vercel CLI</strong> y mantenida en ejecución continua por <strong>PM2</strong>.</p>
+
   
   <p><strong>¿Por qué es clave para el proyecto?</strong></p>
   <ul>
@@ -901,7 +898,7 @@ Nginx
     <li><strong>TypeScript & Vercel:</strong> Garantiza un código robusto sin errores de tipado y permite un flujo de despliegue profesional desde la nube a nuestra VM local.</li>
     <li><strong>PM2 (Zero Downtime):</strong> Gestiona los procesos de Node.js para que la web se reinicie automáticamente ante cualquier fallo crítico.</li>
   </ul>
-
+<img width="784" height="413" alt="image" src="https://github.com/user-attachments/assets/aa3dccc3-f0dd-4946-9d37-ff1a1e16b904" />
   <p><strong>Configuración del Proceso:</strong></p>
   <p>Implementación paso a paso de la pila tecnológica:</p>
   <ul>
