@@ -1100,6 +1100,7 @@ Nginx
 <div align="center">
     <h2 id="conclusiones" style="text-align: center;">📊CONCLUSIONES</h2>
 </div>
+<p>La ejecución de este proyecto ha permitido consolidar una infraestructura de red avanzada y escalable, logrando una integración eficiente entre entornos virtualizados en Proxmox y servicios en la nube. La arquitectura garantiza la alta disponibilidad mediante una gestión rigurosa en el PBS y una segmentación de red donde el Router Debian y Pi-hole mantienen el orden absoluto al gestionar el tráfico y el DHCP. La implementación del plan de contingencia demuestra un enfoque profesional hacia la seguridad, asegurando que, ante cualquier imprevisto técnico, tenemos los backups listos para restaurar el servicio en tiempo récord. En conclusión, la coordinación del equipo ha permitido sincronizar el desarrollo con la administración de sistemas, resultando en una plataforma sólida, segura y, sobre todo, funcional. Hemos demostrado que somos capaces de montar un entorno de producción real que aguanta el tipo incluso mejor que los servidores de Riot en día de parche.</p>
 <div align="center">
     <h2 id="bibliografia" style="text-align: center;">📚BIBLIOGRAFIA</h2>
 </div>
