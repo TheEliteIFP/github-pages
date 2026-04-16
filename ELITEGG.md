@@ -1097,6 +1097,17 @@ Nginx
     <p>La separación de funciones entre el Router Debian y el Pi-hole, sumada a la protección del PBS, permite que EliteGG tenga una red organizada y fácil de recuperar ante cualquier incidencia técnica, garantizando la estabilidad del proyecto.</p>
 </details>
 
+
+<div align="center">
+    <h2 id="conclusiones" style="text-align: center;">🎨EVOLUCIÓN VISUAL</h2>
+</div>
+<details>
+    <summary><strong>HOMEPAGE</strong></summary>
+    <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
+    <p>La página principal de la web, queriamos darle un estilo colorido y que fuera llamativa ya que es la primera impresión que se lleva la gente al entrar, despues de diferentes pruebas optamos por en lugar de tener una imagen estatica al fondo usar una API para poder tener videos de reproducción automatica en el fondo de la pagina, los colores llamativos que queriamos poner optamos por usarlos pero en su versión mas apagado, para que no fuera cargante a la vista, la diferencia es la siguiente</p>
+</details>
+
+
 <div align="center">
     <h2 id="conclusiones" style="text-align: center;">📊CONCLUSIONES</h2>
 </div>
