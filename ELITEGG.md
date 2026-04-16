@@ -1105,6 +1105,83 @@ Nginx
     <summary><strong>HOMEPAGE</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <p>La página principal de la web, queriamos darle un estilo colorido y que fuera llamativa ya que es la primera impresión que se lleva la gente al entrar, despues de diferentes pruebas optamos por en lugar de tener una imagen estatica al fondo usar una API para poder tener videos de reproducción automatica en el fondo de la pagina, los colores llamativos que queriamos poner optamos por usarlos pero en su versión mas apagado, para que no fuera cargante a la vista, la diferencia es la siguiente</p>
+<div class="PatchNotesMapUpdate">
+    <div class="PatchNotesMapUpdate-name">Drilling Rig (formerly Labs)</div>
+    <div class="PatchNotesMapUpdate-body">
+        <div class="PatchNotesMapUpdate-beforeAfterText">Before and After</div>
+        <div class="comparison-slider-custom" id="comparisonSliderCustom" style="position: relative; width: 100%; max-width: 800px; margin: 1rem auto; cursor: ew-resize; user-select: none;">
+            <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #000; overflow: hidden; border-radius: 12px;">
+                <img id="beforeImageCustom" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block; pointer-events: none;" alt="Versión antigua" src="URL_IMAGEN_ANTIGUA">
+                <img id="afterImageCustom" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block; pointer-events: none; clip-path: inset(0 0 0 54%);" alt="Versión nueva" src="URL_IMAGEN_NUEVA">
+                <div id="sliderHandleCustom" style="position: absolute; top: 0; bottom: 0; width: 3px; background: #ffd966; box-shadow: 0 0 12px 2px #ffd966; z-index: 20; cursor: ew-resize; left: 54%; transform: translateX(-50%);">
+                    <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: rgba(20,28,44,0.85); color: #ffdd88; width: 42px; height: 42px; border-radius: 100px; display: flex; align-items: center; justify-content: center; border: 1.5px solid #ffcd6b; font-size: 1.3rem; font-weight: bold; backdrop-filter: blur(12px);">⇄</div>
+                </div>
+                <div style="position: absolute; bottom: 1rem; left: 1.2rem; background: rgba(0,0,0,0.65); backdrop-filter: blur(8px); padding: 0.35rem 1rem; border-radius: 40px; font-size: 0.8rem; font-weight: 600; border-left: 3px solid #ffaa44; color: #ffdd99; pointer-events: none;">◀ ANTES</div>
+                <div style="position: absolute; bottom: 1rem; right: 1.2rem; background: rgba(0,0,0,0.65); backdrop-filter: blur(8px); padding: 0.35rem 1rem; border-radius: 40px; font-size: 0.8rem; font-weight: 600; border-left: 3px solid #4cbeff; color: #bde2ff; pointer-events: none;">NUEVA ▶</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function() {
+        const container = document.getElementById('comparisonSliderCustom');
+        if (!container) return;
+        const sliderDiv = container.querySelector('div[style*="padding-bottom"]') || container.children[0];
+        const afterImg = document.getElementById('afterImageCustom');
+        const handle = document.getElementById('sliderHandleCustom');
+        if (!afterImg || !handle) return;
+        
+        let isDragging = false;
+        let currentPercent = 0.54;
+        
+        function updateClip(percent) {
+            percent = Math.min(Math.max(percent, 0.01), 0.99);
+            currentPercent = percent;
+            afterImg.style.clipPath = `inset(0 0 0 ${percent * 100}%)`;
+            handle.style.left = `${percent * 100}%`;
+        }
+        
+        function getPercent(e) {
+            const rect = sliderDiv.getBoundingClientRect();
+            let clientX = e.clientX;
+            if (e.touches) clientX = e.touches[0].clientX;
+            let offsetX = Math.min(Math.max(clientX - rect.left, 0), rect.width);
+            return Math.min(Math.max(offsetX / rect.width, 0.01), 0.99);
+        }
+        
+        function onMove(e) {
+            if (!isDragging) return;
+            e.preventDefault();
+            updateClip(getPercent(e));
+        }
+        
+        function startDrag(e) {
+            e.preventDefault();
+            isDragging = true;
+            updateClip(getPercent(e));
+            document.addEventListener('mousemove', onMove);
+            document.addEventListener('mouseup', stopDrag);
+            document.addEventListener('touchmove', onMove, { passive: false });
+            document.addEventListener('touchend', stopDrag);
+        }
+        
+        function stopDrag() {
+            isDragging = false;
+            document.removeEventListener('mousemove', onMove);
+            document.removeEventListener('mouseup', stopDrag);
+            document.removeEventListener('touchmove', onMove);
+            document.removeEventListener('touchend', stopDrag);
+        }
+        
+        handle.addEventListener('mousedown', startDrag);
+        handle.addEventListener('touchstart', startDrag);
+        container.addEventListener('mousedown', (e) => { if (e.target !== handle) startDrag(e); });
+        container.addEventListener('touchstart', (e) => { if (e.target !== handle) startDrag(e); });
+        window.addEventListener('resize', () => updateClip(currentPercent));
+        updateClip(0.54);
+    })();
+</script>
 </details>
 
 
