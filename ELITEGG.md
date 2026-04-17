@@ -1111,8 +1111,9 @@ Nginx
         <div class="PatchNotesMapUpdate-beforeAfterText">Before and After</div>
         <div class="comparison-slider-custom" id="comparisonSliderCustom" style="position: relative; width: 100%; max-width: 800px; margin: 1rem auto; cursor: ew-resize; user-select: none;">
             <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #000; overflow: hidden; border-radius: 12px;">
-                <img id="beforeImageCustom" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block; pointer-events: none;" alt="Versión antigua" src="URL_IMAGEN_ANTIGUA">
-                <img id="afterImageCustom" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block; pointer-events: none; clip-path: inset(0 0 0 54%);" alt="Versión nueva" src="URL_IMAGEN_NUEVA">
+                 <img src="assets/Homepage.png" alt="Homepage">
+                <img width="1918" height="902" alt="image" src="https://github.com/user-attachments/assets/47a4f0ba-6fbe-4380-9a57-11cdb066989e" />
+
                 <div id="sliderHandleCustom" style="position: absolute; top: 0; bottom: 0; width: 3px; background: #ffd966; box-shadow: 0 0 12px 2px #ffd966; z-index: 20; cursor: ew-resize; left: 54%; transform: translateX(-50%);">
                     <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: rgba(20,28,44,0.85); color: #ffdd88; width: 42px; height: 42px; border-radius: 100px; display: flex; align-items: center; justify-content: center; border: 1.5px solid #ffcd6b; font-size: 1.3rem; font-weight: bold; backdrop-filter: blur(12px);">⇄</div>
                 </div>
