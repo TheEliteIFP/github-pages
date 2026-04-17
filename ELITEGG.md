@@ -1111,11 +1111,12 @@ Nginx
   <img src=".assets/Homepage.png" width="100%">
   <img src="./assets/imagen2.jpg" width="100%">
 </div>
+</details>
 
 
 
 
-
+<details>
 <div align="center">
     <h2 id="conclusiones" style="text-align: center;">📊CONCLUSIONES</h2>
 </div>
