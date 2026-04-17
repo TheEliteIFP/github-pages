@@ -20,6 +20,7 @@
 - 💻 **[Web](#web)**
 - 🖥️ **[Servicios](#servicios)**
 - 🛡️ **[Plan de Contingencia](#plan-de-contingencia)**
+- 🎨 **[Evolución Visual](#evolución-visual)**
 - 📊 **[Conclusiones](#conclusiones)**
 - 📚 **[Bibliografía](#bibliografia)**
 
@@ -1099,7 +1100,7 @@ Nginx
 
 
 <div align="center">
-    <h2 id="conclusiones" style="text-align: center;">🎨EVOLUCIÓN VISUAL</h2>
+   <h2 id="evolución-visual" style="text-align: center;">🎨EVOLUCIÓN VISUAL</h2>
 </div>
 <details>
     <summary><strong>HOMEPAGE</strong></summary>
