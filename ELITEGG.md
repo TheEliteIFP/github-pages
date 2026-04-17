@@ -1100,34 +1100,26 @@ Nginx
 
 
 <div align="center">
-   <h2 id="evolución-visual" style="text-align: center;">🎨EVOLUCIÓN VISUAL</h2>
+    <h2 id="evolución-visual" style="text-align: center;">🎨EVOLUCIÓN VISUAL</h2>
 </div>
 <details>
     <summary><strong>HOMEPAGE</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <p>La página principal de la web, queriamos darle un estilo colorido y que fuera llamativa ya que es la primera impresión que se lleva la gente al entrar, despues de diferentes pruebas optamos por en lugar de tener una imagen estatica al fondo usar una API para poder tener videos de reproducción automatica en el fondo de la pagina, los colores llamativos que queriamos poner optamos por usarlos pero en su versión mas apagado, para que no fuera cargante a la vista, la diferencia es la siguiente</p>
-
-
     <div align="center">
-  <img src="assets/Homepage.png" width="100%">
-  <img src="assets/Captura de pantalla 2026-04-17 091204.png" width="100%">
-</div>
+        <img src="assets/Homepage.png" width="100%">
+        <img src="assets/Captura de pantalla 2026-04-17 091204.png" width="100%">
+    </div>
 </details>
 
-
-
-
-<details>
 <div align="center">
     <h2 id="conclusiones" style="text-align: center;">📊CONCLUSIONES</h2>
 </div>
 <p>La ejecución de este proyecto ha permitido consolidar una infraestructura de red avanzada y escalable, logrando una integración eficiente entre entornos virtualizados en Proxmox y servicios en la nube. La arquitectura garantiza la alta disponibilidad mediante una gestión rigurosa en el PBS y una segmentación de red donde el Router Debian y Pi-hole mantienen el orden absoluto al gestionar el tráfico y el DHCP. La implementación del plan de contingencia demuestra un enfoque profesional hacia la seguridad, asegurando que, ante cualquier imprevisto técnico, tenemos los backups listos para restaurar el servicio en tiempo récord. En conclusión, la coordinación del equipo ha permitido sincronizar el desarrollo con la administración de sistemas, resultando en una plataforma sólida, segura y, sobre todo, funcional. Hemos demostrado que somos capaces de montar un entorno de producción real que aguanta el tipo incluso mejor que los servidores de Riot en día de parche.</p>
-</details>
-    
-    <div align="center">
+
+<div align="center">
     <h2 id="bibliografia" style="text-align: center;">📚BIBLIOGRAFIA</h2>
 </div>
-
 <div>
 https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5<br>
 https://gist.github.com/dasdo/9ff71c5c0efa037441b6<br>
@@ -1139,3 +1131,4 @@ https://www.leagueoflegends.com/es-es/champions/<br>
 https://soloqchallenge.gg/podio<br>
 https://universe.leagueoflegends.com/es_ES/champions/<br>
 https://www.deepseek.com/<br>
+</div>
