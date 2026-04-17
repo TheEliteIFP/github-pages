@@ -1107,8 +1107,14 @@ Nginx
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <p>La página principal de la web, queriamos darle un estilo colorido y que fuera llamativa ya que es la primera impresión que se lleva la gente al entrar, despues de diferentes pruebas optamos por en lugar de tener una imagen estatica al fondo usar una API para poder tener videos de reproducción automatica en el fondo de la pagina, los colores llamativos que queriamos poner optamos por usarlos pero en su versión mas apagado, para que no fuera cargante a la vista, la diferencia es la siguiente</p>
     <div align="center">
-        <img src="assets/Homepage.png" width="100%">
-        <img src="assets/Captura de pantalla 2026-04-17 091204.png" width="100%">
+        <div>
+            <p><strong>Antes</strong></p>
+            <img src="assets/Homepage.png" width="100%">
+        </div>
+        <div>
+            <p><strong>Después</strong></p>
+            <img src="assets/Captura de pantalla 2026-04-17 091204.png" width="100%">
+        </div>
     </div>
 </details>
 
