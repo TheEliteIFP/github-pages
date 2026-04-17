@@ -1098,7 +1098,8 @@ Nginx
     <p>La separación de funciones entre el Router Debian y el Pi-hole, sumada a la protección del PBS, permite que EliteGG tenga una red organizada y fácil de recuperar ante cualquier incidencia técnica, garantizando la estabilidad del proyecto.</p>
 </details>
 
-
+<details>
+    
 <div align="center">
     <h2 id="evolución-visual" style="text-align: center;">🎨EVOLUCIÓN VISUAL</h2>
 </div>
@@ -1106,55 +1107,55 @@ Nginx
     <summary><strong>HOMEPAGE</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <p>La página principal de la web, queriamos darle un estilo colorido y que fuera llamativa ya que es la primera impresión que se lleva la gente al entrar, despues de diferentes pruebas optamos por en lugar de tener una imagen estatica al fondo usar una API para poder tener videos de reproducción automatica en el fondo de la pagina, los colores llamativos que queriamos poner optamos por usarlos pero en su versión mas apagado, para que no fuera cargante a la vista, la diferencia es la siguiente</p>
-    <div align="center">
+
     <div style="position: relative; width: 100%; max-width: 900px; margin: 0 auto; overflow: hidden; border-radius: 8px; cursor: col-resize; user-select: none;" id="slider-container">
 
-    <!-- Imagen DESPUÉS (fondo completo) -->
-    <img src="assets/Captura de pantalla 2026-04-17 091204.png" style="width: 100%; display: block;">
+        <!-- Imagen DESPUÉS (fondo completo) -->
+        <img src="assets/Captura de pantalla 2026-04-17 091204.png" style="width: 100%; display: block;">
 
-    <!-- Imagen ANTES (recortada por el slider) -->
-    <div id="before-div" style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
-        <img src="assets/Homepage.png" style="width: 900px; max-width: none; display: block;">
+        <!-- Imagen ANTES (recortada por el slider) -->
+        <div id="before-div" style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
+            <img src="assets/Homepage.png" style="width: 900px; max-width: none; display: block;">
+        </div>
+
+        <!-- Línea divisoria -->
+        <div id="divider" style="position: absolute; top: 0; left: 50%; width: 3px; height: 100%; background: white; transform: translateX(-50%); pointer-events: none;">
+            <!-- Botón central -->
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 36px; height: 36px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #555; box-shadow: 0 2px 6px rgba(0,0,0,0.4);">❮❯</div>
+        </div>
+
+        <!-- Etiquetas -->
+        <div style="position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.5); color: white; padding: 4px 10px; border-radius: 4px; font-size: 13px;">Antes</div>
+        <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.5); color: white; padding: 4px 10px; border-radius: 4px; font-size: 13px;">Después</div>
     </div>
 
-    <!-- Línea divisoria -->
-    <div id="divider" style="position: absolute; top: 0; left: 50%; width: 3px; height: 100%; background: white; transform: translateX(-50%); pointer-events: none;">
-        <!-- Botón central -->
-        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 36px; height: 36px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #555; box-shadow: 0 2px 6px rgba(0,0,0,0.4);">❮❯</div>
-    </div>
+    <script>
+    (function() {
+        const container = document.getElementById('slider-container');
+        const beforeDiv = document.getElementById('before-div');
+        const divider = document.getElementById('divider');
+        let dragging = false;
 
-    <!-- Etiquetas -->
-    <div style="position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.5); color: white; padding: 4px 10px; border-radius: 4px; font-size: 13px;">Antes</div>
-    <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.5); color: white; padding: 4px 10px; border-radius: 4px; font-size: 13px;">Después</div>
-</div>
+        function setPosition(x) {
+            const rect = container.getBoundingClientRect();
+            let pos = ((x - rect.left) / rect.width) * 100;
+            pos = Math.min(Math.max(pos, 0), 100);
+            beforeDiv.style.width = pos + '%';
+            divider.style.left = pos + '%';
+            const beforeImg = beforeDiv.querySelector('img');
+            beforeImg.style.width = container.offsetWidth + 'px';
+        }
 
-<script>
-(function() {
-    const container = document.getElementById('slider-container');
-    const beforeDiv = document.getElementById('before-div');
-    const divider = document.getElementById('divider');
-    let dragging = false;
+        container.addEventListener('mousedown', (e) => { dragging = true; setPosition(e.clientX); });
+        window.addEventListener('mouseup', () => { dragging = false; });
+        window.addEventListener('mousemove', (e) => { if (dragging) setPosition(e.clientX); });
 
-    function setPosition(x) {
-        const rect = container.getBoundingClientRect();
-        let pos = ((x - rect.left) / rect.width) * 100;
-        pos = Math.min(Math.max(pos, 0), 100);
-        beforeDiv.style.width = pos + '%';
-        divider.style.left = pos + '%';
-        const beforeImg = beforeDiv.querySelector('img');
-        beforeImg.style.width = container.offsetWidth + 'px';
-    }
-
-    container.addEventListener('mousedown', (e) => { dragging = true; setPosition(e.clientX); });
-    window.addEventListener('mouseup', () => { dragging = false; });
-    window.addEventListener('mousemove', (e) => { if (dragging) setPosition(e.clientX); });
-
-    container.addEventListener('touchstart', (e) => { dragging = true; setPosition(e.touches[0].clientX); });
-    window.addEventListener('touchend', () => { dragging = false; });
-    window.addEventListener('touchmove', (e) => { if (dragging) setPosition(e.touches[0].clientX); });
-})();
-</script>
-    </div>
+        container.addEventListener('touchstart', (e) => { dragging = true; setPosition(e.touches[0].clientX); });
+        window.addEventListener('touchend', () => { dragging = false; });
+        window.addEventListener('touchmove', (e) => { if (dragging) setPosition(e.touches[0].clientX); });
+    })();
+    </script>
+</details>
 </details>
 
 <div align="center">
