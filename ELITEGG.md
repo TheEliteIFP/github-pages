@@ -1124,63 +1124,146 @@ Nginx
     </div>
 </div>
 
+<div class="PatchNotesMapUpdate">
+    <div class="PatchNotesMapUpdate-name">Drilling Rig (formerly Labs)</div>
+    <div class="PatchNotesMapUpdate-body">
+        <div class="PatchNotesMapUpdate-beforeAfterText">Before and After</div>
+        
+        <!-- COMPARADOR SLIDER -->
+        <div id="comparisonSliderCustom" style="position: relative; width: 100%; max-width: 900px; margin: 1rem auto; cursor: ew-resize; user-select: none;">
+            <div id="sliderTrack" style="position: relative; width: 100%; padding-bottom: 56.25%; background: #000; overflow: hidden; border-radius: 12px;">
+                <!-- Imagen ANTIGUA (fondo) -->
+                <img id="beforeImageCustom" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block; pointer-events: none;" alt="Versión antigua" src="https://images.blz-contentstack.com/v3/assets/blt43efdd4acc4bdcb2/bl_cc653806388/69d8b7_3_ScreenShot_26-04-09_23-57-13-000.jpg">
+                
+                <!-- Imagen NUEVA (encima, se recorta) -->
+                <img id="afterImageCustom" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block; pointer-events: none;" alt="Versión nueva" src="https://images.blz-contentstack.com/v3/assets/blt43efdd4acc4bdcb2/bl_aac265bdab/69d8b7_9_ScreenShot_26-04-09_23-54-59-000.jpg">
+                
+                <!-- Barra deslizante -->
+                <div id="sliderHandleCustom" style="position: absolute; top: 0; bottom: 0; width: 4px; background: #ffd966; box-shadow: 0 0 12px 2px #ffd966, 0 0 0 1px rgba(0,0,0,0.4); z-index: 20; cursor: ew-resize; left: 54%; transform: translateX(-50%);">
+                    <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: rgba(20,28,44,0.9); color: #ffdd88; width: 44px; height: 44px; border-radius: 100px; display: flex; align-items: center; justify-content: center; border: 2px solid #ffcd6b; font-size: 1.4rem; font-weight: bold; backdrop-filter: blur(12px); cursor: grab; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">⇄</div>
+                </div>
+                
+                <!-- Etiquetas -->
+                <div style="position: absolute; bottom: 1rem; left: 1.2rem; background: rgba(0,0,0,0.7); backdrop-filter: blur(8px); padding: 0.35rem 1rem; border-radius: 40px; font-size: 0.8rem; font-weight: 600; border-left: 3px solid #ffaa44; color: #ffdd99; pointer-events: none; z-index: 15;">◀ VERSIÓN ANTIGUA</div>
+                <div style="position: absolute; bottom: 1rem; right: 1.2rem; background: rgba(0,0,0,0.7); backdrop-filter: blur(8px); padding: 0.35rem 1rem; border-radius: 40px; font-size: 0.8rem; font-weight: 600; border-left: 3px solid #4cbeff; color: #bde2ff; pointer-events: none; z-index: 15;">VERSIÓN NUEVA ▶</div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script>
     (function() {
-        const container = document.getElementById('comparisonSliderCustom');
-        if (!container) return;
-        const sliderDiv = container.querySelector('div[style*="padding-bottom"]') || container.children[0];
+        // Obtener elementos
+        const track = document.getElementById('sliderTrack');
         const afterImg = document.getElementById('afterImageCustom');
         const handle = document.getElementById('sliderHandleCustom');
-        if (!afterImg || !handle) return;
+        const container = document.getElementById('comparisonSliderCustom');
+        
+        if (!track || !afterImg || !handle) {
+            console.error('No se encontraron los elementos necesarios');
+            return;
+        }
         
         let isDragging = false;
         let currentPercent = 0.54;
         
+        // Función para actualizar el clip-path y la posición de la barra
         function updateClip(percent) {
             percent = Math.min(Math.max(percent, 0.01), 0.99);
             currentPercent = percent;
+            // Recortar la imagen nueva desde la izquierda
             afterImg.style.clipPath = `inset(0 0 0 ${percent * 100}%)`;
+            // Posicionar la barra
             handle.style.left = `${percent * 100}%`;
         }
         
-        function getPercent(e) {
-            const rect = sliderDiv.getBoundingClientRect();
-            let clientX = e.clientX;
-            if (e.touches) clientX = e.touches[0].clientX;
-            let offsetX = Math.min(Math.max(clientX - rect.left, 0), rect.width);
-            return Math.min(Math.max(offsetX / rect.width, 0.01), 0.99);
+        // Obtener porcentaje desde la posición del mouse/dedo
+        function getPercentFromEvent(e) {
+            const rect = track.getBoundingClientRect();
+            let clientX;
+            
+            if (e.touches) {
+                clientX = e.touches[0].clientX;
+            } else {
+                clientX = e.clientX;
+            }
+            
+            let offsetX = clientX - rect.left;
+            offsetX = Math.min(Math.max(offsetX, 0), rect.width);
+            let percent = offsetX / rect.width;
+            return Math.min(Math.max(percent, 0.01), 0.99);
         }
         
+        // Manejadores de eventos
         function onMove(e) {
             if (!isDragging) return;
             e.preventDefault();
-            updateClip(getPercent(e));
+            const percent = getPercentFromEvent(e);
+            updateClip(percent);
         }
         
         function startDrag(e) {
             e.preventDefault();
             isDragging = true;
-            updateClip(getPercent(e));
+            const percent = getPercentFromEvent(e);
+            updateClip(percent);
+            
+            // Agregar event listeners globales
             document.addEventListener('mousemove', onMove);
             document.addEventListener('mouseup', stopDrag);
             document.addEventListener('touchmove', onMove, { passive: false });
             document.addEventListener('touchend', stopDrag);
+            document.addEventListener('touchcancel', stopDrag);
+            
+            // Cambiar cursor
+            document.body.style.cursor = 'ew-resize';
+            if (handle.querySelector('div')) {
+                handle.querySelector('div').style.cursor = 'grabbing';
+            }
         }
         
         function stopDrag() {
+            if (!isDragging) return;
             isDragging = false;
             document.removeEventListener('mousemove', onMove);
             document.removeEventListener('mouseup', stopDrag);
             document.removeEventListener('touchmove', onMove);
             document.removeEventListener('touchend', stopDrag);
+            document.removeEventListener('touchcancel', stopDrag);
+            
+            // Restaurar cursor
+            document.body.style.cursor = '';
+            if (handle.querySelector('div')) {
+                handle.querySelector('div').style.cursor = 'grab';
+            }
         }
         
+        // Event listeners
         handle.addEventListener('mousedown', startDrag);
-        handle.addEventListener('touchstart', startDrag);
-        container.addEventListener('mousedown', (e) => { if (e.target !== handle) startDrag(e); });
-        container.addEventListener('touchstart', (e) => { if (e.target !== handle) startDrag(e); });
-        window.addEventListener('resize', () => updateClip(currentPercent));
+        handle.addEventListener('touchstart', startDrag, { passive: false });
+        
+        // También permitir arrastrar desde cualquier lugar del contenedor
+        container.addEventListener('mousedown', startDrag);
+        container.addEventListener('touchstart', startDrag, { passive: false });
+        
+        // Evitar que se seleccione texto mientras se arrastra
+        container.addEventListener('dragstart', (e) => e.preventDefault());
+        container.addEventListener('selectstart', (e) => e.preventDefault());
+        
+        // Doble clic para resetear al 50%
+        container.addEventListener('dblclick', () => {
+            updateClip(0.5);
+        });
+        
+        // Recalcular posición al redimensionar la ventana
+        window.addEventListener('resize', () => {
+            updateClip(currentPercent);
+        });
+        
+        // Inicializar
         updateClip(0.54);
+        
+        console.log('Comparador inicializado correctamente');
     })();
 </script>
 </details>
