@@ -1105,9 +1105,17 @@ Nginx
     <summary><strong>HOMEPAGE</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
     <p>La página principal de la web, queriamos darle un estilo colorido y que fuera llamativa ya que es la primera impresión que se lleva la gente al entrar, despues de diferentes pruebas optamos por en lugar de tener una imagen estatica al fondo usar una API para poder tener videos de reproducción automatica en el fondo de la pagina, los colores llamativos que queriamos poner optamos por usarlos pero en su versión mas apagado, para que no fuera cargante a la vista, la diferencia es la siguiente</p>
- <img src="assets/Homepage.png" alt="Homepage">
-                <img width="1918" height="902" alt="image" src="https://github.com/user-attachments/assets/47a4f0ba-6fbe-4380-9a57-11cdb066989e" />
+
+
+    
+
+    <p align="center">
+  <img src="assets/Homepage.png" alt="Homepage">
+  <br>
+ <img width="1918" height="902" alt="image" src="https://github.com/user-attachments/assets/47a4f0ba-6fbe-4380-9a57-11cdb066989e" />
+</p>
 </details>
+
 
 
 <div align="center">
