@@ -1110,26 +1110,28 @@ Nginx
 
     <div style="position: relative; width: 100%; max-width: 900px; margin: 0 auto; overflow: hidden; border-radius: 8px; cursor: col-resize; user-select: none;" id="slider-container">
 
-        <!-- Imagen DESPUÉS (fondo completo) -->
         <img src="assets/Captura de pantalla 2026-04-17 091204.png" style="width: 100%; display: block;">
-
-        <!-- Imagen ANTES (recortada por el slider) -->
+        
         <div id="before-div" style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
+        
             <img src="assets/Homepage.png" style="width: 900px; max-width: none; display: block;">
+            
         </div>
 
-        <!-- Línea divisoria -->
         <div id="divider" style="position: absolute; top: 0; left: 50%; width: 3px; height: 100%; background: white; transform: translateX(-50%); pointer-events: none;">
-            <!-- Botón central -->
+
+        
             <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 36px; height: 36px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #555; box-shadow: 0 2px 6px rgba(0,0,0,0.4);">❮❯</div>
         </div>
 
-        <!-- Etiquetas -->
         <div style="position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.5); color: white; padding: 4px 10px; border-radius: 4px; font-size: 13px;">Antes</div>
         <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.5); color: white; padding: 4px 10px; border-radius: 4px; font-size: 13px;">Después</div>
+   
     </div>
+    
 
     <script>
+    
     (function() {
         const container = document.getElementById('slider-container');
         const beforeDiv = document.getElementById('before-div');
