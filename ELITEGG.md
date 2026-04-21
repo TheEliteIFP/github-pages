@@ -413,11 +413,11 @@ No es esencial para la web pública, pero se usaría internamente en la red de d
 </details>
 <details>
  <summary><strong>MYSQL</strong></summary>
-Es un sistema de gestión de bases de datos relacionales, para almacenar datos estructurados de Campeones, Objetos y Usuarios. Ademas instalaremos phpmyadmin para tener una interfaz grafica.
+Es un sistema de gestión de bases de datos relacionales, para almacenar datos estructurados de Campeones, Objetos y Usuarios. Ademas instalaremos PHPmyadmin para tener una interfaz grafica.
 </details>
 <details>
  <summary><strong>PIHOLE</strong></summary>
-Se usaría en la red de desarrollo para bloquear publicidad y rastreadores a nivel de red para un entorno de trabajo más limpio.
+Hemos implementado Pi-hole como nuestra solución integral de Networking (DNS/DHCP). Su rol es crítico para garantizar una asignación de IPs ordenada y una resolución de nombres eficiente, facilitando la interconexión entre el frontend, la base de datos y los servicios externos.
 </details>
 <details>
  <summary><strong>Github</strong></summary>
