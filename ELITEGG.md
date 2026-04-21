@@ -526,7 +526,7 @@ Normalmente, el lenguaje JavaScript solo funciona dentro de un navegador (como C
     <h2 id="web" style="text-align: center;">💻WEB</h2>
 </div>
 Aqui tendremos la planificación a nivel tanto visual como interactivo de lo que será nuestra web, ademas de la explicación de como hemos hecho el codigo de la pagina y un link para la misma.
-
+<br>
   <details>
 <summary><strong>QUÉ ES TSX Y PORQUE LO ESTAMOS USANDO</strong></summary>
 <p>Como eramos conscientes de la amplitud de nuestro proyecto, buscamos información, llegando a la conclusión de que typescript era el lenguaje más óptimo para poder escribir nuestro código, ya que esta recomendado para trabajos que incluyan gran cantidad de información y grandes cantidades de páginas sobre la misma.
