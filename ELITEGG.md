@@ -405,11 +405,11 @@ El proyecto usará diferentes programas para poder ser funcional, las detallarem
  <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
  <details>
  <summary><strong>DNS</strong></summary>
- Traduce el nombre de dominio a la dirección IP del servidor donde se aloja la web, permitiendo a los usuarios encontrar la plataforma.
+ Traduce el nombre de dominio a la dirección IP del servidor donde se aloja la web, permitiendo a los usuarios encontrar la plataforma, nuestro proyecto se usara a partir de pihole para facilitarnos las configuraciones al tener una interfaz gráfica fácil e intuitiva.
 </details>
 <details>
  <summary><strong>DHCP</strong></summary>
-No es esencial para la web pública, pero se usaría internamente en la red de desarrollo o producción para asignar IPs automáticas a los servidores y máquinas virtuales.
+No es esencial para la web pública, pero se usaría internamente en la red de desarrollo o producción para asignar IPs automáticas a los servidores y máquinas virtuales, igual que en el DNS usaremos Pihole por los mismo motivos, una interfaz grafica sencilla e intuitiva hara que se cometan menos errores.
 </details>
 <details>
  <summary><strong>MYSQL</strong></summary>
@@ -420,20 +420,23 @@ Es un sistema de gestión de bases de datos relacionales, para almacenar datos e
 Hemos implementado Pi-hole como nuestra solución integral de Networking (DNS/DHCP). Su rol es crítico para garantizar una asignación de IPs ordenada y una resolución de nombres eficiente, facilitando la interconexión entre el frontend, la base de datos y los servicios externos.
 </details>
 <details>
- <summary><strong>Github</strong></summary>
-Plataforma de control de versiones obligatoria donde se almacenará el código fuente del proyecto, gestionando ramas y la colaboración del equipo. Ademas el codigo de nuestra web se encontrara dentro de un repositorio de github el cual estara ligado a nuestro nginx.
-</details>
-<details>
- <summary><strong>Firewall</strong></summary>
-Software de seguridad de red que protege el servidor, filtrando el tráfico malicioso y asegurando que solo los puertos necesarios (80, 443, 8080) estén accesibles.
+ <summary><strong>IPTABLES</strong></summary>
+Iptables es una utilidad del espacio de usuario que permite configurar las tablas proporcionadas por el firewall del kernel de Linux (Netfilter). Funciona mediante un sistema de reglas encadenadas que analizan los paquetes de red basándose en criterios como la dirección IP de origen/destino, el protocolo y el puerto, determinando si el tráfico debe ser aceptado, rechazado o redirigido, mas adelante se entrara en detalle sobre la máquina virtual y su configuración.
 </details>
 <details>
  <summary><strong>NGINX</strong></summary>
-Gestiona y distribuye eficientemente las peticiones HTTP y sirve el contenido estático.
+Nginx es un servidor web de alto rendimiento que también funciona como proxy inverso, equilibrador de carga y caché de HTTP. A diferencia de los servidores tradicionales, Nginx utiliza una arquitectura asíncrona orientada a eventos, lo que le permite manejar una gran cantidad de conexiones simultáneas con un consumo de memoria extremadamente bajo.
+</details>
+     <summary><strong>VERCEL</strong></summary>
+Vercel es una plataforma de Frontend Cloud basada en un modelo de PaaS (Platform as a Service), diseñada para el despliegue automático de aplicaciones web modernas. Su infraestructura está optimizada para ofrecer alta disponibilidad, escalabilidad dinámica y una entrega de contenido eficiente a través de una red global de borde (Edge Network), nos hemos decantado por usarlo para poder tener una manera fiable de poder alojar nuestro codigo, ya que github nos daba errores debido a las tecnologias que estaban añadidas en nuestro codigo (Se explicarán mas adelante).
+</details>
+<details>
+  <summary><strong>NODEJS</strong></summary>
+Normalmente, el lenguaje JavaScript solo funciona dentro de un navegador (como Chrome o Firefox) para dar movimiento a las páginas web. Node.js es la herramienta que permite sacar ese lenguaje del navegador y llevarlo al servidor. Es el "motor" que hace que la lógica de nuestra web funcione por detrás.
 </details>
  <details>
-  <summary><strong>ExpressJS</strong></summary>
-  Procesa y ejecuta el código dinámico de las aplicaciones para enviárselo a Nginx. Usamos este programa en lugar del PHP debido a que el codigo de la web esta compuesto por un formato tipo TSX.
+  <summary><strong>EXPRESSJS</strong></summary>
+  Procesa y ejecuta el código dinámico de las aplicaciones para enviárselo a Nginx. Usamos este programa en lugar del PHP debido a que el codigo de la web esta compuesto por un formato tipo TSX, esto nos hara que nuestra base de datos creada en MYSQL se pueda comunicar con nuestra web alojada en Vercel.
 </details>
 </details>
 <details>
@@ -525,7 +528,7 @@ Aqui tendremos la planificación a nivel tanto visual como interactivo de lo que
 <details>
     <summary><strong>MOCKUP</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-Aquí se podrá observar las bases a nivel visual de lo que será la página web de EliteGG. Para empezar la paleta principal de colores que compone la página son el negro, blanco, morado y amarillo, esto para dar una sensación de estilo neon ya que la página está dirigida al gaming. Seguido esto tenemos cada apartado de la página.
+Aquí se podrá observar las bases a nivel visual de lo que será la página web de EliteGG. Para empezar la paleta principal de colores que compone la página son el negro, blanco, morado y amarillo, esto para dar una sensación de estilo neon ya que la página está dirigida al gaming, todas estas simulaciones las hemos hecho usando Canva para poder hacerlo lo mas fiel posible al resultado que esperamos para el final de nuestro proyecto. Seguido a esto tenemos cada apartado de la página.
     <br><br>
     <details>
     <summary><strong>Home page</strong></summary>
