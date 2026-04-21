@@ -427,6 +427,7 @@ Iptables es una utilidad del espacio de usuario que permite configurar las tabla
  <summary><strong>NGINX</strong></summary>
 Nginx es un servidor web de alto rendimiento que también funciona como proxy inverso, equilibrador de carga y caché de HTTP. A diferencia de los servidores tradicionales, Nginx utiliza una arquitectura asíncrona orientada a eventos, lo que le permite manejar una gran cantidad de conexiones simultáneas con un consumo de memoria extremadamente bajo.
 </details>
+    <details>
      <summary><strong>VERCEL</strong></summary>
 Vercel es una plataforma de Frontend Cloud basada en un modelo de PaaS (Platform as a Service), diseñada para el despliegue automático de aplicaciones web modernas. Su infraestructura está optimizada para ofrecer alta disponibilidad, escalabilidad dinámica y una entrega de contenido eficiente a través de una red global de borde (Edge Network), nos hemos decantado por usarlo para poder tener una manera fiable de poder alojar nuestro codigo, ya que github nos daba errores debido a las tecnologias que estaban añadidas en nuestro codigo (Se explicarán mas adelante).
 </details>
