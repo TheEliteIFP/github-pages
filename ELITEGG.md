@@ -1,6 +1,3 @@
-<div align="center">
-    <h1 style="text-align: center;">ELITEGG</h1>
-</div>
 
 ![Mi logo](assets/logo.png)
 
