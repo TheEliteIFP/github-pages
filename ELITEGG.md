@@ -532,7 +532,17 @@ Aqui tendremos la planificación a nivel tanto visual como interactivo de lo que
         <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <p>Como eramos conscientes de la amplitud de nuestro proyecto, buscamos información, llegando a la conclusión de que typescript era el lenguaje más óptimo para poder escribir nuestro código, ya que esta recomendado para trabajos que incluyan gran cantidad de información y grandes cantidades de páginas sobre la misma.
 
-<strong>COMO USAMOS NODEJS </strong>
+<strong>NODEJS </strong>
+<br>
+Normalmente, el lenguaje JavaScript solo funciona dentro de un navegador (como Chrome o Firefox) para dar movimiento a las páginas web. Node.js es la herramienta que permite sacar ese lenguaje del navegador y llevarlo al servidor. Es el "motor" que hace que la lógica de nuestra web funcione por detrás.
+<br>
+<Strong>¿Qué hace en EliteGG?</strong>
+<br>
+Node.js es el intermediario que se encarga de que todo ocurra de forma fluida:
+<li> Comunicación con la API de Riot Games: Cuando buscas un jugador, Node.js es quien hace la llamada a los servidores de Riot, recoge los datos de las partidas y los trae de vuelta a nuestra plataforma.</li>
+<li>Tratamiento de datos: Los datos que vienen de la API son "brutos" y difíciles de leer. Node.js los procesa, calcula estadísticas (como el KDA o el Win Rate) y los organiza para que se vean bien en la pantalla.</li>
+<li>Gestión de múltiples usuarios: Gracias a su diseño, Node.js puede atender a muchos usuarios a la vez sin bloquearse. Mientras espera que Riot le envíe la información de un jugador, puede estar sirviendo la página a otro usuario diferente.</li>
+<li>Puente con la Base de Datos: Es el encargado de hablar con MariaDB para guardar o leer información, asegurándose de que los datos fluyan correctamente entre el servidor y el usuario.</li>
 
 </p>
 
