@@ -526,6 +526,7 @@ Normalmente, el lenguaje JavaScript solo funciona dentro de un navegador (como C
     <h2 id="web" style="text-align: center;">💻WEB</h2>
 </div>
 Aqui tendremos la planificación a nivel tanto visual como interactivo de lo que será nuestra web, ademas de la explicación de como hemos hecho el codigo de la pagina y un link para la misma.
+<br>
 
   <details>
 <summary><strong>QUÉ ES TSX Y PORQUE LO ESTAMOS USANDO</strong></summary>
