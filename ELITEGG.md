@@ -675,6 +675,7 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
 <strong>3. Seguridad SSL:</strong> Al gestionar el dominio a través de esta conexión, también hemos asegurado que la web funcione bajo el protocolo HTTPS, garantizando que la conexión entre el usuario y EliteGG esté cifrada y sea segura. 
 </p>  
 </Details>
+<br> Explicado todo esto adjuntamos un link del producto final de la pagina web ya con su nombre de dominio asignado y configurado:  <a href="https://www.egglol.com/">EliteGG</a><br>
 <div align="center">
     <h2 id="servicios" style="text-align: center;">🖥️SERVICIOS</h2>
 </div>
