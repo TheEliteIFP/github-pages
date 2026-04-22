@@ -548,16 +548,7 @@ Node.js es el intermediario que se encarga de que todo ocurra de forma fluida:
 </p>
 
 </details>
-<Details>
-<summary><strong>ASIGNACIÓN DEL DOMINIO</strong></summary>
-<p>Como toda página web no podemos estar entrando constantemente poniendo la IP de nuestro servidor web, para poder solucionar este problema debiamos establecer un dominio para nuestra pagina, usaremos una pagina llamada <a href="https://www.ionos.es/?itc=TOIP6F1L-TH53Y8-658T7N9&utm_source=google&utm_medium=cpc&utm_campaign=SBT-ES-BRA-BRAX---IONOS---&utm_term=ionos&matchtype=e&utm_content=EX-Ionos&gclsrc=aw.ds&gad_source=1&gad_campaignid=1598484897&gbraid=0AAAAADBIncwL7bxX4NzuEIbBmuLuNQVMP&gclid=CjwKCAjw46HPBhAMEiwASZpLRKkEKoDzoPihSMHWyLWo3EHDnbM9em0ilVN140-JlxYC9tu7roKcCRoCIEMQAvD_BwE">Ionos</a>, esta página alquila dominios para páginas webs privadas, depositamos 1€ y obtuvimos un dominio durante un año.
 
-
-    
-</p>
-
-    
-</Details>
 <details>
     <summary><strong>MOCKUP</strong></summary>
     <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
@@ -666,6 +657,23 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
  El mapa de navegabilidad de EliteGG está creado haciendo uso de la herramienta llamada "Miro". Aqui está el link para poder acceder a este: 
  <a href="https://miro.com/app/board/uXjVJ5uIMTM=/?share_link_id=5953744281"> <target=blank>Acceder al Mapa</a>. Este mapa tiene una estructura perfectamente pensada, los rombos representan la "Home page", los cuadrados morados representan botones/objetos interactuables, y los cuadrados amarillos representan aspectos puramente visuales. La estructura de la web está perfectamente interconectada unas funciones con otras, de esta manera el usuario puede llegar a cualquier parte de la web con la menor cantidad de clics posible.     
 </details>
+     <Details>
+<summary><strong>ASIGNACIÓN DEL DOMINIO</strong></summary>
+<p>Como toda página web no podemos estar entrando constantemente poniendo la IP de nuestro servidor web, para poder solucionar este problema debiamos establecer un dominio para nuestra pagina, usaremos una pagina llamada <a href="https://www.ionos.es/?itc=TOIP6F1L-TH53Y8-658T7N9&utm_source=google&utm_medium=cpc&utm_campaign=SBT-ES-BRA-BRAX---IONOS---&utm_term=ionos&matchtype=e&utm_content=EX-Ionos&gclsrc=aw.ds&gad_source=1&gad_campaignid=1598484897&gbraid=0AAAAADBIncwL7bxX4NzuEIbBmuLuNQVMP&gclid=CjwKCAjw46HPBhAMEiwASZpLRKkEKoDzoPihSMHWyLWo3EHDnbM9em0ilVN140-JlxYC9tu7roKcCRoCIEMQAvD_BwE">Ionos</a>, esta página alquila dominios para páginas webs privadas, depositamos 1€ y obtuvimos un dominio durante un año.
+<br>
+<strong>El proceso que hemos seguido</strong>
+<br>
+<strong>Registro y Adquisición:</strong>El primer paso fue buscar y registrar un nombre de dominio disponible que diera identidad al proyecto. Una vez adquirido en IONOS, el dominio queda bajo nuestra propiedad.
+<br>
+<strong>Configuración de DNS (Domain Name System):</strong> Este es el paso más crítico. Hemos configurado los registros DNS dentro del panel de IONOS para "apuntar" el dominio hacia nuestro servidor. En este apartado usamos el panel de control de IONOS para hacer lo que se llama <strong>Registro A</strong> y <strong>Registro CNAME</strong>, los cuales definiremos a continuación.
+<br>
+    <li><strong>Registro A:</strong> Es el registro principal que vincula el dominio egglol.com directamente con una dirección IPv4 específica, esto esta hecho para que podamos asignar un nombre a nuestra ip.</li>
+    <li><strong>Registro CNAME:</strong> Dado que en nuestro proyecto utilizamos Vercel para el frontend, configuramos un registro CNAME que redirige el tráfico de www.egglol.com hacia los servidores de la plataforma (cname.vercel-dns.com). Esto garantiza que, ante cualquier cambio de IP interna en la infraestructura de Vercel, el dominio siga resolviendo correctamente.
+    </li> <br>
+    
+<strong>Seguridad SSL:</strong> Al gestionar el dominio a través de esta conexión, también hemos asegurado que la web funcione bajo el protocolo HTTPS, garantizando que la conexión entre el usuario y EliteGG esté cifrada y sea segura. 
+</p>  
+</Details>
 <div align="center">
     <h2 id="servicios" style="text-align: center;">🖥️SERVICIOS</h2>
 </div>
