@@ -661,7 +661,7 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
 <summary><strong>ASIGNACIÓN DEL DOMINIO</strong></summary>
          <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
 <p>Como toda página web no podemos estar entrando constantemente poniendo la IP de nuestro servidor web, para poder solucionar este problema debiamos establecer un dominio para nuestra pagina, usaremos una pagina llamada <a href="https://www.ionos.es/?itc=TOIP6F1L-TH53Y8-658T7N9&utm_source=google&utm_medium=cpc&utm_campaign=SBT-ES-BRA-BRAX---IONOS---&utm_term=ionos&matchtype=e&utm_content=EX-Ionos&gclsrc=aw.ds&gad_source=1&gad_campaignid=1598484897&gbraid=0AAAAADBIncwL7bxX4NzuEIbBmuLuNQVMP&gclid=CjwKCAjw46HPBhAMEiwASZpLRKkEKoDzoPihSMHWyLWo3EHDnbM9em0ilVN140-JlxYC9tu7roKcCRoCIEMQAvD_BwE">Ionos</a>, esta página alquila dominios para páginas webs privadas, depositamos 1€ y obtuvimos un dominio durante un año.
-<br>
+<br><br>
 <strong>El proceso que hemos seguido</strong>
 <br>
 <strong>1. Registro y Adquisición:</strong>El primer paso fue buscar y registrar un nombre de dominio disponible que diera identidad al proyecto. Una vez adquirido en IONOS, el dominio queda bajo nuestra propiedad.
