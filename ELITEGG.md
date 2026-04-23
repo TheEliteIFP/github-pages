@@ -695,7 +695,7 @@ Es el hipervisor que actúa como la capa base (Bare Metal) de nuestra infraestru
 
 Es como si las máquinas virtuales fueran casas independientes (cada una con su propio cimiento, tejado y tuberías) y los contenedores LXC fueran pisos en un edificio: comparten la estructura básica (el núcleo de Linux), pero cada uno tiene su propia puerta, muebles y privacidad.<br>
 
-<strong>Que és una Máquina Virtual KVM</strong>
+<strong>Que és una Máquina Virtual KVM</strong> <br>
 KVM (Kernel-based Virtual Machine) es una tecnología de virtualización completa. A diferencia de los contenedores LXC, una máquina virtual KVM simula un hardware físico completo por software. Esto significa que cada VM tiene su propia BIOS, su propia CPU virtual, memoria RAM dedicada, tarjetas de red y, lo más importante, su propio núcleo (kernel) independiente.
 
 Es la tecnología que permite que Proxmox actúe como un "anfitrión" de múltiples ordenadores totalmente independientes dentro de una sola máquina física.
