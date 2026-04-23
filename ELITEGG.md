@@ -683,8 +683,22 @@ Aquí se podrá observar las bases a nivel visual de lo que será la página web
   <details>
   <summary><strong>PROXMOX</strong></summary>
   <hr style="margin-top: 10px; margin-bottom: 0px; border: none; height: 1px; visibility: hidden;">
-<p>Es la plataforma de virtualización de código abierto que actúa como el "estadio" de nuestro proyecto. Nos permite ejecutar y gestionar máquinas virtuales (VM) y contenedores (LXC) sobre un único servidor físico, optimizando el hardware al máximo.</p>
+<p>Proxmox VE es una plataforma de gestión de virtualización de código abierto y nivel empresarial. Está basada en la distribución Debian GNU/Linux y combina dos tecnologías de virtualización en una única solución: la virtualización completa mediante máquinas virtuales (KVM) y la virtualización basada en contenedores (LXC).
+<br>
+
+Es el hipervisor que actúa como la capa base (Bare Metal) de nuestra infraestructura, permitiendo ejecutar y gestionar múltiples sistemas operativos aislados sobre un mismo servidor físico.</p>
    <img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/072a87eb-092e-4c03-a157-04fea8727c58" />
+
+   <br>
+ <strong>Que és un contenedor LXC</strong><br>
+ Un contenedor LXC es una tecnología de virtualización a nivel de sistema operativo. A diferencia de una máquina virtual (KVM), que simula un ordenador completo con su propio hardware y núcleo (kernel), los contenedores LXC comparten el núcleo del sistema operativo anfitrión (en vuestro caso, el de Proxmox).
+
+Es como si las máquinas virtuales fueran casas independientes (cada una con su propio cimiento, tejado y tuberías) y los contenedores LXC fueran pisos en un edificio: comparten la estructura básica (el núcleo de Linux), pero cada uno tiene su propia puerta, muebles y privacidad.<br>
+
+<strong>Que és una Máquina Virtual KVM</strong>
+KVM (Kernel-based Virtual Machine) es una tecnología de virtualización completa. A diferencia de los contenedores LXC, una máquina virtual KVM simula un hardware físico completo por software. Esto significa que cada VM tiene su propia BIOS, su propia CPU virtual, memoria RAM dedicada, tarjetas de red y, lo más importante, su propio núcleo (kernel) independiente.
+
+Es la tecnología que permite que Proxmox actúe como un "anfitrión" de múltiples ordenadores totalmente independientes dentro de una sola máquina física.
 
 <p><strong>¿Por qué es clave para EliteGG?</strong></p>
   <ul>
