@@ -513,7 +513,7 @@ Código HTTP	200 / 404	200 = OK (éxito), 404 = Not Found (no encontrado)
 Tipo de contenido	"text/html" / "text/plain"	Indica si es HTML (renderizable) o texto plano
 Cuerpo del mensaje	SendHTML() / "No hay respuesta"	Contenido real que se muestra en el navegador
 </details>
-# ⚔️ PROYECTO FINAL: ACERO IMPURO
+## ⚔️ PROYECTO FINAL: ACERO IMPURO
 
 <div align="center"> 
   <img src="assets/logoacero.png" alt="Logo Acero Impuro" width="200"> 
