@@ -513,79 +513,84 @@ Código HTTP	200 / 404	200 = OK (éxito), 404 = Not Found (no encontrado)
 Tipo de contenido	"text/html" / "text/plain"	Indica si es HTML (renderizable) o texto plano
 Cuerpo del mensaje	SendHTML() / "No hay respuesta"	Contenido real que se muestra en el navegador
 </details>
-⚔️ PROYECTO FINAL: ACERO IMPURO
-<div align="center"> <img src="assets/logoacero.png" alt="Logo Acero Impuro" width="200"> </div>
-🏆 Introducción
-Elite Arduino Battle es un proyecto de robótica competitiva desarrollado por el equipo "La Elite". Consiste en el diseño, programación y ensamblaje de dos vehículos autónomos o controlados por Arduino, equipados con sistemas de ataque y defensa para combate en arena.
+# ⚔️ PROYECTO FINAL: ACERO IMPURO
 
-El objetivo fundamental es la supervivencia: cada coche protege un punto débil (globo) mientras intenta perforar el del adversario mediante un arma frontal personalizada.
+<div align="center"> 
+  <img src="assets/logoacero.png" alt="Logo Acero Impuro" width="200"> 
+</div>
 
-Fundadores del proyecto: Equipo La Elite
+## 🏆 Introducción
+**Elite Arduino Battle** es un proyecto de robótica competitiva desarrollado por el equipo **"La Elite"**. Consiste en el diseño, programación y ensamblaje de dos vehículos autónomos o controlados por Arduino, equipados con sistemas de ataque y defensa para combate en arena.
 
-❓ ¿Por qué esta idea?
-Como entusiastas de la tecnología, buscábamos un proyecto que combinara la programación lógica con la ingeniería física. La idea de los "Coches de Combate" nos permite experimentar con la movilidad, el diseño de estructuras en 3D y la estrategia en tiempo real.
+> [!IMPORTANT]
+> **El objetivo fundamental es la supervivencia:** cada coche protege un punto débil (globo) mientras intenta perforar el del adversario mediante un arma frontal personalizada.
 
-Además, este proyecto nos apasiona porque traslada la competitividad de los videojuegos al mundo real, permitiéndonos ver físicamente el resultado de nuestro código y diseño mecánico.
+**Fundadores del proyecto:** Equipo La Elite
 
-🎯 ¿Hasta dónde queremos llegar?
-Objetivo	Descripción
-Control Total	Dominar el manejo de motores y sensores mediante código limpio y eficiente
-Diseño e Impresión 3D	Crear piezas personalizadas para el soporte de armas y blindaje, optimizando peso y resistencia
-Autonomía y Respuesta	Conseguir que el sistema de ataque sea funcional y el chasis soporte el impacto
-Aprendizaje Técnico	Documentar todo el proceso para servir de base a futuros proyectos de robótica
-📚 Objetivos de Aprendizaje
-Hardware: Conexión de controladores de motores (L298N), sensores y alimentación externa
+---
 
-Software: Programación en C++ (IDE de Arduino) y gestión de bibliotecas de movimiento
+## ❓ ¿Por qué esta idea?
+Como entusiastas de la tecnología, buscábamos un proyecto que combinara la **programación lógica** con la **ingeniería física**. La idea de los "Coches de Combate" nos permite experimentar con la movilidad, el diseño de estructuras en 3D y la estrategia en tiempo real.
 
-Fabricación Digital: Uso de software de modelado 3D e impresión para componentes físicos únicos
+Este proyecto nos apasiona porque traslada la competitividad de los videojuegos al mundo real, permitiéndonos ver físicamente el resultado de nuestro código y diseño mecánico. 🎮⚙️
 
-Resolución de Problemas: Diagnóstico de fallos en circuitos y depuración de errores lógicos
+---
 
-🔧 Requisitos Técnicos y Materiales
-Físicos
-2 Kits de Coche Arduino (Chasis, motores, ruedas)
+## 🎯 ¿Hasta dónde queremos llegar?
 
-Placas Arduino (Uno/Elegoo)
+| Objetivo | Descripción |
+| :--- | :--- |
+| **Control Total** | Dominar el manejo de motores y sensores mediante código limpio y eficiente. |
+| **Diseño e Impresión 3D** | Crear piezas personalizadas para el soporte de armas y blindaje, optimizando peso y resistencia. |
+| **Autonomía y Respuesta** | Conseguir que el sistema de ataque sea funcional y el chasis soporte el impacto. |
+| **Aprendizaje Técnico** | Documentar todo el proceso para servir de base a futuros proyectos de robótica. |
 
-Controlador de motores L298N
+---
 
-Servomotores (para el movimiento del arma)
+## 📚 Objetivos de Aprendizaje
+*   **Hardware:** Conexión de controladores de motores (L298N), sensores y alimentación externa.
+*   **Software:** Programación en **C++ (IDE de Arduino)** y gestión de bibliotecas de movimiento.
+*   **Fabricación Digital:** Uso de software de modelado 3D e impresión para componentes físicos únicos.
+*   **Resolución de Problemas:** Diagnóstico de fallos en circuitos y depuración de errores lógicos.
 
-Módulo Bluetooth HC-05
+---
 
-Batería Li-ion (7.4V o 11.1V)
+## 🔧 Requisitos Técnicos y Materiales
 
-Globos (Punto débil)
+### 🛠️ Componentes Físicos
+- [x] 2 Kits de Coche Arduino (Chasis, motores, ruedas)
+- [x] Placas Arduino (Uno/Elegoo)
+- [x] Controlador de motores **L298N**
+- [x] Servomotores (para el movimiento del arma)
+- [x] Módulo Bluetooth **HC-05**
+- [x] Batería Li-ion (7.4V o 11.1V)
+- [x] Globos y armas punzantes (Chinchetas o plástico 3D)
 
-Armas punzantes (Chinchetas, agujas o plástico afilado 3D)
+### 💻 Requisitos Lógicos
+*   **Arduino IDE** (Entorno de desarrollo)
+*   **Bibliotecas:** `Servo.h`, `SoftwareSerial.h`, `NewPing.h`
+*   **Diseño 3D:** Tinkercad / Fusion 360
+*   **GitHub:** Control de versiones
 
-Impresora 3D (para soportes personalizados)
+---
 
-Lógicos
-Arduino IDE (Entorno de desarrollo)
+## 📋 Metodología de Trabajo
 
-Bibliotecas: Servo.h, SoftwareSerial.h, NewPing.h (opcional)
+<details> 
+<summary><strong>PULSA AQUÍ PARA VER LAS FASES DE IMPLEMENTACIÓN</strong></summary>
 
-Tinkercad / Fusion 360 (Diseño 3D)
-
-GitHub (Control de versiones)
-
-📋 Metodología de Trabajo
-<details> <summary><strong>Fases de Implementación</strong></summary>
-Creación de los coches: Ensamblaje de la estructura base y conexión de motores y baterías
-
-Desarrollo del Código: Implementación de la lógica de movimiento y pruebas de respuesta
-
-Diseño de Armamento: Prototipado del objeto punzante y su mecanismo de accionamiento
-
-Integración 3D: Impresión de soportes para fijar el arma y el globo al chasis
-
-Pruebas de Combate: Testeo de colisiones y efectividad de perforación
-
+1.  **Creación de los coches:** Ensamblaje de la estructura base y conexión de motores y baterías.
+2.  **Desarrollo del Código:** Implementación de la lógica de movimiento y pruebas de respuesta.
+3.  **Diseño de Armamento:** Prototipado del objeto punzante y su mecanismo de accionamiento.
+4.  **Integración 3D:** Impresión de soportes para fijar el arma y el globo al chasis.
+5.  **Pruebas de Combate:** Testeo de colisiones y efectividad de perforación.
 </details>
-💻 Código Base del Coche de Combate
-cpp
+
+---
+
+## 💻 Código Base del Coche de Combate
+
+```cpp
 #include <SoftwareSerial.h>
 #include <Servo.h>
 
@@ -691,28 +696,10 @@ void parar() {
 }
 
 void atacar() {
-  arma.write(90);   // Extender arma
+  arma.write(90);    // Extender arma
   delay(500);
-  arma.write(0);    // Retraer arma
+  arma.write(0);     // Retraer arma
 }
-⚠️ Desafíos y Soluciones
-Desafío	Estrategia / Solución Prevista
-Elección del Chasis	Decidir entre kit pre-hecho por rapidez o diseño propio para mayor personalización
-Mecanismo de Ataque	Evaluar si el arma será fija o móvil mediante un servomotor
-Estabilidad del Punto Débil	Diseñar un soporte 3D que mantenga el globo rígido pero expuesto
-Consumo de Energía	Uso de baterías Li-ion separadas para motores y placa Arduino
-📖 Recursos y Documentación
-<details> <summary><strong>Guías y Tutoriales</strong></summary>
-Contamos con documentación técnica de alta calidad para el montaje base:
 
-Documentación oficial: Keyestudio KS0470 Smart Car
-
-En este enlace se encuentran los esquemas eléctricos y ejemplos de código necesarios para el movimiento inicial.
-
-</details>
-🏁 Fase Final: Coche Funcional Conseguido
-El coche ya funciona con la APP móvil y con sus 4 direcciones/funciones completamente operativas y listas para el combate.
-
-<video src="https://github.com/user-attachments/assets/e5bbce68-fe37-42ff-8248-b45136dbe03e" controls width="100%"></video>
 
 <div align="center"> <img src="https://github.com/user-attachments/assets/f8f634c8-66e0-4ebc-a0ed-b66b418d404e" width="30%"> <img src="https://github.com/user-attachments/assets/a8d97b2d-622d-4182-9276-6df5d3daf131" width="30%"> <img src="https://github.com/user-attachments/assets/2a49c4ed-6ab8-4e30-9bfb-4af07cb21a8e" width="30%"> </div>
